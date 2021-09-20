@@ -1,0 +1,25 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// Spy Animations
+// ============================================================================================== //
+// Disables spy disguise outline
+////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+event HudSpyDisguiseChanged
+{
+}
+
+event HudSpyDisguiseHide
+{
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+}
+
+event HudSpyDisguiseFadeOut
+{
+}
+	
+//==================================================================================
