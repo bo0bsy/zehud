@@ -2,8 +2,8 @@ event HudHealthBonusPulse
 {
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"100"				    Linear 0.0 0.2
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					    Linear 0.2 0.4
-	Animate		PlayerStatusHealthValueTargetID 		FgColor		"120 200 120 255"		Linear 0.0 0.0
-	Animate		PlayerStatusKillerHealthValue 			FgColor		"120 200 120 255"		Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Positive"		Linear 0.0 0.0
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"Positive"		Linear 0.0 0.0
 	RunEvent 	HudHealthBonusPulseLoop					0.4
 }
 
@@ -26,8 +26,8 @@ event HudHealthDyingPulse
 {
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"255"				    Linear 0.0 0.075
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					    Linear 0.125 0.075
-	Animate		PlayerStatusHealthValueTargetID 		FgColor		"232 114 114 255"		Linear 0.0 0.0
-	Animate		PlayerStatusKillerHealthValue 			FgColor		"232 114 114 255"		Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Negative"		Linear 0.0 0.0
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"Negative"		Linear 0.0 0.0
 	RunEvent 	HudHealthDyingPulseLoop					0.25
 }
 
