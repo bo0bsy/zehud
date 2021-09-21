@@ -4,11 +4,17 @@ Scheme
 	{
 		// colors
 		"damage"            		"255 255 255 255"
+		
 		"TransparentBGColor			"42 40 42 120"
 		"MainMenuBGColor			"36 34 36 180"
-		"BackpackBGColor"			"52 50 52 255"		
-	
-	
+		"BackpackBGColor"			"52 50 52 255"
+		
+		"Positive"					"120 200 120 255"
+		"Negative"					"232 114 114 255"	
+		"Negative_2"				"232 150 150 255"	
+		
+		"Shadow"					"20 20 20 255"			
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
