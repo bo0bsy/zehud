@@ -527,7 +527,6 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -539,12 +538,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Positive"
-			"depressedFgColor_override" "Positive"
-				
+			"defaultFgColor_override" 					"TanLight"
+			"armedFgColor_override" 					"120 200 120 255"
+			"depressedFgColor_override" 				"120 200 120 255"			
+		
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Positive"
+			"image_armedcolor"	"120 200 120 255"
 			
 			"SubImage"
 			{
@@ -593,7 +592,6 @@
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallBold"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -605,12 +603,12 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "Positive"
-			"depressedFgColor_override" "Positive"
+			"defaultFgColor_override" 					"TanLight"
+			"armedFgColor_override" 					"120 200 120 255"
+			"depressedFgColor_override" 				"120 200 120 255"		
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"Positive"
+			"image_armedcolor"	"120 200 120 255"
 			
 			"SubImage"
 			{
