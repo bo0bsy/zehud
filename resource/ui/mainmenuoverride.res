@@ -540,11 +540,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "120 200 120 255"
-			"depressedFgColor_override" "120 200 120 255"
+			"armedFgColor_override" "Positive"
+			"depressedFgColor_override" "Positive"
 				
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"120 200 120 255"
+			"image_armedcolor"	"Positive"
 			
 			"SubImage"
 			{
@@ -606,11 +606,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "120 200 120 255"
-			"depressedFgColor_override" "120 200 120 255"
+			"armedFgColor_override" "Positive"
+			"depressedFgColor_override" "Positive"
 			
 			"image_drawcolor"	"TanLight"
-			"image_armedcolor"	"120 200 120 255"
+			"image_armedcolor"	"Positive"
 			
 			"SubImage"
 			{
@@ -2278,7 +2278,7 @@
 			
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
-			"depressedFgColor_override" 				"TanLight"
+			"depressedFgColor_override" 			"TanLight"
 		}
 	}	
 }

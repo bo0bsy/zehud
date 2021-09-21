@@ -57,8 +57,8 @@
 	}
 	"PlayerStatusKillerHealthValue"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusKillerHealthValue"
+		"ControlName"		"Label"
+		"fieldName"			"PlayerStatusKillerHealthValue"
 		"xpos"				"1"
 		"ypos"				"12"
 		"zpos"				"10"
@@ -66,15 +66,15 @@
 		"tall"				"9"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"	"center"	
+		"textAlignment"		"center"	
 		"labeltext"			"%Health%"
 		"font"				"HudFontSmallBold"
 		"fgcolor_override"  "TanLight"
 	}	
 	"PlayerStatusKillerHealthValueBlur"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"PlayerStatusKillerHealthValueBlur"
+		"ControlName"		"Label"
+		"fieldName"			"PlayerStatusKillerHealthValueBlur"
 		"xpos"				"1"
 		"ypos"				"12"
 		"zpos"				"9"
@@ -82,9 +82,9 @@
 		"tall"				"9"
 		"visible"			"1"
 		"enabled"			"1"
-		"textAlignment"	"center"	
+		"textAlignment"		"center"	
 		"labeltext"			"%Health%"
 		"font"				"HudFontSmallBoldBlur"
-		"fgcolor_override"  "20 20 20 255"
+		"fgcolor_override"  "Shadow"
 	}		
 }
