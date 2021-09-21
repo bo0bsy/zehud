@@ -258,7 +258,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c390"
+		"xpos"			"c110"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"32"
@@ -361,7 +361,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c210"
+		"xpos"			"c-65"
 		"ypos"			"28"
 		"zpos"			"10"
 		"wide"			"210"
@@ -2278,7 +2278,7 @@
 			
 			"defaultFgColor_override" 				"TanLight"
 			"armedFgColor_override" 				"TanLight"
-			"depressedFgColor_override" 			"TanLight"
+			"depressedFgColor_override" 				"TanLight"
 		}
 	}	
 }
