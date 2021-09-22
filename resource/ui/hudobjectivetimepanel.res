@@ -39,6 +39,7 @@
 			"visible"	"0"
 		}
 	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"								"CTFProgressBar"
