@@ -47,12 +47,10 @@
 		"enabled" 		"1"
 		"xpos"			"r130"	
 		"xpos_minmode"	"r100"	
-		"ypos"			"r55"	
 		"ypos_minmode"	"r36"	
-		"xpos"			"r131"	
 		"ypos"			"r77"	
-		"wide"			"94"
-		"tall"			"45"
+		"wide"			"f0"
+		"tall"			"f0"
 	}
 	
 	HudKothTimeStatus
