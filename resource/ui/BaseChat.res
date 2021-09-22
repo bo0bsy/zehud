@@ -64,4 +64,3 @@ ChatInputLine
 "font"	"ChatFont"
 "maxchars"	"-1"
 }
-}
