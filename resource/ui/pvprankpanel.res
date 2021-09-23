@@ -193,7 +193,7 @@
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"TanLightSelect"
+		"bgcolor_override"							"0 0 0 0"
 
 		if_mini
 		{
