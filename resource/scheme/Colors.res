@@ -3,7 +3,9 @@ Scheme
 	Colors
 	{
 		// colors
-		"damage"            		"255 255 255 255"
+		"Crosshair"            		"255 255 255 255"		
+		
+		"Damage"            		"255 255 255 255"
 		
 		"TransparentBGColor			"42 40 42 120"
 		"MainMenuBGColor			"36 34 36 180"
