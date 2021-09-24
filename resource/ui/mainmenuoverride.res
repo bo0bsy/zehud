@@ -708,7 +708,7 @@
 		"tall"		    	         				"16"
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
-		"labelText"	  	         				 	"Min Mode:"
+		"labelText"	  	         				 	"MIN MODE:"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"f14"
 		"fgcolor_override"	     				 	"TanLight"
