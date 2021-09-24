@@ -700,7 +700,7 @@
 	"MinMode"
 	{
 		"ControlName"	           				 	"CExLabel"
-		"fieldName"	  	         				 	"HudMatchStatus"
+		"fieldName"	  	         				"MinMode"
 		"xpos"	    		         				"-48"
 		"ypos"	    		         				"0"
 		"zpos"	    		         				"100"
@@ -708,7 +708,7 @@
 		"tall"		    	         				"16"
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
-		"labelText"	  	         				 	"MIN MODE:"
+		"labelText"	  	         				 "MIN MODE:"
 		"textAlignment"	         				 	"center"
 		"font"                   				 	"f14"
 		"fgcolor_override"	     				 	"TanLight"
