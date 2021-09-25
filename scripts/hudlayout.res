@@ -68,7 +68,8 @@
 		"xpos"			"r130"	
 		"xpos_minmode"	"r100"	
 		"ypos_minmode"	"r36"	
-		"ypos"			"r77"	
+		"ypos"			"r77"
+		"zpos"			"1"			
 		"wide"			"f0"
 		"tall"			"f0"
 	}
@@ -134,16 +135,13 @@
 	
 	HudDemomanCharge
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
-		"zpos"										"1"
+		"xpos"										"r95"
+		"xpos_minmode"								"r65"	
+		"ypos_minmode"								"r36"	
+		"ypos"										"r77"
+		"zpos"										"0"		
 		"wide"										"f0"
-		"wide_minmode"								"f0"
-		"tall"										"480"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"tall"										"f0"
 	}	
 
 	HudFlameRocketCharge
@@ -167,7 +165,7 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"42"
-		"zpos"			"0"			// draw in front of ammo
+		"zpos"			"0"
 		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"Red"
