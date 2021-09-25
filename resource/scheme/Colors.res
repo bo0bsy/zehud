@@ -13,7 +13,7 @@ Scheme
 		
 		"Positive"					"120 200 120 255"
 		"Negative"					"232 114 114 255"	
-		"Negative_2"					"232 150 150 255"
+		"Negative_2"				"232 150 150 255"
 		"Select"					"120 200 120 255"		
 		
 		
