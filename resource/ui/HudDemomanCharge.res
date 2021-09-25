@@ -12,39 +12,18 @@
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
 	}
-	
-	"ChargeLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabel"
-		"xpos"										"0"
-		"ypos"										"10"
-		"zpos"										"2"
-		"wide"										"140"
-		"tall"										"8"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"0"
-		"enabled"									"0"
-		"tabPosition"								"0"
-		"labelText"									"#TF_Ball"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"TFFontSmall"
-		"fgcolor_override"							"white"
-	}
 
 	"ChargeMeter"
 	{	
 		"ControlName"								"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
-		"xpos"										"c-37"
-		"ypos"										"r85"	
-		"zpos"										"2"
-		"wide"										"74"
-		"tall"										"6"				
+		"xpos"										"0"
+		"ypos"										"0"	
+		"zpos"										"0"
+		"wide"										"47"
+		"wide_minmode"								"47"		
+		"tall"										"40"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
 		"visible"									"1"
@@ -52,7 +31,18 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"fgcolor_override"							"White"
+		"fgcolor_override"							"120 200 120 180"
+		"bgcolor_override"							"0 0 0 0"		
+	}
+	
+	"ChargeLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ChargeLabel"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
 	}
 	
 	"ChargeMeterBG"

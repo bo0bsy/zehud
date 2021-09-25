@@ -8,8 +8,6 @@
 		"xpos_minmode"	"-5"		
 		"ypos"			"r120"	
 		"ypos_minmode"	"r88"	
-		"xpos"			"32"	
-		"ypos"			"r144"	
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -18,7 +16,8 @@
 		"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-	}	
+	}
+	
 	"PlayerStatusHealthImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -32,7 +31,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-	}		
+	}	
+	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -47,21 +47,19 @@
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
-	}	
+	}
+	
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos"			"73"	
-		"xpos_minmode"	"65"	
-		"xpos"			"83"	
+		"xpos_minmode"	"65"		
 		"ypos"			"33"	
-		"ypos_minmode"	"40"	
-		"ypos"			"43"	
+		"ypos_minmode"	"40"		
 		"zpos"			"2"
 		"wide"			"55"	
 		"wide_minmode"	"40"	
-		"wide"			"35"	
 		"tall"			"55"	
 		"tall_minmode"	"40"		
 		"visible"		"0"
@@ -69,6 +67,7 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -76,7 +75,6 @@
 		"xpos"			"76"
 		"xpos_minmode"	"61"
 		"ypos"			"52"	
-		"ypos"			"55"	
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"18"
@@ -84,9 +82,30 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"HudClassHealth"
+		"font"			"Health"
 		"fgcolor"		"TanDark"
 	}
+	
+	"PlayerStatusHealthValueBlur"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBlur"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"0"	
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HealthBlur"
+		"fgcolor"		"Shadow"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"		
+	}	
+	
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
