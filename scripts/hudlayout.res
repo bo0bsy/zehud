@@ -111,12 +111,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	
-		"xpos_minmode"	"r52"	
-		"ypos"			"r52"	
-		"ypos_minmode"	"r50"	
-		"xpos"			"r194"	
-		"ypos"			"r74"	
+		"xpos"			"0"		
+		"ypos"			"0"		
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -135,13 +131,12 @@
 	
 	HudDemomanCharge
 	{
-		"xpos"										"r95"
-		"xpos_minmode"								"r65"	
-		"ypos_minmode"								"r36"	
-		"ypos"										"r77"
+		"xpos"										"-30"
+		"ypos"										"0"
 		"zpos"										"0"		
 		"wide"										"f0"
 		"tall"										"f0"
+		"pin_to_sibling" 							"HudWeaponAmmo"		
 	}	
 
 	HudFlameRocketCharge
@@ -154,8 +149,8 @@
 		"wide"										"100"
 		"wide_minmode"								"100"
 		"tall"										"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterFG"									"White"
+		"MeterBG"									"Gray"
 	}
 
 	HudBossHealth
@@ -180,8 +175,6 @@
 		"ypos" 	"0"
 		"tall"	"480"
 		"RightMargin" "0"
-		"RightMargin_hidef" "32"
-		"RightMargin_lodef" "38"
 		"visible" "1"
 		"enabled" "1"
 		"SmallBoxWide" "72"
@@ -214,17 +207,12 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"r192"
-		"xpos_minmode"			"r162"		
-		"ypos"					"r158"	
-		"ypos_minmode"			"r140"	
-		"xpos"					"r194"	
-		"ypos"					"r174"	
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"c-410"
+		"ypos"					"c-80"
+		"wide"					"f0"
+		"tall"  				"f0"
 		"visible" 				"1"
 		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
 	}
 	
 	"CHealthAccountPanel"
@@ -316,11 +304,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"0"
-		"xpos_hidef"		"32"
-		"xpos_lodef"		"40"
 		"ypos"		"0"
-		"ypos_hidef"		"16"
-		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -999,12 +983,13 @@
 	
 	HudDemomanPipes
 	{
-		"xpos"										"0"
-		"xpos_minmode"								"0"
-		"ypos"										"0"
-		"ypos_minmode"								"0"
+		"xpos"										"c-117"	
+		"ypos"										"c-88"	
+		"xpos_minmode"								"c-87"	
+		"ypos_minmode"								"c-47"		
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
+		"pin_to_sibling" 							"HudWeaponAmmo"		
 	}		
 
 	HudTournamentSetup
@@ -1014,7 +999,7 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"				"75"
+		"ypos_lodef"			"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1264,8 +1249,6 @@
 		"enabled" 		"1"
 		"xpos"			"c-235"
 		"ypos"			"c-52"
-		"ypos_hidef"	"c-42"
-		"ypos_lodef"	"c-42"
 		"wide"			"470"
 		"tall"			"200"
 		"PaintBackgroundType"	"0"
