@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-20"
-		"ypos"			"c13"	
+		"ypos"			"c20"	
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -17,7 +17,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"99999"
+		"wide"					"0"
+		"tall"					"0"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 
 	"ItemEffectMeter"

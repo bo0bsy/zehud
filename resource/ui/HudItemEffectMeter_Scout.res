@@ -1,9 +1,9 @@
-#base "HudItemEffectMeter.res"
+#base "huditemeffectmeter.res"
 
 "Resource/UI/HudItemEffectMeter_Scout.res"
 {
-	HudItemEffectMeter
+	"HudItemEffectMeter"
 	{
-		"ypos"										"415"
+		"ypos"										"c175"
 	}
 }

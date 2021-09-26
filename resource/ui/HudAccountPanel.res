@@ -2,24 +2,104 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"28"
-		"delta_item_start_y"	"90"
-		"delta_item_end_y"		"70"
+		"delta_item_x"			"45"
+		"delta_item_start_y"	"20"
+		"delta_item_end_y"		"40"
 		"PositiveColor"			"Positive"
 		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"HudFontMediumBold"
 	}
 	
+	"MetalIcon"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIcon"
+		"xpos"			"0"
+		"ypos"			"5"
+		"zpos"			"2"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"			
+		"icon"			"ico_metal"
+		"iconColor"		"TanLight"
+	}
+
+	"MetalIconShadow"	
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"		"MetalIconShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"1"
+		"wide"			"20"
+		"tall"			"20"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"			
+		"icon"			"ico_metal"
+		"iconColor"		"Shadow"
+		
+		"pin_to_sibling"	"MetalIcon"				
+	}	
+	
+	"Thingy"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"thingy"
+		"xpos"			"-1"
+		"ypos"			"1"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		":"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"       "TanLight"
+		"font"			"HudFontBiggerBold"
+	}
+
+	"ThingyShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"thingyShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"26"
+		"autoResize"	"1"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		":"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"fgcolor"       "Shadow"
+		"font"			"HudFontBiggerBold"
+		
+		"pin_to_sibling"	"Thingy"			
+	}		
+	
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValue"
-		"xpos"			"20"
-		"ypos"			"112"
+		"xpos"			"-35"
+		"ypos"			"-10"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
+		"wide"			"200"
+		"tall"			"50"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -30,17 +110,18 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor"       "TanLight"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontBiggerBold"
 	}
+	
 	"AccountValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AccountValueShadow"
-		"xpos"			"20"
-		"ypos"			"114"
+		"xpos"			"-2"
+		"ypos"			"-2"
 		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
+		"wide"			"200"
+		"tall"			"50"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -50,8 +131,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"       "Black"		
-		"font"			"HudFontMediumBold"
+		"fgcolor"       "Shadow"		
+		"font"			"HudFontBiggerBold"
+		
+		"pin_to_sibling"	"AccountValue"		
 	}
-	
 }

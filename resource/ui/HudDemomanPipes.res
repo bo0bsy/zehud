@@ -4,33 +4,21 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"25"
-		"ypos"					"27"
-		"zpos"					"2"
 		"wide"					"0"
 		"tall"					"0"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"visible"				"0"
+		"enabled"				"0"
 	}
 
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
-		"font"					"Default"
-		"xpos"					"c-37"
-		"ypos"					"405"
+		"xpos"					"0"	
+		"ypos"					"0"		
 		"zpos"					"2"
-		"wide"					"74"
-		"tall"					"6"				
+		"wide"					"26"
+		"tall"					"4"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -38,28 +26,32 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"Gray"			
 	}				
 	
 	"PipesPresentPanel"
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PipesPresentPanel"
-		"xpos"										"0"
-		"ypos"										"0"
+		"xpos"										"c-125"
+		"ypos"										"c-90"
+		"xpos_minmode"								"c-95"
+		"ypos_minmode"								"c-49"		
 		"zpos"										"1"
 		"wide"										"f0"
-		"tall"										"480"
+		"tall"										"f0"
 		"visible"									"1"
 		
 		"NumPipesLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabel"
-			"xpos"									"c-15"
-			"ypos"									"c70"
+			"xpos"									"0"
+			"ypos"									"0"
 			"zpos"									"2"
-			"wide"									"30"
-			"tall"									"20"
+			"wide"									"40"
+			"tall"									"40"
 			"autoResize"							"1"
 			"pinCorner"								"2"
 			"visible"								"1"
@@ -69,19 +61,19 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontSmall"
-			"fgcolor"   							"TanLight"
+			"font"									"HudFontBiggerBold"
+			"fgcolor"   							"CustomYellow"
 		}
 		
 		"NumPipesLabelBlur"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"NumPipesLabelBlur"
-			"xpos"									"c-15"
-			"ypos"									"c70"
+			"xpos"									"2"
+			"ypos"									"2"
 			"zpos"									"2"
-			"wide"									"30"
-			"tall"									"20"
+			"wide"									"40"
+			"tall"									"40"
 			"autoResize"							"1"
 			"pinCorner"								"2"
 			"visible"								"1"
@@ -91,8 +83,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontSmallBlur"
-			"fgcolor"								"20 20 20 255"
+			"font"									"HudFontBiggerBold"
+			"fgcolor"								"Shadow"
 		}
 
 		"PipeIcon"
@@ -106,6 +98,75 @@
 		}
 	}
 	
+   "NoPipesPresentPanel"
+    {
+        "ControlName"   							"EditablePanel"
+        "fieldName"     							"NoPipesPresentPanel"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"f0"
+		"visible"									"1"
+		
+		"pin_to_sibling" 							"PipesPresentPanel"			
+        
+
+ 		"NumPipesLabel"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"NumPipesLabel"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"2"
+			"wide"									"40"
+			"tall"									"40"
+			"autoResize"							"1"
+			"pinCorner"								"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labelText"								"%activepipes%"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"font"									"HudFontBiggerBold"
+			"fgcolor"   							"TanDark"
+		}
+		
+		"NumPipesLabelBlur"
+		{
+			"ControlName"							"CExLabel"
+			"fieldName"								"NumPipesLabelBlur"
+			"xpos"									"2"
+			"ypos"									"2"
+			"zpos"									"2"
+			"wide"									"40"
+			"tall"									"40"
+			"autoResize"							"1"
+			"pinCorner"								"2"
+			"visible"								"1"
+			"enabled"								"1"
+			"tabPosition"							"0"
+			"labelText"								"%activepipes%"
+			"textAlignment"							"center"
+			"dulltext"								"0"
+			"brighttext"							"0"
+			"font"									"HudFontBiggerBold"
+			"fgcolor"								"Shadow"
+		}
+
+		"PipeIcon"
+		{
+			"ControlName"							"CTFImagePanel"
+			"fieldName"								"PipeIcon"
+			"wide"									"0"
+			"tall"									"0"
+			"visible"								"0"
+			"enabled"								"0"
+		}
+    }	
+	
 	"background"
 	{
 		"ControlName"								"CTFImagePanel"
@@ -114,15 +175,5 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"			
-	}
-	
-	"NoPipesPresentPanel"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"NoPipesPresentPanel"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
 	}
 }
