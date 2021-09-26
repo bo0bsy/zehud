@@ -15,29 +15,28 @@
 
 	"ChargeMeter"
 	{	
-		"ControlName"								"ContinuousProgressBar"
+		"ControlName"									"ContinuousProgressBar"
 		"fieldName"									"ChargeMeter"
 		"font"										"Default"
 		"xpos"										"0"
 		"ypos"										"0"	
 		"zpos"										"0"
-		"wide"										"47"
-		"wide_minmode"								"47"		
+		"wide"										"47"		
 		"tall"										"40"				
-		"autoResize"								"0"
+		"autoResize"									"0"
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"textAlignment"								"Center"
+		"textAlignment"									"Center"
 		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor_override"							"120 200 120 180"
-		"bgcolor_override"							"0 0 0 0"		
+		"brighttext"									"0"
+		"fgcolor_override"								"120 200 120 180"
+		"bgcolor_override"								"0 0 0 0"		
 	}
 	
 	"ChargeLabel"
 	{
-		"ControlName"								"CExLabel"
+		"ControlName"									"CExLabel"
 		"fieldName"									"ChargeLabel"
 		"wide"										"0"
 		"tall"										"0"
@@ -47,7 +46,7 @@
 	
 	"ChargeMeterBG"
 	{
-		"ControlName"								"CTFImagePanel"
+		"ControlName"									"CTFImagePanel"
 		"fieldName"									"ChargeMeterBG"
 		"wide"										"0"
 		"tall"										"0"
