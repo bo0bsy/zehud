@@ -35,11 +35,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"16"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+				"name"			"TF2"
+				"tall"			"16"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
 			}
 		}
 
@@ -47,14 +47,40 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
-				"tall"		"16"
+				"name"			"TF2"
+				"tall"			"16"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"blur"			"3"				
+			}
+		}	
+
+		"Uber"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"					
+			}
+		}	
+
+		"UberBlur"
+		{
+			"1"
+			{
+				"name"		"TF2 Build"
+				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 				"blur"		"3"				
 			}
-		}		
+		}			
 		
 		"HudFontSmallBlur"
 		{
@@ -94,6 +120,19 @@ Scheme
 				"blur"			"3"
 			}
 		}
+		
+		"HudFontGiantBoldBlur"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"44"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"blur"			"3"				
+			}
+		}		
 		
 		"me"
 		{
@@ -484,7 +523,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"	"80"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -533,7 +571,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"tall_lodef"	"52"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -546,7 +583,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -559,7 +595,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -606,7 +641,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"tall_lodef"		"28"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -673,7 +707,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -842,9 +875,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"Buttons"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSmall
@@ -874,9 +905,7 @@ Scheme
 				"bitmap"	"1"
 				"name"		"ButtonsSC"
 				"scalex"	"0.5"
-				"scalex_lodef"		"0.75"
 				"scaley"	"0.5"
-				"scaley_lodef"		"0.75"
 			}
 		}
 		GameUIButtonsSteamControllerSmall
@@ -1181,7 +1210,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"tall_lodef"	"14"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -1226,7 +1254,6 @@ Scheme
 			{
 				"name"			"TF2 Professor"
 				"tall"			"40"
-				"tall_lodef"	"48"
 				"antialias"		"1"
 				"custom"		"1" 
 				"weight"		"500"
@@ -1378,7 +1405,6 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"52"
-				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
 				"yres"		"1 599"
@@ -1637,7 +1663,6 @@ Scheme
 			{
 				"name"			"Arial Black"
 				"tall"			"8"
-				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
 				"antialias"		"1"
@@ -1650,10 +1675,8 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"14"
-				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"300"
-				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
 		}			
@@ -1724,7 +1747,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"tall_lodef"		"28"
 				"weight"	"500"
 			}
 		}
@@ -1734,7 +1756,6 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"tall_lodef"		"22"
 				"weight"	"500"
 			}
 		}
@@ -1744,7 +1765,6 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"28"
-				"tall_lodef"	"24"
 				"weight"	"500"
 			}
 		}
@@ -1790,7 +1810,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"22"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}
@@ -1800,7 +1819,6 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"18"
-				"tall_lodef"		"18"
 				"weight"	"900"
 			}
 		}

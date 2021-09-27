@@ -12,9 +12,10 @@ Scheme
 		"BackpackBGColor"			"52 50 52 255"
 		
 		"Positive"					"120 200 120 255"
+		"Positive_2"				"120 236 156 255"		
 		"Negative"					"232 114 114 255"	
 		"Negative_2"				"232 150 150 255"
-		"Select"					"120 200 120 255"	
+		"Select"					"120 200 120 255"		
 		
 		"CustomYellow"				"255 180 20 255"			
 		
