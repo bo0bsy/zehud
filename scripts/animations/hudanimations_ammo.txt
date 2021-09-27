@@ -3,32 +3,116 @@
 event HudLowAmmoPulse
 {
 	Animate	AmmoInClip					FgColor		"Negative"			Linear 0.0 0.075
-	Animate	AmmoInClip					FgColor		"Negative_2"			Linear 0.125 0.075
+	Animate	AmmoInClip					FgColor		"Negative_2"		Linear 0.125 0.075
+
+	Animate	AmmoInClipShadow			FgColor		"Negative_2"		Linear 0.0 0.075
+	Animate	AmmoInClipShadow			FgColor		"Negative"			Linear 0.125 0.075		
 	
 	Animate	AmmoInReserve				FgColor		"Negative"			Linear 0.0 0.075
-	Animate	AmmoInReserve				FgColor		"Negative_2"			Linear 0.125 0.075	
+	Animate	AmmoInReserve				FgColor		"Negative_2"		Linear 0.125 0.075
+	
+	Animate	AmmoInReserveShadow			FgColor		"Negative_2"		Linear 0.0 0.075
+	Animate	AmmoInReserveShadow			FgColor		"Negative"			Linear 0.125 0.075		
 
 	Animate	AmmoNoClip					FgColor		"Negative"			Linear 0.0 0.075
-	Animate	AmmoNoClip					FgColor		"Negative_2"			Linear 0.125 0.075
+	Animate	AmmoNoClip					FgColor		"Negative_2"		Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop			0.25
+	Animate	AmmoNoClipShadow			FgColor		"Negative_2"		Linear 0.0 0.075	
+	Animate	AmmoNoClipShadow			FgColor		"Negative"			Linear 0.125 0.075
+	
+    Animate AmmoInClip                  xpos        "10"                Linear 0.0 0.015
+    Animate AmmoInClip                  ypos        "4"                 Linear 0.0 0.015
+    Animate AmmoInClip                  xpos        "8"                 Linear 0.1 0.015
+    Animate AmmoInClip                  ypos        "2"                 Linear 0.1 0.015
+    Animate AmmoInClip                  xpos        "-10"               Linear 0.5 0.015
+    Animate AmmoInClip                  ypos        "-4"                Linear 0.5 0.015
+    Animate AmmoInClip                  xpos        "8"                 Linear 0.6 0.015
+    Animate AmmoInClip                  ypos        "2"                 Linear 0.6 0.015	
+	
+    Animate AmmoInClipShadow            xpos        "12"                Linear 0.0 0.1
+    Animate AmmoInClipShadow            ypos        "6"                 Linear 0.0 0.1
+    Animate AmmoInClipShadow            xpos        "10"                Linear 0.1 0.1
+    Animate AmmoInClipShadow            ypos        "4"                 Linear 0.1 0.1
+    Animate AmmoInClipShadow            xpos        "-12"               Linear 0.5 0.1
+    Animate AmmoInClipShadow            ypos        "-6"                Linear 0.5 0.1
+    Animate AmmoInClipShadow            xpos        "10"                Linear 0.6 0.1
+    Animate AmmoInClipShadow            ypos        "4"                 Linear 0.6 0.1
+
+    Animate AmmoInReserve               xpos        "66"                Linear 0.0 0.015
+    Animate AmmoInReserve               ypos        "9"                 Linear 0.0 0.015
+    Animate AmmoInReserve               xpos        "65"                Linear 0.1 0.015
+    Animate AmmoInReserve               ypos        "8"                 Linear 0.1 0.015
+    Animate AmmoInReserve               xpos        "-66"               Linear 0.5 0.015
+    Animate AmmoInReserve               ypos        "-9"                Linear 0.5 0.015
+    Animate AmmoInReserve               xpos        "65"                Linear 0.6 0.015
+    Animate AmmoInReserve               ypos        "8"                 Linear 0.6 0.015
+
+    Animate AmmoInReserveShadow         xpos        "67"                Linear 0.0 0.1
+    Animate AmmoInReserveShadow         ypos        "10"                 Linear 0.0 0.1
+    Animate AmmoInReserveShadow         xpos        "66"                Linear 0.1 0.1
+    Animate AmmoInReserveShadow         ypos        "9"                 Linear 0.1 0.1
+    Animate AmmoInReserveShadow         xpos        "-67"               Linear 0.5 0.1
+    Animate AmmoInReserveShadow         ypos        "-10"                Linear 0.5 0.1
+    Animate AmmoInReserveShadow         xpos        "66"                Linear 0.6 0.1
+    Animate AmmoInReserveShadow         ypos        "9"                 Linear 0.6 0.1	
+	
+    Animate AmmoNoClip                  xpos        "2"                 Linear 0.0 0.015
+    Animate AmmoNoClip                  ypos        "4"                 Linear 0.0 0.015
+    Animate AmmoNoClip                  xpos        "0"                 Linear 0.1 0.015
+    Animate AmmoNoClip                  ypos        "0"                 Linear 0.1 0.015
+    Animate AmmoNoClip                  xpos        "-2"                Linear 0.5 0.015
+    Animate AmmoNoClip                  ypos        "-4"                Linear 0.5 0.015
+    Animate AmmoNoClip                  xpos        "0"                 Linear 0.6 0.015
+    Animate AmmoNoClip                  ypos        "0"                 Linear 0.6 0.015	
+	
+    Animate AmmoNoClipShadow            xpos        "4"                 Linear 0.0 0.1
+    Animate AmmoNoClipShadow            ypos        "6"                 Linear 0.0 0.1
+    Animate AmmoNoClipShadow            xpos        "0"                 Linear 0.1 0.1
+    Animate AmmoNoClipShadow            ypos        "0"                 Linear 0.1 0.1
+    Animate AmmoNoClipShadow            xpos        "-4"                Linear 0.5 0.1
+    Animate AmmoNoClipShadow            ypos        "-6"                Linear 0.5 0.1
+    Animate AmmoNoClipShadow            xpos        "0"                 Linear 0.6 0.1
+    Animate AmmoNoClipShadow            ypos        "0"                 Linear 0.6 0.1
+	
+	RunEvent HudLowAmmoPulseLoop		0.25
 }
 
 event HudLowAmmoPulseLoop
 {
-	RunEvent HudLowAmmoPulse 				0.0
+	RunEvent HudLowAmmoPulse 			0.0
 }
 
 event HudLowAmmoPulseStop
 {
-	StopEvent HudLowAmmoPulse 				0.0
-	StopEvent HudLowAmmoPulseLoop 			0.0
+	StopEvent HudLowAmmoPulse 			0.0
+	StopEvent HudLowAmmoPulseLoop 		0.0
 	
 	Animate	AmmoInClip					FgColor		"TanLight"			Linear 0.0 0.0
+	Animate	AmmoInClipShadow			FgColor		"Shadow"			Linear 0.0 0.0
 	
 	Animate	AmmoInReserve				FgColor		"TanLight"			Linear 0.0 0.0
+	Animate	AmmoInReserveShadow			FgColor		"Shadow"			Linear 0.0 0.0	
 	
 	Animate	AmmoNoClip					FgColor		"TanLight"			Linear 0.0 0.0
+	Animate	AmmoNoClipShadow			FgColor		"Shadow"			Linear 0.0 0.0
+
+    Animate AmmoInClip                  xpos        "8"                 Linear 0.0 0.0
+    Animate AmmoInClip                  ypos        "2"                 Linear 0.0 0.0 
+
+    Animate AmmoInClipShadow            xpos        "10"                Linear 0.0 0.0
+    Animate AmmoInClipShadow            ypos        "4"                 Linear 0.0 0.0   
+
+    Animate AmmoInReserve               xpos        "65"                Linear 0.0 0.0
+    Animate AmmoInReserve               ypos        "8"                 Linear 0.0 0.0 
+
+    Animate AmmoInReserveShadow         xpos        "66"                Linear 0.0 0.0
+    Animate AmmoInReserveShadow         ypos        "9"                 Linear 0.0 0.0 
+	
+    Animate AmmoNoClip                  xpos        "0"                 Linear 0.0 0.0
+    Animate AmmoNoClip                  ypos        "0"                 Linear 0.0 0.0 
+
+    Animate AmmoNoClipShadow            xpos        "2"                 Linear 0.0 0.0
+    Animate AmmoNoClipShadow            ypos        "4"                 Linear 0.0 0.0     	  	
 }
 
 //===========================================================================================================================

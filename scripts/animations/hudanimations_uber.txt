@@ -2,15 +2,26 @@
 
 event UberchargeBg
 {
-    Animate ChargeMeter             wide        "0"                      Linear 0.1 0.2
+    Animate ChargeMeter     wide        "0"                     Linear 0.1 0.2
 }
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"				Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"120 200 120 255"		Linear 0.3 0.4
+    Animate ChargeLabel        FgColor  "TanLight"      		Linear 0.0 0.1
+    Animate ChargeLabel        FgColor  "Positive"     			Linear 0.3 0.4
+	
+    Animate ChargeLabelBlur_1  FgColor  "Positive"  			Linear 0.0 0.15
+    Animate ChargeLabelBlur_1  FgColor  "Positive_2" 			Linear 0.2 0.15
+    Animate ChargeLabelBlur_2  FgColor  "Positive"  			Linear 0.05 0.15
+    Animate ChargeLabelBlur_2  FgColor  "Positive_2" 			Linear 0.25 0.15
+    Animate ChargeLabelBlur_3  FgColor  "Positive"  			Linear 0.1 0.15
+    Animate ChargeLabelBlur_3  FgColor  "Positive_2" 			Linear 0.3 0.15
+    Animate ChargeLabelBlur_4  FgColor  "Positive"  			Linear 0.15 0.15
+    Animate ChargeLabelBlur_4  FgColor  "Positive_2" 			Linear 0.35 0.15
+    Animate ChargeLabelBlur_5  FgColor  "Positive"  			Linear 0.2 0.15
+    Animate ChargeLabelBlur_5  FgColor  "Positive_2" 			Linear 0.4 0.15	
 
-	RunEvent HudMedicChargedLoop	0.6
+	RunEvent HudMedicChargedLoop		0.6
 }
 
 event HudMedicChargedLoop
@@ -24,9 +35,15 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"TanLight"		        Linear 0.0 0.0
 	
-    Animate ChargeMeter             wide        "40"                      Linear 0.1 0.2	
+    Animate ChargeLabelBlur_1  FgColor  "Shadow"  			    Linear 0.0 0.0
+    Animate ChargeLabelBlur_2  FgColor  "Shadow"  			    Linear 0.0 0.0
+    Animate ChargeLabelBlur_3  FgColor  "Shadow"  			    Linear 0.0 0.0
+    Animate ChargeLabelBlur_4  FgColor  "Shadow"  			    Linear 0.0 0.0
+    Animate ChargeLabelBlur_5  FgColor  "Shadow"  			    Linear 0.0 0.0
+	
+    Animate ChargeMeter     wide        "40"                    Linear 0.1 0.2	
 }
 
 //===========================================================================================================================
