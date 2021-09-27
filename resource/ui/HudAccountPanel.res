@@ -2,9 +2,9 @@
 {
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"45"
-		"delta_item_start_y"	"20"
-		"delta_item_end_y"		"40"
+		"delta_item_x"			"100"
+		"delta_item_start_y"	"4"
+		"delta_item_end_y"		"4"
 		"PositiveColor"			"Positive"
 		"NegativeColor"			"Negative"
 		"delta_lifetime"		"1.5"
