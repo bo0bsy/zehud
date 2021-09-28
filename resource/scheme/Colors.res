@@ -17,7 +17,8 @@ Scheme
 		"Negative_2"				"232 150 150 255"
 		"Select"					"120 200 120 255"		
 		
-		"CustomYellow"				"255 180 20 255"			
+		"CustomYellow"				"255 180 20 255"
+		"CustomGreen"				"180 255 180 255"		
 		
 		"Shadow"					"20 20 20 255"			
 

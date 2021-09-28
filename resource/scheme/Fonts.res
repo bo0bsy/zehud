@@ -54,7 +54,7 @@ Scheme
 				"antialias" 	"1"
 				"blur"			"3"				
 			}
-		}	
+		}
 
 		"Uber"
 		{
