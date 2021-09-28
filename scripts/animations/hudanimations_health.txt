@@ -1,10 +1,15 @@
 event HudHealthBonusPulse
 {
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"100"				    Linear 0.0 0.2
-	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					    Linear 0.2 0.4
-	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Positive"		Linear 0.0 0.0
-	Animate		PlayerStatusKillerHealthValue 			FgColor		"Positive"		Linear 0.0 0.0
-	RunEvent 	HudHealthBonusPulseLoop					0.4
+	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					    Linear 0.2 0.4	
+	
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Positive"			    Linear 0.0 0.075
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Positive_2"			Linear 0.125 0.075	
+	
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"Positive"			    Linear 0.0 0.075
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"Positive_2"			Linear 0.125 0.075	
+	
+	RunEvent 	HudHealthBonusPulseLoop					0.6
 }
 
 event HudHealthBonusPulseLoop
@@ -16,6 +21,7 @@ event HudHealthBonusPulseStop
 {
 	StopEvent 	HudHealthBonusPulse 					0.0
 	StopEvent 	HudHealthBonusPulseLoop 				0.0
+	
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			    Linear 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			    Linear 0.0 0.0
 }
@@ -26,8 +32,13 @@ event HudHealthDyingPulse
 {
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"255"				    Linear 0.0 0.075
 	Animate		PlayerStatusHealthBonusImage 			Alpha		"0"					    Linear 0.125 0.075
-	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Negative"		Linear 0.0 0.0
-	Animate		PlayerStatusKillerHealthValue 			FgColor		"Negative"		Linear 0.0 0.0
+	
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"Negative"			    Linear 0.0 0.075
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"CustomYellow"			Linear 0.125 0.075	
+	
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"Negative"			    Linear 0.0 0.075
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"CustomYellow"			Linear 0.125 0.075
+	
 	RunEvent 	HudHealthDyingPulseLoop					0.25
 }
 
@@ -40,5 +51,5 @@ event HudHealthDyingPulseStop
 {
 	StopEvent 	HudHealthDyingPulse 					0.0
 	StopEvent 	HudHealthDyingPulseLoop 				0.0
-	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			Linear 0.0 0.0
-	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			Linear 0.0 0.0
+	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"				Linear 0.0 0.0
+	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"				Linear 0.0 0.0
