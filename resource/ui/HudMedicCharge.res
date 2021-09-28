@@ -68,78 +68,6 @@
 		"fgcolor"   								"Shadow"
 		
 		"pin_to_sibling" 							"ChargeLabelBlur_1"			
-	}
-	
-	"ChargeLabelBlur_3"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBlur_3"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"UberBlur"
-		"fgcolor"   								"Shadow"
-		
-		"pin_to_sibling" 							"ChargeLabelBlur_2"			
-	}	
-
-	"ChargeLabelBlur_4"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBlur_4"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"UberBlur"
-		"fgcolor"   								"Shadow"
-		
-		"pin_to_sibling" 							"ChargeLabelBlur_3"			
-	}	
-
-	"ChargeLabelBlur_5"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBlur_5"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"UberBlur"
-		"fgcolor"   								"Shadow"
-		
-		"pin_to_sibling" 							"ChargeLabelBlur_4"			
 	}	
 	
     "ChargeMeter"
@@ -148,8 +76,8 @@
         "ypos"          							"c35"
         "wide"          							"40"
         "tall"          							"3"
-        "FgColor_override"							"120 200 120 255"
-        "bgcolor_override"      					"46 43 42 100"        
+        "FgColor_override"							"Positive"
+        "bgcolor_override"      					"Shadow"        
     } 
 	
 	"IndividualChargesLabel"

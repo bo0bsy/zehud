@@ -75,7 +75,7 @@
 		"xpos"			"76"
 		"xpos_minmode"	"61"
 		"ypos"			"52"	
-		"zpos"			"5"
+		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"18"
 		"visible"		"1"
@@ -86,10 +86,30 @@
 		"fgcolor"		"TanDark"
 	}
 	
-	"PlayerStatusHealthValueBlur"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueBlur"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-1"
+		"xpos_minmode"	"-1"
+		"ypos"			"0"	
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"Health"
+		"fgcolor"		"Shadow"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValue"		
+	}
+
+	"PlayerStatusHealthValueBLur_1"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBLur_1"
 		"xpos"			"0"
 		"xpos_minmode"	"0"
 		"ypos"			"0"	
@@ -103,8 +123,28 @@
 		"font"			"HealthBlur"
 		"fgcolor"		"Shadow"
 		
-		"pin_to_sibling"							"PlayerStatusHealthValue"		
+		"pin_to_sibling"							"PlayerStatusHealthValueShadow"		
 	}	
+
+	"PlayerStatusHealthValueBLur"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueBLur"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
+		"ypos"			"99999"	//was 0
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"18"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"center"	
+		"font"			"HealthBlur"
+		"fgcolor"		"Shadow"
+		
+		"pin_to_sibling"							"PlayerStatusHealthValueShadow"		
+	}
 	
 	"PlayerStatusBleedImage"
 	{
