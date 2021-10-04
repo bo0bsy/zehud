@@ -200,7 +200,7 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"20"
+				"tall"			"12"
 				"weight"		"900"
 				"additive"		"0"
 				"antialias" 	"1"			

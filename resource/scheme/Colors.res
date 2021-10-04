@@ -78,6 +78,7 @@ Scheme
 		"CreditsGreen"		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
+		"DarkerGray"		"135 135 135 255"		
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
