@@ -20,6 +20,12 @@
 		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
 	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label"			"w"
+		"command"		"motd_show"
+		"tooltip"		"#TF_OptionCategory_HUD"
+	}	
 	"me"
 	{
 		"label" 		"made by boobsy"
