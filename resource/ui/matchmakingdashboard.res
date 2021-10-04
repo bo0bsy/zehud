@@ -423,8 +423,8 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labeltext"		""
-				"font"			"HudFontSmallBold"
+				"labeltext"		"("
+				"font"			"CustomIcons"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -436,26 +436,9 @@
 				"actionsignallevel"	"3"
 				"paintbackground"	"0"
 			
-				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
-				"depressedFgColor_override" "46 43 42 255"
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"255 0 0 255"
-				
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"14"
-					"tall"			"14"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
-				}
+				"defaultfgcolor_override" 	"TanLight"
+				"armedfgcolor_override" 	"LightRed"
+				"depressedfgcolor_override" "TanLight"
 			}		
 		}
 
