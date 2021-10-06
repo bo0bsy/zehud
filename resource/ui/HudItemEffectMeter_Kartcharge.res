@@ -40,7 +40,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmall"
 	}
 
 	"ItemEffectMeter"
@@ -80,6 +80,6 @@
 		"textAlignment_minmode"	"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"HudFontSmall"
 	}
 }

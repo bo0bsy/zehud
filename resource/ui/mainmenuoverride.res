@@ -760,10 +760,10 @@
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"MOTD_ShowButtonPanel"
+		"fieldName"	"MOTD_ShowButtonPanel"
 		"xpos"			"rs1"
 		"ypos"			"20"
-		"zpos"			"0"
+		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
@@ -796,6 +796,122 @@
 			"armedFgColor_override"		"TanLightSelect"
 		}
 	}	
+	
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"xpos"			"-9"
+		"ypos"			"40"
+		"zpos"			"1"
+		"wide"			"40"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		"pin_to_sibling"		"MOTD_ShowButtonPanel"
+		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
+		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"		
+
+		"SubButton"
+		{
+			"ControlName"		"CExImageButton"
+			"fieldName"			"SubButton"
+			"xpos"				"0"
+			"ypos"				"0"
+			"wide"				"20"
+			"tall"				"20"
+			"autoResize"		"0"
+			"pinCorner"			"3"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"font"				"NormalIcons"
+			"use_proportional_insets"	"1"
+			"textAlignment"		"center"
+			"default"			"1"
+			"actionsignallevel" "2"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"defaultFgColor_override"	"TanLight"
+			"armedFgColor_override"		"TanLightSelect"
+		}
+	}	
+	
+	"FriendsContainer"
+	{
+		"ControlName"								"EditablePanel"
+		"fieldname"									"FriendsContainer"
+		"xpos"										"r163"
+		"ypos"										"r60"
+		"zpos"										"11"
+		"wide"										"163"
+		"tall"										"60"
+		"visible"									"1"
+		"bgcolor_override"							"0 0 0 50"
+
+		"SteamFriendsList"
+		{
+			"ControlName"							"CSteamFriendsListPanel"
+			"fieldname"								"SteamFriendsList"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"500"
+			"wide"									"f0"
+			"tall"									"f0"
+			"visible"								"1"
+			"proportionaltoparent"					"1"
+
+			"columns_count"							"2"
+			"inset_x"								"0"
+			"inset_y"								"0"
+			"row_gap"								"1"
+			"column_gap"							"0"
+			"restrict_width"						"0"
+
+			"friendpanel_kv"
+			{
+				"wide"								"80"
+				"tall"								"20"
+			}
+			
+			"ScrollBar"
+			{
+				"ControlName"						"ScrollBar"
+				"FieldName"							"ScrollBar"
+				"xpos"								"rs1"
+				"ypos"								"0"
+				"tall"								"f0"
+				"wide"								"3"
+				"zpos"								"1000"
+				"nobuttons"							"1"
+				"proportionaltoparent"				"1"
+
+				"Slider"
+				{
+					"fgcolor_override"				"White"
+				}
+			}
+		}
+	}	
+	
+	"CustomBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CustomBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"1"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menugif"
+		"scaleimage"								"1"
+	}	
 
 	"ZeHud"
 	{
@@ -806,7 +922,7 @@
 		"textAlignment"	"center"
 		"xpos"		"0"
 		"ypos"		"40"
-		"zpos"		"-2"
+		"zpos"		"2"
 		"wide"		"80"
 		"tall"		"20"
 		"visible"		"1"
@@ -819,7 +935,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"me"
-		"xpos"		    "-14"
+		"xpos"		    "99999" // was -14
 		"ypos"		    "463"
 		"zpos"			"15"
 		"wide"		    "120"
