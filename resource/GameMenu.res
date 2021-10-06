@@ -25,6 +25,12 @@
 		"label"			"w"
 		"command"		"motd_show"
 		"tooltip"		"#TF_OptionCategory_HUD"
+	}
+	"QuestLogButton"
+	{
+		"label"			"r"
+		"command"		"questlog"
+		"tooltip"		"#TF_QuestMap_Intro_Title"
 	}	
 	"me"
 	{
