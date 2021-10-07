@@ -935,7 +935,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"me"
-		"xpos"		    "99999" // was -14
+		"xpos"		    "-14"
 		"ypos"		    "463"
 		"zpos"			"15"
 		"wide"		    "120"
