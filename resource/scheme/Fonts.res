@@ -173,6 +173,18 @@ Scheme
 			}
 		}
 
+		"f9"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"9"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+
 		"f10"
 		{
 			"1"
@@ -208,6 +220,67 @@ Scheme
 				"antialias" 	"1"			
 			}
 		}
+		
+		"f16"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"16"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}		
+
+		"f24"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+		
+		"f36"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"36"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}		
+
+		"StatSummary1"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"9"
+				"weight"		"900"
+				"additive"		"0"
+				"antialias" 	"1"	
+				"dropshadow"	"1"					
+			}
+		}	
+
+		"StatSummary2"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"12"
+				"weight"		"900"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}	
 
 		"Labels"
 		{

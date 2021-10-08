@@ -19,6 +19,7 @@ Scheme
 		
 		"CustomYellow"				"255 180 20 255"
 		"CustomGreen"				"180 255 180 255"		
+		"CustomBlack"				"27 27 27 255"			
 		
 		"Shadow"					"20 20 20 255"			
 
@@ -186,9 +187,9 @@ Scheme
 		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
 		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
 		"QualityColorVintage_GreyedOut"			"18 25 36 255"
-		"QualityColorUnique_GreyedOut"			"64 54 0  255"
+		"QualityColorUnique_GreyedOut"			"64 54 0 255"
 		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
+		"QualityColorDeveloper_GreyedOut"		"41 4 30 255"
 		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
 		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
 		"QualityColorStrange_GreyedOut"			"52 27 13 255"
