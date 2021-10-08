@@ -143,9 +143,23 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-				"dropshadow"	"1"				
+				"dropshadow"	"0"		
 			}
 		}
+
+		"meblur"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"11"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"0"	
+				"blur"			"3"				
+			}
+		}		
 
 		"f8"
 		{
