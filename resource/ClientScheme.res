@@ -10,6 +10,7 @@
 
 #base "../resource/scheme/Fonts.res"
 #base "../resource/scheme/Icons.res"
+#base "../resource/scheme/Symbols.res"
 
 ///////////////////////////////////////////
 //////////////////BORDERS//////////////////
