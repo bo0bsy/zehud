@@ -617,9 +617,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"Items"
-		"xpos"						"r150"
+		"xpos"						"r250"
 		"ypos"						"-2"
-		"zpos"						"10002"
+		"zpos"						"10003"
 		"wide"						"60"
 		"tall"						"26"
 		"autoResize"				"0"
@@ -652,9 +652,9 @@
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"Options"
-		"xpos"						"r230"
-		"ypos"						"-2"
-		"zpos"						"10002"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"10003"
 		"wide"						"80"
 		"tall"						"26"
 		"autoResize"				"0"
@@ -681,16 +681,20 @@
 		"armedBgColor_override"		"0 0 0 200"
 		"defaultBgColor_override"	"108 201 98 0"
 		
-		"image_drawcolor"			"TanLight"			
+		"image_drawcolor"			"TanLight"
+
+		"pin_to_sibling"		"Items"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"		
 	}
 
 	"Adv"
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"Adv"
-		"xpos"						"r280"
-		"ypos"						"-2"
-		"zpos"						"10002"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"10003"
 		"wide"						"50"
 		"tall"						"26"
 		"autoResize"				"0"
@@ -717,14 +721,18 @@
 		"armedBgColor_override"		"0 0 0 200"
 		"defaultBgColor_override"	"108 201 98 0"
 		
-		"image_drawcolor"			"TanLight"					
+		"image_drawcolor"			"TanLight"	
+
+		"pin_to_sibling"		"Options"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"				
 	}
 
 	"MOTD_ShowButtonPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"	"MOTD_ShowButtonPanel"
-		"xpos"			"rs1"
+		"fieldName"		"MOTD_ShowButtonPanel"
+		"xpos"			"rs1+5"
 		"ypos"			"20"
 		"zpos"			"1"
 		"wide"			"40"
