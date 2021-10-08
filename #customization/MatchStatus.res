@@ -1,5 +1,5 @@
-#base "../resource/ui/MatchStatus/MatchStatus_Big.res"		// Big Match Status
-//#base "../resource/ui/MatchStatus/MatchStatus_Small.res"	// Small Match Status
+//#base "../resource/ui/MatchStatus/MatchStatus_Big.res"		// Big Match Status
+#base "../resource/ui/MatchStatus/MatchStatus_Small.res"	// Small Match Status
 
 //==================================================================================================
 // DAMAGE SETTINGS INSTRUCTIONS
