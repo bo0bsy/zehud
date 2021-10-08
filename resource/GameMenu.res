@@ -38,4 +38,10 @@
 		"command" 		"engine showconsole"		
 		"OnlyAtMenu"	"1"
 	}
+	"me2"
+	{
+		"label" 		"made by boobsy"
+		"command" 		"engine showconsole"
+		"OnlyAtMenu"	"1"
+	}
 }
