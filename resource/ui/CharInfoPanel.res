@@ -78,7 +78,7 @@
 		"ypos"								"-5"
 		"zpos"								"0"
 		"wide"								"p1.02"
-		"tall"								"54"
+		"tall"								"63"
 		"visible"							"1"
 		"enabled"							"1"
 		"border"							"MainMenuBGBorder"
@@ -121,7 +121,7 @@
 		{
 			"textinsetx"					"10"
 			"textinsety"					"0"
-			"font"							"f12"
+			"font"							"f10"
 			"selectedcolor"					"TanLight"
 			"unselectedcolor"				"TanLight"	
 			"defaultBgColor_override"		"Blank"
