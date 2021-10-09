@@ -262,8 +262,8 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"9"
-				"weight"		"900"
+				"tall"			"8"
+				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"	
 				"dropshadow"	"1"					
@@ -275,13 +275,25 @@ Scheme
 			"1"
 			{
 				"name"			"Verdana"
-				"tall"			"12"
+				"tall"			"10"
 				"weight"		"900"
 				"additive"		"0"
 				"antialias" 	"1"			
 			}
 		}	
-
+		
+		"MapName"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"900"
+				"additive"		"0"
+				"antialias" 	"1"				
+			}
+		}		
+		
 		"Labels"
 		{
 			"1"
