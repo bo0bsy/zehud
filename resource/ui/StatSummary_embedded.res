@@ -45,20 +45,6 @@
 		"PaintBackgroundType"				"0"		
 	}
 	
-	"TanLightBackground"
-	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"TanLightBackground"
-		"xpos"						"c-205"
-		"ypos"						"50"
-		"zpos"						"0"
-		"wide"						"410"
-		"tall"						"210"
-		"visible"					"1"
-		"enabled"					"1"
-		"border"					"BlackTransparent30"
-	}
-	
 	"StatData"
 	{
 		"ControlName"				"EditablePanel"
@@ -110,7 +96,7 @@
 				"xpos"				"c-195"
 				"ypos"				"14"
 				"zpos"				"3"
-				"wide"				"155"
+				"wide"				"151"
 				"tall"				"12"
 				"autoResize"		"0"
 				"pinCorner"			"0"
@@ -168,7 +154,7 @@
 				"xpos"				"c44"
 				"ypos"				"14"
 				"zpos"				"3"
-				"wide"				"155"
+				"wide"				"151"
 				"tall"				"12"
 				"autoResize"		"0"
 				"pinCorner"			"0"
@@ -225,7 +211,7 @@
 				"xpos"				"c-36"
 				"ypos"				"14"
 				"zpos"				"10"
-				"wide"				"75"
+				"wide"				"72"
 				"tall"				"12"
 				"autoResize"		"0"
 				"pinCorner"			"0"
@@ -2149,7 +2135,7 @@
 		"paintbackground" 			"0"
 		
 		"border_default"			"Black"
-		"border_armed"				"Black"
+		"border_armed"				"Select"
 	}
 	
 	
