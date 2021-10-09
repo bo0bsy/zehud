@@ -98,7 +98,7 @@
 			"ControlName"						"CItemModelPanel"
 			"xpos"								"c-70"
 			"ypos"								"270"
-			"zpos"								"270"			
+			"zpos"								"100"			
 			"wide"								"58"
 			"tall"								"46"
 			"visible"							"0"
@@ -599,37 +599,6 @@
 		"pin_to_sibling" 						"SortByBG"
 		"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
-	}
-
-	"ShowExplanationsButton"
-	{
-		"ControlName"							"CExButton"
-		"fieldName"								"ShowExplanationsButton"
-		"xpos"									"r20"
-		"ypos"									"0"
-		"zpos"									"100"
-		"wide"									"18"
-		"tall"									"18"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-		"labelText"								"1"
-		"font"									"Symbols 12"
-		"textAlignment"							"center"
-		"textinsetx"							"15"
-		"dulltext"								"0"
-		"brighttext"							"0"
-		"default"								"0"
-		"Command"								"show_explanations"
-		"sound_depressed"						"UI/buttonclick.wav"
-		"sound_released"						"UI/buttonclickrelease.wav"
-		
-		"paintbackground" 						"0"
-		
-		"border_default"						"Black"
-		"border_armed"							"Select"
 	}
 
 	"CaratLabel"
