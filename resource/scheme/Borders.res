@@ -323,10 +323,9 @@ Scheme
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-            "color"                 "0 0 0 0"					
+			"backgroundtype"		"2"				
 			
-			"image"					"replay/thumbnails/panels/material_generic"			
+			"image"					"replay/thumbnails/panels/material_transparent2"			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -335,10 +334,9 @@ Scheme
 		OutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-            "color"                 "0 0 0 0"					
+			"backgroundtype"		"2"			
 			
-			"image"					"replay/thumbnails/panels/material_generic"
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
@@ -550,37 +548,51 @@ Scheme
 		EconItemBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
+			"backgroundtype"		"2"		
 			
-			"image"					"loadout_rect"
+			"image"					"replay/thumbnails/panels/material_transparent2"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
 		Econ.Button.Border.Default
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			
+			"image"					"replay/thumbnails/panels/material_transparent2"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
+		
 		Econ.Button.Border.Armed
 		{
-			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"		
+			
+			"image"					"replay/thumbnails/panels/material_transparent2"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 
 		LoadoutItemMouseOverBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color"					"Black"
 			
-			"image"					"backpack_rect_color"
+			"image"					"replay/thumbnails/panels/material_transparent"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		
 		LoadoutItemPopupBorder
 		{
 			"bordertype"			"scalable_image"

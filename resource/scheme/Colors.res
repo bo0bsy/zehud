@@ -7,10 +7,6 @@ Scheme
 		
 		"Damage"            		"255 255 255 255"
 		
-		"TransparentBGColor"			"42 40 42 120"
-		"MainMenuBGColor"			"36 34 36 180"
-		"BackpackBGColor"			"52 50 52 255"
-		
 		"Positive"					"120 200 120 255"
 		"Positive_2"				"120 236 156 255"		
 		"Negative"					"232 114 114 255"	
