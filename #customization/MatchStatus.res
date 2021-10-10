@@ -1,5 +1,5 @@
-#base "../resource/ui/MatchStatus/MatchStatus_Big.res"		// Big Match Status
-//#base "../resource/ui/MatchStatus/MatchStatus_Small.res"	// Small Match Status
+//#base "../resource/ui/MatchStatus/MatchStatus_Big.res"		// Big Match Status
+#base "../resource/ui/MatchStatus/MatchStatus_Small.res"	// Small Match Status
 
 //==================================================================================================
 // DAMAGE SETTINGS INSTRUCTIONS
@@ -12,6 +12,6 @@
 {
 	HudDeathNotice
 	{	
-		"ypos"	 				"25"	// change this to "25" if you want to use big match status		
+		"ypos"	 				"0"	// change this to "25" if you want to use big match status		
 	}
 }
