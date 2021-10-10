@@ -19,10 +19,10 @@
 		"fieldName"				"CDamageAccountValue"
 		"fgcolor"				"damage"
 		"font"					"HudFontBiggerBold"
-		"xpos"					"128"
-		"ypos"					"r110"
-		"xpos_minmode"			"110"
-		"ypos_minmode"			"r75"
+		"xpos"					"133"
+		"ypos"					"r105"
+		"xpos_minmode"			"97"
+		"ypos_minmode"			"r70"
 		"zpos"					"2"
 		"wide"					"100"
 		"tall"					"26"
@@ -36,12 +36,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CDamageAccountValueShadow"
-		"fgcolor"				"20 20 20 255"
+		"fgcolor"				"Shadow"
 		"font"					"HudFontBiggerBoldBlur"
-		"xpos"					"128"
-		"ypos"					"r110"
-		"xpos_minmode"			"110"
-		"ypos_minmode"			"r73"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"1"
 		"wide"					"100"
 		"tall"					"26"
@@ -49,5 +47,7 @@
 		"enabled"				"1"
 		"labelText"				"%metal%"
 		"textAlignment"			"left"
+		
+		"pin_to_sibling"		"CDamageAccountValue"				
 	}
 }
