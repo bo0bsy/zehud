@@ -33,6 +33,7 @@
 				"textAlignment"			"center"
 				"xpos"					"0"
 				"ypos"					"0"
+				"zpos"					"100"				
 				"wide"					"300"
 				"tall"					"24"
 				"autoResize"			"0"
@@ -44,6 +45,29 @@
 				"labelText"				"#TF_OptionCategory_HUD"		
 				"allcaps"				"1"
 			}
+			
+			"HeaderLabelShadow"
+			{
+				"ControlName"			"Label"
+				"fieldName"				"HeaderLabelShadow"
+				"font"					"f14"
+				"textAlignment"			"center"
+				"xpos"					"-1"
+				"ypos"					"-1"
+				"zpos"					"100"						
+				"wide"					"300"
+				"tall"					"24"
+				"autoResize"			"0"
+				"pinCorner"				"0"
+				"visible"				"1"
+				"enabled"				"1"
+				"paintbackground" 		"0"
+				"fgcolor_override"		"Shadow"
+				"labelText"				"#TF_OptionCategory_HUD"		
+				"allcaps"				"1"
+				
+				"pin_to_sibling"		"HeaderLabel"				
+			}		
 		}
 
 		"MOTD_CloseButton"
@@ -152,6 +176,17 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"			
 			
 			"pin_to_sibling"		"MOTD_HeaderContainer"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -177,6 +212,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -200,6 +246,17 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -225,6 +282,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"ClosedCaptionsON"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -248,6 +316,17 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"ClosedCaptionsON"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -273,6 +352,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -296,6 +386,17 @@
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -321,6 +422,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -344,6 +456,17 @@
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"MatchStatusToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -369,6 +492,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"Walkway"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -393,6 +527,17 @@
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
+			
 			"pin_to_sibling"		"Itemtest"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
@@ -412,10 +557,21 @@
 			"labeltext"				")"
 			"command"				"engine cl_crosshair_file crosshair1"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"MatchStatusToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -436,10 +592,21 @@
 			"labeltext"				"1"
 			"command"				"engine cl_crosshair_file crosshair2"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 1"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -460,10 +627,21 @@
 			"labeltext"				"6"
 			"command"				"engine cl_crosshair_file crosshair3"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 2"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -484,10 +662,21 @@
 			"labeltext"				","
 			"command"				"engine cl_crosshair_file crosshair4"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 3"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -508,10 +697,21 @@
 			"labeltext"				"5"
 			"command"				"engine cl_crosshair_file crosshair5"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 1"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -532,10 +732,21 @@
 			"labeltext"				"'"
 			"command"				"engine cl_crosshair_file crosshair6"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 5"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -556,10 +767,21 @@
 			"labeltext"				"#"
 			"command"				"engine cl_crosshair_file crosshair7"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 6"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -580,10 +802,21 @@
 			"labeltext"				"?"
 			"command"				"engine cl_crosshair_file default"
 			"actionsignallevel"		"2"
-			"font"					"Size:20"
+			"font"					"Size:22"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
+			
+			"defaultBgColor_override"		"Blank"
+			"armedBgColor_override"			"Blank"
+			"depressedBgColor_override"		"Blank"
+		
+			"defaultFgColor_override"		"TanLight"
+			"armedFgColor_override" 		"TanLight"
+			"depressedFgColor_override" 	"TanLight"
+			
+			"border_default"		"Black"
+			"border_armed"			"Select"				
 			
 			"pin_to_sibling"		"Crosshair 7"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
