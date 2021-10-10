@@ -56,8 +56,6 @@ Scheme
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
 		"BrightYellow"		"251 235 0 255"
-		//"Black"				"0 0 0 255"
-		//Changed black to a NTSC safe color
 		"GreenSolid"		 "76 107 34 255"
 		
 		"Black"				"46 43 42 255"
