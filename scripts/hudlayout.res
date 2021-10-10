@@ -1,3 +1,5 @@
+#base "../#customization/MatchStatus.res"
+
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
@@ -38,85 +40,94 @@
 		"fgcolor"			"Crosshair"
 	}
 	
+	HudDeathNotice
+	{
+		"fieldName" 				"HudDeathNotice"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"	 					"r630"				
+		"wide"						"628"
+		"tall"	 					"468"
+
+		"MaxDeathNotices" 			"4"
+		"LineHeight"	  			"11"
+		"LineSpacing"	  			"0"
+		"CornerRadius"	  			"2"
+		"RightJustify"	  			"1"
+		
+		"TextFont"					"Default"
+		
+		"TeamBlue"					"HUDBlueTeamSolid"
+		"TeamRed"					"HUDRedTeamSolid"
+		"IconColor"					"HudWhite"
+		"LocalPlayerColor"			"HUDBlack"
+
+		"BaseBackgroundColor"		"46 43 42 220"
+		"LocalBackgroundColor"		"245 229 196 200"
+	}
+	
 	HudPlayerStatus
 	{
-		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName" 				"HudPlayerStatus"
+		"visible"  				 	"1"
+		"enabled"  				 	"1"
+		"xpos"	  				 	"0"
+		"ypos"	  				 	"0"
+		"wide"	  				 	"f0"
+		"tall"	  				 	"480"
 	}
 	
 	HudObjectiveStatus
 	{
-		"fieldName" "HudObjectiveStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName" 				"HudObjectiveStatus"
+		"visible"  				 	"1"
+		"enabled"  				 	"1"
+		"xpos"	  				 	"0"
+		"ypos"	  				 	"0"
+		"wide"	  				 	"f0"
+		"tall"	  				 	"480"
 	}		
 
 	HudWeaponAmmo
 	{
-		"fieldName" 	"HudWeaponAmmo"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"r130"	
-		"xpos_minmode"	"r100"	
-		"ypos_minmode"	"r36"	
-		"ypos"			"r77"
-		"zpos"			"1"			
-		"wide"			"f0"
-		"tall"			"f0"
+		"fieldName" 				"HudWeaponAmmo"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"r130"	
+		"xpos_minmode"				"r100"	
+		"ypos_minmode"				"r36"	
+		"ypos"						"r77"
+		"zpos"						"1"			
+		"wide"						"f0"
+		"tall"						"f0"
 	}
 	
 	HudKothTimeStatus
 	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"fieldName" 				"HudKothTimeStatus"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"xpos"						"c-100"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"f0"
 		
 		"blue_active_xpos"			"55"
 	
 		"red_active_xpos"			"105"
-	}
-	
-	HudKothTimeStatus
-	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-100"
-		"ypos"	"0"
-		"wide"	"200"
-		"tall"	"160"
-		
-		"blue_active_xpos"			"55"
-		"blue_active_xpos_minmode"	"55"
-	
-		"red_active_xpos"			"105"
-		"red_active_xpos_minmode"	"105"
 	}	
 
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"0"		
-		"ypos"			"0"		
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"fieldName" 				"HudItemEffectMeter"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"		
+		"ypos"						"0"		
+		"wide"						"100"
+		"tall"						"50"
+		"MeterFG"					"White"
+		"MeterBG"					"Gray"
 	}
 	
 	HudMedicCharge
@@ -235,19 +246,16 @@
 		"PaintBackgroundType"	"2"
 	}
 	
-	
 	DisguiseStatus
 	{
-		"fieldName" "DisguiseStatus"
-		"visible"	   "1"
-		"enabled"	   "1"
-		"xpos"		   "35"	
-		"ypos"		   "r70"	
-		"xpos"		   "50"	
-		"ypos"		   "330"	
-		"wide"		   "500"
-		"tall"		   "200"
-		"TextFont"	   "Default"	
+		"fieldName"				"DisguiseStatus"
+		"visible"	  			"1"
+		"enabled"	   			"1"	
+		"xpos_minmode"		   	"80"			
+		"xpos"		   			"53"	
+		"ypos"		   			"r67"			
+		"wide"		   			"500"
+		"tall"		   			"200"
 	}
 
 	CMainTargetID
@@ -456,38 +464,6 @@
 		"enabled" "1"
 		"wide"	 "640"
 		"tall"	 "480"
-	}
-
-	HudDeathNotice
-	{
-		"fieldName" 					"HudDeathNotice"
-		"visible" 						"1"
-		"enabled" 						"1"
-		"xpos"	 						"r640"	
-		"ypos"	 						"0"	
-		"xpos"	 						"r672"	
-		"ypos"	 						"35"	
-		"wide"	 						"628"
-		"tall"	 						"468"
-
-		"MaxDeathNotices" 				"6"
-		"IconScale"	 					"0.15" 
-		"LineHeight"	  				"12" 
-		"LineSpacing"	  				"0" 
-		"CornerRadius"	  				"2" 
-		"RightJustify"	  				"1"	
-		
-		"TextFont"						"Default"
-		
-		"TeamBlue"						"HUDBlueTeamSolid"
-		"TeamRed"						"HUDRedTeamSolid"
-		"IconColor"						"HudWhite"
-		"LocalPlayerColor"				"HUDBlack"
-
-		"BaseBackgroundColor"			"46 43 42 220"		
-		"LocalBackgroundColor"			"245 229 196 200"	
-		"BaseBackgroundColor"			"32 32 32 255"		
-		"LocalBackgroundColor"			"0 0 0 255"		
 	}
 
 	HudVehicle
