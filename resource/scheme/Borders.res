@@ -273,6 +273,19 @@ Scheme
 			}
 		}
 
+		TanLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "TanLight"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
 		Black
 		{
 			"bordertype"			"scalable_image"
@@ -291,6 +304,45 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
             "color"                 "Positive"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+		
+		PositiveSelect
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Positive_2"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}		
+
+		Negative
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Negative"					
+			
+			"image"					"replay/thumbnails/panels/material_generic"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}	
+
+		NegativeSelect
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+            "color"                 "Negative_2"					
 			
 			"image"					"replay/thumbnails/panels/material_generic"		
 			"src_corner_height"		"32"
@@ -330,6 +382,18 @@ Scheme
 			"backgroundtype"		"2"				
 			
 			"image"					"replay/thumbnails/panels/material_transparent_black"		
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"
+		}
+
+		TransparentBlackBackground2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"				
+			
+			"image"					"replay/thumbnails/panels/material_transparent_black2"		
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
