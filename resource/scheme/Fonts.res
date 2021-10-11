@@ -238,7 +238,19 @@ Scheme
 			"1"
 			{
 				"name"			"TF2 Build"
-				"tall"			"8"
+				"tall"			"18"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+
+		"f20"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"			
