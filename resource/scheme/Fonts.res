@@ -231,6 +231,18 @@ Scheme
 				"additive"		"0"
 				"antialias" 	"1"			
 			}
+		}
+
+		"f18"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"8"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
 		}		
 
 		"f24"
@@ -264,6 +276,18 @@ Scheme
 				"name"			"TF2 Build"
 				"tall"			"36"
 				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+
+		"Notification"
+		{
+			"1"
+			{
+				"name"			"TF2 Secondary"
+				"tall"			"9"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"			
 			}
