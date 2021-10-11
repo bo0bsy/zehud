@@ -876,8 +876,8 @@
 	"me"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"me"
-		"xpos"		    "-12"
+		"fieldName"	"me"
+		"xpos"		    "99999" // was -12
 		"ypos"		    "463"
 		"zpos"			"15"
 		"wide"		    "120"
@@ -886,7 +886,7 @@
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
+			"fieldName"							"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"120"
@@ -909,16 +909,16 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			"defaultFgColor_override" 				"TanDarker"
+			"defaultFgColor_override" 			"TanDarker"
 			"armedFgColor_override" 				"TanDarker"
-			"depressedFgColor_override" 			"TanDarker"
+			"depressedFgColor_override" 		"TanDarker"
 		}
 	}	
 
 	"me2"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"me2"
+		"fieldName"	"me2"
 		"xpos"		    "0"
 		"ypos"		    "0"
 		"zpos"			"15"
