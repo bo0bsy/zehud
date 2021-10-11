@@ -244,7 +244,19 @@ Scheme
 				"antialias" 	"1"			
 			}
 		}
-		
+	
+		"f30"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"30"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+	
 		"f36"
 		{
 			"1"
@@ -252,6 +264,18 @@ Scheme
 				"name"			"TF2 Build"
 				"tall"			"36"
 				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+
+		"SteamProfile"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"10"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"			
 			}
