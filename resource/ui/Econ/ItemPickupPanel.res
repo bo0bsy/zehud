@@ -221,7 +221,7 @@
 		"paintbackground"				"0"		
 
 		"defaultfgcolor_override" 		"TanLight"
-		"armedfgcolor_override" 		"TanLightSelect"
+		"armedfgcolor_override" 		"Positive"
 		"depressedfgcolor_override" 	"TanLight"
 	}
 	
@@ -250,7 +250,7 @@
 		"paintbackground"				"0"		
 		
 		"defaultfgcolor_override" 		"TanLight"
-		"armedfgcolor_override" 		"TanLightSelect"
+		"armedfgcolor_override" 		"Positive"
 		"depressedfgcolor_override" 	"TanLight"
 	}
 	
@@ -346,40 +346,6 @@
 		
 		"border_default"				"Black"
 		"border_armed"					"Negative"
-	}
-	
-	"DiscardButtonTooltip"
-	{
-		"ControlName"					"EditablePanel"
-		"fieldName"						"DiscardButtonTooltip"
-		"xpos"							"c180"
-		"ypos"							"175"
-		"zpos"							"11"
-		"wide"							"100"
-		"tall"							"50"
-		"visible"						"0"
-		"PaintBackgroundType"			"2"
-		"border"						"Negative"
-		
-		"TipLabel"
-		{
-			"ControlName"				"CExLabel"
-			"fieldName"					"TipLabel"
-			"font"						"f12"
-			"labelText"					"#DiscardItem"
-			"textAlignment"				"center"
-			"xpos"						"12"
-			"ypos"						"0"
-			"wide"						"80"
-			"tall"						"50"
-			"autoResize"				"0"
-			"pinCorner"					"0"
-			"visible"					"1"
-			"enabled"					"1"
-			"fgcolor"					"Gray"
-			"wrap"						"1"
-			"centerwrap"				"1"
-		}
 	}
 	
 	"DiscardedLabel"
