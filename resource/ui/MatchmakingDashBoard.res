@@ -279,7 +279,7 @@
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"zpos"			"100"
+				"zpos"			"1"
 				"wide"			"f4"
 				"tall"			"f4"
 				"visible"		"1"
