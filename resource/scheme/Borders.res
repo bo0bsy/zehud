@@ -2484,8 +2484,9 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
+            "color"                 "CustomBlack"			
 			
-			"image"					"replay/panel_scalable_default"
+			"image"					"replay/thumbnails/panels/material_generic"
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
