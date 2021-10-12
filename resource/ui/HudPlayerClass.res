@@ -41,6 +41,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/class_spyred"
+		"teambg_2"		"../hud/class_spyred"
+		"teambg_3"		"../hud/class_spyblue"			
 		"scaleImage"	"1"	
 
 		"xpos"			"99999"				
@@ -74,6 +76,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg"	
+		"teambg_2"		"../hud/character_red_bg"
+		"teambg_3"		"../hud/character_blue_bg"
 		
 		"xpos"			"99999"		
 	}
@@ -91,94 +95,12 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"image"			"../hud/character_red_bg_clipped"
+		"teambg_2"			"../hud/character_red_bg_clipped"
+		"teambg_3"			"../hud/character_blue_bg_clipped"
 		
 		"xpos"			"99999"			
 	}
 	
-	"PlayerStatusClassImage"
-	{
-		"ControlName"	"CTFClassImage"
-		"fieldName"		"PlayerStatusClassImage"
-		"xpos_minmode"	"15"		
-		"ypos_minmode"	"r54"	
-		"zpos"			"2"
-		"wide_minmode"	"37"
-		"tall_minmode"	"37"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
-		"scaleImage"	"1"	
-		
-		"xpos"			"99999"			
-	}
-	
-	"PlayerStatusSpyImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"	
-		"xpos_minmode"	"-5"		
-		"ypos_minmode"	"r44"		
-		"wide_minmode"	"27"
-		"tall_minmode"	"27"
-		"zpos"			"2"		
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spyred"
-		"scaleImage"	"1"		
-
-		"xpos"			"99999"				
-	}	
-	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos_minmode"	"-5"	
-		"ypos_minmode"	"r44"		
-		"wide_minmode"	"27"
-		"tall_minmode"	"27"
-		"zpos"			"7"		
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"
-		
-		"xpos"			"99999"				
-	}		
-	"PlayerStatusClassImageBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusClassImageBG"	
-		"xpos_minmode"	"-10"		
-		"ypos"			"r40"			
-		"zpos"			"1"		
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		
-		"xpos"			"99999"		
-	}
-
-	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"classmodelpanelBG"	
-		"xpos_minmode"	"-15"		
-		"ypos_minmode"	"r40"		
-		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg_clipped"	
-		
-		"xpos"			"99999"			
-	}
-
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
