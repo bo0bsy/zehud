@@ -279,12 +279,12 @@
 				"fieldName"		"BGPanel"
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
-				"zpos"			"0"
+				"zpos"			"100"
 				"wide"			"f4"
 				"tall"			"f4"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"	"50 50 50 255"
+				"bgcolor_override"	"blank"
 			}
 
 			"QueueLogoButton"
@@ -320,7 +320,7 @@
 				"ControlName"	"CTFLogoPanel"
 				"fieldname"		"CTFLogoPanel"
 				"xpos"			"0"
-				"ypos"			"1"
+				"ypos"			"-1"
 				"zpos"			"5"
 				"wide"			"o1"
 				"tall"			"f0"
@@ -456,7 +456,7 @@
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
-				"border"		"OuterShadowBorderThin"
+				"border"		"noborder"
 			}
 
 			"BGPanel"
