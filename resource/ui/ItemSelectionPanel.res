@@ -6,7 +6,7 @@
 		"fieldName"						"ItemSelectionPanel"
 		"xpos"							"0"
 		"ypos"							"0"
-		"zpos"							"500"
+		"zpos"							"100"
 		"wide"							"f0"
 		"tall"							"480"
 		"autoResize"					"0"
