@@ -87,7 +87,7 @@
 			"default"			"1"
 			
 			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override"			"Positive"
+			"armedFgColor_override"			"TanLightSelect"
 			"depressedFgColor_override"		"TanLight"			
 			
 			"paintbackground"	"0"			
