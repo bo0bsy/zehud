@@ -453,8 +453,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"BottomLeftButtonsAnchor"
-		"xpos"										"10"
-		"ypos"										"r32"
+		"xpos"										"20"
+		"ypos"										"r45"
 		"wide"										"30"
 		"tall"										"1"
 		"visible"									"0"
@@ -788,7 +788,7 @@
 		"ControlName"								"EditablePanel"
 		"fieldname"									"FriendsContainer"
 		"xpos"										"r163"
-		"ypos"										"r60"
+		"ypos"										"r78"
 		"zpos"										"11"
 		"wide"										"163"
 		"tall"										"60"
@@ -853,40 +853,37 @@
 		"enabled"									"1"
 		"image"										"replay/thumbnails/menu/menugif"
 		"scaleimage"								"1"
-	}	
-
-	"ZeHud"
+	}
+	
+	"BGPanel"
 	{
-		"ControlName"	   "CExLabel"
-		"fieldName"		   "ZeHud"
-		"font"			   "HudFontMediumSmallBold"
-		"labelText"		   "ZeHud"
-		"textAlignment"	   "center"
-		"xpos"			   "0"
-		"ypos"			   "40"
-		"zpos"			   "2"
-		"wide"			   "80"
-		"tall"			   "20"
-		"visible"		   "1"
-		"enabled"		   "1"
-		"fgcolor" 		   "15 15 15 255"
-		"bgcolor_override" "TanLight"
+		"ControlName"								"EditablePanel"
+		"fieldName"									"BGPanel"
+		"xpos"										"cs-0.5"
+		"ypos"										"463"
+		"zpos"										"2"
+		"wide"										"p1.1"
+		"tall"										"20"
+		"visible"									"1"
+		"PaintBackgroundType"						"2"
+		"bgcolor_override"							"27 27 27 255"
+		"proportionaltoparent"						"1"
 	}
 	
 	"me"
 	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"me"
-		"xpos"		    "99999" // was -12
-		"ypos"		    "463"
-		"zpos"			"15"
-		"wide"		    "120"
-		"tall"		    "20"
+		"ControlName"							"EditablePanel"
+		"fieldName"								"me"
+		"xpos"		    						"-8"
+		"ypos"		    						"463"
+		"zpos"									"15"
+		"wide"		    						"120"
+		"tall"		    						"20"
 		
 		"SubButton"
 		{
 			"ControlName"							"CExImageButton"
-			"fieldName"							"SubButton"
+			"fieldName"								"SubButton"
 			"xpos"									"0"
 			"ypos"									"0"
 			"wide"									"120"
@@ -909,53 +906,9 @@
 			"paintbackground"						"0"
 			"paintborder"							"0"
 			
-			"defaultFgColor_override" 			"TanDarker"
-			"armedFgColor_override" 				"TanDarker"
-			"depressedFgColor_override" 		"TanDarker"
+			"defaultFgColor_override" 				"Gray"
+			"armedFgColor_override" 				"Gray"
+			"depressedFgColor_override" 			"Gray"
 		}
-	}	
-
-	"me2"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	"me2"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"			"15"
-		"wide"		    "120"
-		"tall"		    "20"	
-
-		"pin_to_sibling" 	"me"
-
-		"SubButton"
-		{
-			"ControlName"							"CExImageButton"
-			"fieldName"								"SubButton"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"120"
-			"tall"									"20"
-			"autoResize"							"0"
-			"pinCorner"								"0"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"use_proportional_insets" 				"1"
-			"font"									"meblur"
-			"AllCaps"								"1"
-			"textAlignment"							"center"
-			"dulltext"								"0"
-			"brighttext"							"0"
-			"default"								"1"
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"			
-			
-			"paintbackground"						"0"
-			"paintborder"							"0"
-			
-			"defaultFgColor_override" 				"Shadow"
-			"armedFgColor_override" 				"Shadow"
-			"depressedFgColor_override" 			"Shadow"
-		}		
 	}	
 }
