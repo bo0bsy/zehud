@@ -80,7 +80,7 @@
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			"+"
-			"font"				"f20"
+			"font"				"Plus"
 			"textAlignment"		"center"
 			"dulltext"			"0"
 			"brighttext"		"0"
