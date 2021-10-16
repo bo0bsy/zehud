@@ -168,7 +168,7 @@
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5+2"
-			"zpos"			"100"
+			"zpos"			"1000"
 			"wide"			"o1"
 			"tall"			"42"
 			"proportionaltoparent"	"1"
