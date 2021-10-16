@@ -153,12 +153,9 @@
 	HudFlameRocketCharge
 	{
 		"xpos"										"c-37"
-		"xpos_minmode"								"c-37"
 		"ypos"										"r120"
-		"ypos_minmode"								"r120"
 		"zpos"										"1"
 		"wide"										"100"
-		"wide_minmode"								"100"
 		"tall"										"50"
 		"MeterFG"									"White"
 		"MeterBG"									"Gray"
@@ -859,7 +856,7 @@
 
 	AnnotationsPanelCallout
 	{
-		"fieldName"			"AnnotationsPanelCallout"
+		"fieldName"				"AnnotationsPanelCallout"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"200"
@@ -886,86 +883,83 @@
 	
 	"HudUpgradePanel"
 	{
-		"fieldName"		"HudUpgradePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-200"
-		"ypos"			"260"
-		"wide"			"400"
-		"tall"			"160"		
+		"fieldName"				"HudUpgradePanel"
+		"visible"				"0"
+		"enable"				"1"
+		"xpos"					"c-200"
+		"ypos"					"260"
+		"wide"					"400"
+		"tall"					"160"		
 	}
 
 	"HudChat"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"HudChat"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"10"	
-		"xpos"			"42"	
-		"ypos"			"275"
-		"wide"	 		"320"
-		"tall"	 		"120"
+		"ControlName"			"EditablePanel"
+		"fieldName" 			"HudChat"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"10"	
+		"xpos"					"42"	
+		"ypos"					"275"
+		"wide"	 				"320"
+		"tall"	 				"120"
 		"PaintBackgroundType"	"2"
 	}
 	
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 	"HudMenuEngyBuild"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-55"
-		"wide"			"450"
-		"tall"			"195"
+		"fieldName" 			"HudMenuEngyBuild"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c-225"
+		"ypos"					"c-55"
+		"wide"					"450"
+		"tall"					"195"
 		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 	"HudMenuEngyDestroy"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-225"
-		"ypos"			"c-59"
-		"wide"			"450"
-		"tall"			"200"
+		"fieldName" 			"HudMenuEngyDestroy"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c-225"
+		"ypos"					"c-59"
+		"wide"					"450"
+		"tall"					"200"
 		"PaintBackgroundType"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 	"HudEurekaEffectTeleportMenu"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-125"
-		"ypos"			"c-55"
-		"wide"			"250"
-		"tall"			"195"
+		"fieldName" 			"HudEurekaEffectTeleportMenu"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c-125"
+		"ypos"					"c-55"
+		"wide"					"250"
+		"tall"					"195"
 		"PaintBackgroundType"	"0"
 	}
 	
 	"HudMenuSpyDisguise"
 	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"wide"			"470"
-		"tall"			"200"
+		"fieldName" 			"HudMenuSpyDisguise"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"c-235"
+		"ypos"					"c-52"
+		"wide"					"470"
+		"tall"					"200"
 		"PaintBackgroundType"	"0"
 	}	
 	
 	HudDemomanPipes
 	{
-		"xpos"										"c-117"	
-		"ypos"										"c-88"	
-		"xpos_minmode"								"c-87"	
-		"ypos_minmode"								"c-47"		
-		"wide"										"f0"
-		"tall"										"f0"
-		"pin_to_sibling" 							"HudWeaponAmmo"		
+		"xpos"					"c-14"	
+		"ypos"					"c13"	
+		"wide"					"f0"
+		"tall"					"f0"
 	}		
 
 	HudTournamentSetup
