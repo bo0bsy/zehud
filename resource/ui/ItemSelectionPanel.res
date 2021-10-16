@@ -46,47 +46,47 @@
 			"ControlName"					"CItemModelPanel"
 			"xpos"							"c-70"
 			"ypos"							"270"
-			"zpos"							"100"			
+			"zpos"							"1"			
 			"wide"							"54"
 			"tall"							"42"
 			"visible"						"0"
-			"bgcolor_override"			"0 0 0 0"
-			"noitem_textcolor"			"117 107 94 255"
-			"PaintBackgroundType"		"2"
+			"bgcolor_override"				"0 0 0 0"
+			"noitem_textcolor"				"117 107 94 255"
+			"PaintBackgroundType"			"2"
 			"paintborder"					"1"
 			
 			"model_xpos"					"2"
 			"model_ypos"					"5" 
 			"model_wide"					"50"
 			"model_tall"					"35"
-			"text_ypos"					"60"
+			"text_ypos"						"60"
 			"text_center"					"1"
-			"name_only"					"1"
+			"name_only"						"1"
 			
 			"inset_eq_x"					"4"
 			"inset_eq_y"					"2"
 
-			"deferred_description"		"1"
+			"deferred_description"			"1"
 			
 			"itemmodelpanel"
 			{
-				"use_item_rendertarget"  "0"
-				"inventory_image_type"	"1"
-				"allow_rot"				"0"
+				"use_item_rendertarget"  	"0"
+				"inventory_image_type"		"1"
+				"allow_rot"					"0"
 			}
 			
-			"use_item_sounds"			"1"
+			"use_item_sounds"				"1"
 		}
 		
 		"duplicatelabels_kv"
 		{
 			"font"						"f10"
-			"textAlignment"			"center"
+			"textAlignment"				"center"
 			"wide"						"20"
 			"tall"						"15"
-			"zpos"						"1"
+			"zpos"						"10000"
 			"autoResize"				"0"
-			"pinCorner"				"0"
+			"pinCorner"					"0"
 			"enabled"					"1"
 			"fgcolor"					"TanLight"
 		}
@@ -95,7 +95,7 @@
 	"Background"
 	{
 		"ControlName"						"ImagePanel"
-		"fieldName"						"Background"
+		"fieldName"							"Background"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"0"
@@ -103,14 +103,14 @@
 		"tall"								"480"
 		"visible"							"1"
 		"enabled"							"1"
-		"image"							"replay/thumbnails/menu/menugif"
+		"image"								"replay/thumbnails/menu/menugif"
 		"scaleimage"						"1"
 	}
 	
 	"Background2"
 	{
 		"ControlName"						"EditablePanel"
-		"fieldName"						"Background2"
+		"fieldName"							"Background2"
 		"xpos"								"0"
 		"ypos"								"0"
 		"zpos"								"0"
@@ -118,10 +118,10 @@
 		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
-		"bgcolor_override"				"0 0 0 200"
+		"bgcolor_override"					"0 0 0 200"
 		"paintbackground"					"1"
 		"paintborder"						"0"
-		"PaintBackgroundType"			"0"		
+		"PaintBackgroundType"				"0"		
 	}
 	
 	"SelectionBG"
