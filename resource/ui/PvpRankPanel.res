@@ -187,20 +187,20 @@
 		"fieldName"									"BGPanel"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"-1"
+		"zpos"										"1000"
 		"wide"										"80"
 		"tall"										"35"
 		"visible"									"1"
 		"proportionaltoparent"						"1"
 		"paintbackground"							"1"
-		"bgcolor_override"							"0 0 0 0"
+		"bgcolor_override"							"Blank"
 
 		if_mini
 		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"tall"			"35"
-			"wide"			"505"
+			"xpos"										"cs-0.5"
+			"ypos"										"cs-0.5"
+			"tall"										"35"
+			"wide"										"505"	
 		}
 
 		"NameLabel"
@@ -214,8 +214,8 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"f8"
-			"fgcolor_override"						"Black"
+			"font"									"PvP"
+			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
 			"proportionaltoparent"					"1"
@@ -238,8 +238,8 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"f8"
-			"fgcolor_override"						"Black"
+			"font"									"PvP"
+			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
 			"proportionaltoparent"					"1"
@@ -252,9 +252,9 @@
 
 			"fonts"
 			{
-				"0"									"f8"
-				"1"									"f8"
-				"2"									"f8"
+				"0"									"PvP"
+				"1"									"PvP"
+				"2"									"PvP"
 			}
 		}
 
@@ -270,8 +270,8 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"f8"
-			"fgcolor_override"						"Black"
+			"font"									"PvP"
+			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
 			"proportionaltoparent"					"1"
@@ -284,9 +284,9 @@
 
 			"fonts"
 			{
-				"0"									"f8"
-				"1"									"f8"
-				"2"									"f8"
+				"0"									"PvP"
+				"1"									"PvP"
+				"2"									"PvP"
 			}
 
 			"colors"
@@ -301,7 +301,7 @@
 			"ControlName"							"EditablePanel"
 			"fieldName"								"StatsContainer"
 			"xpos"									"0"
-			"ypos"									"rs2"
+			"ypos"									"20"
 			"wide"									"f0"
 			"tall"									"2"
 			"proportionaltoparent"					"1"
@@ -318,7 +318,7 @@
 				"Controlname"						"EditablePanel"
 				"fieldName"							"XPBar"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"rs1"
 				"wide"								"f0"
 				"tall"								"f0"
 				"proportionaltoparent"				"1"
@@ -376,7 +376,7 @@
 						"xpos"						"0"
 						"ypos"						"cs-0.5"
 						"wide"						"0"
-						"tall"						"f-2"
+						"tall"						"3"
 						"zpos"						"1"
 						"proportionaltoparent"		"1"
 						"progress"					"1"
@@ -397,7 +397,7 @@
 						"progress"					"0"
 
 						"fgcolor_override"			"78 185 35 255"
-						"bgcolor_override"			"0 0 0 125"
+						"bgcolor_override"			"Gray"
 					}
 
 					"Frame"
