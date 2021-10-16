@@ -910,5 +910,5 @@
 			"armedFgColor_override" 				"Gray"
 			"depressedFgColor_override" 			"Gray"
 		}
-	}	
+	}
 }
