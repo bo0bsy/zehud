@@ -228,10 +228,10 @@
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
 		
-		"ClosedCaptionsON"
+		"TargetIdStyle"
 		{
 			"ControlName"			"CExImageButton"
-			"fieldname"				"ClosedCaptionsON"
+			"fieldname"				"TargetIdStyle"
 			"xpos"					"0"
 			"ypos"					"5"
 			"zpos"					"16"
@@ -239,8 +239,8 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"CAPTIONS ON"	
-			"command"				"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0;cc_emit #subtitles0"
+			"labeltext"				"TARGET ID STYLE"	
+			"command"				"engine toggle tf_hud_target_id_disable_floating_health 0 1"
 			"actionsignallevel"		"2"
 			"font"					"Labels"
 			"textAlignment"			"center"
@@ -263,10 +263,10 @@
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
 		
-		"ClosedCaptionsOFF"
+		"ShowFPS"
 		{
 			"ControlName"			"CExImageButton"
-			"fieldname"				"ClosedCaptionsOFF"
+			"fieldname"				"ShowFPS"
 			"xpos"					"5"
 			"ypos"					"0"
 			"zpos"					"16"
@@ -274,8 +274,8 @@
 			"tall"					"26"
 			"visible"				"1"
 			"enabled"				"1"
-			"labeltext"				"CAPTIONS OFF"	
-			"command"				"engine closecaption 0"
+			"labeltext"				"SHOW FPS"	
+			"command"				"engine toggle cl_showfps 0 1"
 			"actionsignallevel"		"2"
 			"font"					"Labels"
 			"textAlignment"			"center"
@@ -293,7 +293,7 @@
 			"border_default"		"Black"
 			"border_armed"			"Select"				
 			
-			"pin_to_sibling"		"ClosedCaptionsON"
+			"pin_to_sibling"		"TargetIdStyle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
 		}
@@ -328,7 +328,7 @@
 			"border_default"		"Black"
 			"border_armed"			"Select"				
 			
-			"pin_to_sibling"		"ClosedCaptionsON"
+			"pin_to_sibling"		"TargetIdStyle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		}
