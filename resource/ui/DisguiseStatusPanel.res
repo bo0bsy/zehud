@@ -2,7 +2,7 @@
 {
 	"itemmodelpanel"
 	{
-		"ControlName"		"CEmbeddedItemModelPanel"
+		"ControlName"	"CEmbeddedItemModelPanel"
 		"fieldName"		"itemmodelpanel"
 	
 		"xpos"			"0"
@@ -10,14 +10,14 @@
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"100"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"useparentbg"		"1"
+		"useparentbg"	"1"
 
 		"fov"			"54"
-		"start_framed"		"1"
+		"start_framed"	"1"
 
 		"disable_manipulation"	"1"
 
@@ -30,29 +30,27 @@
 	}
 	"DisguiseStatusBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"-1"
 		"wide"			"100"
 		"tall"	 		"20"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
-		"scaleImage"		"1"
+		"scaleImage"	"1"
 		"teambg_1"		"../hud/color_panel_brown"
 		"teambg_2"		"../hud/color_panel_red"
-		"teambg_2_lodef"	"../hud/color_panel_red"
 		"teambg_3"		"../hud/color_panel_blu"
-		"teambg_3_lodef"	"../hud/color_panel_blu"
 		
-		"src_corner_height"		"23"				// pixels inside the image
+		"src_corner_height"		"23"				
 		"src_corner_width"		"23"
 			
-		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_width"		"5"			
 		"draw_corner_height" 	"5"	
 	}
 
@@ -66,14 +64,14 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"24"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%disguisename%"
-		"textAlignment"		"North-West"
+		"textAlignment"	"North-West"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	
 	"WeaponNameLabel"
@@ -86,14 +84,14 @@
 		"zpos"			"1"
 		"wide"			"70"
 		"tall"			"24"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%weaponname%"
-		"textAlignment"		"North-West"
+		"textAlignment"	"North-West"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 	}
 	
 	"SpectatorGUIHealth"
