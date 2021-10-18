@@ -186,6 +186,7 @@
 		    }
 		}	
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"							"CTFTeamStatus"
