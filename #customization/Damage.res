@@ -1,5 +1,5 @@
-//#base "../resource/ui/Damage/LastDamageDone_On.res"		//Last Damage Done is On
-#base "../resource/ui/Damage/LastDamageDone_Off.res"		//Last Damage Done is Off
+//#base "../#basefiles/Damage/LastDamageDone_On.res"			//Last Damage Done is On
+#base "../#basefiles/Damage/LastDamageDone_Off.res"		//Last Damage Done is Off
 
 //==================================================================================================
 // DAMAGE SETTINGS INSTRUCTIONS
