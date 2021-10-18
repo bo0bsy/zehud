@@ -13,8 +13,6 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgcolor_override"	"0 0 0 240"
-		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
 		
@@ -188,18 +186,18 @@
 
 	"NoGCImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"NoGCImage"
-		"xpos"			"c-285"
-		"ypos"			"107"
-		"zpos"			"-99"
-		"wide"			"30"
-		"tall"			"30"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"gc_dc"
-		"scaleImage"	"1"
-		"proportionaltoparent" "1"
+		"ControlName"	          "ImagePanel"
+		"fieldName"		          "NoGCImage"
+		"xpos"			          "c-285"
+		"ypos"			          "107"
+		"zpos"			          "-99"
+		"wide"			          "30"
+		"tall"			          "30"
+		"visible"		          "1"
+		"enabled"		          "1"
+		"image"			          "gc_dc"
+		"scaleImage"	          "1"
+		"proportionaltoparent"    "1"
 	}	
 	
 	"TooltipPanel"
@@ -875,7 +873,7 @@
 		"ControlName"							"EditablePanel"
 		"fieldName"								"me"
 		"xpos"		    						"-8"
-		"ypos"		    						"463"
+		"ypos"		    						"461"
 		"zpos"									"15"
 		"wide"		    						"120"
 		"tall"		    						"20"
