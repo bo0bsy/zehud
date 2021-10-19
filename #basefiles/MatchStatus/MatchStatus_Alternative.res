@@ -309,18 +309,18 @@
 		"visible"				"1"
 		"enabled"				"1"
 		
-		"max_size"				"19"
+		"max_size"				"50"
 		
 		"6v6_gap"				"2"
 		"12v12_gap"				"1"
 		
 		"team1_grow_dir"		"west"
 		"team1_base_x"			"c-22"
-		"team1_max_expand"		"220"
+		"team1_max_expand"		"230"
 		
 		"team2_grow_dir"		"east"
 		"team2_base_x"			"c22"
-		"team2_max_expand"		"220"
+		"team2_max_expand"		"230"
 		
 		"playerpanels_kv"
 		{
@@ -346,7 +346,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"f8"
-				"xpos"			"-10" 
+				"xpos"			"-5" 
 				"ypos"			"20" 
 				"zpos"			"5"
 				"wide"			"50"
@@ -415,10 +415,10 @@
 				"fieldName"				"overhealbar"
 				"font"					"Default"
 				"xpos"					"0"
-				"ypos"					"19"
+				"ypos"					"16"
 				"zpos"					"6"
 				"wide"					"f0"
-				"tall"					"2"
+				"tall"					"4"
 				"autoResize"			"0"
 				"pinCorner"				"0"
 				"visible"				"1"
