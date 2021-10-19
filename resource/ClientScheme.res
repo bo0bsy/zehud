@@ -9,8 +9,8 @@
 ///////////////////////////////////////////
 
 #base "../resource/scheme/Fonts.res"
-#base "../resource/scheme/Icons.res"
-#base "../resource/scheme/Symbols.res"
+#base "../resource/scheme/Fonts/Icons.res"
+#base "../resource/scheme/Fonts/ZeHud.res"
 
 ///////////////////////////////////////////
 //////////////////BORDERS//////////////////
