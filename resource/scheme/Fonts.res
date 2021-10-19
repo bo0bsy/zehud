@@ -11,16 +11,15 @@ Scheme
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"20"	[$X360]
+				"tall"		"13"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -28,7 +27,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -37,7 +36,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -46,25 +45,23 @@ Scheme
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				"yres"		"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"900"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"900"
 			}
 			"7"
 			{
 				"name"		"Arial"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"800"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
 			}
-
-			
 		}
 		"DefaultUnderline"
 		{
@@ -277,36 +274,35 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"700"
-				"yres"	"480 599"
+				"yres"		"480 599"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"	[$WIN32]
-				"tall"		"23"	[$X360]
+				"tall"		"13"
 				"weight"	"700"
-				"yres"	"600 767"
+				"yres"		"600 767"
 			}
 			"3"
 			{
 				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"	"768 1023"
+				"yres"		"768 1023"
 			}
 			"4"
 			{
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"700"
-				"yres"	"1024 1199"
+				"yres"		"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"700"
-				"yres"	"1200 10000"
+				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiant"
@@ -793,7 +789,7 @@ Scheme
 				"name"		"TF2"
 				"tall"		"15"
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"1 599"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
@@ -801,10 +797,9 @@ Scheme
 			"2"
 			{
 				"name"		"TF2"
-				"tall"		"15"	[$WIN32]
-				"tall"		"21"	[$X360]
+				"tall"		"15"	
 				"weight"	"700"
-				"antialias" 	"1"
+				"antialias" "1"
 				"yres"		"600 767"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
