@@ -56,7 +56,7 @@
 			
 			"attriblabel"
 			{
-				"font"			"ItemFontAttribLarge"
+				"font"			"null"
 				"visible"		"0"
 			}
 			
@@ -149,7 +149,6 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-					
 	
 	"classmodelpanel"
 	{
@@ -167,7 +166,7 @@
 		"fov"				"55"
 		"allow_manip"		"1"
 		
-						
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -266,27 +265,14 @@
 	
 	"attriblabel"
 	{
-			"font"              "ItemFontAttribLarge"
-			"xpos"              "0"
-			"ypos"              "0"
-			"zpos"              "2"
-			"wide"              "140"
-			"tall"              "60"
-			"autoResize"        "0"
-			"pinCorner"         "0"
-			"visible"           "1"
-			"enabled"           "1"
-			"labelText"         "%attriblist%"
-			"textAlignment"     "center"
-			"fgcolor"           "117 107 94 255"
-			"centerwrap"        "1"
+		"xpos"              "99999"
 	}
 	
 	"PassiveAttribsLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
-		"font"			"ItemFontAttribLarge"
+		"font"			"Loadout"
 		"xpos"			"c-80"
 		"ypos"			"125"
 		"zpos"			"0"	
@@ -298,7 +284,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"north"
-		"fgcolor"		"255 215 0 255"
+		"fgcolor"		"CustomYellow"
 		"centerwrap"	"1"
 	}
 	
@@ -350,20 +336,20 @@
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1; r_skin 0"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"fgcolor"			          "TanDark"
+		"defaultFgColor_override"     "TanDark"
+		"armedFgColor_override"       "TanDark"
+		"depressedFgColor_override"   "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
+		"paintbackground"			"0"
+		"paintbackgroundtype"		"0"
 		"defaultBgColor_Override"	"0 0 0 255"
 		
-		"paintborder"		"0"
+		"paintborder"				"0"
 		
 		"image_drawcolor"		"255 255 255 77"
 		"image_armedcolor"		"255 255 255 128"
@@ -402,19 +388,19 @@
 		"labelText"			""
 		"textAlignment"		"south-west"
 		"scaleImage"		"1"
-		"command"	"sv_cheats 1; r_skin 1"
+		"command"			"sv_cheats 1; r_skin 1"
 		
-		"fgcolor"			"TanDark"
-		"defaultFgColor_override" "TanDark"
-		"armedFgColor_override" "TanDark"
-		"depressedFgColor_override" "TanDark"
+		"fgcolor"			          "TanDark"
+		"defaultFgColor_override"     "TanDark"
+		"armedFgColor_override"       "TanDark"
+		"depressedFgColor_override"   "TanDark"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
-		"paintbackground"	"0"
-		"paintbackgroundtype"	"0"
+		"paintbackground"			"0"
+		"paintbackgroundtype"		"0"
 		"defaultBgColor_Override"	"0 0 0 255"
 		
 		"paintborder"		"0"
