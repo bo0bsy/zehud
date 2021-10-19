@@ -346,7 +346,7 @@
 				"labelText"						"%respawntime%"
 				"textAlignment"					"center"
 				"proportionaltoparent"			"1"
-				"fgcolor"						"White"
+				"fgcolor_override"				"CustomYellow"
 			}
 			
 			"chargeamount"
