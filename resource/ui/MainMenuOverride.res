@@ -582,12 +582,47 @@
 	// OTHER LOL !!!
 	//==================================================================================================================================================		
 
+	"CreateServer"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"CreateServer"
+		"xpos"						"r276"
+		"ypos"						"-2"
+		"zpos"						"10003"
+		"wide"						"26"
+		"tall"						"26"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"textinsetx"				"0"
+		"use_proportional_insets" 	"1"
+		"font"						"Symbols 20"
+		"textAlignment"				"center"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"command"					"opencreatemultiplayergamedialog"
+		"labeltext"					"~"
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		"roundedcorners" 			"0"
+		
+		"paintbackground"			"1"
+		
+		"armedBgColor_override"		"0 0 0 200"
+		"defaultBgColor_override"	"108 201 98 0"
+		
+		"image_drawcolor"			"235 226 202 255"	
+	}
+
 	"Items"
 	{
 		"ControlName"				"CExImageButton"
 		"fieldName"					"Items"
-		"xpos"						"r250"
-		"ypos"						"-2"
+		"xpos"						"0"
+		"ypos"						"-1"
 		"zpos"						"10003"
 		"wide"						"60"
 		"tall"						"26"
@@ -615,7 +650,11 @@
 		"defaultBgColor_override"	"108 201 98 0"
 		
 		"image_drawcolor"			"235 226 202 255"	
-	}
+		
+		"pin_to_sibling"		"CreateServer"
+		"pin_corner_to_sibling" "PIN_TOPLEFT"
+		"pin_to_sibling_corner" "PIN_TOPRIGHT"			
+	}	
 
 	"Options"
 	{
