@@ -28,7 +28,7 @@
 
 		"if_blue_is_top"
 		{
-			"ypos"			"r162"
+			"zpos"			"221"
 		}
 	}
 
@@ -48,7 +48,7 @@
 
 		"if_red_is_top"
 		{
-			"ypos"			"r162"
+			"zpos"			"221"
 		}
 	}
 }
