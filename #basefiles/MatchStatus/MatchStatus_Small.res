@@ -361,7 +361,7 @@
 				"labelText"							"%respawntime%"
 				"textAlignment"						"center"
 				"proportionaltoparent"				"1"
-				"fgcolor_override"					"TanLight"
+				"fgcolor_override"					"CustomYellow"
 			}
 			
 			
