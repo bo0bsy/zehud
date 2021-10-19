@@ -1,8 +1,9 @@
-#base "../#basefiles/MatchStatus/MatchStatus_Big.res"		// Big Match Status
-//#base "../#basefiles/MatchStatus/MatchStatus_Small.res"	// Small Match Status
+//#base "../#basefiles/MatchStatus/MatchStatus_Big.res"				// Default Big Match Status
+//#base "../#basefiles/MatchStatus/MatchStatus_Small.res"			// Default Small Match Status
+#base "../#basefiles/MatchStatus/MatchStatus_Alternative.res"		// Alternative Match Status Can Be Used Only with Alternative Timer Check Timer.res
 
 //==================================================================================================
-// DAMAGE SETTINGS INSTRUCTIONS
+// MATCH STATUS SETTINGS INSTRUCTIONS
 //--------------------------------------------------------------------------------------------------
 // UNCOMMENT (REMOVE THE // BEFORE #BASE) THE MATCH STATUS STYLE LINE YOU WANT TO ACTIVATE
 // IMPORTANT: ONLY 1 LINE SHOULD STAY UNCOMMENTED
