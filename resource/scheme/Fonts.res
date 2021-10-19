@@ -305,19 +305,6 @@ Scheme
 			}
 		}
 		
-		
-		"Plus"
-		{
-			"1"
-			{
-				"name"			"Verdana"
-				"tall"			"20"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias" 	"1"			
-			}
-		}
-		
 		"PvP"
 		{
 			"1"
