@@ -8,15 +8,15 @@
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"38"
-		"tall"					"26"
+		"tall"					"28"
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"../HUD/color_panel_blu"	
 		"scaleImage"			"1"	
 		"src_corner_height"		"3"
 		"src_corner_width"		"3"
-		"draw_corner_width"		"3"
-		"draw_corner_height" 	"3"
+		"draw_corner_width"		"4"
+		"draw_corner_height" 	"4"
 	}
 	
 	"TimePanelProgressBar"
@@ -42,7 +42,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"f10"
+		"font"			"f9"
 		"fgcolor"		"TanLight"
 	}	
 	
@@ -77,7 +77,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"f10"
+		"font"			"f9"
 		"fgcolor"		"TanLight"
 	}
 	
@@ -92,7 +92,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 75"	
+		"fillcolor"		"Blank"	
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -112,7 +112,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"f14"
+		"font"			"f9"
 		"fgcolor"		"TanLight"
 	}			
 	"SuddenDeathBG"
@@ -159,7 +159,7 @@
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 75"	
+		"fillcolor"		"Blank"	
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -168,7 +168,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
 		"xpos"			"31"
-		"ypos"			"10"
+		"ypos"			"11"
 		"zpos"			"5"
 		"wide"			"38"
 		"tall"			"16"
@@ -185,7 +185,7 @@
 		if_match
 		{
 			"xpos"		"31"
-			"ypos"		"10"
+			"ypos"		"11"
 		}
 	}
 	
@@ -200,7 +200,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"Blank"
 		
 		if_match
 		{
