@@ -804,7 +804,6 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
-		"ypos"					"rs1"
 		"zpos"					"20"
 		"wide"					"170"
 		"tall"					"92"
