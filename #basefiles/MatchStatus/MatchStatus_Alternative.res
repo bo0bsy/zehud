@@ -1,5 +1,10 @@
 "Resource/UI/HudMatchStatus.res"
 {
+	HudDeathNotice
+	{	
+		"ypos"	 									"30"	
+	}
+
 	"HudMatchStatus"
 	{
 		"fieldName"		"HudMatchStatus"
@@ -346,7 +351,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"f8"
-				"xpos"			"-5" 
+				"xpos"			"-13" 
 				"ypos"			"20" 
 				"zpos"			"5"
 				"wide"			"50"
