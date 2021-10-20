@@ -247,12 +247,9 @@
 	{
 		"fieldName"				"DisguiseStatus"
 		"visible"	  			"1"
-		"enabled"	   			"1"	
-		"xpos_minmode"		   	"80"			
-		"xpos"		   			"53"	
-		"ypos"		   			"r67"			
-		"wide"		   			"500"
-		"tall"		   			"200"
+		"enabled"	   			"1"			
+		"wide"		   			"f0"
+		"tall"		   			"f0"
 	}
 
 	CMainTargetID
