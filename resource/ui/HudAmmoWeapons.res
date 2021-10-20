@@ -1,1 +1,1 @@
-#base "../../#customization/ZeHud/Ammo.res
+#base "../../#customization/Hud/Ammo.res
