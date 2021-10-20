@@ -93,10 +93,8 @@
 		"fieldName" 				"HudWeaponAmmo"
 		"visible" 					"1"
 		"enabled" 					"1"
-		"xpos"						"r130"	
-		"xpos_minmode"				"r100"	
-		"ypos_minmode"				"r36"	
-		"ypos"						"r77"
+		"xpos"						"0"
+		"ypos"						"0"				
 		"zpos"						"1"			
 		"wide"						"f0"
 		"tall"						"f0"
@@ -133,21 +131,18 @@
 	HudMedicCharge
 	{
 		"xpos"										"0"
-		"xpos_minmode"								"0"
 		"ypos"										"0"
-		"ypos_minmode"								"0"
 		"wide"										"f0"
 		"tall"										"480"
 	}
 	
 	HudDemomanCharge
 	{
-		"xpos"										"-30"
+		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"0"		
 		"wide"										"f0"
-		"tall"										"f0"
-		"pin_to_sibling" 							"HudWeaponAmmo"		
+		"tall"										"f0"	
 	}	
 
 	HudFlameRocketCharge
