@@ -1,1 +1,1 @@
-#base "../../#customization/ZeHud/Class.res
+#base "../../#customization/Hud/Class.res
