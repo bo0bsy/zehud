@@ -248,34 +248,28 @@
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"280"
-		"wide"	 	"252"
-		"tall"	 	"28"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"wide"	 		"252"
+		"tall"	 		"28"
 	}
 	
 	CSpectatorTargetID
 	{
 		"fieldName" 	"CSpectatorTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
-		"wide"	 	"252"
-		"tall"	 	"28"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"wide"	 		"252"
+		"tall"	 		"28"
 	}
 	
 	CSecondaryTargetID
 	{
 		"fieldName" 	"CSecondaryTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"335"
-		"wide"	 	"252"
-		"tall"	 	"28"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"wide"	 		"252"
+		"tall"	 		"28"
 	}
 	
 	BuildingStatus_Spy
