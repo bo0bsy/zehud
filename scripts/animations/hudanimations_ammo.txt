@@ -20,7 +20,7 @@ event HudLowAmmoPulse
 	Animate	AmmoNoClipShadow			FgColor		"Negative_2"		Linear 0.0 0.075	
 	Animate	AmmoNoClipShadow			FgColor		"Negative"			Linear 0.125 0.075
 	
-	RunEvent HudLowAmmoPulseLoop		0.25
+	RunEvent HudLowAmmoPulseLoop		0.30
 }
 
 event HudLowAmmoPulseLoop
