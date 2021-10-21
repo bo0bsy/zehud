@@ -427,7 +427,7 @@
 				"paintbackground"	"0"
 			
 				"defaultfgcolor_override" 	"TanLight"
-				"armedfgcolor_override" 	"LightRed"
+				"armedfgcolor_override" 	"Negative"
 				"depressedfgcolor_override" "TanLight"
 			}		
 		}
