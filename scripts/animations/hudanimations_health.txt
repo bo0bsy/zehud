@@ -13,6 +13,13 @@ event HudHealthBonusPulse
 	Animate 	PlayerStatusHealthValue2Shadow 			FgColor 	"Positive_2" 			Linear 	0.125 	0.075
 	Animate 	PlayerStatusHealthValue2ShadowExtra 	Alpha 		"255" 					Linear 	0.0 	0.0	
 	
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"Positive" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"Positive_2" 			Linear 	0.125 	0.075
+	Animate 	PlayerStatusHealthValueSpecgui 			FgColor 	"Positive" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueSpecgui 			FgColor 	"Positive_2" 			Linear 	0.125 	0.075	
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"Positive" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"Positive_2" 			Linear 	0.125 	0.075	
+	
 	RunEvent 	HudHealthBonusPulseLoop					0.4
 }
 
@@ -31,6 +38,10 @@ event HudHealthBonusPulseStop
 	
 	Animate 	PlayerStatusHealthValue2Shadow 			FgColor 	"Shadow" 			Linear 	0.0 	0.0
 	Animate 	PlayerStatusHealthValue2ShadowExtra 	Alpha 		"0"					Linear 	0.0 	0.0	
+	
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0
+	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0	
 }
 
 //==================================================================================
@@ -50,6 +61,13 @@ event HudHealthDyingPulse
 	Animate 	PlayerStatusHealthValue2Shadow 			FgColor 	"Negative_2" 			Linear 	0.125 	0.075
 	Animate 	PlayerStatusHealthValue2ShadowExtra 	Alpha 		"255" 					Linear 	0.0 	0.0	
 	
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"Negative" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"CustomYellow" 			Linear 	0.125 	0.075
+	Animate 	PlayerStatusHealthValueSpecgui 			FgColor 	"Negative" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueSpecgui 			FgColor 	"CustomYellow" 			Linear 	0.125 	0.075	
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"Negative" 				Linear 	0.0 	0.075
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"CustomYellow" 			Linear 	0.125 	0.075		
+	
 	RunEvent 	HudHealthDyingPulseLoop					0.25
 }
 
@@ -66,5 +84,9 @@ event HudHealthDyingPulseStop
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"				Linear 0.0 0.0
 	
 	Animate 	PlayerStatusHealthValue2Shadow 			FgColor 	"Shadow" 			Linear 	0.0 	0.0
-	Animate 	PlayerStatusHealthValue2ShadowExtra 		Alpha 		"0" 				Linear 	0.0 	0.0	
+	Animate 	PlayerStatusHealthValue2ShadowExtra 	Alpha 		"0" 				Linear 	0.0 	0.0	
+	
+	Animate 	PlayerStatusHealthValueTarget 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0
+	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0
+	Animate 	PlayerStatusHealthValueKiller 			FgColor 	"Health Numbers" 	Linear 	0.0 	0.0		
 }
