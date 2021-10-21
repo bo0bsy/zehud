@@ -220,8 +220,6 @@
 	
 	"CHealthAccountPanel"
 	{	
-		"xpos"										"c0"
-		"ypos"										"c0"
 		"wide"										"f0"
 		"tall"  									"f0"
 	}	
@@ -525,14 +523,14 @@
 
 	HudSpellMenu
 	{
-		"fieldName" "HudSpellMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" 	"2"
-		"xpos"			"130"
-		"ypos"			"r61"
+		"fieldName" 			"HudSpellMenu"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"wide"	 				"f0"
+		"tall"	 				"f0"
+		"zpos" 					"2"
+		"xpos"					"130"
+		"ypos"					"r61"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"
@@ -947,8 +945,6 @@
 	
 	HudDemomanPipes
 	{
-		"xpos"					"c-14"	
-		"ypos"					"c13"	
 		"wide"					"f0"
 		"tall"					"f0"
 	}		
