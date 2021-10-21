@@ -149,12 +149,12 @@
 			}
 			"Scout"
 			{
-				"fov"			"35"
+				"fov"			"40"
 				"angles_x"		"0"
 				"angles_y"		"270"
 				"angles_z"		"0"
 				"origin_x"		"110"
-				"origin_y"		"10"
+				"origin_y"		"22"
 				"origin_z"		"-70"
 			}
 			"Sniper"
