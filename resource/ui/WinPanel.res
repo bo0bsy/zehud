@@ -1,1 +1,1 @@
-#base "../../#customization/WinPanel.res
+#base "../../#customization/WinPanel.res"
