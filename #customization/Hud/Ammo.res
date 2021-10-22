@@ -1,5 +1,6 @@
 //#base "../../#basefiles/Huds/ZeHud/Ammo.res"
-#base "../../#basefiles/Huds/M0reHud/Ammo.res"
+//#base "../../#basefiles/Huds/M0reHud/Ammo.res"
+#base "../../#basefiles/Huds/Broesel/Ammo.res"
 
 //==================================================================================================
 // AMMO SETTINGS INSTRUCTIONS
