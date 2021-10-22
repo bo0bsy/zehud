@@ -1,10 +1,5 @@
 "Resource/UI/HudMatchStatus.res"
 {
-	HudDeathNotice
-	{	
-		"ypos"	 									"30"	
-	}
-
 	"HudMatchStatus"
 	{
 		"fieldName"		"HudMatchStatus"
