@@ -1,7 +1,7 @@
 //#base "../../#basefiles/Huds/ZeHud/LastDamageDone_On.res"			//ZeHud Last Damage Done is On
-//#base "../../#basefiles/Huds/ZeHud/LastDamageDone_Off.res"		//ZeHud Last Damage Done is Off
+#base "../../#basefiles/Huds/ZeHud/LastDamageDone_Off.res"		//ZeHud Last Damage Done is Off
 //#base "../../#basefiles/Huds/M0reHud/LastDamageDone_Off.res"		//M0reHud Last Damage Done is Off
-#base "../../#basefiles/Huds/Broesel/LastDamageDone_On.res"		//Broesel Last Damage Done is On
+//#base "../../#basefiles/Huds/Broesel/LastDamageDone_On.res"		//Broesel Last Damage Done is On
 
 //==================================================================================================
 // DAMAGE SETTINGS INSTRUCTIONS
