@@ -1,1 +1,1 @@
-#base "../../#customization/Hud/Gui.res
+#base "../../#customization/Hud/Gui.res"
