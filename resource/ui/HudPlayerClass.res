@@ -1,1 +1,1 @@
-#base "../../#customization/Hud/Class.res
+#base "../../#customization/Hud/Class.res"
