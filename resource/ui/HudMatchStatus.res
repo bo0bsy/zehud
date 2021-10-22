@@ -1,1 +1,1 @@
-#base "../../#customization/MatchStatus.res
+#base "../../#customization/MatchStatus.res"
