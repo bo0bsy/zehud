@@ -8,3 +8,11 @@
 // UNCOMMENT (REMOVE THE // BEFORE #BASE) THE MATCH STATUS STYLE LINE YOU WANT TO ACTIVATE
 // IMPORTANT: ONLY 1 LINE SHOULD STAY UNCOMMENTED
 //==================================================================================================
+
+"Resource/HudLayout.res"
+{
+	HudDeathNotice
+	{	
+		"ypos"	 									"30"	// You Can Change This One to "0" If You Don't Want To Use anything except Small Match Status
+	}
+}
