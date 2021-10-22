@@ -1,5 +1,11 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
+	HudWeaponAmmo
+	{
+		"xpos"						"0"
+		"ypos"						"0"				
+	}
+
 	//==================================================================================================================================================
 	// AMMO ANCHOR
 	// This element can be used to move all the ammo elements at the same time
