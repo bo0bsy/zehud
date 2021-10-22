@@ -1,5 +1,3 @@
-#base "../#customization/MatchStatus.res"
-
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
@@ -92,9 +90,7 @@
 	{
 		"fieldName" 				"HudWeaponAmmo"
 		"visible" 					"1"
-		"enabled" 					"1"
-		"xpos"						"0"
-		"ypos"						"0"				
+		"enabled" 					"1"			
 		"zpos"						"1"			
 		"wide"						"f0"
 		"tall"						"f0"
