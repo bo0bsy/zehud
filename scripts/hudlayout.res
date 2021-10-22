@@ -1,3 +1,5 @@
+#base "../#customization/MatchStatus.res"
+
 "Resource/HudLayout.res"
 {
 	//--------------------------------------------------------------
