@@ -1,6 +1,6 @@
-//#base "../../#basefiles/Huds/ZeHud/Gui.res"		//ZeHud Gui Health
+#base "../../#basefiles/Huds/ZeHud/Gui.res"		//ZeHud Gui Health
 //#base "../../#basefiles/Huds/M0reHud/Gui.res"		//M0reHud Gui Health
-#base "../../#basefiles/Huds/Broesel/Gui.res"		//Broesel Gui Health
+//#base "../../#basefiles/Huds/Broesel/Gui.res"		//Broesel Gui Health
 
 //==================================================================================================
 // GUI SETTINGS INSTRUCTIONS
