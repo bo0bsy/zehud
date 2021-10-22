@@ -1,6 +1,6 @@
-//#base "../../#basefiles/Huds/ZeHud/Class.res"
+#base "../../#basefiles/Huds/ZeHud/Class.res"
 //#base "../../#basefiles/Huds/M0reHud/Class.res"
-#base "../../#basefiles/Huds/Broesel/Class.res"
+//#base "../../#basefiles/Huds/Broesel/Class.res"
 
 //==================================================================================================
 // PLAYER CLASS SETTINGS INSTRUCTIONS
