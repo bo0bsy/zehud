@@ -25,13 +25,13 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"HealthAnchor"
-		"xpos"										"c-175"
-		"ypos"										"c95"
+		"xpos"										"c-163"
+		"ypos"										"c110"
 		"xpos_minmode"								"c-95"
 		"ypos_minmode"								"c45"		
 		"zpos"										"0"
 		"wide"										"2"
-		"tall"										"80"
+		"tall"										"64"
 		"wide_minmode"								"2"
 		"tall_minmode"								"40"		
 		"visible"									"0"
@@ -43,17 +43,57 @@
 	// BUFF - HURT CROSS
 	//==================================================================================================================================================
 
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImageBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"3"
+		"wide"										"64"
+		"tall"										"64"
+		"visible"									"1"	
+		"enabled"									"1"
+		"image"										"replay/thumbnails/health_bg"
+		"scaleImage"								"1"
+		
+		"xpos_minmode"		    	         		"99999"				
+
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+
+	"PlayerStatusHealthImage"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"PlayerStatusHealthImage"
+		"xpos"										"-2"
+		"ypos"										"-2"
+		"zpos"										"4"
+		"wide"										"60"
+		"tall"										"60"
+		"visible"									"1"
+		"visible_minmode"							"0"		
+		"enabled"									"1"
+		"scaleImage"								"1"
+		
+		"xpos_minmode"		    	         		"99999"				
+
+		"pin_to_sibling"							"PlayerStatusHealthImageBG"
+	}
+
 	"PlayerStatusHealthBonusImage"
 	{
 		"ControlName"	         				 	"ImagePanel"
 		"fieldName"		         				 	"PlayerStatusHealthBonusImage"
-		"xpos"			         				 	"c-205"
-		"ypos"			         				 	"c107"
+		"xpos"										"c-195"
+		"ypos"										"c109"
 		"xpos_minmode"			         			"c-108"
 		"ypos_minmode"			         			"c54"		
 		"zpos"			         				 	"-4"
-		"wide"			         				 	"66"
-		"tall"			         				 	"66"
+		"wide"										"66"
+		"tall"										"66"
 		"wide_minmode"			         			"30"
 		"tall_minmode"			         			"30"		
 		"visible"		         				 	"0"
@@ -66,6 +106,50 @@
 	// PLAYER HEALTH
 	//==================================================================================================================================================
 
+	"PlayerStatusHealthValue3"
+	{
+		"ControlName"	           				 	"CExLabel"
+		"fieldName"	  	         				 	"PlayerStatusHealthValue3"
+		"xpos"		    	         				"0"
+		"ypos"		    	         				"-10"
+		"zpos"		    	         				"5"
+		"wide"										"60"
+		"tall"										"40"		
+		"visible"		  	         				"1"
+		"enabled"	  		         				"1"
+		"labelText" 		         				"%Health%"
+		"textAlignment"         				 	"center"
+		"font"                   				 	"m0refont26"	
+		"fgcolor"	    	         				"TanDark"
+		
+		"xpos_minmode"		    	         		"99999"			
+
+		"pin_to_sibling"							"HealthAnchor"
+		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
+		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+	}
+	
+	"PlayerStatusHealthValueShadow3"
+	{
+		"ControlName"	           				 	"CExLabel"
+		"fieldName"	  	         				 	"PlayerStatusHealthValueShadow3"
+		"xpos"		    	         				"-1"
+		"ypos"		    	         				"-1"
+		"zpos"		    	         				"5"
+		"wide"										"60"
+		"tall"										"40"		
+		"visible"		  	         				"1"
+		"enabled"	  		         				"1"
+		"labelText" 		         				"%Health%"
+		"textAlignment"         				 	"center"
+		"font"                   				 	"m0refont26"	
+		"fgcolor"	    	         				"Shadow"
+		"fgcolor_minmode"	    	         		"Blank"			
+
+		"pin_to_sibling"							"PlayerStatusHealthValue3"
+
+	}
+	
 	"PlayerStatusHealthValue2"
 	{
 		"ControlName"	           				 	"CExLabel"
@@ -73,40 +157,37 @@
 		"xpos"		    	         				"0"
 		"ypos"		    	         				"0"
 		"zpos"		    	         				"5"
-		"wide"		    	         				"150"
-		"tall"		    	         				"80"
 		"wide_minmode"		    	         		"100"
 		"tall_minmode"		    	         		"40"		
 		"visible"		  	         				"1"
 		"enabled"	  		         				"1"
 		"labelText" 		         				"%Health%"
 		"textAlignment"         				 	"center"
-		"font"                   				 	"m0refont72"
 		"font_minmode"                   			"m0refont32"		
-		"fgcolor"	    	         				"Health Numbers"
+		"fgcolor_minmode"	    	         		"Health Numbers"
 
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
+	}	
+	
 	"PlayerStatusHealthValue2Shadow"
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue2Shadow"
-		"xpos"	    		         				"-2"
-		"ypos"	    		         				"-2"
+		"xpos_minmode"	    		         		"-2"
+		"ypos_minmode"	    		         		"-2"
 		"zpos"	    		         				"5"
-		"wide"		    	         				"150"
-		"tall"		    	         				"80"
 		"wide_minmode"		    	         		"99"
 		"tall_minmode"		    	         		"39"			
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"m0refont72"
 		"font_minmode"								"m0refont32"		
 		"fgcolor"	     	         				"Shadow"
+		
+		"xpos"	    		         				"99999"		
 
 		"pin_to_sibling"							"PlayerStatusHealthValue2"
 	}
@@ -114,18 +195,15 @@
 	{
 		"ControlName"	          				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue2ShadowExtra"
-		"xpos"	    		         				"-1"
-		"ypos"	    		         				"-1"
+		"xpos_minmode"	    		         		"-1"
+		"ypos_minmode"	    		         		"-1"
 		"zpos"	    		         				"5"
-		"wide"		    	         				"150"
-		"tall"		    	         				"80"
 		"wide_minmode"		    	         		"99"
 		"tall_minmode"		    	         		"39"		
 		"visible"	    	         				"1"
 		"enabled"	    	         				"1"
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
-		"font"                   				 	"m0refont72"
 		"font_minmode"								"m0refont32"		
 		"fgcolor"	     	         				"Extra Shadow"
 		"alpha"	     	         					"0"
