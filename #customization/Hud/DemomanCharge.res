@@ -1,5 +1,5 @@
-#base "../../#basefiles/Huds/ZeHud/DemomanCharge.res"			//ZeHud Charge
-//#base "../../#basefiles/Huds/M0reHud/DemomanCharge.res"		//M0reHud Charge
+//#base "../../#basefiles/Huds/ZeHud/DemomanCharge.res"			//ZeHud Charge
+#base "../../#basefiles/Huds/M0reHud/DemomanCharge.res"		//M0reHud Charge
 //#base "../../#basefiles/Huds/Broesel/DemomanCharge.res"		//Broesel Charge
 
 //==================================================================================================
