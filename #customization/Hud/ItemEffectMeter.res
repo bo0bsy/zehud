@@ -1,6 +1,5 @@
 //#base "../../#basefiles/Huds/ZeHud/ItemEffectMeter.res"			//ZeHud Item Effect Meter
 #base "../../#basefiles/Huds/M0reHud/ItemEffectMeter.res"		//M0reHud Item Effect Meter
-//#base "../../#basefiles/Huds/Broesel/ItemEffectMeter.res"		//Broesel Item Effect Meter
 
 //==================================================================================================
 // ITEM EFFECT METER SETTINGS INSTRUCTIONS
