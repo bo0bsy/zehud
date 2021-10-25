@@ -26,6 +26,18 @@ Scheme
 			}
 		}
 		
+		ItemEffectMeterLabels
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"7"
+				"additive"		"0"
+				"antialias" 	"1"
+				"outline"		"0"
+			}
+		}		
+		
 		"Health"
 		{
 			"1"
