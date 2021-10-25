@@ -1,6 +1,5 @@
 //#base "../../#basefiles/Huds/ZeHud/DemomanPipes.res"			//ZeHud Pipes
 #base "../../#basefiles/Huds/M0reHud/DemomanPipes.res"		//M0reHud Pipes
-//#base "../../#basefiles/Huds/Broesel/DemomanPipes.res"		//Broesel Pipes
 
 //==================================================================================================
 // DEMO PIPES SETTINGS INSTRUCTIONS
