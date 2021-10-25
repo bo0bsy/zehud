@@ -1,6 +1,5 @@
 //#base "../../#basefiles/Huds/ZeHud/Disguise.res"
 #base "../../#basefiles/Huds/M0reHud/Disguise.res"
-//#base "../../#basefiles/Huds/Broesel/Disguise.res"
 
 //==================================================================================================
 // DISGUISE SETTINGS INSTRUCTIONS
