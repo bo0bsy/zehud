@@ -154,8 +154,8 @@
 	{
 		"ControlName"	           				 	"CExLabel"
 		"fieldName"	  	         				 	"PlayerStatusHealthValue2"
-		"xpos"		    	         				"0"
-		"ypos"		    	         				"0"
+		"xpos_minmode"		    	         		"0"
+		"ypos_minmode"		    	         		"0"
 		"zpos"		    	         				"5"
 		"wide_minmode"		    	         		"100"
 		"tall_minmode"		    	         		"40"		
@@ -169,6 +169,8 @@
 		"pin_to_sibling"							"HealthAnchor"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
+		
+		"xpos"	    		         				"99999"			
 	}	
 	
 	"PlayerStatusHealthValue2Shadow"
@@ -185,9 +187,7 @@
 		"labelText"	  	         				 	"%Health%"
 		"textAlignment"	         				 	"center"
 		"font_minmode"								"m0refont32"		
-		"fgcolor"	     	         				"Shadow"
-		
-		"xpos"	    		         				"99999"		
+		"fgcolor"	     	         				"Shadow"	
 
 		"pin_to_sibling"							"PlayerStatusHealthValue2"
 	}
