@@ -117,7 +117,7 @@
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"BlueCount"
-		"xpos"			  							"-79"
+		"xpos"			  							"-33"
 		"ypos"			  							"-39"
 		"zpos"			  							"2"
 		"wide"			  							"120"
@@ -127,7 +127,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
-		"textAlignment"	  							"east"
+		"textAlignment"	  							"center"
 		"font"			  							"f30"
 		"fgcolor"		  							"TanLight"
 		
@@ -150,7 +150,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%bluecount%"
-		"textAlignment"	  							"east"
+		"textAlignment"	  							"center"
 		"font"			  							"f30"
 		"fgcolor"		  							"Shadow"
 		
@@ -163,7 +163,7 @@
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"RedCount"
-		"xpos"			  							"-79"
+		"xpos"			  							"-27"
 		"ypos"			  							"-39"
 		"zpos"			  							"2"
 		"wide"			  							"120"
@@ -171,7 +171,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
-		"textAlignment"	  							"west"
+		"textAlignment"	  							"center"
 		"font"			  							"f30"
 		"fgcolor"		  							"TanLight"
 		
@@ -190,7 +190,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"%redcount%"
-		"textAlignment"	  							"west"
+		"textAlignment"	  							"center"
 		"font"			  							"f30"
 		"fgcolor"		  							"Shadow"
 		
