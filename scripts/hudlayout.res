@@ -921,14 +921,11 @@
 	
 	"HudMenuSpyDisguise"
 	{
-		"fieldName" 			"HudMenuSpyDisguise"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"xpos"					"c-235"
-		"ypos"					"c-52"
-		"wide"					"470"
-		"tall"					"200"
-		"PaintBackgroundType"	"0"
+		"xpos"										"c-140"
+		"ypos"										"r220"
+		"zpos"										"20"
+		"wide"										"280"
+		"tall"										"85"
 	}	
 	
 	HudDemomanPipes
