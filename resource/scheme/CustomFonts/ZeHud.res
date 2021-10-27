@@ -228,6 +228,19 @@ Scheme
 			}
 		}
 		
+		"f14shadow"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"18"
+				"weight"		"500"				
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow" 	"1"
+			}
+		}		
+		
 		"f15"
 		{
 			"1"
