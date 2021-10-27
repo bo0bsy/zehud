@@ -58,11 +58,11 @@
 		"Command"									"openloadout"
 		"font"										"default"
 		
-		"fgcolor"									"Idle button"
-		"defaultFgColor_override" 					"Idle button"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"fgcolor"									"CustomYellow"
+		"defaultFgColor_override" 					"CustomYellow"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -92,9 +92,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override"					"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override"					"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -158,9 +158,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -222,9 +222,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -286,9 +286,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -318,9 +318,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -350,9 +350,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -382,9 +382,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -414,9 +414,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -446,9 +446,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -478,9 +478,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -510,9 +510,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -542,9 +542,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -574,9 +574,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -606,9 +606,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -638,9 +638,9 @@
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -670,9 +670,9 @@
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 		
 		"paintbackground"							"0"
 		
@@ -698,11 +698,11 @@
 		"Default"									"1"
 		"font"										"default"
 		
-		"fgcolor"									"Idle button"
-		"defaultFgColor_override" 					"Idle button"
-		"armedFgColor_override" 					"Positive"
-		"depressedFgColor_override" 				"Positive"
-		"selectedFgColor_override" 					"Positive"
+		"fgcolor"									"CustomYellow"
+		"defaultFgColor_override" 					"CustomYellow"
+		"armedFgColor_override" 					"Black"
+		"depressedFgColor_override" 				"Black"
+		"selectedFgColor_override" 					"Black"
 
 		"paintbackground"							"0"
 		
@@ -731,8 +731,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numScout%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"scout"
 	}
@@ -753,8 +753,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSoldier%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"soldier"
 	}
@@ -775,8 +775,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numPyro%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"pyro"
 	}
@@ -797,8 +797,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numDemoman%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"demoman"
 	}
@@ -819,8 +819,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numHeavy%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"heavyweapons"
 	}
@@ -841,8 +841,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numEngineer%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"engineer"
 	}
@@ -863,8 +863,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numMedic%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"medic"
 	}
@@ -885,8 +885,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSniper%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"sniper"
 	}
@@ -907,8 +907,8 @@
 		"tabPosition"								"0"
 		"textAlignment"								"west"
 		"labelText"									"%numSpy%"
-		"font"										"BeavernMenu"
-		"fgcolor"									"Idle button"
+		"font"										"f10"
+		"fgcolor"									"CustomYellow"
 		
 		"pin_to_sibling"							"spy"
 	}
