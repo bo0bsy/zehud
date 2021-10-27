@@ -885,47 +885,38 @@
 	
 	"HudMenuEngyBuild"
 	{
-		"fieldName" 			"HudMenuEngyBuild"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"xpos"					"c-225"
-		"ypos"					"c-55"
+		"xpos"					"c-98"
+		"ypos"					"r150"
+		"zpos"					"20"
 		"wide"					"450"
-		"tall"					"195"
-		"PaintBackgroundType"	"0"
+		"tall"					"200"
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"fieldName" 			"HudMenuEngyDestroy"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"xpos"					"c-225"
-		"ypos"					"c-59"
+		"xpos"					"c-98"
+		"ypos"					"r150"
+		"zpos"					"20"
 		"wide"					"450"
 		"tall"					"200"
-		"PaintBackgroundType"	"0"
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"fieldName" 			"HudEurekaEffectTeleportMenu"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"xpos"					"c-125"
-		"ypos"					"c-55"
-		"wide"					"250"
-		"tall"					"195"
-		"PaintBackgroundType"	"0"
+		"xpos"					"c-51"
+		"ypos"					"r150"
+		"zpos"					"20"
+		"wide"					"450"
+		"tall"					"200"
 	}
 	
 	"HudMenuSpyDisguise"
 	{
-		"xpos"										"c-140"
-		"ypos"										"r220"
-		"zpos"										"20"
-		"wide"										"280"
-		"tall"										"85"
+		"xpos"					"c-140"
+		"ypos"					"r220"
+		"zpos"					"20"
+		"wide"					"280"
+		"tall"					"85"
 	}	
 	
 	HudDemomanPipes
