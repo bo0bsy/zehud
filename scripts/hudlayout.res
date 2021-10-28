@@ -1174,16 +1174,12 @@
 
 	"HudMenuTauntSelection"
 	{
-		"fieldName" 	"HudMenuTauntSelection"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"c-235"
-		"ypos"			"c-52"
-		"wide"			"470"
-		"tall"			"200"
-		"PaintBackgroundType"	"0"
+		"xpos"			"c-163"
+		"ypos"			"r185"
+		"zpos"			"20"
+		"wide"			"350"
+		"tall"			"60"
 	}
-
 	"ItemAttributeTracker"
 	{
 		"fieldName" 	"ItemAttributeTracker"
