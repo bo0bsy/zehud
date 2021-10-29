@@ -346,7 +346,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"f8"
-				"xpos"			"-13" 
+				"xpos"			"-11" 
 				"ypos"			"20" 
 				"zpos"			"5"
 				"wide"			"50"
