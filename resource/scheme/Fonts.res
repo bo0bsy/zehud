@@ -68,7 +68,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -261,7 +261,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"6"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -310,7 +310,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"480 599"
@@ -319,7 +319,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"32"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"600 767"
@@ -328,7 +328,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"44"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"768 1023"
@@ -337,7 +337,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"48"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"1024 1199"
@@ -346,7 +346,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"52"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"yres"		"1200 10000"
@@ -358,7 +358,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"44"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -370,7 +370,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -382,7 +382,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"35"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"blur"		"3"
@@ -395,7 +395,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -406,7 +406,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"30"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -417,7 +417,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -428,7 +428,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -439,7 +439,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -450,7 +450,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -461,7 +461,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -472,7 +472,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -483,7 +483,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -494,7 +494,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -505,7 +505,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -516,7 +516,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -527,7 +527,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
@@ -539,7 +539,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -550,7 +550,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 				"dropshadow"	"1"
@@ -561,8 +561,8 @@ Scheme
 			"1"
 			{
 				"name"		"TF2 Build"
-				"tall"		"11"
-				"weight"	"500"
+				"tall"		"8"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -573,7 +573,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"4"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -584,7 +584,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"10"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -595,7 +595,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -650,7 +650,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -721,7 +721,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -732,7 +732,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"16"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -743,7 +743,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -754,7 +754,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -765,7 +765,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -776,7 +776,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -910,7 +910,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -920,7 +920,7 @@ Scheme
 			{
 				"name"		"Tahoma"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -987,7 +987,7 @@ Scheme
 				"name"		"TF2"
 				"tall"		"24"
 				"antialias" "1"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		"MenuClassBuckets"
@@ -997,7 +997,7 @@ Scheme
 				"name"		"TF2 Secondary"
 				"tall"		"11"
 				"antialias" "1"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		"MenuKeys"
@@ -1007,7 +1007,7 @@ Scheme
 				"name"		"TF2"
 				"tall"		"12"
 				"antialias" "1"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		
@@ -1053,7 +1053,7 @@ Scheme
 				"tall"		"24"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		"ChalkboardText"
@@ -1107,7 +1107,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1119,7 +1119,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1131,7 +1131,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1143,7 +1143,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1155,7 +1155,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1167,7 +1167,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"34"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1180,7 +1180,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1239,7 +1239,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"36"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -1472,7 +1472,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1484,7 +1484,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"TextColor"	"Black"
 				"antialias" 	"1"
@@ -1533,7 +1533,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogSessionOptionsTitle
@@ -1542,7 +1542,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"30"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogMenuLarge
@@ -1551,7 +1551,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"28"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogMenuBrowserHostname
@@ -1578,7 +1578,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"22"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogMenuMediumSmall
@@ -1587,7 +1587,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		MatchmakingDialogMenuSmall
@@ -1624,7 +1624,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"36"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1678,7 +1678,7 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"10"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1732,7 +1732,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1743,7 +1743,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1754,7 +1754,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1765,7 +1765,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -1776,7 +1776,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"7"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1788,7 +1788,7 @@ Scheme
 				"name"		"Verdana"
 				"tall"		"8"
 				"antialias" "1"
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 		"ItemFontAttribSmall"
@@ -1797,7 +1797,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"8"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1808,7 +1808,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1819,7 +1819,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1831,7 +1831,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -1842,7 +1842,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"9"
-				"weight"	"500"
+				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -1985,7 +1985,7 @@ Scheme
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
-				"weight"	"500"
+				"weight"	"0"
 			}
 		}
 
@@ -2223,7 +2223,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -2287,7 +2287,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2298,7 +2298,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2309,7 +2309,7 @@ Scheme
 			{
 				"name"		"TF2"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2320,7 +2320,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2331,7 +2331,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2346,7 +2346,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"14"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2357,7 +2357,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"24"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -2369,7 +2369,7 @@ Scheme
 			{
 				"name"		"TF2 Secondary"
 				"tall"		"15"
-				"weight"	"500"
+				"weight"	"0"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
@@ -2394,7 +2394,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"antialias" 	"1"
 			}
 		}
@@ -2405,7 +2405,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"11"
-				"weight"	"500"
+				"weight"	"0"
 				"blur"		"3"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -2418,7 +2418,7 @@ Scheme
 			{
 				"name"		"TF2 Build"
 				"tall"		"12"
-				"weight"	"500"
+				"weight"	"0"
 				"additive"	"0"
 				"antialias" "1"
 				"dropshadow"	"1"
