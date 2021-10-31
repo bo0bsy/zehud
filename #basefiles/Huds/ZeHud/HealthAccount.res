@@ -2,8 +2,10 @@
 {
 	"CHealthAccountPanel"
 	{	
-		"xpos"										"c0"
-		"ypos"										"c0"
+		"xpos_minmode"								"c0"
+		"ypos_minmode"								"c0"
+		"xpos"										"0"
+		"ypos"										"r25"		
 	}	
 
 	"CHealthAccountPanel"
