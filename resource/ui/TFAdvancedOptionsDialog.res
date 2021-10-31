@@ -134,7 +134,7 @@
 		"depressedFgColor_override" 				"TanLight"
 		
 		"border_default"							"Black"
-		"border_armed"								"Select"
+		"border_armed"								"Negative"
 	}
 	
 	"OkButton"
@@ -175,7 +175,7 @@
 		"depressedFgColor_override" 				"TanLight"
 		
 		"border_default"							"Black"
-		"border_armed"								"Select"
+		"border_armed"								"Positive"
 	}
 	
 	"PanelListPanel"
