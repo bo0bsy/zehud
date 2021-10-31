@@ -63,7 +63,7 @@
 				"paintborder"					"1"
 				"textAlignment"					"center"
 				"labelText"						"%page%"
-				"font"							"Backpack3"
+				"font"							"Backpack"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
@@ -72,7 +72,7 @@
 			{
 				"ControlName"					"CExLabel"
 				"fieldName"						"New"
-				"font"							"f9"
+				"font"							"Backpack"
 				"textAlignment"					"east"
 				"ypos"							"0"
 				"xpos"							"0"
@@ -129,7 +129,7 @@
 			{
 				"ControlName"					"CExLabel"
 				"fieldName"						"New"
-				"font"							"f9"
+				"font"							"Backpack"
 				"textAlignment"					"east"
 				"xpos"							"rs1"
 				"ypos"							"0"
@@ -205,7 +205,7 @@
 	{
 		"ControlName"							"ComboBox"
 		"fieldName"								"SortByComboBox"
-		"Font"									"f10"
+		"Font"									"Backpack"
 		"xpos"									"0"
 		"ypos"									"2"
 		"zpos"									"1"
@@ -217,7 +217,7 @@
 		"enabled"								"1"
 		"textHidden"							"0"
 		"editable"								"0"
-		"maxchars"								"-1"
+		"maxchars"								"0"
 		"NumericInputOnly"						"0"
 		"unicode"								"0"
 		"default"								"0"
@@ -255,7 +255,7 @@
 	{
 		"ControlName"							"ComboBox"
 		"fieldName"								"ShowRarityComboBox"
-		"Font"									"f10"
+		"Font"									"Backpack"
 		"xpos"									"4"
 		"ypos"									"0"
 		"zpos"									"1"
@@ -322,7 +322,7 @@
 		"fgcolor_override"						"TanLight"
 		"bgcolor_override"						"Blank"
 		"paintbackgroundtype" 					"2"
-		"font"									"Backpack3"
+		"font"									"Backpack"
 		
 		"pin_to_sibling" 						"ShowRarityComboBox"
 		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
@@ -473,7 +473,7 @@
 		
 		"attriblabel"
 		{
-			"font"								"f10"
+			"font"								"Backpack"
 			"xpos"								"0"
 			"ypos"								"30"
 			"zpos"								"2"
@@ -581,7 +581,7 @@
 		"enabled"								"1"
 		"tabPosition"							"0"
 		"labelText"								"#Cancel"
-		"font"									"Backpack3"
+		"font"									"Backpack"
 		"textAlignment"							"center"
 		"textinsetx"							"0"
 		"dulltext"								"0"
