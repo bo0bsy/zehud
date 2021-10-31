@@ -1,4 +1,5 @@
 //#base "../../#basefiles/Huds/ZeHud/ItemEffectMeter.res"				//ZeHud Item Effect Meter
+//#base "../../#basefiles/Huds/ZeHud/ItemEffectMeter_Default.res"		//Default Hud Meters (looks good only win min mode)
 #base "../../#basefiles/Huds/ZeHud/ItemEffectMeter_With_Labels.res"	//ZeHud Item Effect Meter With Labels
 //#base "../../#basefiles/Huds/M0reHud/ItemEffectMeter.res"				//M0reHud Item Effect Meter
 
