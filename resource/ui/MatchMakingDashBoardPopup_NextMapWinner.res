@@ -38,7 +38,7 @@
 			"tall"							"f5"
 			"visible"						"1"
 			"PaintBackgroundType"			"2"
-			"ReplayDefaultBorder"						"BlackTransparent70"
+			"border"						"ReplayDefaultBorder"
 			"proportionaltoparent"			"1"
 			"pinCorner"						"2"
 
