@@ -1063,188 +1063,188 @@
 		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"			"c-125"
-		"ypos"			"280"
-		"wide"			"250"
-		"tall"			"160"
+		"xpos"					"c-125"
+		"ypos"					"280"
+		"wide"					"250"
+		"tall"					"160"
 	}
 	
 	ReplayReminder
 	{
-		"fieldName"		"ReplayReminder"
-		"visible"		"0"
-		"enable"		"1"
+		"fieldName"				"ReplayReminder"
+		"visible"				"0"
+		"enable"				"1"
 	}
 	
 	MainMenuAdditions
 	{
-		"fieldName"		"MainMenuAdditions"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c0"
-		"ypos"			"310"
-		"zpos"			"0"
-		"wide"			"300"
-		"tall"			"100"
+		"fieldName"				"MainMenuAdditions"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c0"
+		"ypos"					"310"
+		"zpos"					"0"
+		"wide"					"300"
+		"tall"					"100"
 	}	
 
 	CoachedByPanel
 	{
-		"fieldName"		"CoachedByPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"250"
-		"tall"			"44"
+		"fieldName"				"CoachedByPanel"
+		"visible"				"0"
+		"enable"				"1"
+		"xpos"					"5"
+		"ypos"					"10"
+		"wide"					"250"
+		"tall"					"44"
 	}
 
 	ItemTestHUDPanel
 	{
-		"fieldName"		"ItemTestHUDPanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"5"
-		"ypos"			"10"
-		"wide"			"150"
-		"tall"			"44"
+		"fieldName"				"ItemTestHUDPanel"
+		"visible"				"0"
+		"enable"				"1"
+		"xpos"					"5"
+		"ypos"					"10"
+		"wide"					"150"
+		"tall"					"44"
 	}
 
 	NotificationQueuePanel
 	{
-		"fieldName"		"NotificationQueuePanel"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"r155"
-		"ypos"			"r90"
-		"zpos"			"100"
-		"wide"			"200"
-		"tall"			"0"
+		"fieldName"				"NotificationQueuePanel"
+		"visible"				"0"
+		"enable"				"1"
+		"xpos"					"r155"
+		"ypos"					"r90"
+		"zpos"					"100"
+		"wide"					"200"
+		"tall"					"0"
 	}
 	
 	"CHudVote"
 	{
-		"fieldName"		"CHudVote"
-		"xpos"			"0"			
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
+		"fieldName"				"CHudVote"
+		"xpos"					"0"			
+		"ypos"					"0"
+		"wide"					"640"
+		"tall"					"480"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
 	"HudAlert"
 	{
-		"fieldName"		"HudAlert"
-		"visible"		"0"
-		"enable"		"1"
-		"xpos"			"c-160"
-		"ypos"			"100"
-		"wide"			"320"
-		"tall"			"150"
+		"fieldName"				"HudAlert"
+		"visible"				"0"
+		"enable"				"1"
+		"xpos"					"c-160"
+		"ypos"					"100"
+		"wide"					"320"
+		"tall"					"150"
 	}
 
 
 	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"640"
-		"tall"			"480"
-		"visible"		"1"
-		"enabled"		"1"
-		"bgcolor_override"	"0 0 0 0"
+		"fieldName"				"CTFStreakNotice"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"640"
+		"tall"					"480"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
 	{
-		"fieldName"		"CTFFlagCalloutPanel"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"40"
-		"tall"	 		"40"
+		"fieldName"				"CTFFlagCalloutPanel"
+		"visible" 				"0"
+		"enabled" 				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"	 				"40"
+		"tall"	 				"40"
 	}
 
 	"HudMenuTauntSelection"
 	{
-		"xpos"			"c-163"
-		"ypos"			"r185"
-		"zpos"			"20"
-		"wide"			"350"
-		"tall"			"60"
+		"xpos"					"c-163"
+		"ypos"					"r185"
+		"zpos"					"20"
+		"wide"					"350"
+		"tall"					"60"
 	}
 	"ItemAttributeTracker"
 	{
-		"fieldName" 	"ItemAttributeTracker"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f5"
-		"tall"			"f0"
+		"fieldName" 			"ItemAttributeTracker"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f5"
+		"tall"					"f0"
 		"PaintBackgroundType"	"0"
 	}
 
 	HudMiniGame
 	{
-		"fieldName" "HudMiniGame"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
+		"fieldName" 			"HudMiniGame"
+		"visible"  				"1"
+		"enabled" 				"1"
+		"xpos"	 				"0"
+		"ypos"	 				"0"
+		"wide"	 				"f0"
+		"tall"	 				"480"
 	}
 
 	"QuestNotificationPanel"
 	{
-		"fieldName"	"QuestNotificationPanel"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"fieldName"				"QuestNotificationPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"	 				"0"
+		"ypos"	 				"0"
+		"wide"	 				"f0"
+		"tall"	 				"f0"
 	}
 
 	"MatchMakingContainer"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"MatchMakingContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
+		"ControlName"			"EditablePanel"
+		"fieldName" 			"MatchMakingContainer"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"	 				"f0"
+		"tall"	 				"f0"
 	}
 
 	HudSpectatorExtras
 	{
-		"fieldName" "HudSpectatorExtras"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"fieldName" 			"HudSpectatorExtras"
+		"visible"  				"1"
+		"enabled" 				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 
 	MatchSummary
 	{
-		"fieldName" "MatchSummary"
-		"visible" "0"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"f0"
+		"fieldName"			 	"MatchSummary"
+		"visible" 		 		"0"
+		"enabled" 		 		"1"
+		"xpos"			 		"0"
+		"ypos"			 		"0"
+		"wide"			 		"f0"
+		"tall"			 		"f0"
 	}
 
 	HudMatchStatus
