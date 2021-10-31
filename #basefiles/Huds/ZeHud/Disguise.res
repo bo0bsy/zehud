@@ -2,9 +2,10 @@
 {
 	DisguiseStatus
 	{
-		"xpos_minmode"		   	"80"			
-		"xpos"		   			"53"	
-		"ypos"		   			"r67"			
+		"xpos_minmode"		   	"80"
+		"ypos_minmode"		   	"r67"			
+		"xpos"		   			"c-168"	
+		"ypos"		   			"c60"			
 	}
 	
 	"itemmodelpanel"
