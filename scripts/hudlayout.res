@@ -1169,7 +1169,6 @@
 		"ypos"			"0"
 		"wide"	 		"40"
 		"tall"	 		"40"
-		"priority"		"40"
 	}
 
 	"HudMenuTauntSelection"
