@@ -1,6 +1,6 @@
 //#base "../#basefiles/MatchStatus/MatchStatus_Big.res"				// Default Big Match Status
 //#base "../#basefiles/MatchStatus/MatchStatus_Small.res"			// Default Small Match Status
-#base "../#basefiles/MatchStatus/MatchStatus_Alternative.res"		// Alternative Match Status Can Be Used Only with Alternative Timer Check Timer.res
+#base "../#basefiles/MatchStatus/MatchStatus_Alternative.res"		// Alternative Match Status Can Be Used Only with Alternative. Timer Check Timer.res
 
 //==================================================================================================
 // MATCH STATUS SETTINGS INSTRUCTIONS
@@ -13,6 +13,6 @@
 {
 	HudDeathNotice
 	{	
-		"ypos"	 									"30"	// You Can Change This One to "0" If You Don't Want To Use anything except Small Match Status
+		"ypos"	 									"30"	// You Can Change This One To "0" If You Don't Want To Use Anything Except Small Match Status
 	}
 }
