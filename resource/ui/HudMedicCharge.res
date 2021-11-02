@@ -20,54 +20,6 @@
 		"brighttext"								"0"
 		"font"										"Uber"
 		"fgcolor"   								"TanLight"
-	}
-	
-	"ChargeLabelBlur_1"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBlur_1"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"UberBlur"
-		"fgcolor"   								"Shadow"
-		
-		"pin_to_sibling" 							"ChargeLabel"			
-	}	
-	
-	"ChargeLabelBlur_2"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ChargeLabelBlur_2"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"20"
-		"autoResize"								"1"
-		"pinCorner"									"2"
-		"visible"									"1"
-		"enabled"									"1"
-		"tabPosition"								"0"
-		"labelText"									"#TF_UberchargeMinHUD"
-		"textAlignment"								"center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"font"										"UberBlur"
-		"fgcolor"   								"Shadow"
-		
-		"pin_to_sibling" 							"ChargeLabelBlur_1"			
 	}	
 	
     "ChargeMeter"
@@ -87,7 +39,7 @@
 		"xpos"										"0"
 		"ypos"										"0"
 		"zpos"										"3"
-		"wide"										"100"
+		"wide"										"f0"
 		"tall"										"20"
 		"autoResize"								"1"
 		"pinCorner"									"2"
@@ -99,7 +51,7 @@
 		"dulltext"									"0"
 		"brighttext"								"0"
 		"fgcolor"									"TanLight"
-		"font"										"HudFontSmallBold"
+		"font"										"Uber"
 		
 		"pin_to_sibling"							"ChargeLabel"
 	}
@@ -196,7 +148,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ResistIconAnchor"
-		"xpos"										"c-360"
+		"xpos"										"c-350"
 		"ypos"										"c152"
 		"wide"										"30"
 		"tall"										"30"
