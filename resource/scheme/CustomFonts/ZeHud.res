@@ -72,7 +72,7 @@ Scheme
 				"weight"		"500"
 				"additive"		"0"
 				"antialias" 	"1"
-				"dropshadow"	"0"					
+				"dropshadow"	"1"					
 			}
 		}	
 
