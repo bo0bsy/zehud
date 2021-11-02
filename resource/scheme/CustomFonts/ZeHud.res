@@ -349,6 +349,30 @@ Scheme
 			}
 		}
 		
+		"Inspection1"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"9"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}	
+
+		"Inspection2"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"12"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}		
+		
 		"PopUp1"
 		{
 			"1"
