@@ -4,7 +4,7 @@
 	{
 		"xpos_minmode"		   	"80"
 		"ypos_minmode"		   	"r67"			
-		"xpos"		   			"c-168"	
+		"xpos"		   			"c-169"	
 		"ypos"		   			"c60"			
 	}
 	
