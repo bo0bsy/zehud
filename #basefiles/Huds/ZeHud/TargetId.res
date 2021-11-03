@@ -20,7 +20,8 @@
 	{
 		"xpos"				"c-126"
 		"ypos"				"335"
-		"tall"	 			"28"			
+		"tall"	 			"20"
+		"tall_minmode"	 	"28"			
 	}
 	
 	"TargetIDBG"
