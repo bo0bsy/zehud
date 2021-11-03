@@ -310,7 +310,7 @@
 			{
 				"xpos"			"rs1-10"
 				"ypos"			"1"
-				"zpos"			"-100"				
+				"zpos"			"-1"				
 				"wide"			"p0.85"
 				"tall"			"35"				
 			}
