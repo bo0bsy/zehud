@@ -246,8 +246,8 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"								"99999"
+				"wide"								"0"
 			}
 
 			"fonts"
@@ -278,8 +278,8 @@
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
+				"xpos"								"99999"
+				"wide"								"0"
 			}
 
 			"fonts"
@@ -308,11 +308,11 @@
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
+				"xpos"			"rs1+15"
 				"ypos"			"1"
-				"zpos"			"-1"				
+				"zpos"			"-100"				
 				"wide"			"p0.85"
-				"tall"			"35"				
+				"tall"			"42"				
 			}
 
 			"XPBar"
