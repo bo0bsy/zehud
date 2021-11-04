@@ -930,12 +930,6 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		
-		if_mvm
-		{
-			"visible"		"1"
-			"wide"			"175"
-		}
 	}
 	"ServerLabelNew"
 	{
@@ -1240,7 +1234,7 @@
 
 	"LocalPlayerStatsPanel"
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"0"
 		"ypos"			"395"
