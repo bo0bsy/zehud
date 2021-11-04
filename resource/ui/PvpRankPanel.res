@@ -308,11 +308,11 @@
 
 			if_mini
 			{
-				"xpos"			"rs1+15"
-				"ypos"			"1"
+				"xpos"			"rs1-5"
+				"ypos"			"3"
 				"zpos"			"-100"				
 				"wide"			"p0.85"
-				"tall"			"42"				
+				"tall"			"52"				
 			}
 
 			"XPBar"
