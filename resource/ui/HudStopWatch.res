@@ -4,18 +4,12 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldname"									"StopWatchAnchor"
-		"xpos"										"c-150"
+		"xpos"										"0"
 		"ypos"										"0"
 		"wide"										"10"
 		"tall"										"10"
 		"visible"									"0"
 		"enabled"									"0"
-
-		if_comp
-		{
-			"xpos"									"c-60"
-			"ypos"									"32"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -41,7 +35,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"f14"
+			"font"									"f12"
 			"fgcolor"								"TanLight"
 			"xpos"									"0"
 			"ypos"									"0"
@@ -54,7 +48,7 @@
 
 			if_comp
 			{
-				"font"								"HudFontSmall"
+				"font"								"f12"
 			}
 		}
 	}
@@ -63,7 +57,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchScoreToBeat"
-		"font"										"f14"
+		"font"										"f12"
 		"fgcolor"									"TanLight"
 		"labelText"									"%scoretobeat%"
 		"textAlignment"								"center"
@@ -81,7 +75,7 @@
 
 		if_comp
 		{
-			"font"									"HudFontSmall"
+			"font"									"f12"
 		}
 	}
 
@@ -89,7 +83,7 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"StopWatchPointsLabel"
-		"font"										"f14"
+		"font"										"f12"
 		"fgcolor"									"TanLight"
 		"labelText"									"%pointslabel%"
 		"textAlignment"								"west"
@@ -107,7 +101,7 @@
 
 		if_comp
 		{
-			"font"									"HudFontSmall"
+			"font"									"f12"
 		}
 	}
 
@@ -135,32 +129,7 @@
 		{
 			"font"									"f8"
 		}
-	}
-
-	"HudStopWatchBGTanLight"
-	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HudStopWatchBGTanLight"
-		"xpos"										"0"
-		"ypos"										"-2"
-		"zpos"										"-1"
-		"wide"										"2"
-		"tall"										"12"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground" 							"1"
-		"PaintBackgroundType" 						"0"
-		"bgcolor_override" 							"TanLight"
-
-		"pin_to_sibling"							"StopWatchPointsLabel"
-		"pin_corner_to_sibling"						"PIN_TOPLEFT"
-		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
-
-		if_comp
-		{
-			"wide"									"0"
-		}
-	}
+	}	
 
 	"HudStopWatchBG"
 	{
