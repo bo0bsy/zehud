@@ -2,63 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		"MenuArrows"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"15"
-				"weight"		"400"
-				"additive"		"0"
-				"antialias" 	"1"
-			}
-		}
-
-		"NormalIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"25"
-				"weight"		"0"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"MediumIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"20"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"CustomIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"18"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-
-		"LargeIcons"
-		{
-			"1"
-			{
-				"name"			"TF2Icons"
-				"tall"			"62"
-				"additive"		"0"
-				"antialias"		"1"
-			}
-		}
-		
 		"Symbols 10"
 		{
 			"1"
@@ -150,6 +93,16 @@ Scheme
 				"antialias"		"1"
 			}
 		}
+		"Symbols 25"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons V3s"
+				"tall"			"25"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}		
 		"Symbols 26"
 		{
 			"1"
@@ -503,12 +456,6 @@ Scheme
 
 	CustomFontFiles
 	{
-		"121"
-		{
-			"font"	"resource/scheme/fonts/TF2Icons.ttf"
-			"name"	"TF2Icons"
-		}
-	
 		"122"
 		{
 			"font" "resource/scheme/fonts/Hypnotize Icons.ttf"
