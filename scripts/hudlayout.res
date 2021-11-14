@@ -204,19 +204,16 @@
 	
 	CHudAccountPanel
 	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-410"
-		"ypos"					"c-80"
+		"xpos"					"c-23"
+		"ypos"					"c10"
 		"wide"					"f0"
 		"tall"  				"f0"
-		"visible" 				"1"
-		"enabled" 				"1"
 	}
 	
 	"CHealthAccountPanel"
 	{	
-		"wide"										"f0"
-		"tall"  									"f0"
+		"wide"					"f0"
+		"tall"  				"f0"
 	}	
 	
 	CDamageAccountPanel
