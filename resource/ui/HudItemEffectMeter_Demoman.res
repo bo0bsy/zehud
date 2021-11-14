@@ -47,7 +47,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"5"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -58,7 +58,7 @@
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"HudFontSmallBold"
-		"fgcolor"   			"TanLight"		
+		"fgcolor"   			"CustomYellow"		
 	}
 	
 	"ItemEffectMeterCountBlur"
@@ -78,5 +78,7 @@
 		"textAlignment"			"center"
 		"font"					"HudFontSmallBoldBlur"
 		"fgcolor"   			"20 20 20 255"
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"		
 	}
 }

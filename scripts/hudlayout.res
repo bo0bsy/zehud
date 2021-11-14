@@ -125,7 +125,8 @@
 	HudMedicCharge
 	{
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos_minmode"								"0"		
+		"ypos"										"23"
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -932,7 +933,6 @@
 		"enabled"				"1"
 		"xpos"					"c-90"
 		"ypos"					"-70"
-		"ypos_lodef"			"75"
 		"wide"					"180"
 		"tall"					"65"
 	}

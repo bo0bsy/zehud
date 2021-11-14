@@ -3,8 +3,8 @@
 	CMainTargetID
 	{
 		"xpos"				"c-126"
-		"ypos"				"250"		
-		"ypos_minmode"		"280"
+		"ypos"				"340"		
+		"ypos_minmode"		"290"
 		"tall"	 			"20"
 		"tall_minmode"	 	"28"		
 	}
@@ -20,7 +20,7 @@
 	CSecondaryTargetID
 	{
 		"xpos"				"c-126"
-		"ypos"				"335"
+		"ypos"				"365"
 		"tall"	 			"20"
 		"tall_minmode"	 	"28"			
 	}
@@ -161,17 +161,18 @@
 	
 	"AmmoIcon"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"AmmoIcon"
-		"xpos"			"43"	
-		"ypos"			"16"
-		"zpos"			"12"
-		"wide"			"7"
-		"tall"			"7"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/leaderboard_class_soldier"
-		"scaleImage"	"1"
+		"ControlName"			"ImagePanel"
+		"fieldName"				"AmmoIcon"
+		"xpos"					"43"
+		"ypos"					"10"		
+		"ypos_minmode"			"16"
+		"zpos"					"12"
+		"wide"					"7"
+		"tall"					"7"
+		"visible"				"0"
+		"enabled"				"1"
+		"image"					"../hud/leaderboard_class_soldier"
+		"scaleImage"			"1"
 	}
 	
 	"KillStreakIcon"
