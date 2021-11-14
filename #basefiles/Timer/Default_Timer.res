@@ -22,22 +22,21 @@
 	
 	"TimePanelBG"
 	{
-		"ControlName"		                        "ScalableImagePanel"
-		"fieldName"			                        "TimePanelBG"
-		"xpos"				                        "35"
-		"ypos"          	                        "-5"
-		"zpos"				                        "2"
-		"wide"				                        "38"
-		"tall"				                        "23"
-		"visible"			                        "1"
-		"enabled"			                        "1"
-		"image"				                        "../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"			                    "1"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
+		"ControlName"								"ScalableImagePanel"
+		"fieldName"									"TimePanelBG"
+		"xpos"										"31"
+		"ypos"										"0"
+		"zpos"										"2"
+		"wide"										"38"
+		"tall"										"18"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"../HUD/color_panel_blu"	
+		"scaleImage"								"1"	
+		"src_corner_height"							"4"
+		"src_corner_width"							"4"
+		"draw_corner_width"							"6"
+		"draw_corner_height" 						"6"
 	}
 	
 	"TimePanelProgressBar"

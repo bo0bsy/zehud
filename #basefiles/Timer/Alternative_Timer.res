@@ -13,10 +13,10 @@
 		"enabled"				"1"
 		"image"					"../HUD/color_panel_blu"	
 		"scaleImage"			"1"	
-		"src_corner_height"		"3"
-		"src_corner_width"		"3"
-		"draw_corner_width"		"4"
-		"draw_corner_height" 	"4"
+		"src_corner_height"		"4"
+		"src_corner_width"		"4"
+		"draw_corner_width"		"6"
+		"draw_corner_height" 	"6"
 	}
 	
 	"TimePanelProgressBar"
@@ -31,7 +31,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"30"
-		"ypos"			"25"
+		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"40"
 		"tall"			"19"

@@ -163,8 +163,8 @@
 			"fieldName"		"TimePanelValue"
 			"font"			"HudFontSmall"
 			"fgcolor"		"TanLight"
-			"xpos"			"37"
-			"ypos"			"-7"
+			"xpos"			"39"
+			"ypos"			"-6"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"31"
@@ -176,8 +176,8 @@
 			if_match
 		    {
 				"font"			"HudFontSmallBold"
-				"xpos"			"37"
-				"ypos"			"-5"	
+				"xpos"			"39"
+				"ypos"			"-7"	
 		    }
 		}	
 	}

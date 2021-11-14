@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"BlueTimer"
-		"xpos"					"10"
+		"xpos"					"15"
 		"ypos"					"467"
 		"zpos"					"3"
 		"wide"					"115"
@@ -34,7 +34,7 @@
 	{
 		"ControlName"			"CTFHudTimeStatus"
 		"fieldName"				"RedTimer"
-		"xpos"					"91"
+		"xpos"					"87"
 		"ypos"					"467"
 		"zpos"					"3"
 		"wide"					"115"
