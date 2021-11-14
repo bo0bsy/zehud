@@ -926,23 +926,29 @@
 		"tall"					"f0"
 	}		
 
+	HudTournament
+	{
+		"xpos"					"c-225"
+		"ypos"					"5"
+		"zpos"					"20"
+		"wide"					"450"
+		"tall"					"280"
+	}
+
 	HudTournamentSetup
 	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-90"
-		"ypos"					"-70"
-		"wide"					"180"
+		"xpos"					"c-70"
+		"ypos"					"-36"
+		"wide"					"140"
 		"tall"					"65"
 	}
 
 	"HudStopWatch"
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"xpos"					"0"
+		"ypos"					"0"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 	
 	NotificationPanel
@@ -1283,14 +1289,6 @@
 		"ypos"										"99999"
 	}		
 	"HudArenaCapPointCountdown"
-	{
-		"wide"										"0"
-	}
-	HudTournamentSetup
-	{
-		"wide"										"0"
-	}	
-	"HudTournament"
 	{
 		"wide"										"0"
 	}

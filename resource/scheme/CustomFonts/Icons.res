@@ -477,7 +477,29 @@ Scheme
 				"antialias"		"1"
 			}
 		}		
-	}
+	
+		"ReadyUp 24"
+		{
+			"1"
+			{
+				"name"			"ReadyUp Symbols"
+				"tall"			"24"
+				"additive"  	"0"
+				"antialias"		"1"
+			}
+		}
+		"ReadyUp 24 Blur"
+		{
+			"1"
+			{
+				"name"			"ReadyUp Symbols"
+				"tall"			"24"
+				"additive"  	"0"
+				"antialias"		"1"
+				"blur"			"2"
+			}
+		}
+	}	
 
 	CustomFontFiles
 	{
@@ -497,6 +519,12 @@ Scheme
 		{
 			"font" "resource/scheme/fonts/tf2 class icons.ttf"
 			"name" "TF2 Class Icons V2"
-		}	
+		}
+
+		"124"
+		{
+			"font" "resource/scheme/fonts/ReadyUp Symbols.otf"
+			"name" "ReadyUp Symbols"
+		}		
 	}
 }

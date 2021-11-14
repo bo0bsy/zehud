@@ -312,6 +312,19 @@ Scheme
 				"antialias" 	"1"			
 			}
 		}
+		
+		"f24blur"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"24"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"	
+				"blur"			"3"					
+			}
+		}		
 	
 		"f30"
 		{
@@ -344,6 +357,30 @@ Scheme
 				"name"			"TF2 Build"
 				"tall"			"44"
 				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}		
+
+		"Tournament1"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"7"
+				"weight"		"0"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}
+		
+		"Tournament1"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"9"
+				"weight"		"0"
 				"additive"		"0"
 				"antialias" 	"1"			
 			}
