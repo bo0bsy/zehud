@@ -1,2 +1,2 @@
 ![alt text](https://i.imgur.com/5pTYyjy.jpg)
-[download](https://github.com/bo0bsy/ZeHud/archive/refs/heads/Master.zip) [screenshots](https://imgur.com/gallery/0G0VnL0)
+[download](https://github.com/bo0bsy/ZeHud/archive/refs/heads/Master.zip)
