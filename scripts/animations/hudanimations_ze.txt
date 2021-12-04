@@ -1,5 +1,19 @@
 //===========================================================================================================================
 
+event CompetitiveGame_LowerChatWindow
+{
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+}
+
+event HudTournament_MoveChatWindow
+{
+}
+
+//===========================================================================================================================
+
 event FlagOutline
 {
 }
@@ -16,20 +30,6 @@ event HudTournamentSetupPanelClose
 {
 	Animate HudTournamentSetup						Position	"0 40"								Linear 	0.0 	0.001
 	Animate HudTournamentSetup						Position	"0 -50"								Spline 	0.001 	0.6
-
-//===========================================================================================================================
-
-event CompetitiveGame_LowerChatWindow
-{
-}
-
-event CompetitiveGame_RestoreChatWindow
-{
-}
-
-event HudTournament_MoveChatWindow
-{
-}
 
 //===========================================================================================================================
 
