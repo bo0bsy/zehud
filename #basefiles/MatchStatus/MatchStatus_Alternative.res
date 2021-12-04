@@ -538,30 +538,13 @@
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"DeathPanel"
-				"xpos"					"cs-0.5"
-				"ypos"					"0"
-				"zpos"					"0"
-				"wide"					"f0"
-				"tall"					"24"
-				"visible"				"0"
-				"enabled"				"1"
-				"image"					"../HUD/comp_player_status"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"
+				"xpos"					"99999"
 			}
 			"SkullPanel"
 			{
 				"ControlName"			"ImagePanel"
 				"fieldName"				"SkullPanel"
-				"xpos"					"cs-0.5"
-				"zpos"					"1"
-				"wide"					"o1.2"
-				"tall"					"p0.15"
-				"visible"				"0"
-				"enabled"				"1"
-				"image"					"../HUD/comp_player_status_skull"
-				"scaleImage"			"1"
-				"proportionaltoparent"	"1"	
+				"xpos"					"99999"
 			}
 		}
 	}

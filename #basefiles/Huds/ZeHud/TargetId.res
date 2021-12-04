@@ -21,6 +21,7 @@
 	{
 		"xpos"				"c-126"
 		"ypos"				"365"
+		"ypos_minmode"		"325"		
 		"tall"	 			"20"
 		"tall_minmode"	 	"28"			
 	}
