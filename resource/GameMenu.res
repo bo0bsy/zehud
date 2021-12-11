@@ -22,15 +22,13 @@
 	}
 	"MOTD_ShowButtonPanel"
 	{
-		"label"			"{"
+		"label"			"z"
 		"command"		"motd_show"
-		"tooltip"		"#TF_OptionCategory_HUD"
 	}
 	"QuestLogButton"
 	{
 		"label"			"I"
 		"command"		"questlog"
-		"tooltip"		"#TF_QuestMap_Intro_Title"
 	}	
 	"me"
 	{
