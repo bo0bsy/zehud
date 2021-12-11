@@ -4,10 +4,10 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
-		"xpos"										"r330"
+		"xpos"										"r530"
 		"ypos"										"25"
 		"zpos"										"99"
-		"wide"										"300"
+		"wide"										"500"
 		"tall"										"350"
 		"visible"									"0"
 		"paintbackground"							"1"
@@ -34,7 +34,7 @@
 				"xpos"					"0"
 				"ypos"					"0"
 				"zpos"					"100"				
-				"wide"					"300"
+				"wide"					"500"
 				"tall"					"24"
 				"autoResize"			"0"
 				"pinCorner"				"0"
@@ -55,7 +55,7 @@
 				"xpos"					"-1"
 				"ypos"					"-1"
 				"zpos"					"100"						
-				"wide"					"300"
+				"wide"					"500"
 				"tall"					"24"
 				"autoResize"			"0"
 				"pinCorner"				"0"
@@ -74,7 +74,7 @@
 		{
 			"ControlName"		"CExImageButton"
 			"fieldName"			"MOTD_CloseButton"
-			"xpos"				"282"
+			"xpos"				"483"
 			"ypos"				"4"
 			"zpos"				"10"
 			"wide"				"14"
@@ -821,7 +821,217 @@
 			"pin_to_sibling"		"Crosshair 7"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
 			"pin_to_sibling_corner" "PIN_TOPRIGHT"
-		}			
+		}	
+
+		"Gamma"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"Gamma"
+			"xpos"					"10"
+			"ypos"					"-16"
+			"wide"					"200"
+			"tall"					"20"
+			"leftText"				"1.6"
+			"rightText"				"2.2"
+			"minvalue"				"1.6"
+			"maxvalue"				"2.2"
+			"cvar_name"				"mat_monitorgamma"
+			"allowoutofrange"		"0"		
+			
+			"pin_to_sibling"		"ChatToggle"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_TOPRIGHT"			
+		}
+		
+		"GammaLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"GammaLabel"
+			"xpos"					"0"
+			"ypos"					"-40"
+			"wide"					"100"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"gamma:"		
+			"font"					"f10"
+			"textAlignment"			"west"
+			"fgcolor_override"		"TanLight"
+			
+			"pin_to_sibling"		"Gamma"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}
+		
+		"Volume"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"Volume"
+			"xpos"					"0"
+			"ypos"					"72"
+			"wide"					"200"
+			"tall"					"20"
+			"leftText"				"0"
+			"rightText"				"1"
+			"minvalue"				"0"
+			"maxvalue"				"1"
+			"cvar_name"				"volume"
+			"allowoutofrange"		"0"		
+			
+			"pin_to_sibling"		"Gamma"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"				
+		}
+		
+		"VolumeLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"VolumeLabel"
+			"xpos"					"0"
+			"ypos"					"-40"
+			"wide"					"100"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"volume:"		
+			"font"					"f10"
+			"textAlignment"			"west"
+			"fgcolor_override"		"TanLight"
+			
+			"pin_to_sibling"		"Volume"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
+		}
+
+		"TextTime"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"TextTime"
+			"xpos"					"0"
+			"ypos"					"72"
+			"wide"					"200"
+			"tall"					"20"
+			"leftText"				"0"
+			"rightText"				"10"
+			"minvalue"				"0"
+			"maxvalue"				"10"
+			"cvar_name"				"hud_saytext_time"
+			"allowoutofrange"		"0"		
+			
+			"pin_to_sibling"		"Volume"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"				
+		}
+		
+		"TextTimeLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"TextTimeLabel"
+			"xpos"					"0"
+			"ypos"					"-40"
+			"wide"					"100"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"Hud Text Time:"		
+			"font"					"f10"
+			"textAlignment"			"west"
+			"fgcolor_override"		"TanLight"
+			
+			"pin_to_sibling"		"TextTime"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
+		}		
+
+		"CrosshairSize"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"CrosshairSize"
+			"xpos"					"0"
+			"ypos"					"208"
+			"wide"					"200"
+			"tall"					"20"
+			"leftText"				"0"
+			"rightText"				"100"
+			"minvalue"				"0"
+			"maxvalue"				"100"
+			"cvar_name"				"cl_crosshair_scale"
+			"allowoutofrange"		"0"		
+			
+			"pin_to_sibling"		"Gamma"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"				
+		}
+		
+		"CrosshairSizeLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"CrosshairSizeLabel"
+			"xpos"					"0"
+			"ypos"					"-40"
+			"wide"					"100"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"crosshair size:"		
+			"font"					"f10"
+			"textAlignment"			"west"
+			"fgcolor_override"		"TanLight"
+			
+			"pin_to_sibling"		"CrosshairSize"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
+		}
+
+		"Viewmodel"
+		{
+			"ControlName"			"CCvarSlider"
+			"fieldName"				"Viewmodel"
+			"xpos"					"0"
+			"ypos"					"11"
+			"wide"					"200"
+			"tall"					"20"
+			"leftText"				"65"
+			"rightText"				"120"
+			"minvalue"				"65"
+			"maxvalue"				"120"
+			"cvar_name"				"viewmodel_fov"
+			"allowoutofrange"		"0"		
+			
+			"pin_to_sibling"		"CrosshairSize"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
+		}
+		
+		"ViewmodelLabel"
+		{
+			"ControlName"			"CExLabel"
+			"fieldName"				"ViewmodelLabel"
+			"xpos"					"0"
+			"ypos"					"-40"
+			"wide"					"100"
+			"tall"					"20"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"
+			"enabled"				"1"
+			"labelText"				"viewmodel:"		
+			"font"					"f10"
+			"textAlignment"			"west"
+			"fgcolor_override"		"TanLight"
+			
+			"pin_to_sibling"		"Viewmodel"
+			"pin_corner_to_sibling" "PIN_TOPLEFT"
+			"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		}		
 		
 		"DamageLabel"
 		{
