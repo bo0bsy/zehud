@@ -163,8 +163,8 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override" 			"TanLight"
-		"armedFgColor_override" 			"Positive"
-		"depressedFgColor_override"			"Positive"		
+		"armedFgColor_override" 			"TanLightSelect"
+		"depressedFgColor_override"			"TanLightSelect"		
 		
 	}
 	
@@ -200,8 +200,8 @@
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
 		"defaultFgColor_override" 			"TanLight"
-		"armedFgColor_override" 			"Positive"
-		"depressedFgColor_override" 		"Positive"	
+		"armedFgColor_override" 			"TanLightSelect"
+		"depressedFgColor_override" 		"TanLightSelect"	
 	}
 	
 	"NotificationsPresentPanel"

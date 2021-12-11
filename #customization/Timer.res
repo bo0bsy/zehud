@@ -1,5 +1,5 @@
-//#base "../#basefiles/Timer/Default_Timer.res"				// Default Timer
-#base "../#basefiles/Timer/Alternative_Timer.res"			// Alternative Timer Can Be Used Only With Alternative Match Status. Check MatchStatus.res
+#base "../#basefiles/Timer/Default_Timer.res"				// Default Timer
+//#base "../#basefiles/Timer/Alternative_Timer.res"			// Alternative Timer Can Be Used Only With Alternative Match Status. Check MatchStatus.res
 
 //==================================================================================================
 // TIMER SETTINGS INSTRUCTIONS

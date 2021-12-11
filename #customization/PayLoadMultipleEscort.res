@@ -1,5 +1,5 @@
-//#base "../#basefiles/PayLoad/PayLoad_Big/MultipleEscort.res"		// Big MultipleEscort
-#base "../#basefiles/PayLoad/PayLoad_Small/MultipleEscort.res"	// Small MultipleEscort Can Be Used Only with Small Escort. Check PayLoadEscort.res
+#base "../#basefiles/PayLoad/PayLoad_Big/MultipleEscort.res"		// Big MultipleEscort
+//#base "../#basefiles/PayLoad/PayLoad_Small/MultipleEscort.res"	// Small MultipleEscort Can Be Used Only with Small Escort. Check PayLoadEscort.res
 
 //==================================================================================================
 // PAYLOAD SETTINGS INSTRUCTIONS
