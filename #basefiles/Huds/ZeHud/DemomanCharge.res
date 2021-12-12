@@ -23,7 +23,7 @@
 		"xpos"										"c323"
 		"ypos"										"c160"		
 		"zpos"										"0"
-		"wide"										"55"		
+		"wide"										"59"		
 		"tall"										"40"				
 		"autoResize"								"0"
 		"pinCorner"									"0"
@@ -32,7 +32,7 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"fgcolor_override"							"120 200 120 180"
+		"fgcolor_override"							"235 226 202 180"
 		"bgcolor_override"							"0 0 0 0"		
 	}
 	

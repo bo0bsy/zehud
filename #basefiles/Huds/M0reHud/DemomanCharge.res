@@ -34,7 +34,7 @@
 		"textAlignment"								"Center"
 		"dulltext"									"0"
 		"brighttext"								"0"
-		"fgcolor_override"							"120 200 120 180"
+		"fgcolor_override"							"235 226 202 180"
 		"bgcolor_override"							"0 0 0 0"		
 	}
 	
