@@ -280,11 +280,19 @@
 
 	"BuildingStatus_Spy"
 	{
+		"fieldName" 								"BuildingStatus_Spy"
+		"wide"										"f0"
+		"tall"										"f0"
+		
 		"pin_to_sibling"							"BuildingAnchor"
 	}
 
 	"BuildingStatus_Engineer"
 	{
+		"fieldName" 								"BuildingStatus_Engineer"
+		"wide"										"f0"
+		"tall"										"f0"
+		
 		"pin_to_sibling"							"BuildingAnchor"
 	}
 	

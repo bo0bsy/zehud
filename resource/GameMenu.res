@@ -32,7 +32,7 @@
 	}	
 	"me"
 	{
-		"label" 		"zehud by boobsy"
+		"label" 		"zehud" // by boobsy
 		"command" 		"engine showconsole"		
 	}
 }

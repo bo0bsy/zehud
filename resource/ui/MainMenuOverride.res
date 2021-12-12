@@ -921,7 +921,7 @@
 		{
 			"ControlName"							"CExImageButton"
 			"fieldName"								"SubButton"
-			"xpos"									"0"
+			"xpos"									"10"
 			"ypos"									"0"
 			"wide"									"120"
 			"tall"									"20"
@@ -933,7 +933,7 @@
 			"use_proportional_insets" 				"1"
 			"font"									"me"
 			"AllCaps"								"1"
-			"textAlignment"							"center"
+			"textAlignment"							"west"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"default"								"1"
