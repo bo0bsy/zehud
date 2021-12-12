@@ -30,9 +30,4 @@
 		"label"			"I"
 		"command"		"questlog"
 	}	
-	"me"
-	{
-		"label" 		"zehud" // by boobsy
-		"command" 		"engine showconsole"		
-	}
 }

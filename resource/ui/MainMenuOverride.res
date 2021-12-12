@@ -919,7 +919,7 @@
 		
 		"SubButton"
 		{
-			"ControlName"							"CExImageButton"
+			"ControlName"							"URLLabel"
 			"fieldName"								"SubButton"
 			"xpos"									"10"
 			"ypos"									"0"
@@ -932,13 +932,16 @@
 			"tabPosition"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"me"
+			"labelText"								"zehud"			
 			"AllCaps"								"1"
 			"textAlignment"							"west"
 			"dulltext"								"0"
 			"brighttext"							"0"
 			"default"								"1"
 			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"			
+			"sound_released"						"UI/buttonclickrelease.wav"		
+
+			"urlText"								"https://www.youtube.com/channel/UCN1M_ZLRK0xHIrjA03ByJIw"			
 			
 			"paintbackground"						"0"
 			"paintborder"							"0"
