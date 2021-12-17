@@ -318,22 +318,41 @@
 	{
 		"ControlName"	  							"CExLabel"
 		"fieldName"		  							"SpectateLabel"
-		"xpos"			  							"999" //0
-		"ypos"			  							"999" //22
+		"xpos"			  							"0"
+		"ypos"			  							"185"
 		"zpos"			  							"2"
-		"wide"			  							"0" 
-		"tall"			  							"0"
-		"visible"		  							"0"
+		"wide"			  							"60" 
+		"tall"			  							"12"
+		"visible"		  							"1"
 		"enabled"		  							"1"
 		"labelText"		  							"SPECTATE"
 		"textAlignment"  							"center"
-		"font"			  							"Default"
+		"font"			  							"f10"
 		"fgcolor"		  							"TanLight"
 		
 		"pin_to_sibling"							"TanLightBar"
 		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
 		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
 	}
+	
+	"SpectateLabelShadow"
+	{
+		"ControlName"	  							"CExLabel"
+		"fieldName"		  							"SpectateLabelShadow"
+		"xpos"			  							"-1"
+		"ypos"			  							"-1"
+		"zpos"			  							"2"
+		"wide"			  							"60" 
+		"tall"			  							"12"
+		"visible"		  							"1"
+		"enabled"		  							"1"
+		"labelText"		  							"SPECTATE"
+		"textAlignment"  							"center"
+		"font"			  							"f10"
+		"fgcolor"		  							"Shadow"
+		
+		"pin_to_sibling"							"SpectateLabel"
+	}	
 	
 	"teambutton0"									//BLUE TEAM
 	{
@@ -434,7 +453,7 @@
 		"visible"		  							"1"
 		"enabled"		  							"1"
 		"tabPosition"	  							"2"
-		"labelText"		  							"&2"
+		"labelText"		  							"&3"
 		"textAlignment"	  							"south-west"
 		"dulltext"		  							"0"
 		"brighttext"	  							"0"
@@ -446,13 +465,7 @@
 		
 		"pin_to_sibling"							"SpectateLabel"
 	}
-	
-	
-	
-	
-	
-	///////////////////////////////////IDK STUFF///////////////////////////////////
-	
+
 	"SysMenu"
 	{
 		"ControlName"	  							"Menu"

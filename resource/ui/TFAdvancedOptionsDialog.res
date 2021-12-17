@@ -16,7 +16,7 @@
 		"settitlebarvisible"						""
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"2"
-		"border"									"noborder"
+		"border"									"TransparentBlackBackground"
 		
 		"control_w"									"500"
 		"control_h"									"25"
