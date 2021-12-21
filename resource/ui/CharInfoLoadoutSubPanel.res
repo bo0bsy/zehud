@@ -725,7 +725,7 @@
 		"textAlignment"					"center"
 		"Command"						"backpack"
 		"Default"						"0"
-		"labelText"						"A"
+		"labelText"						"L"
 		"font"							"Symbols 48"
 		
 		"sound_depressed"				"UI/buttonclick.wav"
@@ -756,7 +756,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"tabPosition"					"0"
-		"labelText"						"A"
+		"labelText"						"L"
 		"font"							"Symbols 48"
 		"textAlignment"					"center"
 		"use_proportional_insets"		"1"

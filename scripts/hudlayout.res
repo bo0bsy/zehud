@@ -19,26 +19,6 @@
 		"image"			"replay/thumbnails/REFRACTnormal_transparent"
 		"scaleImage"	"1"
 	}
-
-	//--------------------------------------------------------------
-	// HUD CROSSHAIR
-	//--------------------------------------------------------------	
-	CustomCrosshair
-	{
-		"visible"			"0"
-		"enabled"			"0"
-		"labelText"			"~"
-		"controlName"		"CExLabel"
-		"fieldName"			"CustomCrosshair"
-		"zpos"				"0"
-		"xpos"				"cs-0.5"
-		"ypos"				"cs-0.5"
-		"wide"				"f0"
-		"tall"				"f0"
-		"font"				"Size:18"
-		"textAlignment"		"center"
-		"fgcolor"			"Crosshair"
-	}
 	
 	HudDeathNotice
 	{
@@ -124,31 +104,31 @@
 	
 	HudMedicCharge
 	{
-		"xpos"										"0"
-		"ypos_minmode"								"0"		
-		"ypos"										"23"
-		"wide"										"f0"
-		"tall"										"480"
+		"xpos"						"0"
+		"ypos_minmode"				"0"		
+		"ypos"						"23"
+		"wide"						"f0"
+		"tall"						"480"
 	}
 	
 	HudDemomanCharge
 	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"		
-		"wide"										"f0"
-		"tall"										"f0"	
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"0"		
+		"wide"						"f0"
+		"tall"						"f0"	
 	}	
 
 	HudFlameRocketCharge
 	{
-		"xpos"										"c-37"
-		"ypos"										"r120"
-		"zpos"										"1"
-		"wide"										"100"
-		"tall"										"50"
-		"MeterFG"									"White"
-		"MeterBG"									"Gray"
+		"xpos"						"c-37"
+		"ypos"						"r120"
+		"zpos"						"1"
+		"wide"						"100"
+		"tall"						"50"
+		"MeterFG"					"White"
+		"MeterBG"					"Gray"
 	}
 
 	HudBossHealth

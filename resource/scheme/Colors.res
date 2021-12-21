@@ -328,8 +328,8 @@ Scheme
 		ListPanel.TextColor									"Orange"
 		ListPanel.BgColor									"TransparentBlack"
 		ListPanel.SelectedTextColor							"Black"
-		ListPanel.SelectedBgColor							"Red"
-		ListPanel.SelectedOutOfFocusBgColor					"Red"
+		ListPanel.SelectedBgColor							"ButtonDepressed"
+		ListPanel.SelectedOutOfFocusBgColor					"ButtonDepressed"
 		ListPanel.EmptyListInfoTextColor					"Orange"
 
 		Menu.TextColor										"TanLight"
@@ -420,7 +420,7 @@ Scheme
 		HudObjectives.FgColor								"HudPanelForeground"
 		HudObjectives.BgColor								"HudPanelBackground"
 		HudObjectives.BorderColor							"HudPanelBorder"
-				
+	
 		HudProgressBar.Active								"HudProgressBarActive"
 		HudProgressBar.InActive								"HudProgressBarInActive"
 		
