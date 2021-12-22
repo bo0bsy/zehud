@@ -35,5 +35,10 @@
 	"PipesPresentPanel"
 	{		"wide"			"0"		}
 	"NoPipesPresentPanel"
-	{		"wide"			"0"		}	
+	{		"wide"			"0"		}
+
+	"CDamageAccountValue"
+	{		"wide"			"0"		}
+	"CDamageAccountValueShadow"
+	{		"wide"			"0"		}		
 }
