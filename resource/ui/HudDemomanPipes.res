@@ -51,4 +51,9 @@
 	"TargetDataLabel"
 	{		"wide"			"0"
 	"wide_minmode"			"0"		}
+	
+	"CDamageAccountValue"
+	{		"wide"			"0"		}
+	"CDamageAccountValueShadow"
+	{		"wide"			"0"		}		
 }
