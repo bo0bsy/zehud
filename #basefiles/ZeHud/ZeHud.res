@@ -1,0 +1,11 @@
+#base "../../#basefiles/ZeHud/Health.res"
+#base "../../#basefiles/ZeHud/Ammo.res"
+#base "../../#basefiles/ZeHud/Class.res"
+#base "../../#basefiles/ZeHud/Disguise.res"
+#base "../../#basefiles/ZeHud/Gui.res"
+#base "../../#basefiles/ZeHud/TargetId.res"
+#base "../../#basefiles/ZeHud/HealthAccount.res"
+#base "../../#basefiles/ZeHud/Damage.res"
+#base "../../#basefiles/ZeHud/DemomanCharge.res"
+#base "../../#basefiles/ZeHud/DemomanPipes.res"
+

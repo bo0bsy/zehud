@@ -1,1 +1,1 @@
-#base "../../#customization/Hud/ItemEffectMeter.res"
+#base "../../#customization/ItemEffectMeter.res"
