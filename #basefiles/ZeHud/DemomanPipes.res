@@ -40,8 +40,8 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"PipesPresentPanel"
-		"xpos"										"c-335"
-		"ypos"										"c-170"
+		"xpos"										"cs-0.5-5"
+		"ypos"										"cs-0.5"
 		"xpos_minmode"								"c-100"
 		"ypos_minmode"								"c-52"			
 		"zpos"										"1"
@@ -67,7 +67,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontBiggerBold"
+			"font_minmode"							"HudFontBiggerBold"
+			"font"									"f24"			
 			"fgcolor"   							"CustomYellow"
 		}
 		
@@ -89,7 +90,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontBiggerBold"
+			"font_minmode"							"HudFontBiggerBold"
+			"font"									"f24"	
 			"fgcolor"								"Shadow"
 		}
 
@@ -136,7 +138,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontBiggerBold"
+			"font_minmode"							"HudFontBiggerBold"
+			"font"									"f24"	
 			"fgcolor"   							"TanDark"
 		}
 		
@@ -158,7 +161,8 @@
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
-			"font"									"HudFontBiggerBold"
+			"font_minmode"							"HudFontBiggerBold"
+			"font"									"f24"	
 			"fgcolor"								"Shadow"
 		}
 
