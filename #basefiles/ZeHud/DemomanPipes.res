@@ -2,38 +2,8 @@
 {
 	HudDemomanPipes
 	{
-		"xpos"					"c-14"	
-		"ypos"					"c13"	
-	}	
-
-	"ChargeLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ChargeLabel"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
-	}
-
-	"ChargeMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ChargeMeter"
-		"xpos"					"0"	
-		"ypos"					"0"		
-		"zpos"					"2"
-		"wide"					"28"
-		"tall"					"3"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"fgcolor_override"		"White"
-		"bgcolor_override"		"Gray"			
+		"xpos"										"c-14"	
+		"ypos"										"c13"	
 	}				
 	
 	"PipesPresentPanel"

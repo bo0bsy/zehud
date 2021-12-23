@@ -55,5 +55,31 @@
 	"CDamageAccountValue"
 	{		"wide"			"0"		}
 	"CDamageAccountValueShadow"
-	{		"wide"			"0"		}		
+	{		"wide"			"0"		}	
+	
+	"ChargeLabel"
+	{		"wide"			"0"		}
+	
+	"ChargeMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ChargeMeter"
+		"font"					"Default"
+		"xpos"					"-3"
+		"ypos"					"23"
+		"xpos_minmode"			"-3"
+		"ypos_minmode"			"23"		
+		"zpos"					"2"
+		"wide"					"30"
+		"tall"					"6"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"center"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"fgcolor_override"		"White"
+		"bgcolor_override"		"Gray"			
+	}
 }

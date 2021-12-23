@@ -1,5 +1,11 @@
 "Resource/UI/HudDemomanCharge.res"
 {	
+	HudDemomanCharge
+	{
+		"xpos"										"0"
+		"ypos"										"0"
+	}
+	
     HudChargeMeter
 	{
 		"fieldName"									"HudChargeMeter"

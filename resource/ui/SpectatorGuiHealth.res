@@ -16,5 +16,15 @@
 	{		"wide"			"0"
 	"wide_minmode"			"0"		}
 	"SpectatorGUIHealth"
+	{		"wide"			"0"		}
+
+	"PipesPresentPanel"
+	{		"wide"			"0"		}
+	"NoPipesPresentPanel"
+	{		"wide"			"0"		}		
+	
+	"CDamageAccountValue"
+	{		"wide"			"0"		}
+	"CDamageAccountValueShadow"
 	{		"wide"			"0"		}	
 }

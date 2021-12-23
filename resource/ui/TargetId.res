@@ -10,6 +10,16 @@
 	"PlayerStatusHealthValueTargetIDBlur"
 	{		"wide"			"0"		}
 	
+	"PipesPresentPanel"
+	{		"wide"			"0"		}
+	"NoPipesPresentPanel"
+	{		"wide"			"0"		}		
+	
+	"CDamageAccountValue"
+	{		"wide"			"0"		}
+	"CDamageAccountValueShadow"
+	{		"wide"			"0"		}	
+	
 	"SpectatorGUIHealth"
 	{
 		"ControlName"				"EditablePanel"

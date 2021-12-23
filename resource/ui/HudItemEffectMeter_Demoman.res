@@ -2,83 +2,112 @@
 {
 	HudItemEffectMeter
 	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-20"
-		"ypos"			"c20"	
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}
-	
-	"ItemEffectMeterLabel"
+		"fieldName"				"HudItemEffectMeter"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1"
+		"ypos"					"0"	
+		"wide"					"60"
+		"tall"					"40"
+	}	
+
+	"Icon"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
+		"fieldName"				"Icon"
+		"xpos"					"-5"
+		"ypos"					"3"
+		"zpos"					"2"
+		"wide"					"25"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"east"
+		"proportionaltoparent"	"1"
+		"font"					"Symbols 18"
+		"fgcolor" 				"TanLight"
 	}
 
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"25"
-		"ypos"					"23"
+	"IconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"IconShadow"
+		"xpos"					"-1"
+		"ypos"					"-1"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"6"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"0"
-		"enabled"				"0"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
+		"wide"					"25"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"east"
+		"proportionaltoparent"	"1"
+		"font"					"Symbols 18"
+		"fgcolor" 				"Shadow"
+		
+		"pin_to_sibling"		"Icon"				
+	}	
 	
 	"ItemEffectMeterCount"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"0"
-		"ypos"					"5"
-		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
-		"font"					"HudFontSmallBold"
-		"fgcolor"   			"CustomYellow"		
-	}
-	
-	"ItemEffectMeterCountBlur"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountBlur"
-		"xpos"					"0"
+		"xpos"					""
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"40"
-		"tall"					"20"	
+		"wide"					"58"
+		"tall"					"30"	
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"center"
-		"font"					"HudFontSmallBoldBlur"
-		"fgcolor"   			"20 20 20 255"
+		"textAlignment"			"east"
+		"font"					"f24"
+		"fgcolor"   			"CustomYellow"			
+	}
+	
+	"ItemEffectMeterCountShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCountShadow"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"2"
+		"wide"					"58"
+		"tall"					"28"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"east"
+		"font"					"f24"
+		"fgcolor"   			"Shadow"
+		
+		"proportionaltoaparent"	"1"
+		"border"				"TFFatLineBorder"		
 		
 		"pin_to_sibling"		"ItemEffectMeterCount"		
 	}
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"xpos"										"9999"
+	}
+	"ItemEffectMeterLabel"
+	{
+		"ControlName"								"CExLabel"
+		"fieldName"									"ItemEffectMeterLabel"
+		"xpos"										"9999"
+	}
+	"ItemEffectMeter"
+	{	
+		"ControlName"								"ContinuousProgressBar"
+		"fieldName"									"ItemEffectMeter"
+		"xpos"										"9999"
+	}	
 }

@@ -13,6 +13,6 @@
 {
 	HudDeathNotice
 	{	
-		"ypos"	 									"30"	// You Can Change This One To "0" If You Don't Want To Use Anything Except Small Match Status
+		"ypos"	 									"30"
 	}
 }
