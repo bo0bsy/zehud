@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"		
 	}
+
 	"PlayerStatusClassImage"
 	{
 		"ControlName"	"CTFClassImage"
@@ -29,24 +30,7 @@
 		
 		"xpos"			"99999"			
 	}
-	"PlayerStatusSpyImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyImage"	
-		"xpos_minmode"	"-5"		
-		"ypos_minmode"	"r44"		
-		"wide_minmode"	"27"
-		"tall_minmode"	"27"
-		"zpos"			"2"		
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spyred"
-		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
-		"scaleImage"	"1"	
 
-		"xpos"			"99999"				
-	}	
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
@@ -62,7 +46,8 @@
 		"scaleImage"	"1"
 		
 		"xpos"			"99999"			
-	}		
+	}
+	
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"

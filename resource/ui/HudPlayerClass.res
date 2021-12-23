@@ -47,5 +47,24 @@
 	"CDamageAccountValue"
 	{		"wide"			"0"		}
 	"CDamageAccountValueShadow"
-	{		"wide"			"0"		}		
+	{		"wide"			"0"		}
+
+	"PlayerStatusSpyImage"
+	{
+		"ControlName"		"CTFImagePanel"
+		"fieldName"			"PlayerStatusSpyImage"	
+		"xpos_minmode"		"-5"		
+		"ypos_minmode"		"r44"		
+		"wide_minmode"		"27"
+		"tall_minmode"		"27"
+		"zpos"				"2"		
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/class_spyred"
+		"teambg_2"			"../hud/class_spyred"
+		"teambg_3"			"../hud/class_spyblue"			
+		"scaleImage"		"1"	
+
+		"xpos"				"99999"				
+	}		
 }
