@@ -1,6 +1,6 @@
 #base "../#basefiles/ZeHud/ZeHud.res"
 
-#base "../#basefiles/ZeHud/LastDamageDone_On.res"		//last damage done
+//#base "../#basefiles/ZeHud/LastDamageDone_On.res"		//last damage done
 
 //==================================================================================================
 // HUD SETTINGS INSTRUCTIONS
