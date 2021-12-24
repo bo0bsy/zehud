@@ -1,5 +1,6 @@
 #base "../#customization/MatchStatus.res"
 #base "../#customization/Transparent_Viewmodels.res"
+#base "../#customization/Damage_Indicator.res"
 
 "Resource/HudLayout.res"
 {	
@@ -83,15 +84,6 @@
 		"tall"						"50"
 		"MeterFG"					"White"
 		"MeterBG"					"Gray"
-	}
-	
-	HudMedicCharge
-	{
-		"xpos"						"0"
-		"ypos_minmode"				"0"		
-		"ypos"						"23"
-		"wide"						"f0"
-		"tall"						"480"
 	}
 	
 	HudDemomanCharge
@@ -336,20 +328,6 @@
 		"TextColor"	"255 170 0 220"
 
 		"PaintBackgroundType"	"2"
-	}
-
-	HudDamageIndicator
-	{
-		"fieldName" "HudDamageIndicator"
-		"visible" "0"
-		"enabled" "0"
-		"MinimumWidth" "0" was 15//
-		"MaximumWidth" "0" was 15//
-//		"StartRadius" "80"
-//		"EndRadius" "80"
-//		"MinimumHeight" "30"
-//		"MaximumHeight" "60"
-//		"MinimumTime" "1" 
 	}
 
 	HudCommentary

@@ -8,4 +8,5 @@
 #base "../../#basefiles/ZeHud/Damage.res"
 #base "../../#basefiles/ZeHud/DemomanCharge.res"
 #base "../../#basefiles/ZeHud/DemomanPipes.res"
+#base "../../#basefiles/ZeHud/Uber.res"
 

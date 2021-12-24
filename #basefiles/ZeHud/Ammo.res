@@ -1,8 +1,5 @@
 "Resource/UI/HudAmmoWeapons.res"
 {
-	"PlayerStatusHealthValue"
-	{		"wide"			"0"				}
-
 	HudWeaponAmmo
 	{
 		"xpos"										"0"

@@ -2,21 +2,21 @@
 
 event UberchargeBg
 {
-    Animate ChargeMeter     wide        "0"                     Linear 0.1 0.2
+    Animate ChargeMeter     			wide     "0"                    Linear 0.1 0.2
 }
 
 event HudMedicCharged
 {
-    Animate ChargeLabel        FgColor  "Positive"      		Linear 0.0 0.1
-    Animate ChargeLabel        FgColor  "Positive_2"      		Linear 0.3 0.1	
+    Animate ChargeLabel      			FgColor  "Positive"      		Linear 0.0 0.1
+    Animate ChargeLabel        			FgColor  "Positive_2"      		Linear 0.3 0.1	
 
 	RunEvent HudMedicChargedLoop		0.6
 }
 
 event HudMedicChargedLoop
 {
-    RunEvent UberchargeBg    0.0
-	RunEvent HudMedicCharged 0.0
+    RunEvent UberchargeBg   			0.0
+	RunEvent HudMedicCharged			0.0
 }
 
 event HudMedicChargedStop
@@ -24,9 +24,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"TanLight"		        Linear 0.0 0.0
+	Animate	ChargeLabel 				FgColor	 "TanLight"		        Linear 0.0 0.0
 	
-    Animate ChargeMeter     wide        "40"                    Linear 0.1 0.2	
+    Animate ChargeMeter     			wide     "40"                   Linear 0.1 0.2	
 }
 
 //===========================================================================================================================
