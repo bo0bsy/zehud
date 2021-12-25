@@ -41,11 +41,11 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"2"
-		"xpos_minmode"				"2"		
-		"ypos"						"-5"		
-		"ypos_minmode"				"-2"
+		"ControlName"		"EditablePanel"
+		"fieldName"			"SpectatorGUIHealth"
+		"xpos"				"2"
+		"xpos_minmode"		"2"		
+		"ypos"				"-5"		
+		"ypos_minmode"		"-2"
 	}	
 }

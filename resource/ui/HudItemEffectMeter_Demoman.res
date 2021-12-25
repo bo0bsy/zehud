@@ -5,9 +5,9 @@
 		"fieldName"				"HudItemEffectMeter"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"rs1"
+		"xpos"					"rs1+17"
 		"ypos"					"0"	
-		"wide"					"60"
+		"wide"					"80"
 		"tall"					"40"
 	}	
 
@@ -53,7 +53,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					""
+		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"58"
@@ -86,28 +86,45 @@
 		"font"					"f24"
 		"fgcolor"   			"Shadow"
 		
-		"proportionaltoaparent"	"1"
-		"border"				"TFFatLineBorder"		
-		
 		"pin_to_sibling"		"ItemEffectMeterCount"		
 	}
 	
+	"BG"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"BG"
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"zpos"					"2"
+		"wide"					"60"
+		"tall"					"28"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"proportionaltoaparent"	"1"
+		"labelText"				""		 
+		"border"				"TFFatLineBorder"		
+		
+		"pin_to_sibling"		"ItemEffectMeterCount"		
+	}	
+	
 	"ItemEffectMeterBG"
 	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectMeterBG"
-		"xpos"										"9999"
+		"ControlName"			"CTFImagePanel"
+		"fieldName"				"ItemEffectMeterBG"
+		"xpos"					"9999"
 	}
 	"ItemEffectMeterLabel"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemEffectMeterLabel"
-		"xpos"										"9999"
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterLabel"
+		"xpos"					"9999"
 	}
 	"ItemEffectMeter"
 	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"xpos"					"9999"
 	}	
 }

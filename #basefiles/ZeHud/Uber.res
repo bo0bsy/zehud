@@ -5,8 +5,6 @@
 	{
 		"xpos"										"0"		
 		"ypos"										"23"
-		"wide"										"f0"
-		"tall"										"f0"
 	}	
 	
 	"UberAnchor"

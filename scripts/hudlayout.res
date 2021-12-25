@@ -62,6 +62,12 @@
 		"tall"						"f0"
 	}
 	
+	HudMedicCharge
+	{
+		"wide"						"f0"
+		"tall"						"f0"
+	}		
+	
 	HudKothTimeStatus
 	{
 		"fieldName"					"HudKothTimeStatus"
@@ -106,115 +112,116 @@
 
 	HudBossHealth
 	{
-		"fieldName"		"HudBossHealth"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-100"
-		"ypos"			"42"
-		"zpos"			"0"
-		"wide"			"200"
-		"tall"			"50"
-		"MeterFG"		"Red"
-		"MeterBG"		"Gray"
+		"fieldName"					"HudBossHealth"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"c-100"
+		"ypos"						"42"
+		"zpos"						"0"
+		"wide"						"200"
+		"tall"						"50"
+		"MeterFG"					"Red"
+		"MeterBG"					"Gray"
 	}
 
 	HudWeaponSelection
 	{
-		"fieldName" "HudWeaponSelection"
-		"xpos"	"0"
-		"wide"	"f0"
-		"ypos" 	"0"
-		"tall"	"480"
-		"RightMargin" "0"
-		"visible" "1"
-		"enabled" "1"
-		"SmallBoxWide" "72"
-		"SmallBoxTall" "54"
-		"PlusStyleBoxWide" "90"
-		"PlusStyleBoxTall" "63"
+		"fieldName" 				"HudWeaponSelection"
+		"xpos"						"0"
+		"wide"						"f0"
+		"ypos" 						"0"
+		"tall"						"480"
+		"RightMargin" 				"0"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"SmallBoxWide" 				"72"
+		"SmallBoxTall" 				"54"
+		"PlusStyleBoxWide" 			"90"
+		"PlusStyleBoxTall" 			"63"
 		"PlusStyleExpandSelected"	"0.3"
-		"LargeBoxWide" "110"
-		"LargeBoxTall" "77"
-		"BoxGap" "4"	
-		"BoxGap" "4"	
-		"SelectionNumberXPos" "12"
-		"SelectionNumberYPos" "4"
-		"IconXPos" "8"
-		"IconYPos" "0"
-		"TextYPos" "70"		
-		"TextYPos" "65"		
-		"ErrorYPos" "48"
-		"TextColor" "SelectionTextFg"
-		"MaxSlots"	"6"
-		"PlaySelectSounds"	"1"
-		"Alpha" "220"
-		"SelectionAlpha" "220"
-		"BoxColor" "0 0 0 220"
-		"SelectedBoxClor" "0 0 0 220"
-		"SelectionNumberFg"	"200 187 161 255"
-		"NumberFont" "HudSelectionText"
+		"LargeBoxWide" 				"110"
+		"LargeBoxTall" 				"77"
+		"BoxGap" 					"4"	
+		"BoxGap" 					"4"	
+		"SelectionNumberXPos" 		"12"
+		"SelectionNumberYPos"	 	"4"
+		"IconXPos" 					"8"
+		"IconYPos" 					"0"
+		"TextYPos" 					"70"		
+		"TextYPos" 					"65"		
+		"ErrorYPos"					"48"
+		"TextColor" 				"SelectionTextFg"
+		"MaxSlots"					"6"
+		"PlaySelectSounds"			"1"
+		"Alpha" 					"220"
+		"SelectionAlpha" 			"220"
+		"BoxColor" 					"0 0 0 220"
+		"SelectedBoxClor" 			"0 0 0 220"
+		"SelectionNumberFg"			"200 187 161 255"
+		"NumberFont" 				"HudSelectionText"
 	}	
 	
 	CHudAccountPanel
 	{
-		"xpos"					"c-23"
-		"ypos"					"c10"
-		"wide"					"f0"
-		"tall"  				"f0"
+		"xpos"						"c-23"
+		"ypos"						"c10"
+		"wide"						"f0"
+		"tall"  					"f0"
 	}
 	
 	"CHealthAccountPanel"
 	{	
-		"wide"					"f0"
-		"tall"  				"f0"
+		"wide"						"f0"
+		"tall"  					"f0"
 	}	
 	
 	CDamageAccountPanel
 	{
-		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"480"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"fieldName"					"CDamageAccountPanel"
+		"xpos"						"0"
+		"ypos"						"0"
+		"wide"						"f0"
+		"tall"						"480"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"PaintBackgroundType"		"2"
 	}
 	
 	DisguiseStatus
 	{
-		"fieldName"				"DisguiseStatus"
-		"visible"	  			"1"
-		"enabled"	   			"1"			
-		"wide"		   			"f0"
-		"tall"		   			"f0"
+		"fieldName"					"DisguiseStatus"
+		"visible"	  				"1"
+		"enabled"	   				"1"	
+		"zpos"						"100"
+		"wide"		   				"f0"
+		"tall"		   				"f0"
 	}
 
 	CMainTargetID
 	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"wide"	 		"252"
-		"tall"	 		"28"
+		"fieldName" 			"CMainTargetID"
+		"visible" 				"0"
+		"enabled" 				"1"
+		"wide"	 				"252"
+		"tall"	 				"28"
 	}
 	
 	CSpectatorTargetID
 	{
-		"fieldName" 	"CSpectatorTargetID"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"wide"	 		"252"
-		"tall"	 		"28"
+		"fieldName" 			"CSpectatorTargetID"
+		"visible" 				"0"
+		"enabled" 				"1"
+		"wide"	 				"252"
+		"tall"	 				"28"
 	}
 	
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"wide"	 		"252"
-		"tall"	 		"28"
+		"fieldName" 			"CSecondaryTargetID"
+		"visible" 				"0"
+		"enabled" 				"1"
+		"wide"	 				"252"
+		"tall"	 				"28"
 	}
 	
 	"BuildingAnchor"
@@ -444,10 +451,6 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" "1"
-
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
 	}
 
 	HudSpellMenu
@@ -460,10 +463,6 @@
 		"zpos" 					"2"
 		"xpos"					"130"
 		"ypos"					"r61"
-		
-		"TextFont"				"Default"
-		"ItemFont"				"Default"
-		"ItemFontPulsing"		"Default"
 	}
 	
 	HudCloseCaption
@@ -781,11 +780,6 @@
 		"ypos"					"200"
 		"wide"					"100"
 		"tall"					"50"
-	}
-	
-	AnnotationsPanel
-	{
-		
 	}
 
 	WaitingForPlayersPanel
@@ -1227,6 +1221,10 @@
 	"HudTeamSwitch"
 	{
 		"ypos"										"99999"
+	}		
+	AnnotationsPanel
+	{
+		"wide"										"0"	
 	}		
 	"HudArenaCapPointCountdown"
 	{
