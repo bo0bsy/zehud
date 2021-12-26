@@ -56,13 +56,15 @@
 	{
 		"ControlName"			"ScalableImagePanel"
 		"fieldName"				"ProgressBarBG"
-		"xpos"					"213"
-		"ypos"					"22"
-		"ypos_minmode"			"10"		
+		"xpos"					"-2"
+		"ypos"					"-2"
+		"ypos_minmode"			"-2"		
 		"wide"					"178"
 		"tall"					"10"
 		"image"					"replay/thumbnails/progress_bar_bg"
-	
+		
+		"pin_to_sibling"		"ProgressBar"		
+
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}

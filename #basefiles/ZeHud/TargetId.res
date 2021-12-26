@@ -173,19 +173,5 @@
 		"enabled"				"1"
 		"image"					"../hud/leaderboard_class_soldier"
 		"scaleImage"			"1"
-	}
-	
-	"KillStreakIcon"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"KillStreakIcon"
-		"xpos"			"99999"
-	}
-	
-	"AvatarImage"
-	{
-		"ControlName"	"CAvatarImagePanel"
-		"fieldName"		"AvatarImage"
-		"xpos"			"99999"
 	}	
 }

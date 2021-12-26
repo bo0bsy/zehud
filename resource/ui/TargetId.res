@@ -48,4 +48,18 @@
 		"ypos"				"-5"		
 		"ypos_minmode"		"-2"
 	}	
+	
+	"KillStreakIcon"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"KillStreakIcon"
+		"xpos"				"99999"
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName"		"CAvatarImagePanel"
+		"fieldName"			"AvatarImage"
+		"xpos"				"99999"
+	}	
 }
