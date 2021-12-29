@@ -62,6 +62,19 @@ Scheme
 				"blur"			"3"				
 			}
 		}
+		
+		"PowerUp"
+		{
+			"1"
+			{
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"dropshadow"	"1"					
+			}
+		}		
 
 		"Uber"
 		{
@@ -80,12 +93,12 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"20"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-				"blur"		"3"				
+				"name"			"TF2 Build"
+				"tall"			"20"
+				"weight"		"500"
+				"additive"		"0"
+				"antialias" 	"1"
+				"blur"			"3"				
 			}
 		}			
 		
