@@ -9,6 +9,3 @@
 
 //#base "../#basefiles/ZeHud/Buff.res"					//Arrows Buff Icons
 //#base "../#basefiles/ZeHud/LastDamageDone_On.res"		//last damage done
-
-
-
