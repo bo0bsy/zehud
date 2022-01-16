@@ -140,24 +140,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}	
-	
-	"SpectatorGUIHealth"
-	{
-		"ControlName"				"EditablePanel"
-		"fieldName"					"SpectatorGUIHealth"
-		"xpos"						"-4"
-		"xpos_minmode"				"2"		
-		"ypos"						"-2"		
-		"ypos_minmode"				"-2"
-		"visible"					"0"
-		"enabled"					"0"	
-		"HealthBonusPosAdj"			"10"
-		"HealthDeathWarning"		"0.49"
-		"TFFont"					"HudFontSmall"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"					"HudOffWhite"
-	}	
+	}		
 	
 	"AmmoIcon"
 	{

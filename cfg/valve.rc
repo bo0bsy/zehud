@@ -1,0 +1,6 @@
+hud_reloadscheme
+exec autoexec.cfg
+stuffcmds
+startupmenu
+sv_unlockedchapters 99
+tf_hud_target_id_disable_floating_health 1

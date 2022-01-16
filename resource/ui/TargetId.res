@@ -9,7 +9,7 @@
 	{		"wide"			"0"		}
 	"PlayerStatusHealthValueTargetIDBlur"
 	{		"wide"			"0"		}
-	
+
 	"PipesPresentPanel"
 	{		"wide"			"0"		}
 	"NoPipesPresentPanel"
@@ -37,13 +37,22 @@
 	"ChargeMeter4"
 	{		"wide"			"0"		}
 	"ResistIcon"
-	{		"wide"			"0"		}	
-	
+	{		"wide"			"0"		}
+
 	"SpectatorGUIHealth"
 	{
-		"xpos"				"2"
-		"xpos_minmode"		"2"		
-		"ypos"				"-5"		
-		"ypos_minmode"		"-2"
+		"ControlName"				"EditablePanel"
+		"fieldName"					"SpectatorGUIHealth"
+		"xpos"						"-4"
+		"xpos_minmode"				"2"		
+		"ypos"						"-2"		
+		"ypos_minmode"				"-2"
+		"visible"					"0"
+		"enabled"					"0"	
+		"HealthBonusPosAdj"			"10"
+		"HealthDeathWarning"		"0.49"
+		"TFFont"					"HudFontSmall"
+		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"TextColor"					"HudOffWhite"
 	}	
 }

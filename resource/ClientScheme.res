@@ -12,7 +12,6 @@
 #base "../resource/scheme/Crosshairs.res"
 #base "../resource/scheme/CustomFonts/Icons.res"
 #base "../resource/scheme/CustomFonts/ZeHud.res"
-#base "../resource/scheme/CustomFonts/m0re.res"
 
 ///////////////////////////////////////////
 //////////////////BORDERS//////////////////
