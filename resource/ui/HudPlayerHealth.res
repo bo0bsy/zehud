@@ -72,7 +72,7 @@
 
 	"PlayerStatusMaxHealthValue"
 	{
-		"fgcolor"		"blank"
+		"fgcolor"									"blank"
 	}	
 
 	"StatusIconFix"

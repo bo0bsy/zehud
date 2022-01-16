@@ -24,13 +24,37 @@ event ActiveTimerDim
 
 //===========================================================================================================================
 
+event RDPositiveScorePulse
+{
+	Animate Score 									FgColor		"positive"							Linear 0.0 0.0
+	Animate Score 									FgColor		"white"								Linear 0.1 0.2
+
+	Animate Score Position							"0 0"											Deaccel 0.0 0.05
+	Animate Score Position							"0 0"											Accel 0.05 0.2
+
+	Animate ScoreShadow 							FgColor		"Shadow"							Deaccel 0.0 0.05
+	Animate ScoreShadow 							FgColor		"black"								Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score 									FgColor		"negative"							Linear 0.0 0.0
+	Animate Score 									FgColor		"white"								Linear 0.1 0.2
+
+	Animate Score Position							"0 0"		Deaccel 0.0 0.05
+	Animate Score Position							"0 0"		Accel 0.05 0.2
+
+	Animate ScoreShadow 							FgColor		"custombgcolor"						Deaccel 0.0 0.05
+	Animate ScoreShadow 							FgColor		"black"								Accel 0.1 0.2
+}
+
+//===========================================================================================================================
+
 event FlagOutline{}
 event HasNotificationsBlink{}
 event HasNotificationsBlinkStop{}
 event CompetitiveGame_LowerChatWindow{}
 event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}
-event RDPositiveScorePulse{}
-event RDNegativeScorePulse{}
 event TeamStatus_PlayerDead{}
 event TeamStatus_PlayerAlive{}

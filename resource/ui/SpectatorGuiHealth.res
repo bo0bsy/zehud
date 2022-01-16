@@ -45,5 +45,5 @@
 	"ChargeMeter4"
 	{		"wide"			"0"		}
 	"ResistIcon"
-	{		"wide"			"0"		}	
+	{		"wide"			"0"		}		
 }

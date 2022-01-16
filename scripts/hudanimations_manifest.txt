@@ -6,5 +6,6 @@ hudanimations_manifest
 	"file" "scripts/animations/hudanimations_uber.txt"
 	"file" "scripts/animations/hudanimations_spy.txt"
 	"file" "scripts/animations/hudanimations_ze.txt"
+	"file" "scripts/animations/hudanimations_deathfix.txt"
 	"file" "scripts/hudanimations_tf.txt"
 }
