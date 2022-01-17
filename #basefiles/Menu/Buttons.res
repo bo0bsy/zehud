@@ -444,7 +444,7 @@
 		"ControlName"			"EditablePanel"
 		"fieldname"				"BGPanel2"
 		"xpos"					"-6"
-		"ypos"					"-8"
+		"ypos"					"-7"
 		"zpos"					"1"
 		"wide"					"40"
 		"tall"					"52"
