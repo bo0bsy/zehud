@@ -605,6 +605,18 @@ Scheme
 				"antialias" 	"1"			
 			}
 		}
+		
+		"HUDS"
+		{
+			"1"
+			{
+				"name"			"Verdana"
+				"tall"			"18"
+				"weight"		"900"
+				"additive"		"0"
+				"antialias" 	"1"			
+			}
+		}		
 	}		
 	
 	CustomFontFiles

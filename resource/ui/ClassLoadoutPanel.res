@@ -79,7 +79,7 @@
 			"visible"			"0"
 			"enabled"			"1"
 			"tabPosition"		"0"
-			"labelText"			"~"
+			"labelText"			"{"
 			"font"				"Symbols 18"
 			"textAlignment"		"center"
 			"dulltext"			"0"

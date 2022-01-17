@@ -361,7 +361,7 @@
 		"fieldName"							"MOTD_ShowButtonPanel"
 		"xpos"								"rs1+5"
 		"ypos"								"20"
-		"zpos"								"1"
+		"zpos"								"2"
 		"wide"								"40"
 		"tall"								"40"
 		"visible"							"1"
@@ -400,8 +400,8 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"QuestLogButton"
 		"xpos"								"-9"
-		"ypos"								"40"
-		"zpos"								"1"
+		"ypos"								"35"
+		"zpos"								"2"
 		"wide"								"40"
 		"tall"								"40"
 		"visible"							"1"
@@ -438,4 +438,20 @@
 			"armedFgColor_override"		"TanLightSelect"
 		}
 	}
+	
+	"BGPanel2"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldname"				"BGPanel2"
+		"xpos"					"-6"
+		"ypos"					"-8"
+		"zpos"					"1"
+		"wide"					"40"
+		"tall"					"52"
+		"visible"				"1"
+		"bgcolor_override"		"CustomBlack"
+		"PaintBackgroundType"	"2"
+		
+		"pin_to_sibling"					"MOTD_ShowButtonPanel"		
+	}		
 }

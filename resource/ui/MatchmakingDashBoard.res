@@ -53,7 +53,7 @@
 			"ypos"			"29"
 			"zpos"			"100"
 			"wide"			"f0"
-			"tall"			"1"
+			"tall"			"2"
 			"visible"		"2"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"		"5 5 5 255"
@@ -264,13 +264,7 @@
 			{
 				"ControlName"			"Panel"
 				"fieldName"				"OuterShadow"
-				"xpos"					"0"
-				"ypos"					"0"
-				"zpos"					"-1"
-				"wide"					"f0"
-				"tall"					"f0"
-				"visible"				"1"
-				"proportionaltoparent"	"1"
+				"border"				"noborder"
 			}
 
 			"BGPanel"
@@ -284,7 +278,7 @@
 				"tall"					"f4"
 				"visible"				"1"
 				"proportionaltoparent"	"1"
-				"bgcolor_override"		"blank"
+				"border"				"Black"
 			}
 
 			"QueueLogoButton"

@@ -1,4 +1,5 @@
 #base "../../#basefiles/Menu/Tools.res"
+#base "../../#basefiles/Menu/Links.res"
 #base "../../#basefiles/Menu/Buttons.res"
 
 "Resource/UI/MainMenuOverride.res"
@@ -543,7 +544,7 @@
 		"xpos"		    							"-8"
 		"ypos"		    							"461"
 		"zpos"										"15"
-		"wide"		    							"120"
+		"wide"		    							"45"
 		"tall"		    							"20"
 		
 		"SubButton"
