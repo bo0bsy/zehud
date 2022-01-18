@@ -445,12 +445,15 @@
 
 	HudMenu
 	{
-		"fieldName" "HudMenu"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"
-		"tall"	 "480"
-		"zpos" "1"
+		"fieldName" 			"HudMenu"
+		"visible" 				"1"
+		"enabled" 				"1"
+		"wide"	 				"640"
+		"tall"	 				"480"
+		"zpos" 					"1"
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"		
 	}
 
 	HudSpellMenu
