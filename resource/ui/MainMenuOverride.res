@@ -544,7 +544,7 @@
 		"xpos"		    							"-8"
 		"ypos"		    							"461"
 		"zpos"										"15"
-		"wide"		    							"150"
+		"wide"		    							"50"
 		"tall"		    							"20"
 		
 		"SubButton"
@@ -562,7 +562,7 @@
 			"tabPosition"							"0"
 			"use_proportional_insets" 				"1"
 			"font"									"me"
-			"labelText"								"zehud made by boobsy"			
+			"labelText"								"zehud"			
 			"AllCaps"								"1"
 			"textAlignment"							"west"
 			"dulltext"								"0"
