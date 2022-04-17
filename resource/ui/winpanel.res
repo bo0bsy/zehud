@@ -1,0 +1,1 @@
+#base "../../#customization/WinPanel.res"

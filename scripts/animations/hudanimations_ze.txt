@@ -1,0 +1,51 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup						Position	"0 -50"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup						Position	"0 40"								Spline 	0.001 	0.1
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup						Position	"0 40"								Linear 	0.0 	0.001
+	Animate HudTournamentSetup						Position	"0 -50"								Spline 	0.001 	0.6
+}
+
+//===========================================================================================================================
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue							FgColor		"TanLight"							Linear 	0.0 	0.0
+}
+
+event ActiveTimerDim
+{
+	Animate TimePanelValue							FgColor		"TanLight"							Linear 	0.0 	0.0
+}
+
+//===========================================================================================================================
+
+event RDPositiveScorePulse
+{
+	Animate Score 									FgColor		"positive"							Linear 0.0 0.0
+	Animate Score 									FgColor		"white"								Linear 0.1 0.2
+
+	Animate Score Position							"0 0"											Deaccel 0.0 0.05
+	Animate Score Position							"0 0"											Accel 0.05 0.2
+
+	Animate ScoreShadow 							FgColor		"Shadow"							Deaccel 0.0 0.05
+	Animate ScoreShadow 							FgColor		"black"								Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score 									FgColor		"negative"							Linear 0.0 0.0
+	Animate Score 									FgColor		"white"								Linear 0.1 0.2
+
+	Animate Score Position							"0 0"		Deaccel 0.0 0.05
+	Animate Score Position							"0 0"		Accel 0.05 0.2
+
+	Animate ScoreShadow 							FgColor		"custombgcolor"						Deaccel 0.0 0.05
+	Animate ScoreShadow 							FgColor		"black"								Accel 0.1 0.2
+}
+
+//===========================================================================================================================
