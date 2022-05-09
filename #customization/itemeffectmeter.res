@@ -1,6 +1,6 @@
-//#base "../#basefiles/ItemEffectMeter/ItemEffectMeter.res"				//ItemEffectMeter Item Effect Meter
-//#base "../#basefiles/ItemEffectMeter/ItemEffectMeter_Default.res"		//Default Hud Meters
-#base "../#basefiles/ItemEffectMeter/ItemEffectMeter_With_Labels.res"	//ItemEffectMeter Item Effect Meter With Labels
+//#base "../#basefiles/ItemEffectMeter/ItemEffectMeter.res"				//Centered Item Effect Meter
+#base "../#basefiles/ItemEffectMeter/ItemEffectMeter_Default.res"		//Default Hud Meters
+//#base "../#basefiles/ItemEffectMeter/ItemEffectMeter_With_Labels.res"	//Centered Item Effect Meter With Labels
 
 //==================================================================================================
 // ITEM EFFECT METER SETTINGS INSTRUCTIONS

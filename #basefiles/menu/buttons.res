@@ -147,7 +147,7 @@
 		"tabPosition"						"0"
 		"textinsetx"						"0"
 		"use_proportional_insets" 			"1"
-		"font"								"Symbols 20"
+		"font"								"Symbols 16"
 		"textAlignment"						"center"
 		"dulltext"							"0"
 		"brighttext"						"0"

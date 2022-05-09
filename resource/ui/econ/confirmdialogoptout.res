@@ -155,7 +155,7 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"wrap"						"0"
-		"font"						"Size 11"
+		"font"						"f10"
 		"selected_fgcolor_override" "TanLight"
 	}
 }
