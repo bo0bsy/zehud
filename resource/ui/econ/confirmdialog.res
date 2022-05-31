@@ -24,7 +24,7 @@
 	{
 		"ControlName"				"CExLabel"
 		"fieldName"					"TitleLabel"
-		"font"						"f24"
+		"font"						"f30"
 		"labelText"					"#ConfirmTitle"
 		"textAlignment"				"north"
 		"xpos"						"0"
@@ -32,11 +32,8 @@
 		"zpos"						"1"
 		"wide"						"324"
 		"tall"						"25"
-		"autoResize"				"1"
-		"pinCorner"					"0"
 		"visible"					"1"
 		"enabled"					"1"
-		"AllCaps"					"1"
 		"fgcolor_override" 			"TanLight"
 	}
 	

@@ -1,5 +1,10 @@
 "Resource/UI/HudStopWatch.res"
 {
+	"HudStopWatchBG"	{	"ControlName"	"ImagePanel"	"fieldName"	"HudStopWatchBG"	"xpos"	"9999"	}
+	"StopWatchImageCaptureTime"	{	"ControlName"	"ImagePanel"	"fieldName"	"StopWatchImageCaptureTime"	"xpos"	"9999"	}
+	"HudStopWatchDescriptionBG"	{	"ControlName"	"ScalableImagePanel"	"fieldName"	"HudStopWatchDescriptionBG"	"xpos"	"9999"	}
+	"StopWatchDescriptionLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"StopWatchDescriptionLabel"	"xpos"	"9999"	}
+
 	"StopWatchAnchor"
 	{
 		"ControlName"								"EditablePanel"
@@ -24,10 +29,7 @@
 		"visible"									"0"
 		"enabled"									"1"
 
-		if_comp
-		{
-			"xpos"									"5"
-		}
+		if_comp	{	"xpos"	"5"	}
 
 		"pin_to_sibling"							"StopWatchAnchor"
 
@@ -46,10 +48,7 @@
 			"enabled"								"1"
 			"textAlignment"							"east"
 
-			if_comp
-			{
-				"font"								"f12"
-			}
+			if_comp	{	"font"	"f12"	}
 		}
 	}
 
@@ -73,10 +72,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_comp
-		{
-			"font"									"f12"
-		}
+		if_comp	{	"font"	"f12"	}
 	}
 
 	"StopWatchPointsLabel"
@@ -99,10 +95,7 @@
 		"pin_corner_to_sibling"						"PIN_TOPLEFT"
 		"pin_to_sibling_corner"						"PIN_TOPRIGHT"
 
-		if_comp
-		{
-			"font"									"f12"
-		}
+		if_comp	{	"font"	"f12"	}
 	}
 
 	"StopWatchLabel"
@@ -125,34 +118,6 @@
 
 		"pin_to_sibling"							"ObjectiveStatusTimePanel"
 
-		if_comp
-		{
-			"font"									"f8"
-		}
-	}	
-
-	"HudStopWatchBG"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"HudStopWatchBG"
-		"xpos"										"9999"
-	}
-	"StopWatchImageCaptureTime"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"StopWatchImageCaptureTime"
-		"xpos"										"9999"
-	}
-	"HudStopWatchDescriptionBG"
-	{
-		"ControlName"								"ScalableImagePanel"
-		"fieldName"									"HudStopWatchDescriptionBG"
-		"xpos"										"9999"
-	}
-	"StopWatchDescriptionLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"StopWatchDescriptionLabel"
-		"xpos"										"9999"
+		if_comp	{	"font"	"f8"	}
 	}
 }

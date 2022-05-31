@@ -3,90 +3,52 @@
 
 "Resource/UI/HudPlayerHealth.res"
 {	
-	"DisguiseStatusBG"
-	{		"wide"			"0"		}
-	"DisguiseNameLabel"
-	{		"wide"			"0"		}		
-	"WeaponNameLabel"
-	{		"wide"			"0"		}	
+	"DisguiseStatusBG"	{	"wide"	"0"	}
+	"DisguiseNameLabel"	{	"wide"	"0"	}		
+	"WeaponNameLabel"	{	"wide"	"0"	}
 	
-	"PlayerStatusHealthValueTargetID"
-	{		"wide"			"0"		}
-	"PlayerStatusHealthValueTargetIDBlur"
-	{		"wide"			"0"		}
+	"PlayerStatusHealthValueTargetID"	{	"wide"	"0"	}
+	"PlayerStatusHealthValueTargetIDBlur"	{	"wide"	"0"	}
 
-	"TargetIDBG"
-	{		"wide"			"0"		}
-	"TargetIDBG_Spec_Blue"
-	{		"wide"			"0"		}
-	"TargetIDBG_Spec_Red"
-	{		"wide"			"0"		}
-	"TargetNameLabel"
-	{		"wide"			"0"
-	"wide_minmode"			"0"		}
-	"TargetDataLabel"
-	{		"wide"			"0"
-	"wide_minmode"			"0"		}
+	"TargetIDBG"	{	"wide"	"0"	}
+	"TargetIDBG_Spec_Blue"	{	"wide"	"0"	}
+	"TargetIDBG_Spec_Red"	{	"wide"	"0"	}
+	"TargetNameLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
+	"TargetDataLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
 	
-	"PipesPresentPanel"
-	{		"wide"			"0"		}
-	"NoPipesPresentPanel"
-	{		"wide"			"0"		}
+	"PipesPresentPanel"	{	"wide"	"0"	}
+	"NoPipesPresentPanel"	{	"wide"	"0"	}
 
-	"ChargeLabel"
-	{		"wide"			"0"		}
-	"ChargeLabelBig"
-	{		"wide"			"0"		}
-	"IndividualChargesLabel"
-	{		"wide"			"0"		}
-	"ChargeLabelBigShadow"
-	{		"wide"			"0"		}		
-	"ChargeMeter1"
-	{		"wide"			"0"		}
-	"ChargeMeter2"
-	{		"wide"			"0"		}	
-	"ChargeMeter3"
-	{		"wide"			"0"		}	
-	"ChargeMeter4"
-	{		"wide"			"0"		}
-	"ResistIcon"
-	{		"wide"			"0"		}	
+	"ChargeLabel"	{	"wide"	"0"	}
+	"ChargeLabelBig"	{	"wide"	"0"	}
+	"IndividualChargesLabel"	{	"wide"	"0"	}
+	"ChargeLabelBigShadow"	{	"wide"	"0"	}	
+	"ChargeMeter1"	{	"wide"	"0"	}
+	"ChargeMeter2"	{	"wide"	"0"	}	
+	"ChargeMeter3"	{	"wide"	"0"	}	
+	"ChargeMeter4"	{	"wide"	"0"	}
+	"ResistIcon"	{	"wide"	"0"	}
 	
 	"HudPlayerHealth"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"HudPlayerHealth"
-		"xpos"										"c-205"		
-		"xpos_minmode"								"-5"		
-		"ypos"										"c0"	
-		"ypos_minmode"								"r88"	
-		"zpos"										"2"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"	
-		"HealthBonusPosAdj"							"35"
-		"HealthDeathWarning"						"0.49"
-		"HealthDeathWarningColor"					"Negative"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"480"
+		
+		"xpos_minmode"	"-5"
+		
+		"HealthDeathWarningColor"	"Negative"
 	}
 
-	"PlayerStatusMaxHealthValue"
-	{
-		"fgcolor"									"blank"
-	}	
+	"PlayerStatusMaxHealthValue"	{	"fgcolor"	"blank"	}	
 
 	"StatusIconFix"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"StatusIconFix"
-		"xpos"										"0"
-		"ypos"										"50"
-		"zpos"										"5"
-		"wide" 										"100"	
-		"tall" 										"100"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"ControlName"	"EditablePanel"	"fieldName"	"StatusIconFix"
+		
+		"xpos"	"-13"	"ypos"	"25"	"zpos"	"5"	"wide"	"100"	"tall"	"100"
+		
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"pin_to_sibling"	"PlayerStatusHealthImageBG"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"	
 	}
 	"PlayerStatusBleedImage"
 	{

@@ -69,15 +69,10 @@
 			"zpos"						"100"
 			"wide"						"40"
 			"tall"						"f6"
-			"autoResize"				"0"
-			"pinCorner"					"3"
 			"visible"					"1"
 			"enabled"					"1"
-			"tabPosition"				"0"
 			"font"						"Symbols 16"
 			"textAlignment"				"center"
-			"dulltext"					"0"
-			"brighttext"				"0"
 			"Command"					"toggle_chat"
 			"proportionaltoparent"		"1"
 			"labeltext"					","
@@ -86,8 +81,7 @@
 			"actionsignallevel"			"2"
 			"roundedcorners"			"0"
 
-			"sound_depressed"			"UI/buttonclick.wav"
-			"sound_released"			"UI/buttonclickrelease.wav"
+			"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 
 			"FgColor"								"TanLight"
 			"defaultFgColor_override" 				"TanLight"
@@ -224,28 +218,6 @@
 			"keyboardinputenabled"	"0"
 
 			"party_slot"	"5"
-		}
-		
-		"RankPanel"
-		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"1"
-			"ypos"			"-1"
-			"zpos"			"99"
-			"wide"			"80"
-			"tall"			"24"
-			"visible"		"1"
-			"mouseinputenabled"	"0"
-
-			"matchgroup"	"MatchGroup_Casual_12v12"
-
-			"show_model"	"1"
-			"show_type"		"1"
-			
-			"pin_to_sibling" 			"PartySlot5"
-			"pin_corner_to_sibling"		"PIN_TOPLEFT"
-			"pin_to_sibling_corner"		"PIN_TOPRIGHT"
 		}		
 
 		"QueueContainer"
@@ -254,18 +226,14 @@
 			"fieldName"					"QueueContainer"
 			"xpos"						"cs-0.5"
 			"ypos"						"-50"
-			"zpos"						"111"
+			"zpos"						"10000"
 			"wide"						"220"
 			"tall"						"f0"
 			"visible"					"1"
 			"proportionaltoparent"		"1"
 
 			"OuterShadow"
-			{
-				"ControlName"			"Panel"
-				"fieldName"				"OuterShadow"
-				"border"				"noborder"
-			}
+			{	"ControlName"	"Panel"	"fieldName"	"OuterShadow"	"border"	"noborder"	}
 
 			"BGPanel"
 			{

@@ -88,7 +88,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass scout"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -122,7 +122,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass scout"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -154,7 +154,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass soldier"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -186,7 +186,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass soldier"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -218,7 +218,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass pyro"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -250,7 +250,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass pyro"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -282,7 +282,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass demoman"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -314,7 +314,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass demoman"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -346,7 +346,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass demoman"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -378,7 +378,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass heavyweapons"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -410,7 +410,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass heavyweapons"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -442,7 +442,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass engineer"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -474,7 +474,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass engineer"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -506,7 +506,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass medic"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -538,7 +538,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass medic"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -570,7 +570,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass sniper"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -602,7 +602,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass sniper"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"
@@ -634,7 +634,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass spy"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"TanDark"
 		"defaultFgColor_override" 					"TanDark"
@@ -666,7 +666,7 @@
 		"textAlignment"								"west"
 		"Command"									"joinclass spy"
 		"Default"									"0"
-		"font"										"Class Symbols 48"
+		"font"										"Class Symbols"
 		
 		"fgcolor"									"Shadow"
 		"defaultFgColor_override" 					"Shadow"

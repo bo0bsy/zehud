@@ -147,7 +147,7 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"Background"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"-48"
 		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
@@ -162,17 +162,17 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Background2"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-48"
 		"zpos"								"0"
 		"wide"								"f0"
 		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
-		"bgcolor_override"					"0 0 0 200"
+		"bgcolor_override"					"0 0 0 150"
 		"paintbackground"					"1"
 		"paintborder"						"0"
 		"PaintBackgroundType"				"0"		
-	}	
+	}
 	
 	"selectedrecipecontainer"
 	{

@@ -4,9 +4,9 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"MOTD_Panel"
-		"xpos"										"r530"
-		"ypos"										"25"
-		"zpos"										"99"
+		"xpos"										"r562"
+		"ypos"										"28"
+		"zpos"										"101"
 		"wide"										"500"
 		"tall"										"350"
 		"visible"									"0"
@@ -102,61 +102,14 @@
 			"depressedfgcolor_override" "TanLight"
 		}
 
-		"MOTD_HeaderIcon"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"MOTD_HeaderIcon"
-			"xpos"					"9999"
-		}
-
-		"MOTD_Label"
-		{
-			"ControlName"			"CExLabel"
-			"fieldName"				"MOTD_Label"
-			"xpos"					"9999"
-		}
-
-		"MOTD_TitleImageBg"
-		{
-			"ControlName"			"ImagePanel"
-			"fieldName"				"MOTD_TitleImageBg"
-			"xpos"					"9999"
-		}
-
-		"MOTD_TitleImageContainer"
-		{
-			"ControlName"			"EditablePanel"
-			"fieldName"				"MOTD_TitleImageContainer"
-			"xpos"					"9999"
-		}
-
-		"MOTD_TextScroller"
-		{
-			"ControlName"			"ScrollableEditablePanel"
-			"fieldName"				"MOTD_TextScroller"
-			"xpos"					"9999"
-		}
-
-		"MOTD_URLButton"
-		{
-			"ControlName"			"CExButton"
-			"fieldName"				"MOTD_URLButton"
-			"xpos"					"9999"
-		}
-
-		"MOTD_PrevButton"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldName"				"MOTD_PrevButton"
-			"xpos"					"9999"
-		}
-
-		"MOTD_NextButton"
-		{
-			"ControlName"			"CExImageButton"
-			"fieldName"				"MOTD_NextButton"
-			"xpos"					"9999"
-		}
+		"MOTD_HeaderIcon"	{	"ControlName"	"ImagePanel"	"fieldName"	"MOTD_HeaderIcon"	"xpos"	"9999"	}
+		"MOTD_Label"	{	"ControlName"	"CExLabel"	"fieldName"	"MOTD_Label"	"xpos"	"9999"	}
+		"MOTD_TitleImageBg"	{	"ControlName"	"ImagePanel"	"fieldName"	"MOTD_TitleImageBg"	"xpos"	"9999"	}
+		"MOTD_TitleImageContainer"	{	"ControlName"	"EditablePanel"	"fieldName"	"MOTD_TitleImageContainer"	"xpos"	"9999"	}
+		"MOTD_TextScroller"	{	"ControlName"	"ScrollableEditablePanel"	"fieldName"	"MOTD_TextScroller"	"xpos"	"9999"	}
+		"MOTD_URLButton"	{	"ControlName"	"CExButton"	"fieldName"	"MOTD_URLButton"	"xpos"	"9999"	}
+		"MOTD_PrevButton"	{	"ControlName"	"CExImageButton"	"fieldName"	"MOTD_PrevButton"	"xpos"	"9999"	}
+		"MOTD_NextButton"	{	"ControlName"	"CExImageButton"	"fieldName"	"MOTD_NextButton"	"xpos"	"9999"	}
 		
 		"ReloadScheme"
 		{
@@ -172,21 +125,16 @@
 			"labeltext"				"RELOAD HUD"
 			"command"				"engine vgui_cache_res_files 0;hud_reloadscheme"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"			
+			"border_default"	"Black"	"border_armed"	"Select"				
 			
 			"pin_to_sibling"		"MOTD_HeaderContainer"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -205,23 +153,18 @@
 			"visible"				"1"
 			"enabled"				"1"
 			"labeltext"				"CHAT ON/OFF"	
-			"command"				"engine toggle hud_saytext_time 10 0"
+			"command"				"engine toggle cl_enable_text_chat 0 1"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -242,21 +185,16 @@
 			"labeltext"				"TARGET ID STYLE"	
 			"command"				"engine toggle tf_hud_target_id_disable_floating_health 0 1"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"				
 			
 			"pin_to_sibling"		"ReloadScheme"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -277,21 +215,16 @@
 			"labeltext"				"MINMODE ON/OFF"	
 			"command"				"engine toggle cl_hud_minmode 0 1"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"TargetIdStyle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -312,21 +245,16 @@
 			"labeltext"				"FIX SOUND ISSUES"	
 			"command"				"engine snd_restart"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"TargetIdStyle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -347,21 +275,16 @@
 			"labeltext"				"FIX VISUAL ISSUES"	
 			"command"				"engine record fix;stop"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -382,21 +305,16 @@
 			"labeltext"				"NET GRAPH ON/OFF"	
 			"command"				"engine toggle net_graph"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"SoundFix"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -417,21 +335,16 @@
 			"labeltext"				"MATCH HUD ON/OFF"
 			"command"				"engine toggle tf_use_match_hud"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"NetgraphToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -452,21 +365,16 @@
 			"labeltext"				"WALKWAY"
 			"command"				"engine map tr_walkway"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"MatchStatusToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -487,21 +395,16 @@
 			"labeltext"				"ITEMTEST"
 			"command"				"engine map itemtest"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Walkway"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -522,21 +425,16 @@
 			"labeltext"				"HIGHTOWER"
 			"command"				"engine map plr_hightower"
 			"actionsignallevel"		"2"
-			"font"					"Labels"
+			"font"					"HudHintText"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Itemtest"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -557,21 +455,16 @@
 			"labeltext"				")"
 			"command"				"engine cl_crosshair_file crosshair1"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"MatchStatusToggle"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -592,21 +485,16 @@
 			"labeltext"				"1"
 			"command"				"engine cl_crosshair_file crosshair2"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 1"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -627,21 +515,16 @@
 			"labeltext"				"6"
 			"command"				"engine cl_crosshair_file crosshair3"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 2"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -662,21 +545,16 @@
 			"labeltext"				","
 			"command"				"engine cl_crosshair_file crosshair4"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 3"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -697,21 +575,16 @@
 			"labeltext"				"5"
 			"command"				"engine cl_crosshair_file crosshair5"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 1"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -732,21 +605,16 @@
 			"labeltext"				"'"
 			"command"				"engine cl_crosshair_file crosshair6"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 5"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -767,21 +635,16 @@
 			"labeltext"				"#"
 			"command"				"engine cl_crosshair_file crosshair7"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 6"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -802,21 +665,16 @@
 			"labeltext"				"?"
 			"command"				"engine cl_crosshair_file default"
 			"actionsignallevel"		"2"
-			"font"					"Size:22"
+			"font"					"Crosshairs"
 			"textAlignment"			"center"	
 			"sound_depressed"		"UI/buttonclick.wav"
 			"sound_released"		"UI/buttonclickrelease.wav"
 			
-			"defaultBgColor_override"		"Blank"
-			"armedBgColor_override"			"Blank"
-			"depressedBgColor_override"		"Blank"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-			"defaultFgColor_override"		"TanLight"
-			"armedFgColor_override" 		"TanLight"
-			"depressedFgColor_override" 	"TanLight"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 			
-			"border_default"		"Black"
-			"border_armed"			"Select"				
+			"border_default"	"Black"	"border_armed"	"Select"					
 			
 			"pin_to_sibling"		"Crosshair 7"
 			"pin_corner_to_sibling" "PIN_TOPLEFT"

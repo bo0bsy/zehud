@@ -1,150 +1,48 @@
+#base "base/mapinfomenu.res"
+
 "Resource/UI/MapInfoMenu.res"
 {
-	"mapinfo"
+	"TextMessage"	{	"xpos"	"9999"	}	"MessageTitle"	{	"xpos"	"9999"	}	"ShadedBG"	{	"xpos"	"9999"	}	"TFTextMessage"	{	"xpos"	"9999"	}	"TFMessageTitle"	{	"xpos"	"9999"	}	"MapInfoWatchIntro"	{	"xpos"	"9999"	}
+	
+	"MapInfoBack"	{	"xpos"	"9999"	}	"MapInfoContinue"	{	"xpos"	"9999"	}	"MapImage"	{	"xpos"	"9999"	}	"MapInfoType"	{	"xpos"	"9999"	}	"MapInfoText"	{	"xpos"	"9999"	}	"MapInfoTitle"	{	"xpos"	"9999"	}
+	
+	"HTMLMessage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"MenuBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"ShadedBar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+
+	"info"	{	"tall"	"f0"	"paintbackground"	"0"	}
+
+	"Explanation"
 	{
-		"ControlName"								"Frame"
-		"fieldName"									"mapinfo"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"
+		"ControlName"	"CExLabel"	"fieldName"	"Explanation"
+		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"10"	"wide"	"f0"	"tall"	"12"
+		
+		"font"	"FontStorePrice"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"mouseinputenabled"	"0"
+		
+		"labelText"	"click anywhere to continue"	"textAlignment"	"center"
+		
+		"fgcolor"	"TanLight"	"paintbackground"	"1"	"bgcolor_override"	"CustomBlack"
 	}
-
-	"MapInfoText"
-	{
-		"ControlName"								"CExRichText"
-		"fieldName"									"MapInfoText"
-		"font"										"f10"
-		"xpos"										"cs-0.5"
-		"ypos"										"cs-0.5"
-		"zpos"										"3"
-		"wide"										"200"
-		"tall"										"200"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"center"
-		"fgcolor"									"TanLight"
-		"paintbackground"							"0"
-		"proportionaltoparent"						"1"
-	}
-
-	"MapInfoTitle"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoTitle"
-		"xpos"										"0"
-		"ypos"										"10"
-		"zpos"										"1"
-		"wide"										"390"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"%mapname%"
-		"textAlignment"								"center"
-		"font"										"f14"
-		"fgcolor"									"TanLight"
-		"AllCaps"	 								"1"
-
-		"pin_to_sibling"							"MapInfoText"
-		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-
+	
 	"ok"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"ok"
-		"xpos"										"0"
-		"ypos"										"5"
-		"zpos"										"6"
-		"wide"										"100"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"CONTINUE (&E) "
-		"textAlignment"								"center"
-		"command"									"continue"
-		"default"									"1"
-		"font"										"f14"
+		"ControlName"	"CExButton"	"fieldName"	"ok"
+	
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"6"	"wide"	"f0"	"tall"	"f0"
+		
+		"font"	"HudFontGiantBold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"	"command"	"continue"
+		
+		"labelText"	"continue"	"textAlignment"	"center"
+	
+		"default"	"1"
+	
+		"paintborder"	"0"
 
-		"paintbackground"							"0"
-		"paintborder"								"0"
+		"paintbackground"	"0"
 
-		"defaultFgColor_override"					"TanLight"
-		"armedFgColor_override" 					"TanLightSelect"
-		"depressedFgColor_override" 				"TanLight"
-
-		"pin_to_sibling"							"MapInfoText"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
-
-	"MapInfoWatchIntro"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MapInfoWatchIntro"
-		"xpos"										"0"
-		"ypos"										"5"
-		"zpos"										"6"
-		"wide"										"100"
-		"tall"										"20"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"WATCH MOVIE"
-		"textAlignment"								"center"
-		"command"									"intro"
-		"default"									"1"
-		"font"										"f14"
-
-		"paintbackground"							"0"
-		"paintborder"								"0"
-
-		"defaultFgColor_override"					"TanLight"
-		"armedFgColor_override" 					"TanLightSelect"
-		"depressedFgColor_override" 				"TanLight"
-
-		"pin_to_sibling"							"ok"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
-
-	"MapInfoBack"
-	{
-		"ControlName"								"CExButton"
-		"fieldName"									"MapInfoBack"
-		"xpos"										"9999"
-	}
-	"MapInfoContinue"
-	{
-		"ControlName"								"CTFButton"
-		"fieldName"									"MapInfoContinue"
-		"xpos"										"9999"
-	}
-	"MenuBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"MenuBG"
-		"xpos"										"9999"
-	}
-	"MapImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"MapImage"
-		"xpos"										"9999"
-	}
-	"MapInfoType"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"MapInfoType"
-		"xpos"										"9999"
-	}
-	"ShadedBar"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"ShadedBar"
-		"xpos"										"9999"
-	}
+		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
+	}	
+	
+	"OKShortKey"	{	"ControlName"	"CExButton"	"fieldName"	"OKShortKey"	"xpos"	"9999"	"labelText"	"&E"	"Command"	"okay"	"visible"	"1"	}
 }

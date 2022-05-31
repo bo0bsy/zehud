@@ -4,3 +4,4 @@ stuffcmds
 startupmenu
 sv_unlockedchapters 99
 tf_hud_target_id_disable_floating_health 1
+tf_spectator_target_location 1

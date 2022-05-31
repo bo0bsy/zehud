@@ -63,7 +63,7 @@
 				"paintborder"					"1"
 				"textAlignment"					"center"
 				"labelText"						"%page%"
-				"font"							"Backpack"
+				"font"							"f8"
 				"sound_depressed"				"UI/buttonclick.wav"
 				"sound_released"				"UI/buttonclickrelease.wav"
 			}
@@ -159,7 +159,7 @@
 		"ControlName"						"ImagePanel"
 		"fieldName"							"Background"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-48"
 		"zpos"								"-1"
 		"wide"								"f0"
 		"tall"								"480"
@@ -174,7 +174,7 @@
 		"ControlName"						"EditablePanel"
 		"fieldName"							"Background2"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-48"
 		"zpos"								"-1"
 		"wide"								"f0"
 		"tall"								"f0"
@@ -205,7 +205,7 @@
 	{
 		"ControlName"							"ComboBox"
 		"fieldName"								"SortByComboBox"
-		"Font"									"Backpack"
+		"Font"									"f8"
 		"xpos"									"0"
 		"ypos"									"2"
 		"zpos"									"1"
@@ -255,7 +255,7 @@
 	{
 		"ControlName"							"ComboBox"
 		"fieldName"								"ShowRarityComboBox"
-		"Font"									"Backpack"
+		"Font"									"f8"
 		"xpos"									"4"
 		"ypos"									"0"
 		"zpos"									"1"
@@ -322,7 +322,7 @@
 		"fgcolor_override"						"TanLight"
 		"bgcolor_override"						"Blank"
 		"paintbackgroundtype" 					"2"
-		"font"									"Backpack"
+		"font"									"f8"
 		
 		"pin_to_sibling" 						"ShowRarityComboBox"
 		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
@@ -353,103 +353,57 @@
 		"pin_to_sibling" 						"NameFilterTextEntry"
 	}
 	
+	"Anchor"
+	{
+		"ControlName"	"EditablePanel"	"fieldName"	"Anchor"
+		
+		"xpos"	"cs-0.5"	"ypos"	"260"	"wide"	"18"	"tall"	"240"
+		
+		"visible"	"0"	"enabled"	"1"
+	}	
+
 	"PrevPageButton"
 	{
-		"ControlName"							"CExButton"
-		"fieldName"								"PrevPageButton"
-		"xpos"									"0"
-		"ypos"									"0"
-		"zpos"									"1"
-		"wide"									"18"
-		"tall"									"44"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-		"labelText"								"<"
-		"font"									"Symbols 18"
-		"textAlignment"							"center"
-		"textinsety"							"0"
-		"dulltext"								"0"
-		"brighttext"							"0"
-		"Command"								"prevpage"
+		"ControlName"	"CExButton"	"fieldName"	"PrevPageButton"
 		
-		"sound_depressed"						"UI/buttonclick.wav"
-		"sound_released"						"UI/buttonclickrelease.wav"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"36"
+
+		"font"	"Symbols 34"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"	"Command"	"prevpage"
+
+		"labelText"	"<"	"textAlignment"	"center"
 		
-		"paintbackground"						"0"
+		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"				"TanLight"
-		"armedFgColor_override"					"TanLight"
-		"depressedFgColor_override"				"TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"border_default"						"Black"
-		"border_armed"							"Select"
+		"border_default"	"Black"	"border_armed"	"Select"		
 		
-		"pin_to_sibling" 						"BackpackBG"
-		"pin_corner_to_sibling" 				"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 				"PIN_CENTER_LEFT"
+		"pin_to_sibling"	"Anchor"	"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"	"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	
-	"PrevPageShortCut"
-	{
-		"ControlName"							"CExButton"
-		"fieldName"								"PrevPageShortCut"
-		"xpos"									"9999"
-		"labelText"								"&A"
-		"Command"								"prevpage"
-		"visible"								"1"
-	}
-	
+
 	"NextPageButton"
 	{
-		"ControlName"							"CExButton"
-		"fieldName"								"NextPageButton"
-		"xpos"									"0"
-		"ypos"									"0"
-		"zpos"									"1"
-		"wide"									"18"
-		"tall"									"44"
-		"autoResize"							"0"
-		"pinCorner"								"0"
-		"visible"								"1"
-		"enabled"								"1"
-		"tabPosition"							"0"
-		"labelText"								">"
-		"font"									"Symbols 18"
-		"textAlignment"							"center"
-		"textinsety"							"0"
-		"dulltext"								"0"
-		"brighttext"							"0"
-		"Command"								"nextpage"
+		"ControlName"	"CExButton"	"fieldName"	"NextPageButton"
 		
-		"sound_depressed"						"UI/buttonclick.wav"
-		"sound_released"						"UI/buttonclickrelease.wav"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"36"
+
+		"font"	"Symbols 34"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"	"Command"	"nextpage"
+
+		"labelText"	">"	"textAlignment"	"center"
 		
-		"paintbackground"						"0"
+		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"				"TanLight"
-		"armedFgColor_override"					"TanLight"
-		"depressedFgColor_override"				"TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"border_default"						"Black"
-		"border_armed"							"Select"
+		"border_default"	"Black"	"border_armed"	"Select"			
 		
-		"pin_to_sibling" 						"BackpackBG"
-		"pin_corner_to_sibling" 				"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 				"PIN_CENTER_RIGHT"
+		"pin_to_sibling"	"Anchor"	"pin_corner_to_sibling"	"PIN_CENTER_LEFT"	"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
-	
-	"NextPageShortCut"
-	{
-		"ControlName"							"CExButton"
-		"fieldName"								"NextPageShortCut"
-		"xpos"									"9999"
-		"labelText"								"&D"
-		"Command"								"nextpage"
-		"visible"								"1"
-	}
+
+	"PrevShortKey"
+	{	"ControlName"	"CExButton"	"fieldName"	"PrevShortKey"	"xpos"	"9999"	"labelText"	"&A"	"Command"	"prevpage"	"visible"	"1"	}
+	"NextShortKey"
+	{	"ControlName"	"CExButton"	"fieldName"	"NextShortKey"	"xpos"	"9999"	"labelText"	"&D"	"Command"	"nextpage"	"visible"	"1"	}
 	
 	"mouseoveritempanel"
 	{
@@ -473,7 +427,7 @@
 		
 		"attriblabel"
 		{
-			"font"								"Backpack"
+			"font"								"f8"
 			"xpos"								"0"
 			"ypos"								"30"
 			"zpos"								"2"
@@ -581,7 +535,7 @@
 		"enabled"								"1"
 		"tabPosition"							"0"
 		"labelText"								"#Cancel"
-		"font"									"Backpack"
+		"font"									"f8"
 		"textAlignment"							"center"
 		"textinsetx"							"0"
 		"dulltext"								"0"

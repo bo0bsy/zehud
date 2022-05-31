@@ -1,39 +1,22 @@
-#base "../../../resource/tools/ReloadSchemeButton.res"
-
 "Resource/UI/econ/QuestEditorPanel.res"
 {
-	"BGImage"
-	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"BGImage"
-		"xpos"										"99999"
-	}
+	"BGImage"	{	"ControlName"	"ImagePanel"	"fieldName"	"BGImage"	"xpos"	"99999"	}
 	
 	"WeaponBG"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"WeaponBG"
-		"xpos"										"c-190"
-		"ypos"										"35"
-		"zpos"										"1"
-		"wide"										"380"
-		"tall"										"230"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"0"
-		"border"									"TransparentBackground"
+		"ControlName"	"EditablePanel"	"fieldName"	"WeaponBG"
 		
-		"fixed_item"
-		{
-			"visible"								"0"
-		}
+		"xpos"	"c-190"	"ypos"	"35"	"zpos"	"1"	"wide"	"380"	"tall"	"230"
 		
-		"consume_mode"
-		{
-			"xpos"									"10"
-			"ypos"									"10"
-			"border"								"Black"
-		}
+		"visible"	"1"	"enabled"	"1"
+		
+		"paintbackground"	"0"
+		
+		"border"	"TransparentBackground"
+		
+		"fixed_item"	{	"visible"	"0"	}
+		
+		"consume_mode"	{	"xpos"	"10"	"ypos"	"10"	"border"	"Black"	}
 	}
 	
 	"BackgroundSettings"
@@ -50,14 +33,9 @@
 		"paintbackground"							"0"
 		"border"									"TransparentBackground"
 		
-		"fixed_item"
-		{
-			"xpos"									"9999"
-		}
-		"consume_mode"
-		{
-			"wide"									"0"
-		}
+		"fixed_item"	{	"xpos"	"9999"	}
+		
+		"consume_mode"	{	"wide"	"0"	}
 	}
 	
 	"ItemName"
@@ -84,18 +62,9 @@
 		"text_forcesize"							"4"
 		"name_only"									"1"
 		
-		"fixed_item"
-		{
-			"ypos"									"30"
-		}
+		"fixed_item"	{	"ypos"	"30"	}
 		
-		"itemmodelpanel"
-		{
-			"use_item_rendertarget" 				"0"
-			"allow_rot"								"0"
-			"inventory_image_type"					"1"
-			"continued_velocity"					"1"
-		}
+		"itemmodelpanel"	{	"use_item_rendertarget"	"0"	"allow_rot"	"0"	"inventory_image_type"	"1"	"continued_velocity"	"1"	}
 	}
 
 	"ModelInspectionPanel"
@@ -263,10 +232,7 @@
 				"image_armed"						"store/store_redteam"
 				"image_selected"					"store/store_redteam"
 				
-				"SubImage"
-				{
-					"image"							"store/store_redteam"
-				}				
+				"SubImage"	{	"image"	"store/store_redteam"	}				
 			}
 			"scout"
 			{
@@ -275,10 +241,7 @@
 				"image_armed"						"store/store_blueteam"
 				"image_selected"					"store/store_blueteam"
 				
-				"SubImage"
-				{
-					"image"							"store/store_blueteam"
-				}				
+				"SubImage"	{	"image"	"store/store_blueteam"	}				
 			}
 		}
 	}
@@ -298,20 +261,9 @@
 
 		"visible"									"0"
 
-		"fixed_item"
-		{
-			"tall"									"80"
-			"visible"								"1"
-		}
-		"fixed_paintkit"
-		{
-			"tall"									"60"
-			"visible"								"1"
-		}
-		"consume_mode"
-		{
-			"border"								"Black"
-		}
+		"fixed_item"	{	"tall"	"80"	"visible"	"1"	}
+		"fixed_paintkit"	{	"tall"	"60"	"visible"	"1"	}
+		"consume_mode"	{	"border"	"Black"	}
 
 		"DebugButton"
 		{
@@ -328,7 +280,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labeltext"								""
-			"font"									"Inspection1"
+			"font"									"f8"
 			"textAlignment"							"center"
 			"dulltext"								"0"
 			"brighttext"							"0"
@@ -395,7 +347,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"PaintkitLabel"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"labelText"								"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"							"west"
 			"xpos"									"8"
@@ -419,7 +371,7 @@
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"ComboBoxValidPaintkits"
-			"Font"									"Inspection1"
+			"Font"									"f8"
 			"wrap"									"0"
 			"xpos"									"rs1-10"
 			"ypos"									"10"
@@ -484,7 +436,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"ItemLabel"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"labelText"								"#TF_ItemPreview_ItemPreview"
 			"textAlignment"							"west"
 			"xpos"									"8"
@@ -519,7 +471,7 @@
 		{
 			"ControlName"							"ComboBox"
 			"fieldName"								"ComboBoxValidItems"
-			"Font"									"Inspection1"
+			"Font"									"f8"
 			"wrap"									"0"
 			"xpos"									"rs1-10"
 			"ypos"									"30"
@@ -625,7 +577,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"WearLabel"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"labelText"								"#TF_ItemPreview_ItemWear"
 			"textAlignment"							"west"
 			"xpos"									"8"
@@ -732,7 +684,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								"#TF_ItemPreview_PaintkitSeed"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"actionsignallevel" 					"2"
 			"use_proportional_insets" 				"1"
 			"textAlignment"							"center"
@@ -787,7 +739,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"tabPosition"							"0"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"fgcolor_override"						"TanLight"
 			"actionsignallevel" 					"2"
 			"default"								"1"
@@ -874,7 +826,7 @@
 			"wide"									"85"
 			"tall"									"20"
 			"labelText"								"#TF_ItemAd_ViewOnMarket"
-			"font"									"Inspection1"
+			"font"									"f8"
 			"textinsetx"							"0"
 			"textAlignment"							"center"
 		

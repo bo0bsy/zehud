@@ -1,123 +1,73 @@
+#base "base/textwindow.res"
+
+
 "Resource/UI/TextWindow.res"
 {
-	"info"
+	"TextMessage"	{	"xpos"	"9999"	}	"MessageTitle"	{	"xpos"	"9999"	}	"ShadedBG"	{	"xpos"	"9999"	}	"TFTextMessage"	{	"xpos"	"9999"	}	"TFMessageTitle"	{	"xpos"	"9999"	}
+	
+	"HTMLMessage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"MenuBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"ShadedBar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+
+	"info"	{	"tall"	"f0"	"paintbackground"	"0"	}
+	
+	"FullScreenBG"
 	{
-		"ControlName"			  					"CTFTextWindow"
-		"fieldName"				  					"info"
-		"xpos"					  					"0"
-		"ypos"					  					"0"
-		"wide"					  					"f0"
-		"tall"					  					"480"
-		"visible"				  					"1"
-		"enabled"				  					"1"
-		"settitlebarvisible"	  					"0"
+		"ControlName"	"EditablePanel"	"fieldName"	"FullScreenBG"
+		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
+		
+		"visible"	"1"	"enabled"	"1"
+		
+		"paintbackground"	"1"	"bgcolor_override"	"0 0 0 200"
 	}
-
-	"TFTextMessage"
+	
+	"Explanation"
 	{
-		"ControlName"	 							"CExRichText"
-		"fieldName"		 							"TFTextMessage"
-		"font"			 							"f10"
-		"xpos"			 							"cs-0.5"
-		"ypos"			 							"cs-0.5"
-		"zpos"			 							"1"
-		"wide"			 							"400"
-		"tall"			 							"200"
-		"visible"		 							"1"
-		"enabled"		 							"1"
-		"textAlignment"	 							"left"
-		"fgcolor"		 							"TanLight"
-		"proportionaltoparent"						"1"
+		"ControlName"	"CExLabel"	"fieldName"	"Explanation"
+		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"10"	"wide"	"f0"	"tall"	"12"
+		
+		"font"	"FontStorePrice"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"mouseinputenabled"	"0"
+		
+		"labelText"	"Click Anywhere To Continue"	"textAlignment"	"center"
+		
+		"fgcolor"	"TanLight"	"paintbackground"	"1"	"bgcolor_override"	"CustomBlack"
 	}
-
-	"HTMLMessage"
-	{
-		"ControlName"	 							"HTML"
-		"fieldName"		 							"HTMLMessage"
-		"xpos"			 							"cs-0.5"
-		"ypos"			 							"cs-0.5"
-		"zpos"			 							"1"
-		"wide"			 							"400"
-		"tall"			 							"200"
-		"visible"		 							"1"
-		"enabled"		 							"1"
-		"paintborder"	 							"0"
-		"proportionaltoparent"						"1"
-	}
-
-	"TFMessageTitle"
-	{
-		"ControlName"	  							"CExLabel"
-		"fieldName"		 							"TFMessageTitle"
-		"xpos"			 							"0"
-		"ypos"			 							"10"
-		"zpos"			 							"1"
-		"wide"			 							"250"
-		"tall"			 							"20"
-		"visible"		 							"1"
-		"enabled"		 							"1"
-		"labelText"		 							"#TF_WELCOME"
-		"textAlignment"	 							"center"
-		"AllCaps"	 								"1"
-		"font"			 							"f14"
-		"fgcolor"		 							"TanLight"
-
-		"pin_to_sibling"							"TFTextMessage"
-		"pin_corner_to_sibling"						"PIN_CENTER_BOTTOM"
-		"pin_to_sibling_corner"						"PIN_CENTER_TOP"
-	}
-
+	
 	"ok"
 	{
-		"ControlName"		 						"CExButton"
-		"fieldName"		 							"ok"
-		"xpos"			 							"0"
-		"ypos"			 							"5"
-		"zpos"			 							"6"
-		"wide"			 							"100"
-		"tall"			 							"20"
-		"visible"		 							"1"
-		"enabled"		 							"1"
-		"labelText"		 							"CONTINUE (&E) "
-		"textAlignment"	 							"center"
-		"command"		 							"okay"
-		"default"		 							"1"
-		"font"										"f14"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"6"	"wide"	"f0"	"tall"	"f0"
+		
+		"font"	"HudFontGiantBold"	"proportionaltoparent"	"1"	"command"	"okay"
+		
+		"labelText"	"thanks for using zehud"	"textAlignment"	"center"
+	
+		"default"	"1"
+	
+		"paintborder"	"0"
 
-		"paintbackground"							"0"
-		"paintborder"								"0"
+		"paintbackground"	"0"
 
-		"defaultFgColor_override"					"TanLight"
-		"armedFgColor_override" 					"TanLightSelect"
-		"depressedFgColor_override" 				"TanLight"
+		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
+	}
+	
+	"Heart"
+	{
+		"ControlName"	"Label"	"fieldName"	"Heart"	
+	
+		"xpos"	"0"	"ypos"	"50"	"zpos"	"6"	"wide"	"f0"	"tall"	"f0"
+		
+		"font"	"HudFontGiantBold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"labelText"	"<3"	"textAlignment"	"center"
+	
+		"paintborder"	"0"
 
-		"pin_to_sibling"							"TFTextMessage"
-		"pin_corner_to_sibling"						"PIN_CENTER_TOP"
-		"pin_to_sibling_corner"						"PIN_CENTER_BOTTOM"
-	}
+		"paintbackground"	"0"
 
-	"TextMessage"
-	{
-		"ControlName"	 							"TextEntry"
-		"fieldName"		 							"TextMessage"
-		"xpos"		 								"9999"
-	}
-	"MessageTitle"
-	{
-		"ControlName"	 							"Label"
-		"fieldName"		 							"MessageTitle"
-		"xpos"		 								"9999"
-	}
-	"MenuBG"
-	{
-		"ControlName"	 							"CTFImagePanel"
-		"fieldName"		 							"MenuBG"
-		"xpos"		 								"9999"
-	}
-	"ShadedBG"
-	{
-		"ControlName"	 							"ImagePanel"
-		"fieldName"		 							"ShadedBG"
-		"xpos"		 								"9999"
-	}
+		"FgColor_override"	"Negative_2"
+	}	
+	
+	"OKShortKey"	{	"ControlName"	"CExButton"	"fieldName"	"OKShortKey"	"xpos"	"9999"	"labelText"	"&E"	"Command"	"okay"	"visible"	"1"	}
 }

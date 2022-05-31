@@ -1,932 +1,358 @@
+#base "base/HudObjectivePlayerDestruction.res"
+//thanks to hypnotize!!!
 "Resource/UI/HudObjectivePlayerDestruction.res"
 {
 	"ObjectiveStatusRobotDestruction"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"ObjectiveStatusRobotDestruction"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"f0"
-		"tall"										"480"
-		"visible"									"1"
-		"enabled"									"1"
-
-		"left_steal_edge_offset"					"97"
-		"right_steal_edge_offset"					"97"
-		"robot_x_offset"							"78"
-		"robot_y_offset"							"47"
-		"robot_x_step"								"23"
-		"robot_y_step"								"0"
-
-
-		"color_blue"								"84 111 127 255"
-		"color_red"									"171 59 59 255"
-
-		"if_hybrid"
-		{
-			"zpos"									"-1"
-		}
-
 		"robot_kv"
 		{
-			"ControlName"							"CTFHudRobotDestruction_RobotIndicator"
-			"xpos"									"0"
-			"ypos"									"0"
-			"wide"									"20"
-			"tall"									"20"
-			"visible"								"1"
-			"skip_autoresize" 						"1"
-			"PaintBackground"						"0"
-			"paintborder"							"0"
+			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
+			
+			"visible"	"1"
+			
+			"skip_autoresize"	"1"
+			
+			"PaintBackground"	"0"
+			
+			"paintborder"	"0"
 		}
 	}
-
 	"PlayingTo"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"PlayingTo"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
-		"zpos"										"4"
-		"wide"										"140"
-		"tall"										"9"
-		"visible"									"1"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"labelText"									"#TF_PlayingTo"
-		"textAlignment"								"center"
-		"font"										"DefaultVerySmall"
-		"fgcolor"									"TanLight"
+		"xpos"	"cs-0.5"	"ypos"	"rs1" "wide"	"75"	"tall"	"12"	"zpos"	"-10"
+		
+		"font"	"f9"	"proportionaltoparent"	"1"
+	
+		"border"	"TFFatLineBorder"
 	}
-
+	
+	"PlayingToBG"	{	"xpos"	"9999"	}
+	
 	"CarriedContainer"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"CarriedContainer"
-		"xpos"										"cs-0.5"
-		"ypos"										"r25"
-		"zpos"										"1"
-		"wide"										"40"
-		"tall"										"13"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
-		"PaintBackground"							"1"
-		"PaintBackgroundtype"						"0"
-		"bgcolor_override"							"100 255 0 100"
+		"xpos"	"cs-0.5"	"ypos"	"r25"	"wide"	"40"	"tall"	"13"
+		
+		"proportionaltoparent"	"1"
+		
+		"PaintBackground"	"1"	"PaintBackgroundtype"	"0"	"bgcolor_override"	"100 255 0 100"
 
-		"CarriedImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"CarriedImage"
-			"xpos"									"7"
-			"ypos"									"1"
-			"zpos"									"4"
-			"wide"									"10"
-			"tall"									"10"
-			"visible"								"1"
-			"enabled"								"1"
-			"image"									"../hud/hud_obj_status_ammo_64"
-			"scaleImage"							"1"
-			"proportionalToParent"					"1"
-		}
-
+		"CarriedImage"	{	"xpos"	"7"	"ypos"	"1"	"wide"	"10"	"tall"	"10"	}
+	
+		"CarriedProgressBar"	{	"xpos"	"9999"	}
+		"TanLightBG"	{	"xpos"	"9999"	}
+		"GreenBG"	{	"xpos"	"9999"	}
+		"TeamLeaderImage"	{	"xpos"	"9999"	}
+	
 		"FlagValue"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"FlagValue"
-			"xpos"									"5"
-			"ypos"									"0"
-			"zpos"									"4"
-			"wide"									"20"
-			"tall"									"13"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"west"
-			"labelText"								"%flagvalue%"
-			"font"									"f14"
-			"fgcolor"								"TanLight"
-			"proportionalToParent"					"1"
+			"xpos"	"5"	"ypos"	"0"	"wide"	"20"	"tall"	"13"	"textAlignment"	"west"
+			
+			"font"	"f14"
+			
+			"fgcolor"	"TanLight"
 
-			"pin_to_sibling"						"CarriedImage"
-			"pin_corner_to_sibling"					"PIN_CENTER_LEFT"
-			"pin_to_sibling_corner"					"PIN_CENTER_RIGHT"
+			"pin_to_sibling"	"CarriedImage"	"pin_corner_to_sibling"	"PIN_CENTER_LEFT"	"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 		}
+		
 		"FlagValueShadow"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"FlagValueShadow"
-			"xpos"									"-1"
-			"ypos"									"-1"
-			"zpos"									"3"
-			"wide"									"20"
-			"tall"									"13"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"west"
-			"labelText"								"%flagvalue%"
-			"font"									"f14"
-			"fgcolor"								"Shadow"
-			"proportionalToParent"					"1"
+			"xpos"	"-1"	"ypos"	"-1"	"wide"	"20"	"tall"	"13"	"textAlignment"	"west"
+			
+			"font"	"f14"
+			
+			"fgcolor"	"Shadow"
 
-			"pin_to_sibling"						"FlagValue"
-		}
-
-		"CarriedProgressBar"
-		{
-			"fieldName"								"CarriedProgressBar"
-			"ControlName"							"ImagePanel"
-			"xpos"									"9999"
-		}
-		"TanLightBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"TanLightBG"
-			"xpos"									"9999"
-		}
-		"GreenBG"
-		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"GreenBG"
-			"xpos"									"9999"
-		}
-		"TeamLeaderImage"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"TeamLeaderImage"
-			"xpos"									"9999"
+			"pin_to_sibling"	"FlagValue"
 		}
 	}
-
-	"ScoreContainer"								// ProportionalToParent breaks this
+	"ScoreContainer"
 	{
-		"fieldName"									"ScoreContainer"
-		"ControlName"								"EditablePanel"
-		"xpos"										"c-200"
-		"ypos"										"r110"
-		"zpos"										"0"
-		"wide"										"400"
-		"tall"										"120"
-		"scaleimage"								"0"
-		"visible"									"1"
-		"enabled"									"1"
+		"ypos"	"r110"
 
 		"ProgressBarContainer"
 		{
-			"fieldName"								"ProgressBarContainer"
-			"ControlName"							"EditablePanel"
-			"xpos"									"cs-0.5"
-			"ypos"									"rs1"
-			"zpos"									"1"
-			"wide"									"300"
-			"tall"									"60"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionalToParent"					"1"
+			"xpos"	"cs-0.5"	"ypos"	"rs1"
 
-			"FlagImageBlue"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"FlagImageBlue"
-				"xpos"								"120"
-				"ypos"								"8"
-				"zpos"								"4"
-				"wide"								"12"
-				"tall"								"12"
-				"visible"							"1"
-				"enabled"							"1"
-				"image"								"../hud/hud_obj_status_ammo_64"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
+			"FlagImageBlue"	{	"xpos"	"120"	"wide"	"12"	"tall"	"12"	}
+			
 			"EscrowBlue"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowBlue"
-				"xpos"								"6"
-				"ypos"								"3"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%blue_escrow%"
-				"font"								"f18"
-				"fgcolor"							"TanLight"
-				"proportionalToParent"				"1"
+				"xpos"	"6"	"ypos"	"3"	"textAlignment"	"east"
+				
+				"font"	"f16"
+				
+				"fgcolor"	"HUDBlueTeamSolid"
 
-				"pin_to_sibling"					"FlagImageBlue"
-				"pin_corner_to_sibling"				"PIN_TOPRIGHT"
-				"pin_to_sibling_corner"				"PIN_TOPLEFT"
+				"pin_to_sibling"	"FlagImageBlue"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 			}
+			
 			"EscrowBlueShadow"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowBlueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%blue_escrow%"
-				"font"								"f18"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
+				"xpos"	"-1"	"ypos"	"-1"	"textAlignment"	"east"
+				
+				"font"	"f16"
+				
+				"fgcolor"	"Shadow"
 
-				"pin_to_sibling"					"EscrowBlue"
+				"pin_to_sibling"	"EscrowBlue"
 			}
-
-			"FlagImageRed"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"FlagImageRed"
-				"xpos"								"170"
-				"ypos"								"8"
-				"zpos"								"4"
-				"wide"								"12"
-				"tall"								"12"
-				"visible"							"1"
-				"enabled"							"1"
-				"image"								"../hud/hud_obj_status_ammo_64"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
+			
+			"FlagImageRed"	{	"xpos"	"170"	"wide"	"12"	"tall"	"12"	}
+			
 			"EscrowRed"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowRed"
-				"xpos"								"6"
-				"ypos"								"3"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%red_escrow%"
-				"font"								"f18"
-				"fgcolor"							"TanLight"
-				"proportionalToParent"				"1"
+				"xpos"	"6"	"ypos"	"3"	"textAlignment"	"west"
+				
+				"font"	"f16"
+				
+				"fgcolor"	"HUDRedTeamSolid"
 
-				"pin_to_sibling"					"FlagImageRed"
-				"pin_corner_to_sibling"				"PIN_TOPLEFT"
-				"pin_to_sibling_corner"				"PIN_TOPRIGHT"
+				"pin_to_sibling"	"FlagImageRed"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			}
+			
 			"EscrowRedShadow"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"EscrowRedShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"4"
-				"wide"								"25"
-				"tall"								"16"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%red_escrow%"
-				"font"								"f18"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
+				"xpos"	"-1"	"ypos"	"-1"	"textAlignment"	"west"
+				
+				"font"	"f16"
+				
+				"fgcolor"	"Shadow"
 
-				"pin_to_sibling"					"EscrowRed"
+				"pin_to_sibling"	"EscrowRed"
 			}
 
 			"BlueVictoryContainer"
 			{
-				"fieldName"							"BlueVictoryContainer"
-				"ControlName"						"EditablePanel"
-				"xpos"								"85"
-				"ypos"								"27"
-				"zpos"								"5"
-				"wide"								"30"
-				"tall"								"30"
-				"visible"							"0"
-				"enabled"							"1"
-				"proportionalToParent"				"1"
+				"xpos"	"85"	"ypos"	"27"	"wide"	"30"	"tall"	"30"
+
+				"VictoryLabel"	{	"xpos"	"9999"	}
+				"VictoryLabelShadow"	{	"xpos"	"9999"	}
 
 				"VictoryLabel2"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel2"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"12"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"WIN:"
-					"font"							"f12"
-					"fgcolor"						"TanLight"
-					"proportionalToParent"			"1"
+					"ControlName"	"CExLabel"	"fieldName"	"VictoryLabel2"
+					
+					"xpos"	"0"	"ypos"	"0"	"zpos"	"8"	"wide"	"30"	"tall"	"12"
+					
+					"font"	"f10"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+					
+					"textAlignment"	"center"	"labelText"	"WIN:"
+				
+					"fgcolor"	"TanLight"
 				}
-
 				"VictoryLabelShadow2"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow2"
-					"xpos"							"-1"
-					"ypos"							"-1"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"12"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"WIN:"
-					"font"							"f12"
-					"fgcolor"						"Shadow"
-					"proportionalToParent"			"1"
+					"ControlName"	"CExLabel"	"fieldName"	"VictoryLabelShadow2"
+					
+					"xpos"	"-1"	"ypos"	"-1"	"zpos"	"8"	"wide"	"30"	"tall"	"12"
+					
+					"font"	"f10"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+					
+					"textAlignment"	"center"	"labelText"	"WIN:"
 
-					"pin_to_sibling"				"VictoryLabel2"
+					"fgcolor"	"Shadow"
+
+					"pin_to_sibling"	"VictoryLabel2"
 				}
-
+				
 				"VictoryLabelTime"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelTime"
-					"xpos"							"0"
-					"ypos"							"-3"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"15"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"%victorytime%"
-					"font"							"f14"
-					"fgcolor"						"TanLight"
-					"proportionalToParent"			"1"
+					"ypos"	"-3"	"wide"	"30"	"tall"	"15"	"textAlignment"	"center"
+					
+					"font"	"f14"
+					
+					"fgcolor"	"TanLight"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"	"VictoryLabel2"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 				}
-
+				
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelTimeShadow"
-					"xpos"							"-1"
-					"ypos"							"-1"
-					"zpos"							"7"
-					"wide"							"30"
-					"tall"							"15"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"%victorytime%"
-					"font"							"f14"
-					"fgcolor"						"Shadow"
-					"proportionalToParent"			"1"
+					"xpos"	"-1"	"ypos"	"-1"	"wide"	"30"	"textAlignment"	"center"
+					
+					"font"	"f14"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
-				}
-
-				"VictoryLabel"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel"
-					"xpos"							"9999"
-				}
-				"VictoryLabelShadow"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"9999"
+					"pin_to_sibling"	"VictoryLabelTime"
 				}
 			}
 
 			"RedVictoryContainer"
 			{
-				"fieldName"							"RedVictoryContainer"
-				"ControlName"						"EditablePanel"
-				"xpos"								"185"
-				"ypos"								"27"
-				"zpos"								"5"
-				"wide"								"30"
-				"tall"								"30"
-				"visible"							"0"
-				"enabled"							"1"
-				"proportionalToParent"				"1"
+				"xpos"	"185"	"ypos"	"27"	"wide"	"30"	"tall"	"30"
+
+				"VictoryLabel"	{	"xpos"	"9999"	}
+				"VictoryLabelShadow"	{	"xpos"	"9999"	}
 
 				"VictoryLabel2"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel2"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"12"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"WIN:"
-					"font"							"f12"
-					"fgcolor"						"TanLight"
-					"proportionalToParent"			"1"
+					"ControlName"	"CExLabel"	"fieldName"	"VictoryLabel2"
+					
+					"xpos"	"0"	"ypos"	"0"	"zpos"	"8"	"wide"	"30"	"tall"	"12"
+					
+					"font"	"f12"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+					
+					"textAlignment"	"center"	"labelText"	"WIN:"
+					
+					"fgcolor"	"TanLight"
 				}
-
 				"VictoryLabelShadow2"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow2"
-					"xpos"							"-1"
-					"ypos"							"-1"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"12"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"WIN:"
-					"font"							"f12"
-					"fgcolor"						"Shadow"
-					"proportionalToParent"			"1"
+					"ControlName"	"CExLabel"	"fieldName"	"VictoryLabelShadow2"
+					
+					"xpos"	"-1"	"ypos"	"-1"	"zpos"	"8"	"wide"	"30"	"tall"	"12"
+					
+					"font"	"f12"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+					
+					"textAlignment"	"center"	"labelText"	"WIN:"
+					
+					"fgcolor"	"Shadow"
 
-					"pin_to_sibling"				"VictoryLabel2"
+					"pin_to_sibling"	"VictoryLabel2"
 				}
-
 				"VictoryLabelTime"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelTime"
-					"xpos"							"0"
-					"ypos"							"-3"
-					"zpos"							"8"
-					"wide"							"30"
-					"tall"							"15"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"%victorytime%"
-					"font"							"f14"
-					"fgcolor"						"TanLight"
-					"proportionalToParent"			"1"
+					"font"	"f14"	"fgcolor"	"TanLight"
 
-					"pin_to_sibling"               	"VictoryLabel2"
-					"pin_corner_to_sibling"        	"PIN_CENTER_TOP"
-					"pin_to_sibling_corner"        	"PIN_CENTER_BOTTOM"
+					"pin_to_sibling"	"VictoryLabel2"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
 				}
-
 				"VictoryLabelTimeShadow"
 				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelTimeShadow"
-					"xpos"							"-1"
-					"ypos"							"-1"
-					"zpos"							"7"
-					"wide"							"30"
-					"tall"							"15"
-					"visible"						"1"
-					"enabled"						"1"
-					"textAlignment"					"center"
-					"labelText"						"%victorytime%"
-					"font"							"f14"
-					"fgcolor"						"Shadow"
-					"proportionalToParent"			"1"
+					"xpos"	"-1"	"ypos"	"-1"	"wide"	"30"	"tall"	"15"	"textAlignment"	"center"
+					
+					"font"	"f14"
 
-					"pin_to_sibling"              	"VictoryLabelTime"
-				}
-
-				"VictoryLabel"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabel"
-					"xpos"							"9999"
-				}
-				"VictoryLabelShadow"
-				{
-					"ControlName"					"CExLabel"
-					"fieldName"						"VictoryLabelShadow"
-					"xpos"							"9999"
+					"pin_to_sibling"	"VictoryLabelTime"
 				}
 			}
-
-			"ScoreOutline"
-			{
-				"fieldName"							"ScoreOutline"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"BlueProgressBarFill"
-			{
-				"fieldName"							"BlueProgressBarFill"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"BlueProgressBarEscrow"
-			{
-				"fieldName"							"BlueProgressBarEscrow"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"RedProgressBarFill"
-			{
-				"fieldName"							"RedProgressBarFill"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
-			"RedProgressBarEscrow"
-			{
-				"fieldName"							"RedProgressBarEscrow"
-				"ControlName"						"ImagePanel"
-				"xpos"								"9999"
-			}
+			"ScoreOutline"	{	"xpos"	"9999"	}
+			"BlueProgressBarFill"	{	"xpos"	"9999"	}
+			"BlueProgressBarEscrow"	{	"xpos"	"9999"	}
+			"RedProgressBarFill"	{	"xpos"	"9999"	}
+			"RedProgressBarEscrow"	{	"xpos"	"9999"	}
 		}
 
 		"BlueScoreValueContainer"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueScoreValueContainer"
-			"xpos"									"100"
-			"ypos"									"r53"
-			"zpos"									"10"
-			"wide"									"60"
-			"tall"									"60"
-			"visible"								"1"
-			"enabled"								"1"
-			"proportionalToParent"					"1"
+			"xpos"	"100"	"ypos"	"r53"
 
 			"Score"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"8"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%score%"
-				"font"								"f30"
-				"fgcolor"							"HUDBlueTeamSolid"
-				"proportionalToParent"				"1"
+				"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"east"
+				
+				"font"	"f30"	"proportionalToParent"	"1"
+				
+				"fgcolor"	"TanLight"
 			}
 			"ScoreShadow"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ScoreShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"7"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"east"
-				"labelText"							"%score%"
-				"font"								"f30"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
+				"xpos"	"-2"	"ypos"	"-2"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"east"
+				
+				"font"	"f30"
+				
+				"fgcolor"	"Shadow"
 
-				"pin_to_sibling"					"Score"
+				"pin_to_sibling"	"Score"
 			}
 		}
 
 		"RedScoreValueContainer"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedScoreValueContainer"
-			"xpos"									"r160"
-			"ypos"									"r53"
-			"zpos"									"10"
-			"wide"									"60"
-			"tall"									"60"
-			"visible"								"1"
-			"enabled"								"1"
-			"bgcolor_override"						"Blank"
-			"proportionalToParent"					"1"
+			"xpos"	"r160"	"ypos"	"r53"	"bgcolor_override"	"Blank"
 
 			"Score"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"Score"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"8"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%score%"
-				"font"								"f30"
-				"fgcolor"							"HUDRedTeamSolid"
-				"proportionalToParent"				"1"
+				"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"west"
+				
+				"font"	"f30"	"proportionalToParent"	"1"
+				
+				"fgcolor"	"TanLight"
 			}
 			"ScoreShadow"
 			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"ScoreShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"7"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"west"
-				"labelText"							"%score%"
-				"font"								"f30"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
+				"xpos"	"-2"	"ypos"	"-2"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"west"
+				
+				"font"	"f30"
+				
+				"fgcolor"	"Shadow"
 
-				"pin_to_sibling"					"Score"
+				"pin_to_sibling"	"Score"
 			}
 		}
 
 		"BlueStolenContainer"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"BlueStolenContainer"
-			"xpos"									"c-110"
-			"ypos"									"r55"
-			"zpos"									"1"
-			"wide"									"30"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"bgcolor_override"						"Blank"
-			"proportionalToParent"					"1"
+			"xpos"	"c-110"	"ypos"	"r55"	"bgcolor_override"	"Blank"
 
-			"IntelImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"IntelImage"
-				"xpos"								"5"
-				"ypos"								"19"
-				"zpos"								"10"
-				"wide"								"21"
-				"tall"								"21"
-				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/obj_thief_red"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
-			"DroppedIntelContainer"
-			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"DroppedIntelContainer"
-				"xpos"								"0"
-				"ypos"								"20"
-				"zpos"								"1"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"Blank"
-
-				"proportionalToParent"				"1"
-
-				"DroppedIntelImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"DroppedIntelImage"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"0"
-					"wide"							"f0"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"../HUD/obj_rd_thief_dropped_blue"
-					"scaleImage"					"1"
-					"proportionalToParent"			"1"
-				}
-			}
-
-			"IntelValue"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValue"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"12"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"f14"
-				"fgcolor"							"TanLight"
-				"bgcolor_override"					"Blank"
-				"proportionalToParent"				"1"
-			}
-
-			"IntelValueShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"11"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"f14"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"IntelValue"
-			}
+			"IntelImage"	{}
+			
+			"DroppedIntelContainer"	{	"bgcolor_override"	"Blank"	"DroppedIntelImage"	{}	}
+			
+			"IntelValue"	{	"font"	"f14"	"fgcolor"	"TanLight"	"bgcolor_override"	"Blank"	}
+			
+			"IntelValueShadow"	{	"font"	"f14"	"pin_to_sibling"	"IntelValue"	}
 		}
-
 		"RedStolenContainer"
 		{
-			"ControlName"							"EditablePanel"
-			"fieldName"								"RedStolenContainer"
-			"xpos"									"c80"
-			"ypos"									"r55"
-			"zpos"									"1"
-			"wide"									"30"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"bgcolor_override"						"Blank"
-			"proportionalToParent"					"1"
+			"xpos"	"c80"	"ypos"	"r55"	"bgcolor_override"	"Blank"
 
-			"IntelImage"
-			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"IntelImage"
-				"xpos"								"5"
-				"ypos"								"19"
-				"zpos"								"10"
-				"wide"								"21"
-				"tall"								"21"
-				"visible"							"0"
-				"enabled"							"1"
-				"image"								"../HUD/obj_thief_blue"
-				"scaleImage"						"1"
-				"proportionalToParent"				"1"
-			}
-
+			"IntelImage"	{}
+			
 			"DroppedIntelContainer"
 			{
-				"ControlName"						"EditablePanel"
-				"fieldName"							"DroppedIntelContainer"
-				"xpos"								"0"
-				"ypos"								"20"
-				"zpos"								"1"
-				"wide"								"f0"
-				"tall"								"f0"
-				"visible"							"1"
-				"enabled"							"1"
-				"bgcolor_override"					"Blank"
+				"bgcolor_override"	"Blank"
 
-				"proportionalToParent"				"1"
+				"proportionalToParent"	"1"
 
-				"DroppedIntelImage"
-				{
-					"ControlName"					"ImagePanel"
-					"fieldName"						"DroppedIntelImage"
-					"xpos"							"0"
-					"ypos"							"0"
-					"zpos"							"0"
-					"wide"							"f0"
-					"tall"							"20"
-					"visible"						"1"
-					"enabled"						"1"
-					"image"							"../HUD/obj_rd_thief_dropped_red"
-					"scaleImage"					"1"
-					"proportionalToParent"			"1"
-				}
+				"DroppedIntelImage"	{}
 			}
-
-			"IntelValue"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValue"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"12"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"f14"
-				"fgcolor"							"TanLight"
-				"bgcolor_override"					"Blank"
-				"proportionalToParent"				"1"
-			}
-
-			"IntelValueShadow"
-			{
-				"ControlName"						"CExLabel"
-				"fieldName"							"IntelValueShadow"
-				"xpos"								"-1"
-				"ypos"								"-1"
-				"zpos"								"11"
-				"wide"								"f0"
-				"tall"								"20"
-				"visible"							"1"
-				"enabled"							"1"
-				"textAlignment"						"center"
-				"labelText"							"%intelvalue%"
-				"font"								"f14"
-				"fgcolor"							"Shadow"
-				"proportionalToParent"				"1"
-
-				"pin_to_sibling"					"IntelValue"
-			}
+			
+			"IntelValue"	{	"font"	"f14"	"proportionalToParent"	"1"	"fgcolor"	"TanLight"	"bgcolor_override"	"Blank"	}
+			
+			"IntelValueShadow"	{	"font"	"f14"	"proportionalToParent"	"1"	"fgcolor"	"Shadow"	"pin_to_sibling"	"IntelValue"	}
 		}
 	}
-
 	"CountdownContainer"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"CountdownContainer"
-		"xpos"										"cs-0.5"
-		"ypos"										"rs1"
-		"zpos"										"1"
-		"wide"										"300"
-		"tall"										"110"
-		"visible"									"0"
-		"enabled"									"1"
-		"proportionaltoparent"						"1"
+		"xpos"	"cs-0.5"	"ypos"	"rs1"
 
+		"Background"	{	"xpos"	"9999"	}
+
+		"quickpin"
+		{
+			"controlname"	"cexbutton"	"fieldname"	"quickpin"
+			
+			"xpos"	"254"	"ypos"	"90"	"tall"	"0"	"labeltext"	""
+			
+			"visible"	"1"		"enabled"	"1"	"proportionalToParent"	"1"
+		}
+		
+		"CountdownImage"	{	"wide"	"25"	"tall"	"25"	"pin_to_sibling"	"quickpin"	"pin_corner_to_sibling"	"0"	"pin_to_sibling_corner"	"0"	}
+		
 		"CountdownLabelTime"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"CountdownLabelTime"
-			"xpos"									"c-19"
-			"ypos"									"60"
-			"zpos"									"8"
-			"wide"									"40"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"%countdowntime%"
-			"font"									"f12"
-			"fgcolor"								"TanLight"
-			"proportionalToParent"					"1"
+			"ControlName"	"CExLabel"	"fieldName"	"CountdownLabelTime"
+			
+			"xpos"	"c-18"	"ypos"	"48"	"zpos"	"8"	"wide"	"40"	"tall"	"40"
+			
+			"font"	"f16"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+			
+			"textAlignment"	"center"	"labelText"	"%countdowntime%"
+			
+			"fgcolor"	"TanLight"
 		}
 		"CountdownLabelTimeTimeShadow"
 		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"CountdownLabelTimeTimeShadow"
-			"xpos"									"-1"
-			"ypos"									"-1"
-			"zpos"									"7"
-			"wide"									"40"
-			"tall"									"40"
-			"visible"								"1"
-			"enabled"								"1"
-			"textAlignment"							"center"
-			"labelText"								"%countdowntime%"
-			"font"									"f12"
-			"fgcolor"								"Shadow"
-			"proportionalToParent"					"1"
+			"ControlName"	"CExLabel"	"fieldName"	"CountdownLabelTimeTimeShadow"
+			
+			"xpos"	"-1"	"ypos"	"-1"	"zpos"	"7"	"wide"	"40"	"tall"	"40"
+			
+			"font"	"f16"	"visible"	"1"	"enabled"	"1"	"proportionalToParent"	"1"
+			
+			"textAlignment"	"center"	"labelText"	"%countdowntime%"
+			
+			"fgcolor"	"Shadow"
 
-			"pin_to_sibling"						"CountdownLabelTime"
+			"pin_to_sibling"	"CountdownLabelTime"
 		}
-
-		"Background"
-		{
-			"ControlName"							"CTFImagePanel"
-			"fieldName"								"Background"
-			"xpos"									"9999"
-		}
-		"CountdownImage"
-		{
-			"ControlName"							"ImagePanel"
-			"fieldName"								"CountdownImage"
-			"xpos"									"9999"
-		}
-	}
-
-
-
-	//==================================================================================================================================================
-	// REMOVED ELEMENTS
-	//==================================================================================================================================================
-
-	"PlayingToBG"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"PlayingToBG"
-		"xpos"										"9999"
 	}
 }

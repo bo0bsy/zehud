@@ -1,113 +1,23 @@
+#base "base/controlpointicon.res"
+
 "Resource/UI/ControlPointIcon.res"
 {
-	"ControlPointIcon"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"	  "ControlPointIcon"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"		    "2"
-		"wide"		    "24"
-		"tall"		    "24"
-		"visible"	    "1"
-		"enabled"	    "1"
-	}
+	"ControlPointIcon"	{	"wide"	"21"	"tall"	"21"	}	
 	
-	"Countdown"
-	{
-		"ControlName"	"CControlPointCountdown"
-		"fieldName"	  "Countdown"
-		"xpos"		    "0"
-		"ypos"		    "0"
-		"zpos"		    "4"
-		"wide"		    "24"
-		"tall"		    "24"
-		"visible"	    "1"
-		"enabled"	    "1"
-	}	
+	"Countdown"	{	"wide"	"21"	"tall"	"21"	}	
 
-	"CapPlayerImage"
-	{
-		"ControlName"	"ImagePanel"		
-		"fieldName"	  "CapPlayerImage"
-		"xpos"		    "0"
-		"ypos"		    "2"
-		"zpos"		    "3"
-		"wide"		    "8"
-		"tall"		    "12"
-		"visible"	    "0"
-		"enabled"	    "1"
-		"image"		    "capture_icon"
-		"scaleImage"	"1"
-	}
+	"CapPlayerImage"	{	"wide"	"7"	"tall"	"14"	}
 
 	"CapNumPlayers"
 	{	
-		"ControlName"		  "Label"
-		"fieldName"		    "CapNumPlayers"
-		"font"			      "HudFontSmall"
-		"xpos"			      "8"
-		"ypos"			      "2"
-		"zpos"			      "3"
-		"wide"			      "24"
-		"tall"			      "22"
-		"autoResize"		  "0"
-		"pinCorner"		    "0"
-		"visible"		      "1"
-		"enabled"		      "1"
-		"labelText"		    "#ControlPointIconCappers"
-		"textAlignment"		"west"
-		"dulltext"		    "0"
-		"brighttext"		  "0"
+		"xpos"	"10"	"ypos"	"3"	"wide"	"14"	"tall"	"21"
+		
+		"font"	"CapPlayerFontSmall"		
 	}
 
-	"OverlayImage"
-	{
-		"ControlName"	    "ImagePanel"		
-		"fieldName"	      "OverlayImage"
-		"xpos"		        "18"
-		"ypos"		        "0"
-		"zpos"		        "4"
-		"wide"		        "6"
-		"tall"		        "6"
-		"visible"	        "0"
-		"enabled"	        "1"
-		"image"		        "capture_icon"
-		"scaleImage"	    "1"
-	}
+	"OverlayImage"	{	"xpos"	"12"	"ypos"	"0"	"wide"	"9"	"tall"	"9"	}
 	
-	"CPTimerLabel"
-	{
-		"ControlName"	  "CExLabel"
-		"fieldName"		  "CPTimerLabel"
-		"xpos"			    "0"
-		"ypos"			    "0"
-		"zpos"			    "0"
-		"wide"			    "9"
-		"tall"			    "20"
-		"visible"		    "0"
-		"enabled"		    "1"
-		"labelText"		  "60"
-		"textAlignment"	"center"
-		"dulltext"		  "0"
-		"brighttext"	  "0"
-		"wrap"			    "0"
-		"font"			    "ControlPointTimer"
-		"font_minmode"	"ControlPointTimerSmaller"
-	}
-				
-	"CPTimerBG"
-	{
-		"ControlName"	  "Panel"
-		"fieldName"		  "CPTimerBG"
-		"xpos"			    "0"
-		"ypos"			    "0"
-		"zpos"			    "-1"
-		"wide"		      "66"
-		"tall"		      "33"
-		"visible"		    "0"
-		"enabled"		    "1"
-		"image"			    "../sprites/obj_icons/icon_obj_timer"	
-		"scaleImage"	  "1"	
-	}
+	"CPTimerLabel"	{	"wide"	"7"	"font"	"ControlPointTimerSmaller"	}
+
+	"CPTimerBG"	{	"wide"	"42"	"tall"	"21"	}
 }

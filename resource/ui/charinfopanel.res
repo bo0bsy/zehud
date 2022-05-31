@@ -1,12 +1,5 @@
 "Resource/UI/CharInfoPanel.res"
-{
-	"ReloadSchemeButton"
-	{
-		"xpos"								"c-13"
-		"ypos"								"8"
-		"zpos"								"20000"
-	}
-	
+{	
 	"character_info"
 	{
 		"ControlName"						"EditablePanel"
@@ -15,11 +8,10 @@
 		"ypos"								"0"
 		"wide"								"f0"
 		"tall"								"480"
-		"autoResize"						"0"
-		"pinCorner"							"0"
+
 		"visible"							"1"
 		"enabled"							"1"
-		"tabPosition"						"0"
+
 		"settitlebarvisible"				"0"
 		"PaintBackgroundType"				"0"
 		"bgcolor_override"					"Blank"
@@ -70,34 +62,6 @@
 		"PaintBackgroundType"				"0"		
 	}	
 	
-	"TopTanLightBar"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TopTanLightBar"
-		"xpos"								"-5"
-		"ypos"								"-5"
-		"zpos"								"0"
-		"wide"								"p1.02"
-		"tall"								"63"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"MainMenuBGBorder"
-	}
-	
-	"BottomTanLightBar"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TopTanLightBar"
-		"xpos"								"-5"
-		"ypos"								"r35"
-		"zpos"								"0"
-		"wide"								"p1.02"
-		"tall"								"50"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"MainMenuBGBorder"
-	}
-	
 	"Sheet"
 	{
 		"ControlName"						"EditablePanel"
@@ -109,13 +73,6 @@
 		"tabheight"							"18"
 		"transition_time" 					"0"
 		"yoffset"							"30"
-		
-		"HeaderLine"
-		{
-			"ControlName"					"ImagePanel"
-			"fieldName"						"HeaderLine"
-			"xpos"							"9999"
-		}
 		
 		"tabskv"
 		{
@@ -149,23 +106,16 @@
 		"font"								"f12"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
-		"dulltext"							"0"
-		"brighttext"						"0"
+
 		"default"							"0"
 		"Command"							"back"
-		
-		"border_default"	 	 	 		"noborder"
-		"border_armed"		 	 	 		"noborder"	
 
-		"paintbackground"	 	 	 		"0"			
-		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override" 			"TanLight"
-		"armedFgColor_override" 			"TanLightSelect"
-		"depressedFgColor_override"			"TanLightSelect"		
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
+		"border_default"	"Black"	"border_armed"	"Select"			
 	}
 	
 	"CloseButton"
@@ -186,22 +136,16 @@
 		"font"								"f12"
 		"textAlignment"						"center"
 		"AllCaps"							"1"
-		"dulltext"							"0"
-		"brighttext"						"0"
+
 		"default"							"0"
 		"Command"							"close"
-		
-		"border_default"	 	 	 		"noborder"
-		"border_armed"		 	 	 		"noborder"
 
-		"paintbackground"	 	 	 		"0"				
-		
 		"sound_depressed"					"UI/buttonclick.wav"
 		"sound_released"					"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override" 			"TanLight"
-		"armedFgColor_override" 			"TanLightSelect"
-		"depressedFgColor_override" 		"TanLightSelect"	
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
+		
+		"border_default"	"Black"	"border_armed"	"Select"		
 	}
 	
 	"NotificationsPresentPanel"
@@ -217,22 +161,7 @@
 		"enabled"							"1"
 	}
 	
-	"BackgroundHeader"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"BackgroundHeader"
-		"xpos"								"9999"
-	}
-	"BackgroundFooter"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"BackgroundFooter"
-		"xpos"								"9999"
-	}
-	"FooterLine"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FooterLine"
-		"xpos"								"9999"
-	}
+	"BackgroundHeader"	{	"ControlName"	"ImagePanel"	"fieldName"	"BackgroundHeader"	"xpos"	"9999"	}
+	"BackgroundFooter"	{	"ControlName"	"ImagePanel"	"fieldName"	"BackgroundFooter"	"xpos"	"9999"	}
+	"FooterLine"	{	"ControlName"	"ImagePanel"	"fieldName"	"FooterLine"	"xpos"	"9999"	}
 }

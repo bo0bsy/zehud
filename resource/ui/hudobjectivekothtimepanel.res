@@ -1,72 +1,76 @@
+#base "base/hudobjectivekothtimepanel.res"
+
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {
+	"HudKothTimeStatus"	{	"ypos"	"r18"	}	
+
+	"ActiveTimerBG"	{	"visible"	"0"	}
+
 	"BlueTimer"
 	{
-		"ControlName"			"CTFHudTimeStatus"
-		"fieldName"				"BlueTimer"
-		"xpos"					"15"
-		"ypos"					"467"
-		"zpos"					"3"
-		"wide"					"115"
-		"tall"					"50"
-		"visible"				"1"
-		"enabled"				"1"
+		"xpos"	"15"	"ypos"	"-14"
+		
+		if_match
+		{
+			"xpos"	"15"	"ypos"	"-14"
+
+			"delta_item_x"	"9999"	"delta_item_start_y"	"9999"	"delta_item_end_y"	"9999"
+			
+			"PositiveColor"	"0 255 0 255"	"NegativeColor"	"255 0 0 255"
+	
+			"delta_lifetime"	"0"	"delta_item_font"	"null"
+		}			
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"f11"
-			"fgcolor"			"Tanlight"
-			"xpos"				"0"
-			"ypos"				"2"
-			"zpos"				"4"
-			"wide"				"100"
-			"tall"				"13"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
-		}
+			"xpos"	"39"	"ypos"	"8"	"wide"	"30"
+	
+			"font"	"HudFontSmall"
+			
+			if_match	{	"xpos"	"39"	"ypos"	"8"	"wide"	"30"	"tall"	"31"	}			
+		}	
 	}
 	
+	"TimePanelBgBlue"
+	{
+		"ControlName"	"Imagepanel"	"fieldName"	"TimePanelBgBlue"
+		
+		"xpos"	"50"	"ypos"	"-2"	"wide"	"38"	"tall"	"21"	
+
+		"visible"	"1"	"enabled"	"1"	"image"	"../hud/objectives_timepanel_blue_bg"	"scaleImage"	"1"
+	}	
+
 	"RedTimer"
 	{
-		"ControlName"			"CTFHudTimeStatus"
-		"fieldName"				"RedTimer"
-		"xpos"					"87"
-		"ypos"					"467"
-		"zpos"					"3"
-		"wide"					"115"
-		"tall"					"50"
-		"visible"				"1"
-		"enabled"				"1"
+		"xpos"	"77"	"ypos"	"-14"
+		
+		if_match
+		{
+			"xpos"	"77"	"ypos"	"-14"
+			
+			"delta_item_x"	"9999"	"delta_item_start_y"	"9999"	"delta_item_end_y"	"9999"
+	
+			"PositiveColor"	"0 255 0 255"	"NegativeColor"	"255 0 0 255"
+
+			"delta_lifetime"	"0"	"delta_item_font"	"null"
+		}			
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
-			"fieldName"			"TimePanelValue"
-			"font"				"f11"
-			"fgcolor"			"Tanlight"
-			"xpos"				"0"
-			"ypos"				"2"
-			"zpos"				"4"
-			"wide"				"100"
-			"tall"				"13"
-			"visible"			"1"
-			"enabled"			"1"
-			"textAlignment"		"center"
-			"labelText"			"0:00"
-		}
-	}
+			"xpos"	"39"	"ypos"	"8"	"wide"	"30"
+			
+			"font"	"HudFontSmall"			
+			
+			if_match	{	"xpos"	"39"	"ypos"	"8"	"wide"	"30"	"tall"	"31"	}				
+		}		
+	}	
 	
-	"ActiveTimerBG"
+	"TimePanelBgRed"
 	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"ActiveTimerBG"
-		"wide"					"0"
-		"tall"					"0"
-		"visible"				"0"
-		"enabled"				"0"
-	}
+		"ControlName"	"Imagepanel"	"fieldName"	"TimePanelBgBlue"
+		
+		"xpos"	"112"	"ypos"	"-2"	"wide"	"38"	"tall"	"21"	
+
+		"visible"	"1"	"enabled"	"1"	"image"	"../hud/objectives_timepanel_red_bg"	"scaleImage"	"1"
+	}	
 }

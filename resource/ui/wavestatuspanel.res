@@ -2,70 +2,42 @@
 
 "Resource/UI/WaveStatusPanel.res"
 {
-	"Background"
-	{
-		"visible"				"0"
-	}
+	"Background"	{	"visible"	"0"	}
 	
 	"WaveCountLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"WaveCountLabel"
-		"font"					"WaveCount"
-		"font_minmode"			"WaveCount"	
-		"zpos"					"100"
-		"xpos"					"200"
-		"ypos"					"18"
+	{	
+		"font"	"f8"
+
+		"zpos"	"100"	"xpos"	"200"	"ypos"	"18"
 		
-		"xpos_minmode"			"200"		
-		"ypos_minmode"			"6"		
+		"xpos_minmode"	"200"	"ypos_minmode"	"6"	"font_minmode"	"f8"	
 	}
 	
-	"SeparatorBar"
-	{
-		if_verbose	
-		{
-			"visible"			"0"
-		}
-	}
+	"SeparatorBar"	{	if_verbose	{	"visible"	"0"	}	}
 	
-	"SupportLabel"
-	{
-		if_verbose
-		{
-			"visible"			"1"
-		}
-	}
+	"SupportLabel"	{	if_verbose	{	"visible"	"1"	}	}
 	
 	"ProgressBar"
 	{
-		"ControlName"			"ScalableImagePanel"
-		"fieldName"				"ProgressBar"
-		"xpos"					"211"
-		"ypos"					"20"
-		"ypos_minmode"			"8"		
-		"wide"					"178"
-		"tall"					"10"
-		"image"					"replay/thumbnails/progress_bar"
+		"xpos"	"211"	"ypos"	"20"	"wide"	"178"	"tall"	"10"
+		
+		"ypos_minmode"	"8"		
+		
+		"image"	"replay/thumbnails/progress_bar"
 	
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"0"	"draw_corner_height"	"0"	
 	}
 	
 	"ProgressBarBG"
 	{
-		"ControlName"			"ScalableImagePanel"
-		"fieldName"				"ProgressBarBG"
-		"xpos"					"-2"
-		"ypos"					"-2"
-		"ypos_minmode"			"-2"		
-		"wide"					"178"
-		"tall"					"10"
-		"image"					"replay/thumbnails/progress_bar_bg"
+		"xpos"	"-2"	"ypos"	"-2"	"wide"	"178"	"tall"	"10"
 		
-		"pin_to_sibling"		"ProgressBar"		
+		"ypos_minmode"	"-2"			
+		
+		"image"	"replay/thumbnails/progress_bar_bg"
+		
+		"pin_to_sibling"	"ProgressBar"		
 
-		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"0"	"draw_corner_height"	"0"	
 	}
 }

@@ -2,51 +2,35 @@
 
 "Resource/UI/HudRocketPack.res"
 {
-	HudItemEffectMeter
-	{
-		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-51"
-		"ypos"			"405"
-		"wide"			"100"
-		"tall"			"50"
-		"MeterFG"		"white"
-		"MeterBG"		"Gray"
-	}
+	HudItemEffectMeter	{	"xpos"	"cs-0.5"	"proportionaltoparent"	"1"	}
 
-	"ItemEffectIcon"
-	{
-		"ControlName"								"CTFImagePanel"
-		"fieldName"									"ItemEffectIcon"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
+	"ItemEffectMeterLabel"
+	{	"labelText"	"#TF_RocketPack_Disabled"	"ypos"	"0"	}
 
 	"ItemEffectMeter"
-	{	
-		"wide"										"50"
-	}
+	{	"wide"	"50" "tall"	"5"	}
 
 	"ItemEffectMeter2"
 	{	
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter2"
-		"font"										"Default"
-		"xpos"										"51"
-		"ypos"										"0"
-		"zpos"										"2"
-		"wide"										"50"
-		"tall"										"6"				
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"0"
-		"brighttext"								"0"
-		"fgcolor"									"white"
+		"ControlName"	"ContinuousProgressBar"	"fieldName"	"ItemEffectMeter2"
+
+		"xpos"	"51"	"ypos"	"0"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"5"	
+
+		"font"	"SpectatorKeyHints"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"textAlignment"	"Left"
+		
+		"fgcolor"	"White"
 	}
+	
+	"ItemEffectIcon"
+	{
+		"ControlName"	"CTFImagePanel"	"fieldName"	"ItemEffectIcon"
+		
+		"xpos"	"9999"	"wide"	"0"	"tall"	"0"
+		
+		"visible"	"0"	"enabled"	"0"	"image"	""
+	}	
+	
+	"ItemEffectMeterBG"	{}	
 }

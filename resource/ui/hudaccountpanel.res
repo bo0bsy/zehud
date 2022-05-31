@@ -1,143 +1,84 @@
+#base "base/hudaccountpanel.res"
+
 "Resource/UI/HudAccountPanel.res"
 {
+	"AccountBG"
+	{	"xpos"	"9999"	}	
+
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"50"
-		"delta_item_start_y"	"4"
-		"delta_item_end_y"		"4"
-		"PositiveColor"			"Positive"
-		"NegativeColor"			"Negative"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"f14"
+		"delta_item_x"	"50"	"delta_item_start_y"	"4" 	"delta_item_end_y"	"4" 	"delta_item_font"	"f14"
+		
+		"PositiveColor"	"CustomGreen"	"NegativeColor"	"CustomRed"
 	}
 	
 	"MetalIcon"	
-	{
-		"ControlName"		"CIconPanel"
-		"fieldName"			"MetalIcon"
-		"xpos"				"0"
-		"ypos"				"5"
-		"zpos"				"2"
-		"wide"				"10"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"			
-		"icon"				"ico_metal"
-		"iconColor"			"TanLight"
-	}
+	{	"xpos"	"0" 	"ypos"	"5" 	"wide"	"10"	"tall"	"10"	}
 
 	"MetalIconShadow"	
 	{
-		"ControlName"		"CIconPanel"
-		"fieldName"			"MetalIconShadow"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"1"
-		"wide"				"10"
-		"tall"				"10"
-		"visible"			"1"
-		"enabled"			"1"
-		"scaleImage"		"1"			
-		"icon"				"ico_metal"
-		"iconColor"			"Shadow"
+		"ControlName"	"CIconPanel"	"fieldName"	"MetalIconShadow"
+
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"1" 	"wide"	"10"	"tall"	"10"
+
+		"visible"	"1" 	"enabled"	"1" 	"scaleImage"	"1"	
+		
+		"icon"	"ico_metal" 	"iconColor"	"Black"
 		
 		"pin_to_sibling"	"MetalIcon"				
 	}	
 	
 	"Thingy"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"thingy"
-		"xpos"				"-1"
-		"ypos"				"0"
-		"zpos"				"2"
-		"wide"				"30"
-		"tall"				"10"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			":"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"fgcolor"      		"TanLight"
-		"font"				"f10"
+		"ControlName"	"CExLabel"	"fieldName"	"thingy"
+
+		"xpos"	"-1"	"ypos"	"0" 	"zpos"	"2" 	"wide"	"30"	"tall"	"10"
+
+		"visible"	"1" 	"enabled"	"1" 	"font"	"f10"
+
+		"labelText"	":" 	"textAlignment"	"center"
+
+		"fgcolor"	"TanLight"
 		
 		"pin_to_sibling"	"MetalIcon"			
 	}
 
 	"ThingyShadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"thingyShadow"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"2"
-		"wide"				"30"
-		"tall"				"10"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			":"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"fgcolor"      	 	"Shadow"
-		"font"				"f10"
+		"ControlName"	"CExLabel"	"fieldName"	"thingyShadow"
+
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2" 	"wide"	"30" 	"tall"	"10"
+
+		"visible"	"1" 	"enabled"	"1" 	"font"	"f10"
+
+		"labelText"	":" 	"textAlignment"	"center"
+
+		"fgcolor"	"Shadow"
 		
 		"pin_to_sibling"	"Thingy"			
 	}		
 	
 	"AccountValue"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"AccountValue"
-		"xpos"				"-5"
-		"ypos"				"2"
-		"zpos"				"2"
-		"wide"				"55"
-		"tall"				"14"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"%metal%"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"fgcolor"       	"TanLight"
-		"font"				"f14"
+		"xpos"	"-5"	"ypos"	"2" 	"tall"	"14"
+
+		"font"	"f14"
 		
 		"pin_to_sibling"	"Thingy"			
 	}
 	
 	"AccountValueShadow"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"			"AccountValueShadow"
-		"xpos"				"-1"
-		"ypos"				"-1"
-		"zpos"				"2"
-		"wide"				"55"
-		"tall"				"14"
-		"autoResize"		"1"
-		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
-		"tabPosition"		"0"
-		"labelText"			"%metal%"
-		"textAlignment"		"center"
-		"dulltext"			"0"
-		"brighttext"		"0"
-		"fgcolor"       	"Shadow"		
-		"font"				"f14"
+		"ControlName"	"CExLabel"	"fieldName"	"AccountValueShadow"
+
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2" 	"wide"	"55"	"tall"	"14"
+
+		"visible"	"1" 	"enabled"	"1" 	"font"	"f14"
+
+		"labelText"	"%metal%"	"textAlignment"	"center"
+
+		"fgcolor"	"Black"	
 		
 		"pin_to_sibling"	"AccountValue"		
-	}
+	}	
 }

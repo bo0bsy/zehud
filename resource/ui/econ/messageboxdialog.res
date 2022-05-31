@@ -1,5 +1,7 @@
 "Resource/UI/MessageBoxDialog.res"
 {
+	"Icon"	{	"ControlName"	"ImagePanel"	"fieldName"	"Icon"	"xpos"	"9999"	}	
+
 	"ConfirmDialog"
 	{
 		"ControlName"				"Frame"
@@ -97,11 +99,4 @@
 		"armedFgColor_override"		"TanLight"
 		"depressedFgColor_override" "TanLight"
 	}
-
-	"Icon"
-	{
-		"ControlName"				"ImagePanel"
-		"fieldName"					"Icon"
-		"xpos"						"9999"
-	}	
 }

@@ -1,4 +1,4 @@
-"Resource/UI/econ/Inspection1Panel_Cosmetic.res"
+"Resource/UI/econ/InspectionPanel_Cosmetic.res"
 {
 	"storepreviewitem"
 	{
@@ -50,19 +50,36 @@
 			"ui_fadeout_time"					"3.0"
 			"ui_fadeout_duration"				"2.0"
 			
-			"bg"
+			"Background"
 			{
-				"ControlName"					"ImagePanel"
-				"fieldName"						"bg"
-				"xpos"							"0"
-				"ypos"							"-48"
-				"zpos"							"-1"
-				"wide"							"f0"
-				"tall"							"f0"
-				"visible"						"1"
-				"enabled"						"1"
-				"image"							"replay/thumbnails/menu/menugif"
-				"scaleimage"					"1"
+				"ControlName"						"ImagePanel"
+				"fieldName"							"Background"
+				"xpos"								"0"
+				"ypos"								"-48"
+				"zpos"								"-1"
+				"wide"								"f0"
+				"tall"								"480"
+				"visible"							"1"
+				"enabled"							"1"
+				"image"								"replay/thumbnails/menu/menugif"
+				"scaleimage"						"1"
+			}
+			
+			"Background2"
+			{
+				"ControlName"						"EditablePanel"
+				"fieldName"							"Background2"
+				"xpos"								"0"
+				"ypos"								"-48"
+				"zpos"								"-1"
+				"wide"								"f0"
+				"tall"								"f0"
+				"visible"							"1"
+				"enabled"							"1"
+				"bgcolor_override"					"0 0 0 150"
+				"paintbackground"					"1"
+				"paintborder"						"0"
+				"PaintBackgroundType"				"0"		
 			}
 
 			"RotateLeftButton"
@@ -80,7 +97,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		"<"
-				"font"			"HudFontBiggerBold"
+				"font"			"Symbols 34"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -107,7 +124,7 @@
 				"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		">"
-				"font"			"HudFontBiggerBold"
+				"font"			"Symbols 34"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
@@ -243,7 +260,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemNameLabel"
-			"font"			"Inspection1"
+			"font"			"f8"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
 			"xpos"			"240"
@@ -296,7 +313,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ItemLevelInfoLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"%item_level_info%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -313,7 +330,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"#Store_ItemDesc_Restrictions"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -330,7 +347,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RestrictionsTextLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"#Store_HolidayRestrictionText"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -347,7 +364,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"#Store_ItemDesc_UsedBy"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -364,7 +381,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByTextLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -381,7 +398,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"#Store_ItemDesc_Slot"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -398,7 +415,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotTextLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"labelText"		"%slot%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -415,7 +432,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"ArmoryTextLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -432,7 +449,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"AttributesLabel"
-					"font"			"Inspection1"
+					"font"			"f8"
 					"textAlignment"	"north-west"
 					"zpos"			"2"
 					"wide"			"228"
@@ -472,7 +489,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
-					"font"			"Inspection2"
+					"font"			"f10"
 					"textAlignment"	"center"
 					"AllCaps"		"1"
 					"dulltext"		"0"
@@ -982,7 +999,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CycleTextLabel"
-		"font"			"Inspection1"
+		"font"			"f8"
 		"labelText"		""
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -1006,7 +1023,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PaintNameLabel"
-		"font"			"Inspection1"
+		"font"			"f8"
 		"labelText"		"#Store_NoPaint"
 		"textAlignment"	"left"
 		"xpos"			"c-186"
@@ -1027,7 +1044,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"StyleNameLabel"
-		"font"			"Inspection1"
+		"font"			"f8"
 		"labelText"		"None"
 		"textAlignment"	"left"
 		"xpos"			"132"

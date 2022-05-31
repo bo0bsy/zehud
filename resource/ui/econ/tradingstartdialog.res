@@ -371,7 +371,7 @@
 		{
 			"ControlName"					"CExLabel"
 			"fieldName"						"QueryLabel"
-			"font"							"SteamProfile"
+			"font"							"f8"
 			"labelText"						"#TF_TradeStartDialog_Profile"
 			"textAlignment"					"north"
 			"xpos"							"0"
@@ -386,18 +386,13 @@
 			"fgcolor" 						"TanLight"
 		}	
 		
-		"URLHelpLabel"
-		{
-			"ControlName"					"Label"
-			"fieldName"						"URLHelpLabel"
-			"xpos"							"99999"
-		}	
+		"URLHelpLabel"	{	"ControlName"	"Label"	"fieldName"	"URLHelpLabel"	"xpos"	"99999"	}	
 		
 		"URLFailLabel"
 		{
 			"ControlName"					"Label"
 			"fieldName"						"URLFailLabel"
-			"font"							"SteamProfile"
+			"font"							"f8"
 			"labelText"						"#TF_TradeStartDialog_ProfileFail"
 			"textAlignment"					"center"
 			"xpos"							"0"
@@ -418,7 +413,7 @@
 		{
 			"ControlName"	 				"Label"
 			"fieldName"		 				"URLSearchingLabel"
-			"font"			 				"SteamProfile"
+			"font"			 				"f8"
 			"labelText"		 				"#TF_TradeStartDialog_ProfileLookup"
 			"textAlignment"	 				"center"
 			"xpos"			 				"0"
@@ -458,7 +453,7 @@
 			"bgcolor_override"				"0 0 0 150"			
 			"paintbackgroundtype"			"0"
 			"labelText"						""
-			"font"							"SteamProfile"
+			"font"							"f8"
 			"textAlignment"					"center"		
 		}
 		

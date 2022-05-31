@@ -111,18 +111,8 @@
 			"border"		"Black"
 		}
 	
-		"FooterTopPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"FooterTopPanel"
-			"xpos"			"9999"
-		}
-		"FootBottomPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"FootBottomPanel"
-			"xpos"			"9999"
-		}
+		"FooterTopPanel"	{	"ControlName"	"EditablePanel"	"fieldName"	"FooterTopPanel"	"xpos"	"9999"	}
+		"FootBottomPanel"	{	"ControlName"	"EditablePanel"	"fieldName"	"FootBottomPanel"	"xpos"	"9999"	}
 		
 		"ItemNameLabel"
 		{
@@ -978,7 +968,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"6"
+		"labelText"		"<"
 		"font"			"Symbols 12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1011,7 +1001,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"5"
+		"labelText"		">"
 		"font"			"Symbols 12"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1184,7 +1174,7 @@
 		"fieldName"		"ZoomButton"
 		"xpos"			"c-58"
 		"ypos"			"c-128"
-		"zpos"			"20"
+		"zpos"			"100"
 		"wide"			"22"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -1218,7 +1208,7 @@
 		"fieldName"		"OptionsButton"
 		"xpos"			"c-80"
 		"ypos"			"c-128"
-		"zpos"			"20"
+		"zpos"			"100"
 		"wide"			"22"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -1363,7 +1353,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"AllCaps"		"1"
+		"AllCaps"		"0"
 		"fgcolor"		"TanLight"
 	}
 

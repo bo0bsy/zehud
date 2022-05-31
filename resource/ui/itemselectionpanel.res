@@ -97,7 +97,7 @@
 		"ControlName"						"ImagePanel"
 		"fieldName"							"Background"
 		"xpos"								"0"
-		"ypos"								"0"
+		"ypos"								"-48"
 		"zpos"								"0"
 		"wide"								"f0"
 		"tall"								"480"
@@ -118,7 +118,7 @@
 		"tall"								"f0"
 		"visible"							"1"
 		"enabled"							"1"
-		"bgcolor_override"					"0 0 0 200"
+		"bgcolor_override"					"0 0 0 150"
 		"paintbackground"					"1"
 		"paintborder"						"0"
 		"PaintBackgroundType"				"0"		
@@ -318,103 +318,57 @@
 		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 	}
 	
+	"Anchor"
+	{
+		"ControlName"	"EditablePanel"	"fieldName"	"Anchor"
+		
+		"xpos"	"cs-0.5"	"ypos"	"260"	"wide"	"18"	"tall"	"240"
+		
+		"visible"	"0"	"enabled"	"1"
+	}	
+
 	"PrevPageButton"
 	{
-		"ControlName"					"CExButton"
-		"fieldName"						"PrevPageButton"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"1"
-		"wide"							"18"
-		"tall"							"46"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"<"
-		"font"							"Symbols 16"
-		"textAlignment"					"center"
-		"textinsety"					"0"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"prevpage"
+		"ControlName"	"CExButton"	"fieldName"	"PrevPageButton"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"36"
+
+		"font"	"Symbols 34"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"	"Command"	"prevpage"
+
+		"labelText"	"<"	"textAlignment"	"center"
 		
-		"paintbackground"				"0"
+		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"TanLight"
-		"depressedFgColor_override"		"TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"border_default"				"Black"
-		"border_armed"					"Select"
+		"border_default"	"Black"	"border_armed"	"Select"		
 		
-		"pin_to_sibling" 				"SelectionBG"
-		"pin_corner_to_sibling" 		"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling"	"Anchor"	"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"	"pin_to_sibling_corner"	"PIN_CENTER_LEFT"
 	}
-	
-	"PrevPageShortCut"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"PrevPageShortCut"
-		"xpos"							"9999"
-		"labelText"						"&A"
-		"Command"						"prevpage"
-		"visible"						"1"
-	}
-	
+
 	"NextPageButton"
 	{
-		"ControlName"					"CExButton"
-		"fieldName"						"NextPageButton"
-		"xpos"							"0"
-		"ypos"							"0"
-		"zpos"							"1"
-		"wide"							"18"
-		"tall"							"46"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						">"
-		"font"							"Symbols 16"
-		"textAlignment"					"center"
-		"textinsety"					"0"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"Command"						"nextpage"
+		"ControlName"	"CExButton"	"fieldName"	"NextPageButton"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"36"
+
+		"font"	"Symbols 34"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"	"Command"	"nextpage"
+
+		"labelText"	">"	"textAlignment"	"center"
 		
-		"paintbackground"				"0"
+		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"TanLight"
-		"depressedFgColor_override"		"TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"border_default"				"Black"
-		"border_armed"					"Select"
+		"border_default"	"Black"	"border_armed"	"Select"			
 		
-		"pin_to_sibling" 				"SelectionBG"
-		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
-		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+		"pin_to_sibling"	"Anchor"	"pin_corner_to_sibling"	"PIN_CENTER_LEFT"	"pin_to_sibling_corner"	"PIN_CENTER_RIGHT"
 	}
-	
-	"NextPageShortCut"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"NextPageShortCut"
-		"xpos"							"9999"
-		"labelText"						"&D"
-		"Command"						"nextpage"
-		"visible"						"1"
-	}
+
+	"PrevShortKey"
+	{	"ControlName"	"CExButton"	"fieldName"	"PrevShortKey"	"xpos"	"9999"	"labelText"	"&A"	"Command"	"prevpage"	"visible"	"1"	}
+	"NextShortKey"
+	{	"ControlName"	"CExButton"	"fieldName"	"NextShortKey"	"xpos"	"9999"	"labelText"	"&D"	"Command"	"nextpage"	"visible"	"1"	}
 	
 	"NoItemsLabel"
 	{

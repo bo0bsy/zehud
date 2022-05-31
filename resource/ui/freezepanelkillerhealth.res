@@ -1,90 +1,37 @@
+#base "base/freezepanelkillerhealth.res"
+
 "Resource/UI/FreezePanelKillerHealth.res"
 {
-	"PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"7"
-		"ypos"			"4"
-		"zpos"			"4"
-		"wide"			"18"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"6"
-		"ypos"			"3"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"	
-	}	
-	"BuildingStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"4"
-		"ypos"			"6"
-		"zpos"			"3"
-		"wide"			"21"
-		"tall"			"21"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
-	}	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"6"
-		"ypos"			"7"
-		"zpos"			"3"
-		"wide"			"20"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
-	}
+	"PlayerStatusHealthValue"	{	"xpos"	"9999"	}
+	"PlayerStatusHealthBonusImage"	{	"xpos"	"9999"	}
+	"PlayerStatusHealthImage"	{	"ypos"	"4" 	"visible"	"0" 	}
+	"PlayerStatusHealthImageBG"	{	"xpos"	"6" 	"ypos"	"3" 	"wide"	"0" 	"tall"	"0" 	}
+	"BuildingStatusHealthImageBG"	{	"xpos"	"4" 	"ypos"	"6" 	"wide"	"21"	"tall"	"21"	}
+	
 	"PlayerStatusKillerHealthValue"
 	{
-		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusKillerHealthValue"
-		"xpos"				"1"
-		"ypos"				"12"
-		"zpos"				"10"
-		"wide"				"30"
-		"tall"				"9"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"		"center"	
-		"labeltext"			"%Health%"
-		"font"				"HudFontSmallBold"
-		"fgcolor_override"  "TanLight"
+		"ControlName"	"Label"	"fieldName"	"PlayerStatusKillerHealthValue"
+
+		"xpos"	"cs-0.5" 	"ypos"	"cs-0.5"	"zpos"	"10"	"wide"	"30"	"tall"	"9"
+
+		"visible"	"1" "enabled"	"1"	"font"	"HudFontSmallBold"	"proportionaltoparent"	"1"
+		
+		"textAlignment"	"center"	"labeltext"	"%Health%"
+		
+		"fgcolor_override"	"TanLight"
 	}	
 	"PlayerStatusKillerHealthValueBlur"
 	{
-		"ControlName"		"Label"
-		"fieldName"			"PlayerStatusKillerHealthValueBlur"
-		"xpos"				"1"
-		"ypos"				"12"
-		"zpos"				"9"
-		"wide"				"30"
-		"tall"				"9"
-		"visible"			"1"
-		"enabled"			"1"
-		"textAlignment"		"center"	
-		"labeltext"			"%Health%"
-		"font"				"HudFontSmallBoldBlur"
-		"fgcolor_override"  "Shadow"
+		"ControlName"	"Label"	"fieldName"	"PlayerStatusKillerHealthValueBlur"
+
+		"xpos"	"0" 	"ypos"	"0" 	"zpos"	"9" 	"wide"	"30"	"tall"	"9"
+
+		"visible"	"1"	"enabled"	"1"	"font"	"HudFontSmallBoldBlur"
+
+		"textAlignment"	"center"	"labeltext"	"%Health%"
+
+		"fgcolor_override"	"Shadow"
+		
+		"pin_to_sibling"	"PlayerStatusKillerHealthValue"			
 	}		
 }

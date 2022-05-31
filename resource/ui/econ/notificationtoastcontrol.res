@@ -2,169 +2,88 @@
 {
 	"NotificationToastControl"
 	{
-		"ControlName"				"CNotificationToastControl"
-		"fieldName"					"NotificationToastControl"
-		"xpos"						"0"
-		"ypos"						"-2"
-		"zpos"						"1"
-		"wide"						"190"
-		"tall"						"32"
-		"visible"					"1"
-		"enabled"					"1"
-		"border"					"TanLight"
+		"ControlName"	"CNotificationToastControl"	"fieldName"	"NotificationToastControl"
+
+		"xpos"	"0"	"ypos"	"-2"	"zpos"	"1"	"wide"	"190"	"tall"	"32"
 		
-		"if_high_priority"
-		{
-			"border"				"TanLight"
-		}
+		"visible"	"1"	"enabled"	"1"
 		
-		"paintborder"				"1"
-		"paintbackground"			"0"
-		"PaintBackgroundType"		"0"
-		"bgcolor_override"			"0 0 0 50"
+		"border"	"TanLight"	"paintborder"	"1"
+		
+		"paintbackground"	"0"	"PaintBackgroundType"	"0"	"bgcolor_override"	"0 0 0 50"
+		
+		"if_high_priority"	{	"border"	"TanLight"	}		
 	}
 
 	"DeleteButton"
 	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"DeleteButton"
-		"xpos"						"163"
-		"ypos"						"4"
-		"zpos"						"10"
-		"wide"						"24"
-		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"labeltext"					"-"
-		"font"						"Symbols 22"
-		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"default"					"1"
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"Command"					"delete"
+		"ControlName"	"CExImageButton"	"fieldName"	"DeleteButton"
+		
+		"xpos"	"163"	"ypos"	"4"	"zpos"	"10"	"wide"	"24"	"tall"	"24"
 
-		"border_default"			"Negative"
-		"border_armed"				"NegativeSelect"
-		"paintbackground"			"0"
+		"font"	"Symbols 22"	"visible"	"0"	"enabled"	"1"	"Command"	"delete"
 
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"labeltext"	"-"	"textAlignment"	"center"
+
+		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"Negative"	"border_armed"	"NegativeSelect"
+
+		"paintbackground"	"0"	"defaultFgColor_override" 	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 	}
 
 	"TriggerButton"
 	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"TriggerButton"
-		"xpos"						"140"
+		"ControlName"	"CExImageButton"	"fieldName"	"TriggerButton"
 		
-		"if_one_button"
-		{
-			"xpos"					"163"
-		}
+		"xpos"	"140"	"ypos"	"4"	"zpos"	"10"	"wide"	"24"	"tall"	"24"
+
+		"font"	"Symbols 20"	"visible"	"0"	"enabled"	"1"	"Command"	"trigger"
+
+		"labeltext"	"m"	"textAlignment"	"center"
+
+		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"Positive"	"border_armed"	"PositiveSelect"
 		
-		"ypos"						"4"
-		"zpos"						"10"
-		"wide"						"24"
-		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"labeltext"					"m"
-		"font"						"Symbols 20"
-		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"default"					"1"
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"Command"					"trigger"
-
-		"border_default"			"Positive"
-		"border_armed"				"PositiveSelect"
-		"paintbackground"			"0"
-
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override" 	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
+		
+		"if_one_button"	{	"xpos"	"163"	}		
 	}
 
 	"AcceptButton"
 	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"AcceptButton"
-		"xpos"						"140"
+		"ControlName"	"CExImageButton"	"fieldName"	"AcceptButton"
 		
-		"if_one_button"
-		{
-			"xpos"					"163"
-		}
+		"xpos"	"140"		"ypos"	"4"	"zpos"	"10"	"wide"	"24"	"tall"	"24"
+
+		"font"	"Symbols 20"	"visible"	"0"	"enabled"	"1"	"Command"	"accept"
+
+		"labeltext"	"m"	"textAlignment"	"center"
+
+		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"Positive"	"border_armed"	"PositiveSelect"
 		
-		"ypos"						"4"
-		"zpos"						"10"
-		"wide"						"24"
-		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"labeltext"					"m"
-		"font"						"Symbols 20"
-		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"default"					"1"
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"Command"					"accept"
-
-		"border_default"			"Positive"
-		"border_armed"				"PositiveSelect"
-		"paintbackground"			"0"
-
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
+		"paintbackground"	"0"	"defaultFgColor_override" 	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
+		
+		"if_one_button"	{	"xpos"	"163"	}		
 	}
 
 	"DeclineButton"
 	{
-		"ControlName"				"CExImageButton"
-		"fieldName"					"DeclineButton"
-		"xpos"						"163"
-		"ypos"						"4"
-		"zpos"						"10"
-		"wide"						"24"
-		"tall"						"24"
-		"autoResize"				"0"
-		"pinCorner"					"0"
-		"visible"					"0"
-		"enabled"					"1"
-		"tabPosition"				"0"
-		"labeltext"					"-"
-		"font"						"Symbols 22"
-		"textAlignment"				"center"
-		"dulltext"					"0"
-		"brighttext"				"0"
-		"default"					"1"
-		"sound_depressed"			"UI/buttonclick.wav"
-		"sound_released"			"UI/buttonclickrelease.wav"
-		"Command"					"decline"
+		"ControlName"	"CExImageButton"	"fieldName"	"DeclineButton"
+		
+		"xpos"	"163"	"ypos"	"4"	"zpos"	"10"	"wide"	"24"	"tall"	"24"
+		
+		"font"	"Symbols 22"	"visible"	"0"	"enabled"	"1"	"Command"	"decline"
 
-		"border_default"			"Negative"
-		"border_armed"				"NegativeSelect"
-		"paintbackground"			"0"
+		"labeltext"	"-"	"textAlignment"	"center"
 
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override"	"TanLight"
+		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"Negative"	"border_armed"	"NegativeSelect"
+		
+		"paintbackground"	"0"	"defaultFgColor_override" 	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 	}
 }

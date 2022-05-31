@@ -31,7 +31,7 @@
 		"wrap"					"0"
 		"labelText"				"#Notifications_Present"
 		"textAlignment"			"center"
-		"font"					"Notification"
+		"font"					"PvP"
 		"proportionaltoparent"	"1"
 	}
 }
