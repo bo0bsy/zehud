@@ -295,10 +295,10 @@ Scheme
 		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"10"	"weight"	"400"	"antialias" "1"	}	}
 		
 		"ControlPointTimerSmaller"
-		{	"1"	{	"name"	"TF2 Secondary"	"tall"		"7"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"7"	"weight"	"400"	"antialias" "1"	}	}
 		
 		"TargetID"
-		{	"1"	{	"name"	"Verdana"	"tall"		"12"	"weight"	"700"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"Verdana"	"tall"	"12"	"weight"	"700"	"antialias"	"1"	}	}
 
 		MenuSmallestFont
 		{	"1"	{	"name"	"Arial Black"	"tall"	"8"	"range"	"0x0000 0x00FF"	"antialias"	"1"	}	}	
@@ -307,33 +307,13 @@ Scheme
 		{	"1"	{	"name"	"TF2"	"tall"	"14"	"range"	"0x0000 0x00FF"	"antialias"	"1"	}	}
 		
 		CapPlayerFont
-		{
-			"1"
-			{
-				"name"	"TF2"
-				"tall"		"12"
-			
-				"range"		"0x0000 0x017F" 
-				"TextColor"	"Black"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2"	"tall"	"12"	"range"	"0x0000 0x017F"	"antialias"	"1"	}	}
 		
 		CapPlayerFontSmall
-		{
-			"1"
-			{
-				"name"	"TF2"
-				"tall"		"8"
-			
-				"range"		"0x0000 0x017F" 
-				"TextColor"	"Black"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2"	"tall"	"8"	"range"	"0x0000 0x017F"	"antialias"	"1"	}	}
 
 		TFFontSmall
-		{	"1"	{	"name"	"Verdana"	"tall"		"8"	"additive"	"1"	"antialias" 	"1"	}	}
+		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"additive"	"1"	"antialias" 	"1"	}	}
 		
 		TFFontMedium
 		{	"1"	{	"name"	"Verdana"	"tall"	"9"	"weight"	"400"	"antialias"	"1"	}	}		
@@ -395,481 +375,123 @@ Scheme
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"10"
-			
-				"range"		"0x0000 0x017F" 
-				"yres"		"480 599"
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"Verdana"
-				"tall"		"12"
-			
-				"range"		"0x0000 0x017F" 
-				"yres"		"600 1199"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"Verdana"
-				"tall"		"15"
-			
-				"range"		"0x0000 0x017F" 
-				"yres"		"1200 6000"
-				"antialias"	"1"
-			}
+			"1"	{	"name"	"Verdana"	"tall"	"10"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"600 1199"	"antialias"	"1"	}
+			"3"	{	"name"	"Verdana"	"tall"	"15"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
 		}
+
+		/////////////////////////////////////
+		// TF2 MISSING FONT FOR ALL THESE YEARS
+		// xboxdialogs.res" and build engi stuff / replay stuff
+		"HudMenuNumberFont"	
+		{	"1"	{	"name"	"TF2"	"tall"	"15"	"antialias" "1"	}	}
+		
+		"MenuMedium"	
+		{	"1"	{	"name"	"TF2"	"tall"	"15"	"antialias" "1"	}	}
+		
+		"MenuSmall"	
+		{	"1"	{	"name"	"TF2"	"tall"	"15"	"antialias" "1"	}	}	
+
+		MatchmakingDialogMenuSmall
+		{	"1"	{	"name"	"TF2"	tall	"47"	"antialias" "1"	}	}	
+		
+		HDRDemoText
+		{	"1"	{	"name"	"TF2"	"tall"	"24"	"antialias" "1"	}	}	// note that this scales with the screen resolution
+		
+		"Ui"
+		{	"1"	{	"name"	"TF2"	"tall"	"16"	"antialias" "1"	}	}
+		
+		/////////////////////////////////////
 		
 		"ItemFontNameSmallest"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"8"
-			
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"8"	"antialias" "1"	}	}
 		
 		"ItemFontNameSmall"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-			
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"antialias" "1"	}	}
 		
 		"ItemFontNameLarge"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"12"
-			
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"12"	"antialias" "1"	}	}
 		
 		"ItemFontNameLarger"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"18"
-			
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"18"	"antialias" "1"	}	}
 		
 		"ItemFontAttribSmallest"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"7"
-			
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"7"	"antialias"	"1"	}	}
 		
 		ItemFontAttribSmallv2
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"8"
-				"antialias" "1"
-			
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" "1"	}	}
 		
 		"ItemFontAttribSmall"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"8"
-			
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"8"	"antialias"	"1"	}	}
 		
 		"ItemFontAttribLarge"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"11"
-			
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"11"	"antialias"	"1"	}	}
 		
 		"ItemFontAttribLarger"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"14"
-			
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"14"	"antialias"	"1"	}	}
 		
 		"AchievementTracker_Name"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-			
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"antialias"	"1"	}	}
 		
 		"AchievementTracker_NameGlow"
-		{
-			"1"
-			{
-				"name"		"TF2 Build"
-				"tall"		"9"
-			
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"additive"	"1"	"antialias"	"1"	"blur"	"3"	}	}
 		
 		"AchievementTracker_Desc"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"7"
-			
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"7"	"additive"	"1"	"antialias" 	"1"	}	}
 		
 		"QuestObjectiveTracker_Desc"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"7"
-			
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"7"	"additive"	"1"	"antialias"	"1"	}	}
 		
 		"QuestObjectiveTracker_DescGlow"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"7"
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"7"	"antialias"	"1"	}	}
 		
 		"QuestObjectiveTracker_DescBlur"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"7"
-			
-				"blur"		"3"
-				"additive"	"1"
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"7"	"additive"	"1"	"antialias"	"1"	"blur"	"3"	}	}
 		
 		"ItemTrackerScore_InGame"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"7"
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"7"	"antialias"	"1"	}	}
 
 		"QuestFlavorText"
-		{
-			"1"
-			{
-				"name"	"ocra"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-			
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"ocra"
-				"tall"		"14"
-				"weight"	"400"
-			
-				"yres"		"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"ocra"
-				"tall"		"18"
-				"weight"	"400"
-			
-				"yres"		"1024 6000"
-				"antialias"	"1"
-			}
-		}
+		{	"1"	{	"name"	"ocra"	"tall"	"18"	"antialias"	"1"	}	}
 
 		"QuestObjectiveText"
-		{
-			"1"
-			{
-				"name"	"ocra"
-				"tall"		"10"
-				"weight"	"800"
-				"yres"		"480 599"
-			
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"ocra"
-				"tall"		"14"
-				"weight"	"800"
-			
-				"yres"		"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"ocra"
-				"tall"		"18"
-				"weight"	"800"
-			
-				"yres"		"1024 6000"
-				"antialias"	"1"
-			}
-		}
+		{	"1"	{	"name"	"ocra"	"tall"	"18"	"antialias"	"1"	}	}
 		
 		"QuestLargeText"
-		{
-			"1"
-			{
-				"name"	"ocra"
-				"tall"		"16"
-				"weight"	"400"
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"ocra"	"tall"	"16"	"antialias" "1"	}	}
 
 		"QuestStickyText"
 		{	"1"	{	"name"	"TF2 Professor"	"tall"	"20"	"antialias" "1"	}	}
 
 		"QuestInstructionText_Merasmus"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-			
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"400"
-			
-				"yres"		"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"22"
-				"weight"	"400"
-			
-				"yres"		"1024 6000"
-				"antialias"	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"22"	"antialias"	"1"	}	}
 
 		"QuestFlavorText_Merasmus"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"400"
-				"yres"		"480 599"
-			
-				"antialias"	"1"
-				"italic"	"1"
-			}
-			"2"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"400"
-			
-				"yres"		"600 1023"
-				"antialias"	"1"
-				"italic"	"1"
-			}
-			"3"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"22"
-				"weight"	"400"
-			
-				"yres"		"1024 6000"
-				"antialias"	"1"
-				"italic"	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"22"	"antialias"	"1"	}	}
 
 		"QuestObjectiveText_Merasmus"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"800"
-				"yres"		"480 599"
-			
-				"antialias"	"1"
-			}
-			"2"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"14"
-				"weight"	"800"
-			
-				"yres"		"600 1023"
-				"antialias"	"1"
-			}
-			"3"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"18"
-				"weight"	"800"
-			
-				"yres"		"1024 6000"
-				"antialias"	"1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"18"	"antialias"	"1"	}	}
 
 		"QuestMediumText_Merasmus"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"13"
-				"weight"	"400"
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"13"	"antialias" "1"	}	}
 		
 		"QuestLargeText_Merasmus"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"16"
-				"weight"	"400"
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"16"	"antialias" "1"	}	}
 
 		"AdFont_ItemName"
-		{
-			"1"
-			{
-				"name"	"TF2 Secondary"
-				"tall"		"10"
-				"weight"	"400"
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"TF2 Secondary"	"tall"	"10"	"antialias" "1"	}	}
 		
 		"AdFont_AdText"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"8"
-				"weight"	"400"
-			
-				"antialias" "1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" "1"	}	}
+
 		"AdFont_PurchaseButton"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"8"
-			
-				"antialias" 	"1"
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" 	"1"	}	}
 
 		"TradeUp_Text"
-		{
-			"1"
-			{
-				"name"	"Verdana"
-				"tall"		"8"
-				"weight"	"400"
-				"antialias" "1"
-			
-			}
-		}
+		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" "1"	}	}
 
 		"TradeUp_Quote"
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"9"
-				"weight"	"400"
-				"antialias" "1"
-			
-				"italic"	"1"
-			}
-		}
+		{	"1"	{	"name"	"Trebuchet MS"	"tall"	"9"	"antialias" "1"	"italic"	"1"	}	}
 		
 		"ReplayVerySmall"
 		{	"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"antialias" "1"	}	}
@@ -948,6 +570,5 @@ Scheme
 		{	"1"	{	"name"	"ocra"	"tall"	"30"	"antialias" "1"	}	}
 	}
 	
-	CustomFontFiles
-	{}
+	CustomFontFiles	{}
 }

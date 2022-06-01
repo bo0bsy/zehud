@@ -16,6 +16,7 @@
 	HudArenaNotification	{	"fieldName"	"HudArenaNotification"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudTeamGoal	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudTeamGoalTournament	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
 
     TransparentViewmodelMask
 	{
@@ -924,15 +925,6 @@
 		"xpos"	"0"	"ypos"	"0"	"wide"	"640"	"tall"	"480"
 		
 		"bgcolor_override"	"Blank"
-	}
-
-	"HudAlert"
-	{
-		"fieldName"	"HudAlert"
-		
-		"visible"	"0"	"enabled"	"1"
-		
-		"xpos"	"c-160"	"ypos"	"100"	"wide"	"320"	"tall"	"150"
 	}
 	
 	"CTFStreakNotice"
