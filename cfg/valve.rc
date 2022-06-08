@@ -1,7 +1,32 @@
-hud_reloadscheme
+// load the base configuration
+//exec default.cfg
+r_decal_cullsize 1
+// Setup custom controller
+exec joystick.cfg
+
+// ============
+// CUSTOM STUFF
+// ============
+
+//exec remove_dimmer.cfg
+exec hud_classswitch.cfg
+exec transparent_viewmodels.cfg
+
+// manage the firstrun file
+alias chud_firstrun "exec hud_firstrun"
+exec hud_has_run.txt
+chud_firstrun
+
+// ============
+
+// run a user script file if present
 exec autoexec.cfg
+// stuff command line statements
 stuffcmds
+// display the startup level
 startupmenu
 sv_unlockedchapters 99
+
 tf_hud_target_id_disable_floating_health 1
 tf_spectator_target_location 1
+tf_contract_progress_show 0

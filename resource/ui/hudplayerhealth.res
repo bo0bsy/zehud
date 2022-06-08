@@ -6,23 +6,15 @@
 	"DisguiseStatusBG"	{	"wide"	"0"	}
 	"DisguiseNameLabel"	{	"wide"	"0"	}		
 	"WeaponNameLabel"	{	"wide"	"0"	}
-	
-	"PlayerStatusHealthValueTargetID"	{	"wide"	"0"	}
-	"PlayerStatusHealthValueTargetIDBlur"	{	"wide"	"0"	}
-
 	"TargetIDBG"	{	"wide"	"0"	}
 	"TargetIDBG_Spec_Blue"	{	"wide"	"0"	}
 	"TargetIDBG_Spec_Red"	{	"wide"	"0"	}
 	"TargetNameLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
 	"TargetDataLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
-	
 	"PipesPresentPanel"	{	"wide"	"0"	}
 	"NoPipesPresentPanel"	{	"wide"	"0"	}
-
 	"ChargeLabel"	{	"wide"	"0"	}
-	"ChargeLabelBig"	{	"wide"	"0"	}
 	"IndividualChargesLabel"	{	"wide"	"0"	}
-	"ChargeLabelBigShadow"	{	"wide"	"0"	}	
 	"ChargeMeter1"	{	"wide"	"0"	}
 	"ChargeMeter2"	{	"wide"	"0"	}	
 	"ChargeMeter3"	{	"wide"	"0"	}	

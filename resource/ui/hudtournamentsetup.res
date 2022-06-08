@@ -1,21 +1,19 @@
+#base "base/hudtournamentsetup.res"
+
 "Resource/UI/HudTournamentSetup.res"
 {
-	"HudTournamentSetupBG"	{	"ControlName"	"ScalableImagePanel"	"fieldName"	"HudTournamentSetupBG"	"xpos"	"9999"	}
-	"TournamentSetupLabel"	{	"ControlName"	"Label"	"fieldName"	"TournamentLabel"	"xpos"	"9999"	}
-	"TournamentTeamNameLabel"	{		"ControlName"	"Label"	"fieldName"	"TournamentTeamNameLabel"	"xpos"	"9999"	}
-	"HudTournamentNameBG"	{	"ControlName"	"CTFImagePanel"	"fieldName"	"HudTournamentNameBG"	"xpos"	"9999"	}
+	"HudTournamentSetupBG"	{	"xpos"	"9999"	}
+	"TournamentSetupLabel"	{	"xpos"	"9999"	}
+	"TournamentTeamNameLabel"	{	"xpos"	"9999"	}
+	"HudTournamentNameBG"	{	"xpos"	"9999"	}
 
 	"TournamentNameEdit"
 	{
-		"ControlName"	"TextEntry"	"fieldName"	"TournamentNameEdit"
-		
 		"xpos"	"3"	"ypos"	"3"	"zpos"	"5"	"wide"	"44"	"tall"	"12"
 
-		"font"	"f10"	"visible"	"1"	"enabled"	"1"	"wrap"	"0"		
+		"font"	"f10"	
 		
-		"textHidden"	"0"	"editable"	"1"	"maxchars"	"6"	"NumericInputOnly"	"0"	"unicode"	"0"
-
-		"labelText"	"%teamname%"	"textAlignment"	"west"
+		"maxchars"	"6"	
 		
 		"PaintBackground"	"1"	"Bgcolor_override"	"Blank"
 	}
@@ -65,16 +63,12 @@
 	
 	"TournamentReadyButton"
 	{
-		"ControlName"	"CExButton"	"fieldName"	"TournamentReadyButton"
-		
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"27"	"tall"	"16"	"zpos"	"0"
 		
-		"font"	"Symbols 12"	"visible"	"1"	"enabled"	"1"	"command"	"teamready"		
+		"font"	"Symbols 12"
 		
-		"labelText"	"+"	"textAlignment"	"center"
-
-		"default"	"1"
-
+		"labelText"	"+"	
+		
 		"fgcolor"	"TanLight"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"	"selectedFgColor_override"	"TanLight"
 		
 		"paintbackground"	"0"
@@ -86,15 +80,11 @@
 	
 	"TournamentNotReadyButton"
 	{
-		"ControlName"	"CExButton"	"fieldName"	"TournamentNotReadyButton"
-		
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"27"	"tall"	"16"	"zpos"	"0"
 		
-		"font"	"Symbols 12"	"visible"	"1"	"enabled"	"1"	"command"	"teamnotready"		
+		"font"	"Symbols 12"
 		
-		"labelText"	"-"	"textAlignment"	"center"
-		
-		"default"	"1"
+		"labelText"	"-"
 		
 		"fgcolor"	"TanLight"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"	"selectedFgColor_override"	"TanLight"
 		

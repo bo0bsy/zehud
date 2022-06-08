@@ -1,9 +1,10 @@
-#base "../../#basefiles/Menu/Tools.res"
-#base "../../#basefiles/Menu/Links.res"
-#base "../../#basefiles/Menu/Buttons.res"
+#base "../../#basefiles/menu/tools.res"
+#base "../../#basefiles/menu/links.res"
+#base "../../#basefiles/menu/buttons.res"
 
 #base "base/mainmenuoverride.res"
 #base "custom/preload.res"
+//#base "custom/remove_dimmer.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

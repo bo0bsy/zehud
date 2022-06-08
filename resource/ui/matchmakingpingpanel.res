@@ -1,279 +1,82 @@
+#base "base/matchmakingpingpanel.res"
+
 "Resource/UI/MatchMakingPingPanel.res"
 {
-	"PingPanel"
-	{
-		"fieldName"	"PingPanel"
-		
-		"xpos"	"-305"	"ypos"	"25"	"zpos"	"1001"	"wide"	"225"	"tall"	"325"
-		
-		"visible"	"1"	"proportionaltoparent"	"1"
+	"DescLabel"	{	"xpos"	"9999"	}
+	
+	"TitleGradient"	{	"visible"	"0"	}	"InnerGradient"	{	"visible"	"0"	}	"OuterGradient"	{	"visible"	"0"	}	"CloseButton"	{	"visible"	"0"	}	"ReturnButton"	{	"visible"	"0"	}	
 
-		"datacenter_y"	"3"	"datacenter_y_space"	"1"
-	}
+	"PingPanel"	{	"xpos"	"-305"	"ypos"	"25"	"wide"	"225"	"tall"	"325"	}
 
-	"BGPanel"
-	{
-		"ControlName"	"EditablePanel"	"fieldName"	"BGPanel"
-		
-		"xpos"	"-5"	"ypos"	"0"	"zpos"	"-1"	"wide"	"f0"	"tall"	"f0"
-		
-		"visible"	"1"	"proportionaltoparent"	"1"		
-		
-		"border"	"MainMenuBGBorder"
-		
-		"PaintBackgroundType"	"2"		
-	}
+	"BGPanel"	{	"xpos"	"-5"	"tall"	"f0"	}
 
-	"Title"
-	{
-		"ControlName"	"Label"	"fieldName"	"Title"
-		
-		"xpos"	"5"	"ypos"	"5"	"zpos"	"99"	"wide"	"f0"	"tall"	"20"
+	"Title"	{	"font"	"f14"	"xpos"	"5"	"ypos"	"5"	"fgcolor_override"	"TanLight"	}
 
-		"font"	"f14"	"proportionaltoparent"	"1"
-		
-		"labeltext"	"#TF_MM_OpenSettings"	"textAlignment"	"west"
-
-		"AllCaps"	"1"	"mouseinputenabled"	"0"
-		
-		"fgcolor_override"	"TanLight"
-	}
-
-	"InviteModeLabel"
-	{
-		"ControlName"	"Label"	"fieldName"	"InviteModeLabel"
-		
-		"xpos"	"8"	"ypos"	"35"	"zpos"	"3"	"wide"	"208"	"tall"	"20"
-		
-		"font"	"f10"	"proportionaltoparent"	"1"
-		
-		"labeltext"	"#TF_MM_InviteMode"	"textAlignment"	"west"
-
-		"AllCaps"	"1"	"smallcheckimage"	"1"	"button_activation_type"	"1"
-		
-		"fgcolor_override"	"TanLight"
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-	}
+	"InviteModeLabel"	{	"font"	"f10"	"xpos"	"8"	"ypos"	"35"	"fgcolor_override"	"TanLight"	}
 
 	"InviteModeComboBox"
 	{
-	//	"ControlName"					"ComboBox"
-		"fieldName"	"InviteModeComboBox"
-		
-		"xpos"	"8"	"ypos"	"50"	"zpos"	"1"	"wide"	"200"	"tall"	"15"	"textAlignment"	"west"
-		
 		"font"	"f10"
-		
-		"keyboardinputenabled"	"0"	"editable"	"0"
+	
+		"xpos"	"8"	"ypos"	"50"
 		
 		"bgcolor_override"	"0 0 0 150"	"fgcolor_override"	"TanLight"	"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"	"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"
 		
 		"defaultSelectionBG2Color_override" "Blank"
 	}
 
-	"IgnorePartyInvites"
-	{
-		"ControlName"	"CvarToggleCheckButton"	"fieldName"	"IgnorePartyInvites"
-		
-		"xpos"	"5"	"ypos"	"65"	"zpos"	"3"	"wide"	"208"	"tall"	"20"
-		
-		"font"	"f10"	"proportionaltoparent"	"1"
-		
-		"labeltext"	"#TF_MM_IgnoreInvites"	"textAlignment"	"west"
+	"IgnorePartyInvites"	{	"font"	"f10"	"xpos"	"5"	"ypos"	"65"	}
 
-		"AllCaps"	"1"	"smallcheckimage"	"1"
-		
-		"button_activation_type"	"1"
-
-		"cvar_name"	"tf_party_ignore_invites"		
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-	}
-
-	"KeepPartyOnSameTeam"
-	{
-		"ControlName"	"CvarToggleCheckButton"	"fieldName"	"KeepPartyOnSameTeam"
-		
-		"xpos"	"5"	"ypos"	"80"	"zpos"	"3"	"wide"	"20"	"tall"	"20"
-		
-		"font"	"f10"	"enabled"	"0"	"proportionaltoparent"	"1"
-		
-		"labeltext"	""	"textAlignment"	"west"
-
-		"smallcheckimage"	"1"	"button_activation_type"	"1"
-		
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-	}
+	"KeepPartyOnSameTeam"	{	"font"	"f10"	"xpos"	"5"	"ypos"	"80"	"wide"	"20"	}
 
 	"KeepPartyOnSameTeamLabel"
 	{
-		"ControlName"	"Label"	"fieldName"	"KeepPartyOnSameTeamLabel"
+		"font"	"f10"
+	
+		"xpos"	"-1"	"ypos"	"0"
 		
-		"xpos"	"-1"	"ypos"	"0"	"zpos"	"3"	"wide"	"250"	"tall"	"20"
-
-		"font"	"f10"	"proportionaltoparent"	"1"		
-		
-		"labeltext"	"#TF_MM_PartySameTeam"	"textAlignment"	"west"		
-		
-		"AllCaps"	"1"	"smallcheckimage"	"1"	"button_activation_type"	"1"
-		
-		"fgcolor_override"	"TanLight"
-		
-		"sound_depressed"	"UI/buttonclickrelease.wav"			
+		"fgcolor_override"	"TanLight"	
 		
 		"pin_to_sibling"	"KeepPartyOnSameTeam"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
-	"CustomPingCheckButton"
-	{
-		"ControlName"	"CvarToggleCheckButton"	"fieldName"	"CustomPingCheckButton"
-		
-		"xpos"	"5"	"ypos"	"95"	"zpos"	"3"	"wide"	"20"	"tall"	"20"
-		
-		"font"	"f10"	"actionsignallevel"	"1"	"proportionaltoparent"	"1"
-		
-		"labeltext"	""	"textAlignment"	"west"
-
-		"smallcheckimage"	"1"
-		
-		"button_activation_type"	"1"
-
-		"cvar_name"	"tf_mm_custom_ping_enabled"		
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-
-	}
+	"CustomPingCheckButton"	{	"font"	"f10"	"xpos"	"5"	"ypos"	"95"	"wide"	"20"	}
 
 	"CheckLabel"
 	{
-		"ControlName"	"Label"	"fieldName"	"CheckLabel"
-		
-		"xpos"	"-2"	"ypos"	"0"	"zpos"	"3"	"wide"	"208"	"tall"	"20"
-		
-		"font"	"f10"	"proportionaltoparent"	"1"
-		
-		"labeltext"	"#TF_LobbyContainer_CustomPingButton"	"textAlignment"	"west"
-
-		"AllCaps"	"1"	"smallcheckimage"	"1"	"button_activation_type"	"1"
+		"font"	"f10"
+	
+		"xpos"	"-2"	"ypos"	"0"
 		
 		"fgcolor_override"	"TanLight"
 
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-		
 		"pin_to_sibling"	"CustomPingCheckButton"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 
-	"DescLabel"
-	{
-		"ControlName"	"CExLabel"	"fieldName"	"DescLabel"
-		
-		"xpos"	"9999"	"ypos"	"127"	"zpos"	"3"	"wide"	"p0.81"	"tall"	"45"
-		
-		"font"	"HudFontSmallest"	"wrap"	"1"	"proportionaltoparent"	"1"
-		
-		"labeltext"	"#TF_LobbyContainer_CustomPingDesc"	"textAlignment"	"north-west"
+	"CurrentPingLabel"	{	"font"	"ReplayBrowserSmallest"	"xpos"	"8"	"ypos"	"115"	"fgcolor_override"	"Positive"	}
 
-		"button_activation_type"	"1"
-
-		"fgcolor"	"TanLight"
-
-		"sound_depressed"	"UI/buttonclickrelease.wav"	
-	}
-
-	"CurrentPingLabel"
-	{
-		"ControlName"	"Label"	"fieldName"	"CurrentPingLabel"
-		
-		"xpos"	"8"	"ypos"	"115"	"zpos"	"0"	"wide"	"f0"	"tall"	"20"
-		
-		"font"	"ReplayBrowserSmallest"	"proportionaltoparent"	"1"
-		
-		"labeltext"	""	"textAlignment"	"west"
-		
-		"AllCaps"	"1"	"mouseinputenabled"	"0"		
-
-		"fgcolor_override"	"Positive"
-	}
-
-	"PingSlider"
-	{
-		"ControlName"	"CCvarSlider"	"fieldName"	"PingSlider"
-		
-		"xpos"	"8"	"ypos"	"135"	"wide"	"200"	"tall"	"24"
-
-		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
-
-		"RoundedCorners"	"15"
-
-		"cvar_name"	"tf_mm_custom_ping"	"use_convar_minmax"	"1"
-		
-		"pin_corner_to_sibling"	"0"	"pin_to_sibling_corner"	"0"		
-	}
+	"PingSlider"	{	"xpos"	"8"	"ypos"	"135"	"wide"	"200"	}
 
 	"DataCenterContainer"
 	{
-		"ControlName"	"EditablePanel"	"fieldName"	"DataCenterContainer"
-		
-		"xpos"	"5"	"ypos"	"155"	"zpos"	"100"	"wide"	"202"	"tall"	"160"
-
-		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		"xpos"	"5"	"ypos"	"155"	"wide"	"202"	"tall"	"160"
 
 		"DataCenterList"
 		{
-			"ControlName"	"CScrollableList"	"fieldName"	"DataCenterList"
-			
-			"xpos"	"1"	"ypos"	"5"	"zpos"	"2"	"wide"	"198"	"tall"	"150"
-			
-			"visible"	"1"	"proportionaltoparent"	"1"
-			
-			"restrict_width"	"0"
+			"xpos"	"1"	"ypos"	"5"	"wide"	"198"	"tall"	"150"
 
 			"ScrollBar"
-			{
-				"ControlName"	"ScrollBar"	"FieldName"	"ScrollBar"
-				
-				"xpos"	"rs1-1"	"ypos"	"0"	"tall"	"f0"	"wide"	"5"	"zpos"	"1000"
-
-				"proportionaltoparent"	"1"
-				
-				"nobuttons"	"1"				
-
-				"Slider"
-				{	"fgcolor_override"	"TanLight"	}
+			{	
+				"Slider"	{	"fgcolor_override"	"TanLight"	}
 		
-				"UpButton"
-				{	"ControlName"	"Button"	"FieldName"	"UpButton"	"visible"	"0"	}
+				"UpButton"	{	"visible"	"0"	}
 		
-				"DownButton"
-				{	"ControlName"	"Button"	"FieldName"	"DownButton"	"visible"	"0"	}
+				"DownButton"	{	"visible"	"0"	}
 			}
 		}
 		
-		"Background"
-		{
-			"ControlName"	"EditablePanel"	"fieldname"	"Background"
-			
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
-			
-			"visible"	"1"	"proportionaltoparent"	"1"
-
-			"paintborder"	"1"	"border"	"TransparentBackground"
-			
-			"PaintBackgroundType"	"0"			
-		}
-
-		"Frame"
-		{
-			"Controlname"	"EditablePanel"	"fieldName"	"Frame"
-			
-			"xpos"	"9999"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	"zpos"	"5"
-			
-			"proportionaltoparent"	"1"
-			
-			"border"	"InnerShadowBorder"
-			
-			"mouseinputenabled"	"0"
-		}
+		"Background"	{	"border"	"TransparentBackground"	}
+		
+		"Frame"	{	"xpos"	"9999"	}
 	}
 }

@@ -1,28 +1,37 @@
-#base "../../#customization/Hud.res"
 #base "base/spectatorguihealth.res"
 
 "Resource/UI/SpectatorGUIHealth.res"
 {
-	"TargetIDBG"	{	"wide"	"0"	}
-	"TargetIDBG_Spec_Blue"	{	"wide"	"0"	}
-	"TargetIDBG_Spec_Red"	{	"wide"	"0"	}
-	"TargetNameLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
-	"TargetDataLabel"	{	"wide"	"0"	"wide_minmode"	"0"	}
-	"SpectatorGUIHealth"	{	"wide"	"0"	}
-
-	"PipesPresentPanel"	{	"wide"	"0"	}
-	"NoPipesPresentPanel"	{	"wide"	"0"	}
+	"PlayerStatusHealthImageBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"BuildingStatusHealthImageBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"PlayerStatusHealthImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"PlayerStatusHealthValue"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"PlayerStatusHealthBonusImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	
-	"CDamageAccountValue"	{	"wide"	"0"	}
-	"CDamageAccountValueShadow"	{	"wide"	"0"	}
+	"PlayerStatusHealthValueTargetID"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"PlayerStatusHealthValueTargetID"
+		
+		"xpos"	"cs-0.5"	"ypos"	"cs-0.5"	"zpos"	"6"	"wide"	"30"	"tall"	"9"
+		
+		"font"	"HudFontSmallBold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		
+		"labelText"	"%Health%"	"textAlignment"	"center"	
 
-	"ChargeLabel"	{	"wide"	"0"	}
-	"ChargeLabelBig"	{	"wide"	"0"	}
-	"IndividualChargesLabel"	{	"wide"	"0"	}
-	"ChargeLabelBigShadow"	{	"wide"	"0"	}	
-	"ChargeMeter1"	{	"wide"	"0"	}
-	"ChargeMeter2"	{	"wide"	"0"	}
-	"ChargeMeter3"	{	"wide"	"0"	}
-	"ChargeMeter4"	{	"wide"	"0"	}
-	"ResistIcon"	{	"wide"	"0"	}
+		"fgcolor"	"TanLight"
+	}
+	"PlayerStatusHealthValueTargetIDBlur"
+	{
+		"ControlName"	"CExLabel"	"fieldName"	"PlayerStatusHealthValueTargetIDBlur"
+		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"6"	"wide"	"30"	"tall"	"9"
+		
+		"font"	"HudFontSmallBoldBlur"	"visible"	"1"	"enabled"	"1"
+
+		"labelText"	"%Health%"	"textAlignment"	"center"	
+
+		"fgcolor"	"Shadow"
+		
+		"pin_to_sibling"	"PlayerStatusHealthValueTargetID"			
+	}
 }

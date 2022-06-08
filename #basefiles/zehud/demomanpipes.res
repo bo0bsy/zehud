@@ -1,75 +1,64 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	HudDemomanPipes	{	"xpos"	"c-14"	"ypos"	"c13"	}				
+	HudDemomanPipes	{	"xpos"	"0"	"ypos"	"0"	}				
 	
-	"background"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}	
+	"background"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}		
 	
 	"PipesPresentPanel"
 	{
-		"xpos"	"cs-0.5-5"	"ypos"	"cs-0.5"	"zpos"	"1"	"wide"	"f0"	"tall"	"f0"
-
-		"xpos_minmode"	"c-100"	"ypos_minmode"	"c-52"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"100"	"wide"	"f0"	"tall"	"f0"
 		
 		"proportionaltoparent"	"1"
 		
 		"NumPipesLabel"
 		{
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"textAlignment"	"center"
+			"xpos"	"c-38"	"ypos"	"c45"	"zpos"	"2"	"wide"	"f0"	"tall"	"40"	"textAlignment"	"west"
+			
+			"ypos_minmode"	"c95"
+			
+			"font"	"Sticky"	
+			
+			"fgcolor"	"TanLight"
+		}
 
-			"font_minmode"	"HudFontBiggerBold"
+		"bg"
+		{
+			"ControlName"	"CexLabel"	"fieldName" "bg"
 			
-			"font"	"f24"	
+			"xpos"	"c-38"	"ypos"	"c45"	"zpos"	"-1"	"wide"	"f0"	"tall"	"40"	"textAlignment"	"west"	"LabelText"	"8"
 			
-			"fgcolor"	"CustomYellow"
+			"ypos_minmode"	"c95"
+			
+			"font"	"Sticky"	"visible"	"1"	"enabled"	"1"
+			
+			"fgcolor"	"Black"
 		}
 		
-		"NumPipesLabelDropshadow"
-		{
-			"xpos"	"-2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"textAlignment"	"center"
-
-			"font_minmode"	"HudFontBiggerBold"
-			
-			"font"	"f24"
-			
-			"fgcolor"	"Shadow"
-			
-			"pin_to_sibling"	"NumPipesLabel"
-		}
+		"NumPipesLabelDropshadow"	{	"fgcolor"	"blank"	}
 
 		"PipeIcon"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
 	}
 	
-   "NoPipesPresentPanel"
-    {
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"f0"	"tall"	"f0"
+	"NoPipesPresentPanel"
+	{	
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"100"	"wide"	"f0"	"tall"	"f0"
 		
-		"pin_to_sibling"	"PipesPresentPanel"			
-        
-
- 		"NumPipesLabel"
+		"bg"
 		{
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"textAlignment"	"center"
+			"ControlName"	"CexLabel"	"fieldName" "bg"
 			
-			"font_minmode"	"HudFontBiggerBold"
+			"xpos"	"c-38"	"ypos"	"c45"	"zpos"	"-1"	"wide"	"f0"	"tall"	"40"	"textAlignment"	"west"	"LabelText"	"8"
 			
-			"font"	"f24"
+			"ypos_minmode"	"c95"
 			
-			"fgcolor"	"TanDark"
+			"font"	"Sticky"	"visible"	"1"	"enabled"	"1"
+			
+			"fgcolor"	"Black"
 		}
 		
-		"NumPipesLabelDropshadow"
-		{
-			"xpos"	"-2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	"textAlignment"	"center"
+		"NumPipesLabel"	{	"fgcolor"	"blank"	}
+		"NumPipesLabelDropshadow"	{	"fgcolor"	"blank"	}
 
-			"font_minmode"	"HudFontBiggerBold"
-			
-			"font"	"f24"
-			
-			"fgcolor"	"Shadow"
-			
-			"pin_to_sibling"	"NumPipesLabel"
-		}
-
-		"PipeIcon"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
-    }	
+		"PipeIcon"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}		
+	}
 }

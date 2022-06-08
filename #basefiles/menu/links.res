@@ -52,7 +52,7 @@
 			
 			"paintBackground"	"0"	"fgcolor_override"	"255 255 255 255"
 
-			"urlText"	"https://huds.tf/site/s-ZeHud"
+			"urlText"	"https://huds.tf/site/s-ZeHUD--3867"
 		}
 	}
 	

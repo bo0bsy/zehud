@@ -38,7 +38,7 @@
 			
             "name_only"	"1"
 			
-			"attriblabel"	{	"font"	"null"	"visible"	"0"	}
+			"attriblabel"	{	"font"	"ItemFontAttribLarge"	"visible"	"0"	}
 			
 			"itemmodelpanel"	{	"use_item_rendertarget" "0"	"allow_manip"	"0"	}
 		}
@@ -56,8 +56,6 @@
 			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgColor_override"		"TanLight"			
 			
 			"paintbackground"	"0"			
-			
-			"border_default"	"noborder"	"border_armed"		"noborder"
 			
 			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		}

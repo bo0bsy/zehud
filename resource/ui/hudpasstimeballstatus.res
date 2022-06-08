@@ -1,4 +1,4 @@
-#base "base/HudPasstimeBallStatus.res"
+#base "base/hudpasstimeballstatus.res"
 //thanks to hypnotize!!!
 "Resource/UI/HudPasstimeBallStatus.res"
 {	

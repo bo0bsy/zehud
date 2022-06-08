@@ -157,7 +157,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"34"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"120 200 120 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel1A"
 		{
@@ -175,7 +175,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"34"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"120 200 120 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel1B"
 		{
@@ -209,7 +209,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"54"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"134 203 130 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel2A"
 		{
@@ -228,7 +228,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"54"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"134 203 130 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel2B"
 		{
@@ -263,7 +263,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"74"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"149 207 141 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel3A"
 		{
@@ -282,7 +282,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"74"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 			
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"149 207 141 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel3B"
 		{
@@ -316,7 +316,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"94"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"163 210 151 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel4A"
 		{
@@ -335,7 +335,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"94"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"163 210 151 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel4B"
 		{
@@ -369,7 +369,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"114"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"178 213 161 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel5A"
 		{
@@ -388,7 +388,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"114"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"178 213 161 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel5B"
 		{
@@ -423,7 +423,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"134"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"192 216 171 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel6A"
 		{
@@ -442,7 +442,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"134"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"192 216 171 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel6B"
 		{
@@ -476,7 +476,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"154"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"206 220 182 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel7A"
 		{
@@ -495,7 +495,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"154"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"206 220 182 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel7B"
 		{
@@ -529,7 +529,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"174"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"221 223 192 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel8A"
 		{
@@ -548,7 +548,7 @@
 		{
 			"xpos"	"c44"	"ypos"	"174"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"221 223 192 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel8B"
 		{
@@ -582,7 +582,7 @@
 		{
 			"xpos"	"c-195"	"ypos"	"194"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"235 226 202 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel9A"
 		{
@@ -601,11 +601,10 @@
 		{
 			"xpos"	"c44"	"ypos"	"194"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
 
-			"fillcolor"	"Positive"	"PaintBackgroundType"	"0"	"alpha"	"200"
+			"fillcolor"	"235 226 202 255"	"PaintBackgroundType"	"0"	"alpha"	"200"
 		}
 		"ClassBarLabel9B"
 		{
-
 			"font"	"StorePromotionsTitle"
 
 			"xpos"	"c44"	"ypos"	"190"	"zpos"	"6"	"wide"	"100"	"tall"	"20"

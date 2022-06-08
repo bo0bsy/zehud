@@ -17,16 +17,23 @@
 		
 		"visible"	"1"	"enabled"	"1"
 
-		"medal_width"								"0"
-		"avatar_width"								"55"
-		"spacer"									"2"
-		"name_width"								"85"
-		"nemesis_width"								"15"
-		"class_width"								"15"
-		"score_width"								"20"
-		"ping_width"								"20"
-		"killstreak_width"							"30"
-		"killstreak_image_width" 					"12"
+		"medal_width"	"0"
+		
+		"avatar_width"	"55"
+		
+		"spacer"	"2"
+		
+		"name_width"	"85"
+		
+		"nemesis_width"	"15"
+		
+		"class_width"	"15"
+		
+		"score_width"	"20"
+		
+		"ping_width"	"20"
+		
+		"killstreak_width"	"30"	"killstreak_image_width"	"12"
 	}
 	
 	"BluePlayerList"	{	"xpos"	"cs-1+2"	"wide"	"295"	"proportionaltoparent"	"1"	}	
@@ -163,7 +170,7 @@
 
 		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		
-		if_mvm	{	"xpos"	"cs-0.5+105"	"visible"	"1"	}
+		if_mvm	{	"xpos"	"cs-0.5+210"	"visible"	"1"	}
 
 		
 		"KillsTanLight"

@@ -14,10 +14,7 @@ Scheme
 		}
 		
 		"DefaultUnderline"
-		{
-			"1"	{	"name"	"Tahoma"	"tall"	"12"	"underline" "1"	"range"	"0x0000 0x017F"	}
-			"2"	{	"name"	"Arial"	"tall"	"11"	"range"	"0x0000 0x00FF"	"weight"	"800"	}
-		}
+		{	"1"	{	"name"	"Tahoma"	"tall"	"12"	"underline" "1"	"range"	"0x0000 0x017F"	}	}
 		
 		"DefaultSmall"
 		{
@@ -569,6 +566,4 @@ Scheme
 		"QuestMap_Huge"
 		{	"1"	{	"name"	"ocra"	"tall"	"30"	"antialias" "1"	}	}
 	}
-	
-	CustomFontFiles	{}
 }

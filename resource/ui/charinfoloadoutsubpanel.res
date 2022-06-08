@@ -1,1237 +1,568 @@
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {	
+	"ScoutSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"ScoutSelectNumber"	"xpos"	"9999"	"labelText"	"&1"	"Command"	"loadout scout"	"visible"	"1"	}
+	"SoldierSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"SoldierSelectNumber"	"xpos"	"9999"	"labelText"	"&2"	"Command"	"loadout soldier"	"visible"	"1"	}
+	"PyroSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"PyroSelectNumber"	"xpos"	"9999"	"labelText"	"&3"	"Command"	"loadout pyro"	"visible"	"1"	}
+	"DemomanSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"DemomanSelectNumber"	"xpos"	"9999"	"labelText"	"&4"	"Command"	"loadout demoman"	"visible"	"1"	}
+	"HeavySelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"HeavySelectNumber"	"xpos"	"9999"	"labelText"	"&5"	"Command"	"loadout heavy"	"visible"	"1"	}
+	"EngineerSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"EngineerSelectNumber"	"xpos"	"9999"	"labelText"	"&6"	"Command"	"loadout engineer"	"visible"	"1"	}
+	"MedicSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"MedicSelectNumber"	"xpos"	"9999"	"labelText"	"&7"	"Command"	"loadout medic"	"visible"	"1"	}
+	"SniperSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"SniperSelectNumber"	"xpos"	"9999"	"labelText"	"&8"	"Command"	"loadout sniper"	"visible"	"1"	}
+	"SpySelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"SpySelectNumber"	"xpos"	"9999"	"labelText"	"&9"	"Command"	"loadout spy"	"visible"	"1"	}
+	"BackpackSelectNumber"	{	"ControlName"	"CExButton"	"fieldName"	"BackpackSelectNumber"	"xpos"	"9999"	"labelText"	"&0"	"Command"	"backpack"	"visible"	"1"	}
+	
+	"scout"	{	"ControlName"	"ImageButton"	"fieldName"	"scout"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"soldier"	{	"ControlName"	"ImageButton"	"fieldName"	"soldier"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"pyro"	{	"ControlName"	"ImageButton"	"fieldName"	"pyro"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"demoman"	{	"ControlName"	"ImageButton"	"fieldName"	"demoman"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}	
+	"heavyweapons"	{	"ControlName"	"ImageButton"	"fieldName"	"heavyweapons"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"engineer"	{	"ControlName"	"ImageButton"	"fieldName"	"engineer"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"medic"	{	"ControlName"	"ImageButton"	"fieldName"	"medic"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"sniper"	{	"ControlName"	"ImageButton"	"fieldName"	"sniper"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"spy"	{	"ControlName"	"ImageButton"	"fieldName"	"spy"	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	"activeimage"	""	"inactiveimage"	""	}
+	"ShowBackpackButton"	{	"ControlName"	"ImageButton"	"fieldName"	"ShowBackpackButton"	"xpos"	"9999"	}
+	"ShowBackpackLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ShowBackpackLabel"	"xpos"	"9999"	}
+	"ShowCraftingLabel"	{	"ControlName"	"CExLabel"	"fieldName"		"ShowCraftingLabel"	"xpos"	"9999"	}
+	"ShowArmoryButton"	{	"ControlName"	"ImageButton"	"fieldName"	"ShowArmoryButton"	"xpos"	"9999"	}	
+	"ShowArmoryLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ShowArmoryLabel"	"xpos"	"9999"	}
+	"ShowCraftingButton"	{	"ControlName"	"ImageButton"	"fieldName"	"ShowCraftingButton"	"xpos"	"9999"	}
+	"ShowTradeButton"	{	"ControlName"	"ImageButton"	"fieldName"	"ShowTradeButton"	"xpos"	"9999"	}
+	"ShowTradeLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ShowTradeLabel"	"xpos"	"9999"	}
+	"ShowPaintkitsButton"	{	"ControlName"	"ImageButton"	"fieldName"	"ShowPaintkitsButton"	"xpos"	"9999"	}
+	"ShowPaintkitsLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ShowPaintkitsLabel"	"xpos"	"9999"	}
+	"ClassLabel"	{	"ControlName"	"Label"	"fieldName"	"ClassLabel"	"xpos"	"9999"	}
+	"ItemsLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ItemsLabel"	"xpos"	"9999"	}
+	"NoSteamLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"NoSteamLabel"	"xpos"	"9999"	}
+	"NoGCLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"NoGCLabel"	"xpos"	"9999"	}
+	"LoadoutChangesLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"LoadoutChangesLabel"	"xpos"	"9999"	}
+
 	"CharInfoLoadoutSubPanel"
 	{
-		"ControlName"					"Frame"
-		"fieldName"						"CharInfoLoadoutSubPanel"
-		"xpos"							"0"
-		"ypos"							"33"
-		"wide"							"f0"
-		"tall"							"480"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"settitlebarvisible"			"0"
-		"PaintBackgroundType"			"0"
-		"bgcolor_override"				"Blank"
-		"infocus_bgcolor_override" 		"Blank"
-		"outoffocus_bgcolor_override"	"Blank"
+		"ControlName"	"Frame"	"fieldName"	"CharInfoLoadoutSubPanel"
 		
-		"selectlabely_default"			"25"
-		"selectlabely_onchanges"		"15"
+		"xpos"	"0"	"ypos"	"33"	"wide"	"f0"	"tall"	"480"
 		
-		"class_ypos"					"9999"
-		"class_xdelta"					"5"
-		"class_wide_min"				"60"
-		"class_wide_max"				"100"
-		"class_tall_min"				"120"
-		"class_tall_max"				"200"
-		"class_distance_min"			"7"
-		"class_distance_max"			"100"
+		"visible"	"1"	"enabled"	"1"
+		
+		"PaintBackgroundType"	"0"	"bgcolor_override"	"Blank"
+		
+		"settitlebarvisible"	"0"
 
-		"itemcountcolor"				"Positive"
-		"itemcountcolor_noitems"		"117 107 94 255"
+		"infocus_bgcolor_override"	"Blank"	"outoffocus_bgcolor_override"	"Blank"
+		
+		"selectlabely_default"	"25"	"selectlabely_onchanges"	"15"
+		
+		"class_ypos"	"9999"
+
+		"itemcountcolor"	"Positive"	"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	
 	"ScoutCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"ScoutCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"a"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout scout"
+		"ControlName"	"CExImageButton"	"fieldName"	"ScoutCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout scout"
 		
-		"FgColor_override"				"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"a"	"textAlignment"	"center"
+	
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"pin_to_sibling" 				"SoldierCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"border_default"	"noborder"
+		
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"235 226 202 150"	"armedBgColor_override"	"235 226 202 100"	"depressedBgColor_override"	"235 226 202 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"SoldierCustom"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 
 	"ScoutShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"ScoutShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"a"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"ScoutShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"ScoutCustom"
+		"labelText"	"a"	"textAlignment"	"center"
+		
+		"default"	"0"
+
+		"paintbackground"	"0"	
+	
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"ScoutCustom"
 	}
 	
 	"SoldierCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SoldierCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"b"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout soldier"
+		"ControlName"	"CExImageButton"	"fieldName"	"SoldierCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout soldier"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"b"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"PyroCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"221 223 192 150"	"armedBgColor_override"	"221 223 192 100"	"depressedBgColor_override"	"221 223 192 150"
+	
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"PyroCustom"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"SoldierShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SoldierShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"b"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"SoldierShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"SoldierCustom"
+		"labelText"	"b"	"textAlignment"	"center"
+
+		"default"	"0"
+
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"SoldierCustom"
 	}
 	
 	"PyroCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"PyroCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"c"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout pyro"
+		"ControlName"	"CExImageButton"	"fieldName"	"PyroCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout pyro"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"c"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"DemomanCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"206 220 182 150"	"armedBgColor_override"	"206 220 182 100"	"depressedBgColor_override"	"206 220 182 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"DemomanCustom"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"PyroShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"PyroShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"c"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"PyroShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"PyroCustom"
+		"labelText"	"c"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"PyroCustom"
 	}
 	
 	"DemomanCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"DemomanCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"d"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout demoman"
+		"ControlName"	"CExImageButton"	"fieldName"	"DemomanCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout demoman"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"d"	"textAlignment"	"center"
+		
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
 
-		"pin_to_sibling" 				"CustomHeavy"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"192 216 171 150"	"armedBgColor_override"	"192 216 171 100"	"depressedBgColor_override"	"192 216 171 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+
+		"pin_to_sibling"	"CustomHeavy"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"DemomanShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"DemomanShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"d"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"DemomanShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"DemomanCustom"
+		"labelText"	"d"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"DemomanCustom"
 	}
 	
-	"CustomHeavy"						//Used as a anchor to move all the classes buttons//
+	"CustomHeavy"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"CustomHeavy"
-		"xpos"							"c-27"
-		"ypos"							"60"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"e"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout heavy"
+		"ControlName"	"CExImageButton"	"fieldName"	"CustomHeavy"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"cs-0.5"	"ypos"	"60"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout heavy"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"e"	"textAlignment"	"center"
+		
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"178 213 161 150"	"armedBgColor_override"	"178 213 161  100"	"depressedBgColor_override"	"178 213 161  150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
 	}
 	
 	"HeavyShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"HeavyShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"e"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"HeavyShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"CustomHeavy"
+		"labelText"	"e"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+	
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"CustomHeavy"
 	}
 	
 	"EngineerCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"EngineerCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"f"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout engineer"
+		"ControlName"	"CExImageButton"	"fieldName"	"EngineerCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout engineer"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"f"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"CustomHeavy"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"163 210 151 150"	"armedBgColor_override"	"163 210 151  100"	"depressedBgColor_override"	"163 210 151 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"CustomHeavy"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"EngineerShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"EngineerShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"f"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"EngineerShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"EngineerCustom"
+		"labelText"	"f"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"EngineerCustom"
 	}
 	
 	"MedicCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"MedicCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"g"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout medic"
+		"ControlName"	"CExImageButton"	"fieldName"	"MedicCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout medic"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"g"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"EngineerCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"149 207 141 150"	"armedBgColor_override"	"149 207 141  100"	"depressedBgColor_override"	"149 207 141 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"EngineerCustom"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"MedicShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"MedicShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"g"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"MedicShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"MedicCustom"
+		"labelText"	"g"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"MedicCustom"
 	}
 	
 	"SniperCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SniperCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"h"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout sniper"
+		"ControlName"	"CExImageButton"	"fieldName"	"SniperCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout sniper"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"h"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"MedicCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"134 203 130 150"	"armedBgColor_override"	"134 203 130  100"	"depressedBgColor_override"	"134 203 130 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"MedicCustom"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"SniperShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SniperShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"h"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"SniperShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"SniperCustom"
+		"labelText"	"h"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"SniperCustom"
 	}
 	
 	"SpyCustom"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SpyCustom"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"i"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets" 		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						"loadout spy"
+		"ControlName"	"CExImageButton"	"fieldName"	"SpyCustom"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	"loadout spy"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"labelText"	"i"	"textAlignment"	"center"
 		
-		"pin_to_sibling" 				"SniperCustom"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"border_default"	"noborder"
+
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"120 200 120 150"	"armedBgColor_override"	"120 200 120 100"	"depressedBgColor_override"	"120 200 120 150"
+		
+		"FgColor_override"	"Black"	"armedFgColor_override"	"Black"	"depressedFgColor_override"		"Black"
+		
+		"pin_to_sibling"	"SniperCustom"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"SpyShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"SpyShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"i"
-		"font"							"Class Symbols"
-		"textAlignment"					"center"
-		"textinsety"					"-10"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"SpyShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Class Symbols"	"visible"	"1"	"enabled"	"1"	"textinsety"	"-10"	"Command"	""
 		
-		"pin_to_sibling" 				"SpyCustom"
-	}
-	
-	"SelectLabel"						//Select a class to modify loadout
-	{
-		"ControlName"					"CExLabel"
-		"fieldName"						"SelectLabel"
-		"font"							"f24"
-		"labelText"						"#SelectClassLoadout"
-		"textAlignment"					"north"
-		"xpos"							"0"
-		"ypos"							"300"
-		"zpos"							"1"
-		"wide"							"f0"
-		"tall"							"0"		//30
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"fgcolor_override" 				"TanLight"
-		"alpha"							"125"
+		"labelText"	"i"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"SpyCustom"
 	}
 	
 	"Backpack"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"Backpack"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"textAlignment"					"center"
-		"Command"						"backpack"
-		"Default"						"0"
-		"labelText"						"L"
-		"font"							"Symbols 48"
+		"ControlName"	"CExImageButton"	"fieldName"	"Backpack"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	"backpack"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"textAlignment"	"center"	"labelText"	"L"
 		
-		"pin_to_sibling" 				"Crafting"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"0"
+		
+		"FgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgColor_override"		"TanLight"
+		
+		"pin_to_sibling"	"Crafting"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"BackpackShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"BackpackShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"L"
-		"font"							"Symbols 48"
-		"textAlignment"					"center"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"BackpackShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	""
 		
-		"pin_to_sibling" 				"Backpack"
+		"labelText"	"L"	"textAlignment"	"center"
+	
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"Backpack"
 	}
 	
 	"Crafting"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"Crafting"
-		"xpos"							"cs-0.5"
-		"ypos"							"250"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"textAlignment"					"center"
-		"Command"						"crafting"
-		"Default"						"0"
-		"labelText"						"{"
-		"font"							"Symbols 48"
+		"ControlName"	"CExImageButton"	"fieldName"	"Crafting"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"cs-0.5"	"ypos"	"250"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	"crafting"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"textAlignment"	"center"	"labelText"	"{"
 		
-		"pin_to_sibling" 				"Armory"
-		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"0"
+		
+		
+		"FgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgColor_override"		"TanLight"
+		
+		"pin_to_sibling"	"Armory"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"CraftingShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"CraftingShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"{"
-		"font"							"Symbols 48"
-		"textAlignment"					"center"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"CraftingShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	""
 		
-		"pin_to_sibling" 				"Paints"
+		"labelText"	"{"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"Paints"
 	}
 	
 	"Paints"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"Paints"
-		"xpos"							"7"
-		"ypos"							"0"
-		"zpos"							"10"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"pinCorner"						"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"textAlignment"					"center"
-		"Command"						"paintkit_preview"
-		"Default"						"0"
-		"labelText"						"C"
-		"font"							"Symbols 48"
+		"ControlName"	"CExImageButton"	"fieldName"	"Paints"
 		
-		"sound_depressed"				"UI/buttonclick.wav"
-		"sound_released"				"UI/buttonclickrelease.wav"
+		"xpos"	"7"	"ypos"	"0"	"zpos"	"10"	"wide"	"p0.10"	"tall"	"150"
 		
-		"paintbackground"				"0"
-		"paintborder"					"1"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	"paintkit_preview"
 		
-		"defaultFgColor_override"		"TanLight"
-		"armedFgColor_override"			"Positive"
-		"depressedFgColor_override"		"Positive"
+		"textAlignment"	"center"	"labelText"	"C"
 		
-		"pin_to_sibling" 				"Crafting"
-		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
-		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"0"
+		
+		"FgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgColor_override"		"TanLight"
+		
+		"pin_to_sibling"	"Crafting"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 	
 	"PaintsShadow"
 	{
-		"ControlName"					"CExImageButton"
-		"fieldName"						"PaintsShadow"
-		"xpos"							"-1"
-		"ypos"							"-1"
-		"zpos"							"9"
-		"wide"							"54"
-		"tall"							"100"
-		"autoResize"					"0"
-		"visible"						"1"
-		"enabled"						"1"
-		"tabPosition"					"0"
-		"labelText"						"C"
-		"font"							"Symbols 48"
-		"textAlignment"					"center"
-		"use_proportional_insets"		"1"
-		"dulltext"						"0"
-		"brighttext"					"0"
-		"default"						"0"
-		"paintbackground" 				"0"
-		"Command"						""
+		"ControlName"	"CExImageButton"	"fieldName"	"PaintsShadow"
 		
-		"paintbackground"				"0"
-		"paintborder"					"0"
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"9"	"wide"	"p0.10"	"tall"	"150"
 		
-		"defaultFgColor_override"		"Shadow"
-		"armedFgColor_override"			"Shadow"
-		"depressedFgColor_override"		"Shadow"
+		"font"	"Symbols 48"	"visible"	"1"	"enabled"	"1"	"Command"	""
 		
-		"pin_to_sibling" 				"Paints"
+		"labelText"	"C"	"textAlignment"	"center"
+		
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
+		
+		"pin_to_sibling"	"Paints"
 	}
 	
 	"class_loadout_panel"
 	{
-		"ControlName"					"CClassLoadoutPanel"
-		"fieldName"						"class_loadout_panel"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"f0"
-		"tall"							"400"
-		"zpos"							"500"
-		"visible"						"0"
+		"ControlName"	"CClassLoadoutPanel"	"fieldName"	"class_loadout_panel"
+		
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"400"	"zpos"	"500"	
+		
+		"visible"	"0"
 	}
 
 	"backpack_panel"
 	{
-		"ControlName"					"CBackpackPanel"
-		"fieldName"						"backpack_panel"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"f0"
-		"tall"							"400"
-		"zpos"							"500"
-		"visible"						"0"
+		"ControlName"	"CBackpackPanel"	"fieldName"	"backpack_panel"
+
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"400"	"zpos"	"500"	
+		
+		"visible"	"0"
 	}
 
 	"armory_panel"
 	{
-		"ControlName"					"CArmoryPanel"
-		"fieldName"						"armory_panel"
-		"xpos"							"0"
-		"ypos"							"0"
-		"wide"							"f0"
-		"tall"							"400"
-		"zpos"							"500"
-		"visible"						"0"
+		"ControlName"	"CArmoryPanel"	"fieldName"	"armory_panel"
+		
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"400"	"zpos"	"500"	
+		
+		"visible"	"0"
 	}
 
 	"InspectionPanel"
 	{
-		"fieldName"						"InspectionPanel"
-		"xpos"							"cs-0.5"
-		"ypos"							"0"
-		"zpos"							"2000"
-		"wide"							"f0"
-		"tall"							"f100"
-		"visible"						"0"
-		"proportionaltoparent"			"1"
-		"bgcolor_override"				"Blank"
-	}
-	
-	"ScoutSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"ScoutSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&1"
-		"Command"						"loadout scout"
-		"visible"						"1"
-	}
-	"SoldierSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"SoldierSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&2"
-		"Command"						"loadout soldier"
-		"visible"						"1"
-	}
-	"PyroSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"PyroSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&3"
-		"Command"						"loadout pyro"
-		"visible"						"1"
-	}
-	"DemomanSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"DemomanSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&4"
-		"Command"						"loadout demoman"
-		"visible"						"1"
-	}
-	"HeavySelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"HeavySelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&5"
-		"Command"						"loadout heavy"
-		"visible"						"1"
-	}
-	"EngineerSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"EngineerSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&6"
-		"Command"						"loadout engineer"
-		"visible"						"1"
-	}
-	"MedicSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"MedicSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&7"
-		"Command"						"loadout medic"
-		"visible"						"1"
-	}
-	"SniperSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"SniperSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&8"
-		"Command"						"loadout sniper"
-		"visible"						"1"
-	}
-	"SpySelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"SpySelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&9"
-		"Command"						"loadout spy"
-		"visible"						"1"
-	}
-	"BackpackSelectNumber"
-	{
-		"ControlName"					"CExButton"
-		"fieldName"						"BackpackSelectNumber"
-		"xpos"							"9999"
-		"labelText"						"&0"
-		"Command"						"backpack"
-		"visible"						"1"
-	}
-	
-	
-	
-	"scout"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"scout"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"soldier"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"soldier"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"pyro"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"pyro"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"demoman"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"demoman"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}	
-	"heavyweapons"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"heavyweapons"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"engineer"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"engineer"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"medic"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"medic"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"sniper"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"sniper"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"spy"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"spy"
-		"xpos"				"9999"
-		"activeimage"		""
-		"inactiveimage"		""
-		"wide"				"0"
-		"tall"				"0"
-	}
-	"ShowBackpackButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowBackpackButton"
-		"xpos"				"9999"
-	}
-	"ShowBackpackLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ShowBackpackLabel"
-		"xpos"			"9999"
-	}
-	"ShowCraftingLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ShowCraftingLabel"
-		"xpos"			"9999"
-	}
-	"ShowArmoryButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowArmoryButton"
-		"xpos"				"9999"
-	}	
-	"ShowArmoryLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ShowArmoryLabel"
-		"xpos"			"9999"
-	}
-	"ShowCraftingButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowCraftingButton"
-		"xpos"				"9999"
-	}
-	"ShowTradeButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowTradeButton"
-		"xpos"				"9999"
-	}
-	"ShowTradeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ShowTradeLabel"
-		"xpos"			"9999"
-	}
-	"ShowPaintkitsButton"
-	{
-		"ControlName"		"ImageButton"
-		"fieldName"			"ShowPaintkitsButton"
-		"xpos"			"9999"
-	}
-	"ShowPaintkitsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ShowPaintkitsLabel"
-		"xpos"			"9999"
-	}
-	"ClassLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"ClassLabel"
-		"xpos"			"9999"
-	}
-	"ItemsLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ItemsLabel"
-		"xpos"			"9999"
-	}
-	"NoSteamLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoSteamLabel"
-		"xpos"			"9999"
-	}
-	"NoGCLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NoGCLabel"
-		"xpos"			"9999"
-	}
-	"LoadoutChangesLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"LoadoutChangesLabel"
-		"xpos"			"9999"
+		"fieldName"	"InspectionPanel"
+		
+		"xpos"	"cs-0.5"	"ypos"	"0"	"zpos"	"2000"	"wide"	"f0"	"tall"	"f100"
+		
+		"visible"	"0"	"proportionaltoparent"	"1"
+		
+		"bgcolor_override"	"Blank"
 	}
 }

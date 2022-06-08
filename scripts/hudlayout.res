@@ -1,5 +1,3 @@
-#base "../#customization/matchstatus.res"
-#base "../#customization/transparent_viewmodels.res"
 #base "../#customization/damage_indicator.res"
 
 "Resource/HudLayout.res"
@@ -17,15 +15,6 @@
 	HudTeamGoal	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudTeamGoalTournament	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-
-    TransparentViewmodelMask
-	{
-		"ControlName"	"ImagePanel"	"fieldName"	"TransparentViewmodelMask"
-
-		"image"	"replay/thumbnails/transparentviewmodels"	"scaleImage"	"1"
-		
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"-100"	"wide"	"f0"	"tall"	"480"
-	}
 
 	HudDeathNotice
 	{
@@ -52,7 +41,7 @@
 		
 		"visible"	"1"	"enabled"	"1"
 		
-		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"100"	"wide"	"f0"	"tall"	"f0"
 	}
 	
 	HudObjectiveStatus
@@ -202,14 +191,14 @@
 
 		"visible"	"1"	"enabled"	"1"
 
-		"zpos"	"100"	"wide"	"f0"	"tall"	"f0"
+		"zpos"	"101"	"wide"	"f0"	"tall"	"f0"
 	}
 
-	CMainTargetID	{	"fieldName"	"CMainTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	}
+	CMainTargetID	{	"fieldName"	"CMainTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	"zpos"	"100"	}
 	
-	CSpectatorTargetID	{	"fieldName"	"CSpectatorTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	}
+	CSpectatorTargetID	{	"fieldName"	"CSpectatorTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	"zpos"	"100"	}
 	
-	CSecondaryTargetID	{	"fieldName"	"CSecondaryTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	}
+	CSecondaryTargetID	{	"fieldName"	"CSecondaryTargetID"	"visible"	"0"	"enabled"	"1"	"wide"	"252"	"zpos"	"100"	}
 	
 	"BuildingAnchor"
 	{

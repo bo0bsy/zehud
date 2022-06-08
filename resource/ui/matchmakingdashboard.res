@@ -107,7 +107,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldName"	"FindAGameButton2"
 			
-			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"Command"	"find_game"
+			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"Command"	"find_game"	"actionsignallevel"	"2"
 			
 			"xpos"	"rs1-31"	"ypos"	"2"	"zpos"	"100"	"wide"	"30"	"tall"	"28"	"Labeltext"	"!"	"textAlignment"	"center"
 			

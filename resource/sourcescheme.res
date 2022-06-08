@@ -1,4 +1,4 @@
-#base 	"SourceSchemeBase.res"
+#base "scheme/sourceschemebase.res"
 
 Scheme
 {
@@ -203,11 +203,6 @@ Scheme
 	
 	CustomFontFiles
 	{
-		"9"
-		{
-			"font"	"resource/TF2Build.ttf"	"name"	"TF2 Build"
-			
-			"russian"	{	"range" "0x0000 0xFFFF"	}	"polish"{	"range" "0x0000 0xFFFF"	}
-		}
+		"9"	{	"font"	"resource/TF2Build.ttf"	"name"	"TF2 Build"	}
 	}
 }

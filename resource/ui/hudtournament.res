@@ -1,3 +1,5 @@
+// #base "base/hudtournament.res broken, causes missing {  spam in console
+
 "Resource/UI/HudTournament.res"
 {
 	"HudTournamentBGHelp"	{	"ControlName"	"ScalableImagePanel"	"fieldName"	"HudTournamentBGHelp"	"wide"	"0"	}

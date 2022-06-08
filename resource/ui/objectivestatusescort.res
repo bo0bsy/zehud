@@ -45,7 +45,7 @@
 	
 	"HomeCPIcon"
 	{	
-		"xpos"	"68"	"ypos"	"112"	"zpos"	"100"	"wide"	"11"	"tall"	"11"
+		"xpos"	"68"	"ypos"	"112"	"zpos"	"100"	"wide"	"12"	"tall"	"12"
 
 		"image"	"../hud/cart_point_blue"
 		

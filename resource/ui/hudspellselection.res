@@ -13,6 +13,11 @@
 		"xpos_minmode" "5"	"ypos_minmode"	"rs1+40"
 		
 		"proportionaltoparent"	"1"
+		
+		"if_killstreak_visible"
+		{
+			"xpos"			"0"
+		}
 	}	
 	
 	"ActionText"

@@ -1,5 +1,10 @@
 "Resource/UI/FullLoadoutPanel.res"
 {
+	"CaratLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"CaratLabel"	"xpos"	"9999"	}
+	"tool_icon"	{	"ControlName"	"ScalableImagePanel"	"fieldName"	"tool_icon"	"xpos"	"9999"	}
+	"ShowBaseItemsCheckbox"	{	"ControlName"	"CheckButton"	"fieldName"	"ShowBaseItemsCheckbox"	"xpos"	"9999"	}
+	"NameFilterLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"NameFilterLabel"	"xpos"	"9999"	}
+
 	"backpack_panel"
 	{
 		"ControlName"							"Frame"
@@ -190,7 +195,7 @@
 	{
 		"ControlName"							"EditablePanel"
 		"fieldName"								"BackpackBG"
-		"xpos"									"c-293"
+		"xpos"									"cs-0.5"
 		"ypos"									"55"
 		"zpos"									"0"
 		"wide"									"588"
@@ -230,9 +235,7 @@
 		"selectionTextColor_override" 			"TanLight"
 		"defaultSelectionBG2Color_override" 	"Blank"
 		
-		"pin_to_sibling" 						"BackpackBG"
-		"pin_corner_to_sibling" 				"PIN_BOTTOMRIGHT"
-		"pin_to_sibling_corner" 				"PIN_TOPRIGHT"
+		"pin_to_sibling"	"BackpackBG"	"pin_corner_to_sibling"	"PIN_BOTTOMRIGHT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}	
 
 	"SortByBG"
@@ -248,7 +251,7 @@
 		"enabled"								"1"
 		"border"								"Black"
 		
-		"pin_to_sibling" 						"SortByComboBox"
+		"pin_to_sibling"	"SortByComboBox"
 	}
 	
 	"ShowRarityComboBox"
@@ -281,9 +284,7 @@
 		"selectionTextColor_override" 			"TanLight"
 		"defaultSelectionBG2Color_override" 	"Blank"
 		
-		"pin_to_sibling" 						"SortByComboBox"
-		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+		"pin_to_sibling"	"SortByComboBox"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"RarityBG"
@@ -299,7 +300,7 @@
 		"enabled"								"1"
 		"border"								"Black"
 		
-		"pin_to_sibling" 						"ShowRarityComboBox"
+		"pin_to_sibling"	"ShowRarityComboBox"
 	}
 	
 	"NameFilterTextEntry"
@@ -324,9 +325,7 @@
 		"paintbackgroundtype" 					"2"
 		"font"									"f8"
 		
-		"pin_to_sibling" 						"ShowRarityComboBox"
-		"pin_corner_to_sibling" 				"PIN_TOPRIGHT"
-		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
+		"pin_to_sibling"	"ShowRarityComboBox"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 	
 	"NameFilterBG"
@@ -350,7 +349,7 @@
 		
 		"border"								"Black"
 		
-		"pin_to_sibling" 						"NameFilterTextEntry"
+		"pin_to_sibling"	"NameFilterTextEntry"
 	}
 	
 	"Anchor"
@@ -550,34 +549,6 @@
 		"border_default"						"Black"
 		"border_armed"							"Select"
 		
-		"pin_to_sibling" 						"SortByBG"
-		"pin_corner_to_sibling" 				"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner" 				"PIN_TOPLEFT"
-	}
-
-	"CaratLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
-		"xpos"			"9999"
-	}
-	"tool_icon"
-	{
-		"ControlName"	"ScalableImagePanel"
-		"fieldName"		"tool_icon"
-		"xpos"			"9999"
-	}
-	"ShowBaseItemsCheckbox"
-	{
-		"ControlName"	"CheckButton"
-		"fieldName"		"ShowBaseItemsCheckbox"
-		"xpos"			"9999"
-	}
-	"NameFilterLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"NameFilterLabel"
-		"xpos"			"9999"
+		"pin_to_sibling"	"SortByBG"	"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
 	}
 }

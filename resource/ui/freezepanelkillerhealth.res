@@ -4,9 +4,9 @@
 {
 	"PlayerStatusHealthValue"	{	"xpos"	"9999"	}
 	"PlayerStatusHealthBonusImage"	{	"xpos"	"9999"	}
-	"PlayerStatusHealthImage"	{	"ypos"	"4" 	"visible"	"0" 	}
-	"PlayerStatusHealthImageBG"	{	"xpos"	"6" 	"ypos"	"3" 	"wide"	"0" 	"tall"	"0" 	}
-	"BuildingStatusHealthImageBG"	{	"xpos"	"4" 	"ypos"	"6" 	"wide"	"21"	"tall"	"21"	}
+	"PlayerStatusHealthImage"	{	"xpos"	"9999"	}
+	"PlayerStatusHealthImageBG"	{	"xpos"	"6" 	"ypos"	"3" 	"wide"	"0" 	"tall"	"0" 	}	// wide and tall were 21
+	"BuildingStatusHealthImageBG"	{	"xpos"	"4" 	"ypos"	"6" 	"wide"	"0"	"tall"	"0"	} // wide and tall were 21
 	
 	"PlayerStatusKillerHealthValue"
 	{
@@ -24,7 +24,7 @@
 	{
 		"ControlName"	"Label"	"fieldName"	"PlayerStatusKillerHealthValueBlur"
 
-		"xpos"	"0" 	"ypos"	"0" 	"zpos"	"9" 	"wide"	"30"	"tall"	"9"
+		"xpos"	"0" 	"ypos"	"0" 	"zpos"	"9"	"wide"	"30"	"tall"	"9"
 
 		"visible"	"1"	"enabled"	"1"	"font"	"HudFontSmallBoldBlur"
 

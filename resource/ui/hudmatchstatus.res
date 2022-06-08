@@ -6,7 +6,7 @@
 	
 	"RoundSignModel"	{	"wide"	"0"	}
 	
-	"RoundCounter"	{	"xpos"	"cs-0.5"	"ypos"	"-2"	"proportionaltoparent"	"1"	}	
+	"RoundCounter"	{	"xpos"	"cs-0.5"	"ypos"	"-2"	"wide"	"303"	"proportionaltoparent"	"1"	}	
 
 	"ObjectiveStatusTimePanel"
 	{

@@ -3,7 +3,7 @@ Scheme
 	Fonts
 	{
 		"Crosshairs"
-		{	"1"	{	"name"	"TF2Crosshairs"	"tall"	"22"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"TF2Crosshairs"	"tall"	"18"	"antialias"	"1"	}	}
 	
 		"HudFontMedium"
 		{	"1"	{	"name"	"ZeFont"	"tall"	"24"	"antialias"	"1"	}	}
@@ -81,19 +81,7 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"44"	"weight"	"500"	"antialias"	"1"	}	}	
 
 		"f44shadow"	
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"44"	"weight"	"500"	"antialias"	"1"	"dropshadow" 	"1"	}	}		
-		
-		"PopUp1"
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"8"	"antialias"	"1"	}	}
-
-		"PopUp2"
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"antialias"	"1"	}	}
-
-		"PopUp3"
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"10"	"antialias"	"1"	}	}	
-
-		"PopUp4"
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"12"	"antialias"	"1"	}	}		
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"44"	"weight"	"500"	"antialias"	"1"	"dropshadow" 	"1"	}	}	
 		
 		"PvP"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"5"	"antialias"	"1"	}	}		

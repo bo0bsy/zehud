@@ -10,8 +10,8 @@
 	
 	"SpectatorGUIHealth"
 	{
-		"xpos"	"6"	"ypos"	"42"	"wide"	"32"	"tall"	"32"
+		"xpos"	"10"	"ypos"	"42"	"wide"	"32"	"tall"	"32"
 		
-		"xpos_minmode"	"6"	"ypos_minmode"	"42"	"HealthDeathWarningColor"	"Negative"
+		"xpos_minmode"	"10"	"ypos_minmode"	"42"	"HealthDeathWarningColor"	"Negative"
 	}	
 }

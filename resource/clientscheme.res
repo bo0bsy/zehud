@@ -1,8 +1,8 @@
-#base "../resource/scheme/colors.res"
-#base "../resource/scheme/fonts.res"
-#base "../resource/scheme/customfonts/icons.res"
-#base "../resource/scheme/customfonts/zehud.res"
-#base "../resource/scheme/borders.res"
+#base "scheme/colors.res"
+#base "scheme/fonts.res"
+#base "scheme/borders.res"
+#base "scheme/customfonts/icons.res"
+#base "scheme/customfonts/zehud.res"
 
 Scheme
 {
@@ -25,7 +25,8 @@ Scheme
 		"8"		{	"font" "resource/scheme/fonts/tf2 class icons.ttf"	"name" "TF2 Class Icons V2"	}
 		"9"		{	"font" "resource/scheme/fonts/readyup symbols.otf"	"name" "ReadyUp Symbols"	}	
 		"10"	{	"font" "resource/scheme/fonts/tf2crosshairs.ttf"	"name" "TF2Crosshairs"	}	
-		"11"	{	"font" "resource/scheme/fonts/zefont.otf"			"name" "ZeFont"	}	
+		"11"	{	"font" "resource/scheme/fonts/zefont.otf"			"name" "ZeFont"	}
+		"12"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name"	"ToonHUD Icons"	}
 	}
 }
 

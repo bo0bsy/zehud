@@ -12,7 +12,7 @@
 	
 		"xpos"	"c98"	"ypos"	"c45"	"zpos"	"0"	"wide"	"5"	"tall"	"80"
 		
-		"xpos_minmode"	"r60"	"ypos_minmode"	"r62"			
+		"xpos_minmode"	"r60"	"ypos_minmode"	"r40"			
 		
 		"visible"	"0"	"enabled"	"1"
 	}

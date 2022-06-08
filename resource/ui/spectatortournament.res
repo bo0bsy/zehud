@@ -4,9 +4,9 @@
 {
 	"specgui"
 	{
-		"team1_player_base_offset_x"	"0"	"team1_player_base_y"	"285"	"team1_player_delta_x"	"0"	"team1_player_delta_y"	"15"
+		"team1_player_base_offset_x"	"0"	"team1_player_base_y"	"200"	"team1_player_delta_x"	"0"	"team1_player_delta_y"	"15"
 		
-		"team2_player_base_offset_x"	"303"	"team2_player_base_y"	"325"	"team2_player_delta_x"	"0"	"team2_player_delta_y"	"15"
+		"team2_player_base_offset_x"	"303"	"team2_player_base_y"	"200"	"team2_player_delta_x"	"0"	"team2_player_delta_y"	"15"
 
 		"playerpanels_kv"
 		{
@@ -29,7 +29,7 @@
 
 			"HealthIcon"
 			{
-				"xpos"	"18"	"ypos"	"cs-0.5"	"zpos"	"3"	"wide"	"20"	"tall"	"f0"
+				"xpos"	"8"	"ypos"	"cs-0.5"	"zpos"	"3"	"wide"	"40"	"tall"	"f0"
 
 				"proportionaltoparent"	"1"
 			}
