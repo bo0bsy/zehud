@@ -1,7 +1,3 @@
-#base 	"base/HudItemEffectMeter_Killstreak.res"
+#base "../../#customization/killstreak.res"
+#base "base/huditemeffectmeter_killstreak.res"
 
-"Resource/UI/HudItemEffectMeter_Killstreak.res"
-{
-	HudItemEffectMeter
-	{	"wide"	"0"	}					
-}

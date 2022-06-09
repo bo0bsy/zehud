@@ -368,7 +368,7 @@
 	
 	"numScout"
 	{
-		"xpos"	"0"	"ypos"	"0"	"wide"	"p0.11"	"tall"	"20"	"zpos"	"10"	"textAlignment"	"Center"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"p0.11"	"tall"	"20"	"zpos"	"10"	"textAlignment"	"east"
 		
 		"font"	"f14shadow"
 		

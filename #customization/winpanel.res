@@ -1,5 +1,5 @@
-#base "../#basefiles/WinPanel/Default_WinPanel.res"			// Default WinPanel
-//#base "../#basefiles/WinPanel/Simple_WinPanel.res"			// Simple WinPanel
+#base "../#basefiles/winpanel/default_winpanel.res"			//default winpanel
+//#base "../#basefiles/winpanel/simple_winpanel.res"			//simple winpanel
 
 //==================================================================================================
 // WINPANEL SETTINGS INSTRUCTIONS

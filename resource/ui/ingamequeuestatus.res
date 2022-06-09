@@ -20,7 +20,7 @@
 
 		"radius"	"7"	"velocity"	"100"
 
-		"fgcolor_override"	"blank" // blank cuz broken in 4:3 and 5:4 lol, was TFOrange
+		"fgcolor_override"	"TFOrange"
 	}
 	"QueueText"	{	"labelText"	""	}
 }

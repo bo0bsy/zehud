@@ -1,3 +1,4 @@
+#base "../../#customization/matchstatus.res"
 #base "base/hudmatchstatus.res"
 
 "Resource/UI/HudMatchStatus.res"
@@ -47,9 +48,9 @@
 
 		"6v6_gap"	"1"	"12v12_gap"	"1"
 
-		"team1_grow_dir"	"west"	"team1_base_x"	"c-37"	"team1_max_expand"	"260"
+		"team1_grow_dir"	"west"	"team1_base_x"	"c-37"
 
-		"team2_grow_dir"	"east"	"team2_base_x"	"c37"	"team2_max_expand"	"260"
+		"team2_grow_dir"	"east"	"team2_base_x"	"c37"
 
 		"playerpanels_kv"
 		{
@@ -71,7 +72,7 @@
 			
 			"healthbar"	{	"ypos"	"25"	"tall"	"3"	}	
 
-			"overhealbar"	{	"ypos"	"25"	"wide"	"65"	"tall"	"3"	"fgcolor_override"	"Positive"	}
+			"overhealbar"	{	"ypos"	"25"	"wide"	"85"	"tall"	"3"	"fgcolor_override"	"Positive"	}
 
 			"respawntime"	{	"font"	"f12shadow"	"fgcolor_override"	"TanLight" 	}			
 		}

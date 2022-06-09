@@ -6,7 +6,7 @@
 	
 	"ItemEffectMeterLabel"
 	{	
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"74"	"tall"	"5"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"74"	"tall"	"6"
 
 		"font"	"PlayerPanelPlayerName"	"enabled"	"0"
 

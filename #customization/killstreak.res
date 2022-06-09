@@ -1,9 +1,9 @@
-#base "../#basefiles/damage_indicator/on.res"		//enabled	
-//#base "../#basefiles/damage_indicator/off.res"	//disabled
+//#base "../#basefiles/killstreak/on.res"		//enabled
+#base "../#basefiles/killstreak/off.res"	//disabled
 
 //==================================================================================================
-// DAMAGE INDICATOR SETTINGS INSTRUCTIONS
+// KILLSTREAK SETTINGS INSTRUCTIONS
 //--------------------------------------------------------------------------------------------------
-// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE DAMAGE INDICATOR LINE YOU WANT TO ACTIVATE
+// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE KILLSTREAK STYLE LINE YOU WANT TO ACTIVATE
 // IMPORTANT: ONLY 1 LINE SHOULD STAY UNCOMMENTED
 //==================================================================================================

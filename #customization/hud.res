@@ -1,4 +1,4 @@
-#base "../#basefiles/ZeHud/ZeHud.res"					// DON'T TOUCH THIS ONE
+#base "../#basefiles/zehud/zehud.res"	// DON'T TOUCH THIS ONE
 //==================================================================================================
 // HUD SETTINGS INSTRUCTIONS
 //--------------------------------------------------------------------------------------------------
@@ -7,5 +7,5 @@
 //==================================================================================================
 
 
-#base "../#basefiles/ZeHud/Buff.res"					//Arrows Buff Icons
-//#base "../#basefiles/ZeHud/LastDamageDone_On.res"		//last damage done
+#base "../#basefiles/zehud/buff.res"					//arrows buff icons
+//#base "../#basefiles/zehud/lastdamagedone_on.res"		//last damage done
