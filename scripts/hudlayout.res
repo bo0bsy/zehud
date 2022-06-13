@@ -700,7 +700,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	
 	
-		"xpos"	"c-98"	"ypos"	"r150"	"zpos"	"20"	"wide"	"450"	"tall"	"200"
+		"xpos"	"c-98"	"ypos"	"r150"	"zpos"	"101"	"wide"	"450"	"tall"	"200"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -709,7 +709,7 @@
 		
 		"visible"	"1"	"enabled"	"1"
 	
-		"xpos"	"c-98"	"ypos"	"r150"	"zpos"	"20"	"wide"	"450"	"tall"	"200"
+		"xpos"	"c-98"	"ypos"	"r150"	"zpos"	"101"	"wide"	"450"	"tall"	"200"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -718,7 +718,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	
 	
-		"xpos"	"c-51"	"ypos"	"r150"	"zpos"	"20"	"wide"	"450"	"tall"	"200"
+		"xpos"	"c-51"	"ypos"	"r150"	"zpos"	"101"	"wide"	"450"	"tall"	"200"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -727,7 +727,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	
 	
-		"xpos"	"c-140"	"ypos"	"r220"	"zpos"	"20"	"wide"	"280"	"tall"	"85"
+		"xpos"	"c-140"	"ypos"	"r145"	"zpos"	"101"	"wide"	"280"	"tall"	"85"
 	}	
 	
 	HudDemomanPipes
@@ -924,7 +924,7 @@
 		
 		"xpos"	"0"	"ypos"	"0"	"wide"	"640"	"tall"	"f0"
 	
-		"bgcolor_override"		"Blank"
+		"bgcolor_override"	"Blank"
 	}
 
 	CTFFlagCalloutPanel
@@ -942,7 +942,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	
 	
-		"xpos"	"c-163"	"ypos"	"r185"	"zpos"	"20"	"wide"	"350"	"tall"	"60"
+		"xpos"	"c-163"	"ypos"	"r145"	"zpos"	"101"	"wide"	"350"	"tall"	"60"
 	}
 	
 	"ItemAttributeTracker"
