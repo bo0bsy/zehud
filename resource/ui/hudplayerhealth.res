@@ -20,6 +20,8 @@
 	"ChargeMeter3"	{	"wide"	"0"	}	
 	"ChargeMeter4"	{	"wide"	"0"	}
 	"ResistIcon"	{	"wide"	"0"	}
+	"CDamageAccountValue"	{	"wide"	"0"	}
+	"CDamageAccountValueShadow"	{	"wide"	"0"	}
 	
 	"HudPlayerHealth"
 	{

@@ -8,4 +8,4 @@
 
 
 #base "../#basefiles/zehud/buff.res"					//arrows buff icons
-//#base "../#basefiles/zehud/lastdamagedone_on.res"		//last damage done
+#base "../#basefiles/zehud/lastdamagedone_on.res"		//last damage done
