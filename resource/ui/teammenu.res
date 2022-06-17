@@ -293,7 +293,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"BlueLabel2"
 		
-		"xpos"	"1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"1"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		
@@ -325,7 +325,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"RedLabel2"
 		
-		"xpos"	"1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"1"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		

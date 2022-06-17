@@ -23,7 +23,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/positive"	"scaleImage"	"1"
 		
-		"pin_to_sibling"	"buff"			
+		"pin_to_sibling"	"buff"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
 
 		"alpha"	"0"			
 	}
@@ -36,7 +36,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/positive"	"scaleImage"	"1"
 		
-		"pin_to_sibling"	"buff1"			
+		"pin_to_sibling"	"buff1"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"	
 
 		"alpha"	"0"			
 	}	
@@ -64,7 +64,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/negative"	"scaleImage"	"1"
 		
-		"pin_to_sibling"	"hurt"			
+		"pin_to_sibling"	"hurt"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
 		
 		"alpha"	"0"		
 	}
@@ -77,7 +77,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/negative"	"scaleImage"	"1"
 		
-		"pin_to_sibling"	"hurt1"			
+		"pin_to_sibling"	"hurt1"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"		
 		
 		"alpha"	"0"		
 	}	
