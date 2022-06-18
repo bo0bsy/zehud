@@ -101,7 +101,7 @@ Scheme
 
 		"ScrollBarSlider.FgColor"	"Gray"	"ScrollBarSlider.BgColor"	"Blank"
 
-		"Slider.NobColor"	"108 108 108 255"	"Slider.TextColor"	"127 140 127 255"	"Slider.TrackColor"	"31 31 31 255"
+		"Slider.NobColor"	"108 108 108 255"	"Slider.TextColor"	"127 140 127 255"	"Slider.TrackColor"	"61 62 63 255"
 		
 		"Slider.DisabledTextColor1"	"117 117 117 255"	"Slider.DisabledTextColor2"	"30 30 30 255"
 
@@ -194,9 +194,9 @@ Scheme
 		}
 		
 		AchievementItemTitle [$WIN32]
-		{	"1"	{	"name"	"Arial"	[!$OSX]	"name"	"Verdana Bold"	[$OSX]	"weight"	"10"	"tall"	"16"	[!$OSX]	"tall"	"18"	[$OSX]	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"Arial"	[!$OSX]	"name"	"Verdana"	[$OSX]	"weight"	"10"	"tall"	"16"	[!$OSX]	"tall"	"18"	[$OSX]	"antialias"	"1"	}	}
 		AchievementItemTitleLarge [$WIN32]
-		{	"1"	{	"name"	"Arial"	[!$OSX]	"name"	"Verdana Bold"	[$OSX]	"weight"	"10"	"tall"	"18"	[!$OSX]	"tall"	"19"	[$OSX]	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"Arial"	[!$OSX]	"name"	"Verdana"	[$OSX]	"weight"	"10"	"tall"	"18"	[!$OSX]	"tall"	"19"	[$OSX]	"antialias"	"1"	}	}
 		AchievementItemDescription [$WIN32]
 		{	"1"	{	"name"	"Arial"	[!$OSX]	"name"	"Verdana"	[$OSX]	"weight"	"1000"	"tall"	"14"	[!$OSX]	"tall"	"12"	[$OSX]	"antialias"	"1"	[!$OSX]	}	}
 	}

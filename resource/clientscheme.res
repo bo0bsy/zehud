@@ -1,8 +1,19 @@
-#base "scheme/colors.res"
+#base "scheme/ze_colors.res"
+#base "scheme/default_colors.res"
+#base "scheme/basesettings.res"
+#base "scheme/cs_global_tf.res"
 #base "scheme/fonts.res"
 #base "scheme/borders.res"
+#base "scheme/bitmap.res"
 #base "scheme/customfonts/icons.res"
 #base "scheme/customfonts/zehud.res"
+#base "scheme/bs/v1/checkbtn-bg.res"
+#base "scheme/bs/v1/frametitle-disablebg.res"
+#base "scheme/bs/borderdot.res"
+#base "scheme/bs/mm_inset6.res"
+#base "scheme/bs/matchmaking.res"
+#base "scheme/bs/wizard.res"
+#base "scheme/bs/graphpanel.res"
 
 Scheme
 {
