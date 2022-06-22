@@ -4,19 +4,6 @@
 {
 	"FreezePanel"	{	"screenshot_move_panel_to_corner"	"0"	}
 	
-	"itempanel"
-	{
-		"xpos"	"rs1-5"	"ypos"	"rs1-5"
-
-		"proportionaltoparent"	"1"
-
-		"paintborder"	"0"
-		
-		"paintbackground"	"1"	"paintbackgroundtype"	"0"	"bgcolor_override"	"CustomBlack"
-		
-		"ItemLabel"	{		"font"	"f10"	"tall"	"10"	}
-	}	
-	
 	"FreezePanelBase"
 	{
 		"xpos"	"20"	"ypos"	"rs1-20"	"wide"	"84"	"tall"	"48"

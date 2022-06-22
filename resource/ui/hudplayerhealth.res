@@ -38,7 +38,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"StatusIconFix"
 		
-		"xpos"	"-13"	"ypos"	"25"	"zpos"	"5"	"wide"	"100"	"tall"	"100"
+		"xpos"	"62"	"ypos"	"-15"	"zpos"	"5"	"wide"	"100"	"tall"	"100"
 		
 		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		

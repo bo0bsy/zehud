@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"GitLink"
 		
-		"xpos"	"-1"	"ypos"	"14"	"zpos"	"10"	"wide"	"22"	"tall"	"22"
+		"xpos"	"-9"	"ypos"	"25"	"zpos"	"10"	"wide"	"22"	"tall"	"22"
 		
 		"visible"	"1"
 		
@@ -32,7 +32,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"HudsLink"
 		
-		"xpos"	"0"	"ypos"	"28"	"zpos"	"10"	"wide"	"22"	"tall"	"22"
+		"xpos"	"0"	"ypos"	"27"	"zpos"	"10"	"wide"	"22"	"tall"	"22"
 	
 		"visible"	"1"		
 		

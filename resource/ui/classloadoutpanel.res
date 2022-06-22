@@ -40,7 +40,7 @@
 			
 			"attriblabel"	{	"font"	"ItemFontAttribLarge"	"visible"	"0"	}
 			
-			"itemmodelpanel"	{	"use_item_rendertarget" "0"	"allow_manip"	"0"	}
+			"itemmodelpanel"	{	"use_item_rendertarget" "0"	"allow_manip"	"1"	}
 		}
 		
 		"itemoptionpanels_kv"

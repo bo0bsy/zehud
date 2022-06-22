@@ -7,7 +7,7 @@
 	"ItemEffectMeter"
 	{	"xpos"	"9999"	}
 	
-	HudItemEffectMeter	{	"xpos"	"c-117"	"ypos"	"rs1-110"	"wide"	"40"	"tall"	"40"	"xpos_minmode"	"15"	"ypos_minmode"	"rs1-29"	}	
+	HudItemEffectMeter	{	"xpos"	"c-117"	"ypos"	"rs1-110"	"wide"	"40"	"tall"	"40"	"xpos_minmode"	"62"	"ypos_minmode"	"rs1-50"	}	
 	
 	"ItemEffectMeterLabel"
 	{

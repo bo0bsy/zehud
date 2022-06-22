@@ -6,15 +6,12 @@ BaseSettings
 {
 "TextEntry.CursorColor" "215 215 215 255"
 
-"Button.DepressedTextColor" "50 50 50 255"
-"Button.DepressedBgColor" "70 70 70 255"
+"Button.DepressedTextColor" "Black"
+"Button.DepressedBgColor" "Main"
 
 "Slider.DisabledTextColor2" "Blank"
 "Frame.AutoSnapRange" "0"
 "FrameSystemButton.FgColor" "Blank"
-"FrameSystemButton.BgColor" "Blank"
-//FrameSystemButton.Icon"replay/thumbnails/null"
-//FrameSystemButton.DisabledIcon"replay/thumbnails/null"
 "FrameSystemButton.Icon" ""
 "FrameSystemButton.DisabledIcon" ""
 

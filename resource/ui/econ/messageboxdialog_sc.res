@@ -1,0 +1,1 @@
+#base "../base/econ/messageboxdialog_sc.res"

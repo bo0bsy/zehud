@@ -3,7 +3,7 @@ Scheme
 {
 BaseSettings
 {
-"GraphPanel.FgColor""White"
+"GraphPanel.FgColor""TanLight"
 "GraphPanel.BgColor""TransparentBlack"
 }
 }

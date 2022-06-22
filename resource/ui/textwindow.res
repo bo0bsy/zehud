@@ -1,6 +1,5 @@
 #base "base/textwindow.res"
 
-
 "Resource/UI/TextWindow.res"
 {
 	"TextMessage"	{	"xpos"	"9999"	}	"MessageTitle"	{	"xpos"	"9999"	}	"ShadedBG"	{	"xpos"	"9999"	}	"TFTextMessage"	{	"xpos"	"9999"	}	"TFMessageTitle"	{	"xpos"	"9999"	}

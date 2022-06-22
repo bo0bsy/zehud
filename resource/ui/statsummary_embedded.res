@@ -139,11 +139,9 @@
 		
 		"ClassLabel1"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"30"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -190,11 +188,9 @@
 		
 		"ClassLabel2"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 			
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"50"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -244,12 +240,10 @@
 		"ClassLabel3"
 		{
 
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"70"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 
-			"AllCaps"	"1"
-			
 			"border"	"Black"
 		}
 		
@@ -297,12 +291,10 @@
 		
 		"ClassLabel4"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"90"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 
-			"AllCaps"	"1"
-			
 			"border"	"Black"
 		}
 		
@@ -350,11 +342,9 @@
 		
 		"ClassLabel5"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 			
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"110"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -404,11 +394,9 @@
 		"ClassLabel6"
 		{
 
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"130"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -457,11 +445,9 @@
 		
 		"ClassLabel7"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"150"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -510,11 +496,9 @@
 		
 		"ClassLabel8"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"170"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -563,11 +547,9 @@
 		
 		"ClassLabel9"
 		{
-			"font"	"StorePromotionsTitle"
+			"font"	"Class Symbols Mini"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"190"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
-
-			"AllCaps"	"1"
 			
 			"border"	"Black"
 		}
@@ -614,7 +596,9 @@
 		{
 			"ControlName"	"EditablePanel"	"fieldName"	"BackgroundStats"
 			
-			"xpos"	"c-205"	"ypos"	"215"	"zpos"	"0"	"wide"	"410"	"tall"	"87"
+//			"xpos"	"c-205"	"ypos"	"215"	"zpos"	"0"	"wide"	"410"	"tall"	"87"
+
+			"wide"	"0"
 			
 			"visible"	"1"	"enabled"	"1"
 			
@@ -625,9 +609,11 @@
 		{
 			"ControlName"	"EditablePanel"	"fieldName"	"Separator"
 			
-			"xpos"	"c0"	"ypos"	"220"	"zpos"	"0"	"wide"	"1"	"tall"	"77"
+//			"xpos"	"c0"	"ypos"	"220"	"zpos"	"0"	"wide"	"1"	"tall"	"77"
 			
 			"visible"	"1"	"enabled"	"1"
+
+			"wide"	"0"
 			
 			"bgcolor_override"	"TanLight"
 		}
@@ -638,9 +624,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+	//		"xpos"	"c-200"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+	
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -649,9 +635,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -660,9 +646,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -671,9 +657,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -682,9 +668,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -693,9 +679,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -705,9 +691,9 @@
 
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -716,9 +702,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 			
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -727,9 +713,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -738,10 +724,10 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
-			
+			"wide"	"0"
+
 			"fgcolor_override"	"TanLight"
 		}
 		
@@ -749,9 +735,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -760,9 +746,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -771,9 +757,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c-200"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -782,9 +768,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -793,9 +779,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 			
-			"xpos"	"c-200"	"ypos"	"289"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c-200"	"ypos"	"289"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -804,9 +790,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 			
-			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"289"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"289"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -815,9 +801,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 			
-			"xpos"	"c5"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -826,9 +812,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -837,9 +823,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c5"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -848,9 +834,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -859,9 +845,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c5"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+	//		"xpos"	"c5"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -870,9 +856,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+	//		"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -881,10 +867,10 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c5"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
 			
+			"wide"	"0"
+
 			"fgcolor_override"	"TanLight"
 		}
 		
@@ -892,9 +878,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -903,9 +889,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 			
-			"xpos"	"c5"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -914,9 +900,9 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -925,21 +911,20 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c5"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord14Value"
 		{
-
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
 			
 			"fgcolor_override"	"TanLight"
 		}
@@ -948,9 +933,10 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"xpos"	"c5"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-
-			"AllCaps"	"1"
+//			"xpos"	"c5"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
+			
+			"wide"	"0"
+			
 			"fgcolor_override"	"TanLight"
 		}
 		
@@ -958,28 +944,11 @@
 		{
 			"font"	"HudFontSmallestBold"
 
-			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
 
-			"AllCaps"	"1"
-			
+			"wide"	"0"
+
 			"fgcolor_override"	"TanLight"
 		}
-	}
-
-	"ResetStatsButton2"
-	{
-		"ControlName"	"CExButton"	"fieldName"	"ResetStatsButton2"
-		
-		"xpos"	"rs1-5"	"ypos"	"0"	"zpos"	"20"	"wide"	"18"	"tall"	"18"
-		
-		"font"	"Symbols 14"	"visible"	"1"	"enabled"	"1"	"Command"	"resetstatsbutton"
-		
-		"labelText"	"D"	"textAlignment"	"center"
-		
-		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"paintbackground"	"0"
-		
-		"border_default"	"Black"	"border_armed"	"Negative"
 	}
 }

@@ -1,0 +1,14 @@
+Scheme
+{
+Fonts
+{
+"MenuLarge"
+{
+"1"
+{
+"name""Verdana"
+"tall""20"
+}
+}
+}
+}

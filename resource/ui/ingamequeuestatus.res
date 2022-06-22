@@ -1,6 +1,6 @@
 #base "base/InGameQueueStatus.res"
 
-"Resource/UI/InGameQueueStatus.res"
+"Resource/UI/ingamequeuestatus.res"
 {
 	"QueueHUDStatus"
 	{

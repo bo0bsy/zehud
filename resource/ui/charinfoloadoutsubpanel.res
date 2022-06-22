@@ -489,7 +489,7 @@
 		
 		"defaultFgColor_override"	"Shadow"	"armedFgColor_override"	"Shadow"	"depressedFgColor_override"	"Shadow"
 		
-		"pin_to_sibling"	"Paints"
+		"pin_to_sibling"	"Crafting"
 	}
 	
 	"Paints"

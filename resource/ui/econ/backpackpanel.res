@@ -28,7 +28,7 @@
 				"font"	"f8"
 			}
 
-			"New"	{	"font"	"f8"	"wide"	"25"	"fgcolor"	"Black"	}
+			"New"	{	"font"	"f8"	"fgcolor"	"Black"	}
 		}
 		
 		"modelpanels_kv"
@@ -158,7 +158,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"Anchor"
 		
-		"xpos"	"cs-0.5"	"ypos"	"260"	"wide"	"18"	"tall"	"240"
+		"xpos"	"cs-0.5"	"ypos"	"264"	"wide"	"18"	"tall"	"240"
 		
 		"visible"	"0"	"enabled"	"1"
 	}	

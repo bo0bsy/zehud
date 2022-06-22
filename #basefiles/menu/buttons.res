@@ -29,7 +29,7 @@
 			
 			"textAlignment"	"west"
 
-			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+			"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	"noborder"	"border_armed"	"noborder"
 			
@@ -68,7 +68,7 @@
 			
 			"textAlignment"	"west"
 
-			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
+			"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"border_default"	"noborder"	"border_armed"	"noborder"
 			
@@ -91,7 +91,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldname"	"BGPanel4"
 		
-		"xpos"	"32"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"58"
+		"xpos"	"33"	"ypos"	"0"	"zpos"	"1"	"wide"	"30"	"tall"	"58"
 		
 		"visible"	"1"
 		
@@ -108,7 +108,7 @@
 
 		"font"	"Symbols 20"	"visible"	"1"	"enabled"	"1"	"Command"	"OpenOptionsDialog"
 		
-		"use_proportional_insets" 			"1"
+		"use_proportional_insets"	"1"
 
 		"labelText"	"|"	"textAlignment"	"center"
 
@@ -159,7 +159,7 @@
 
 		"font"	"Symbols 20"	"visible"	"1"	"enabled"	"1"	"command"	"engine open_charinfo"
 
-		"use_proportional_insets" 			"1"
+		"use_proportional_insets"	"1"
 
 		"labelText"	"L"	"textAlignment"	"center"
 		
@@ -242,11 +242,7 @@
 
 	"MOTD_ShowButtonPanel"
 	{
-		"ControlName"	"EditablePanel"	"fieldName"	"MOTD_ShowButtonPanel"
-		
-		"xpos"	"rs1+5"	"ypos"	"25"	"zpos"	"2"	"wide"	"40"	"tall"	"40"
-		
-		"visible"	"1"	"enabled"	"1"
+		"xpos"	"rs1+8"	"ypos"	"25"	"zpos"	"2"	"wide"	"42"	"tall"	"40"
 
 		"SubButton"
 		{
@@ -254,7 +250,7 @@
 			
 			"xpos"	"0"	"ypos"	"0"	"wide"	"40"	"tall"	"40"
 
-			"font"	"symbols 25"	"visible"	"1"	"enabled"	"1"	"actionsignallevel"	"2"
+			"font"	"symbols 22"	"visible"	"1"	"enabled"	"1"	"actionsignallevel"	"2"
 
 			"use_proportional_insets" 	"1"
 			
@@ -268,25 +264,21 @@
 			
 			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"
 		}
+		
+		"MOTD_ShowButtonPanel_SB"	{	"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	}		
 	}	
 	
 	"QuestLogButton"
 	{
-		"ControlName"	"EditablePanel"	"fieldName"	"QuestLogButton"
-		
-		"xpos"	"-9"	"ypos"	"35"	"zpos"	"2"	"wide"	"40"	"tall"	"40"
-		
-		"visible"	"1"	"enabled"	"1"
+		"xpos"	"0"	"ypos"	"25"	"zpos"	"2"	"wide"	"40"	"tall"	"40"
 		
 		"pin_to_sibling"	"MOTD_ShowButtonPanel"	"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"		
 
 		"SubButton"
-		{
-			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"
-			
-			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
+		{	
+			"xpos"	"0"	"ypos"	"0"	"wide"	"40"	"tall"	"40"
 
-			"font"	"symbols 25"	"visible"	"1"	"enabled"	"1"	"actionsignallevel"	"2"
+			"font"	"symbols 22"	"textinsetx"	"0"
 
 			"use_proportional_insets"	"1"
 			
@@ -295,10 +287,10 @@
 			"paintbackground"	"0"
 			
 			"paintborder"	"0"
-		
-			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"
+			
+			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	
 		}
 	}
 	
