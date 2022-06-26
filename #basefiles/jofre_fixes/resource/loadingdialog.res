@@ -5,7 +5,7 @@
 #base "../#uni_base/filesv1/loadinglabel/position/w380.res"
 #base "../#uni_base/filesv1/loadinglabel/position/t220.res"
 
-//#base "base/1sysmenu.res"
+#base "base/1sysmenu.res"
 
 #base "../#uni_base/filesv1/infolabel/main.res"
 #base "../#uni_base/filesv1/infolabel/ctrl/label.res"

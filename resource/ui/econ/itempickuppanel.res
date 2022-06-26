@@ -61,8 +61,7 @@
 
 		"paintbackground"	"0"		
 
-		"defaultfgcolor_override"	"TanLight"	"armedfgcolor_override"	"TanLightSelect"	"depressedfgcolor_override"	"TanLight"+
-		
+		"defaultfgcolor_override"	"TanLight"	"armedfgcolor_override"	"TanLightSelect"	"depressedfgcolor_override"	"TanLight"
 	}
 	
 	"CloseButton"

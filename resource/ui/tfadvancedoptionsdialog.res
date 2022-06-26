@@ -8,15 +8,14 @@
 		"ypos"										"0"
 		"wide"										"f0"
 		"tall"										"f0"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
+
 		"settitlebarvisible"						""
 		"PaintBackgroundType"						"0"
 		"paintbackground"							"2"
-		"border"									"TransparentBlackBackground"
+		"border"									"noborder"
 		
 		"control_w"									"500"
 		"control_h"									"25"
@@ -66,12 +65,10 @@
 		"zpos"										"2"
 		"wide"										"500"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override" 							"TanLight"
-		"AllCaps" 									"1"
 	}
 	
 	"TitleLabelShadow"
@@ -86,12 +83,10 @@
 		"zpos"										"2"
 		"wide"										"500"
 		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+
 		"visible"									"1"
 		"enabled"									"1"
 		"fgcolor_override" 							"Shadow"
-		"AllCaps" 									"1"
 
 		"pin_to_sibling"							"TitleLabel"		
 	}		
@@ -105,20 +100,17 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"3"
+
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
+
 		"labelText"									"#Cancel"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 
-		"dulltext"									"0"
-		"brighttext"								"0"
+
 		"default"									"1"
 		"Command"									"Close"
-		"AllCaps"									"1"
 		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -146,20 +138,16 @@
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"25"
-		"autoResize"								"0"
-		"pinCorner"									"3"
+
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
+
 		"labelText"									"#GameUI_Ok"
 		"font"										"HudFontSmallBold"
 		"textAlignment"								"center"
 
-		"dulltext"									"0"
-		"brighttext"								"0"
 		"default"									"1"
 		"Command"									"Ok"
-		"AllCaps"									"1"
 		
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
@@ -187,13 +175,11 @@
 		"wide"										"600"
 		"zpos"										"2"
 		"tall"										"290"
-		"autoResize"								"0"
-		"pinCorner"									"0"
+
 		"visible"									"1"
 		"enabled"									"1"
-		"tabPosition"								"0"
-		"bgcolor_override"							"Blank"
-		"AllCaps"									"1"
+
+		"bgcolor_override"							"0 0 0 50"
 	}
 	
 	"TooltipPanel"
@@ -214,7 +200,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TipLabel"
-			"font"									"HudFontSmallest"
+			"font"									"f10"
 			"labelText"								"%tiptext%"
 			"textAlignment"							"center"
 			"xpos"									"20"
@@ -222,8 +208,7 @@
 			"zpos"									"2"
 			"wide"									"200"
 			"tall"									"30"
-			"autoResize"							"0"
-			"pinCorner"								"0"
+
 			"visible"								"1"
 			"enabled"								"1"
 			"fgcolor_override"						"TanLight"

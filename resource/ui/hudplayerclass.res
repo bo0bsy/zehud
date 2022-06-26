@@ -4,6 +4,8 @@
 "Resource/UI/HudPlayerClass.res"
 {
 	"PlayerStatusHealthImageBG"	{	"wide"	"0"	}
+	"PlayerStatusHealthImage"	{	"wide"	"0"	}	
+	"PlayerStatusHealthBonusImage"	{	"wide"	"0"	}	
 	"PlayerStatusHealthValue"	{	"wide"	"0"	}
 	"PlayerStatusHealthValueShadow"	{	"wide"	"0"	}
 	"PlayerStatusHealthValueBLur"	{	"wide"	"0"	}
@@ -25,5 +27,5 @@
 	"ChargeMeter2"	{	"wide"	"0"	}	
 	"ChargeMeter3"	{	"wide"	"0"	}
 	"ChargeMeter4"	{	"wide"	"0"	}
-	"ResistIcon"	{	"wide"	"0"	}		
+	"ResistIcon"	{	"wide"	"0"	}			
 }

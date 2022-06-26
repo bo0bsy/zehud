@@ -166,11 +166,11 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"LocalPlayerStatsPanel"
 		
-		"xpos"	"0"	"ypos"	"395"	"zpos"	"3"	"wide"	"600"	"tall"	"448"
+		"xpos"	"0"	"ypos"	"395"	"zpos"	"3"	"wide"	"f0"	"tall"	"448"
 
 		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 		
-		if_mvm	{	"xpos"	"0"	"visible"	"1"	"proportionaltoparent"	"1"	}
+		if_mvm	{	"xpos"	"0"	"visible"	"1"	}
 
 		"KillsTanLight"
 		{
@@ -205,7 +205,7 @@
 		{
 			"ControlName"	"CExLabel"	"fieldName"	"AssistsTanLight"
 
-			"xpos"	"cs-0.5+125"	"ypos"	"0"	"zpos"	"3"	"wide"	"60"	"tall"	"40"
+			"xpos"	"cs-0.5"	"ypos"	"0"	"zpos"	"3"	"wide"	"60"	"tall"	"40"
 
 			"font"	"HudFontMediumBold"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 			
@@ -256,43 +256,28 @@
 
 			"pin_to_sibling"	"DeathsTanLight"					
 		}
-
-		"DamageLabel"
-		{
-			"ControlName"	"Label"	"fieldName"	"DamageLabel"
-			
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"60"	"tall"	"40"
-
-			"font"	"HudFontMediumBold"	"visible"	"1"	"enabled"	"1"
-			
-			"labelText"	"DMG:"	"textAlignment"	"Center"			
-			
-			"fgcolor"	"TanLight"			
-
-			"pin_to_sibling"	"AssistsTanLight"	
-		}
 		
 		"DamageTanLight"
 		{
 			"ControlName"	"CExLabel"	"fieldName"	"DamageTanLight"
 			
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"60"	"tall"	"40"
+			"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"60"	"tall"	"20"
 
-			"font"	"HudFontMediumBold"	"visible"	"1"	"enabled"	"1"
+			"font"	"f16"	"visible"	"1"	"enabled"	"1"
 			
 			"labelText"	"%damage%"	"textAlignment"	"Center"			
 			
 			"fgcolor"	"CustomCyan"			
 
-			"pin_to_sibling"	"DamageLabel"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"	
+			"pin_to_sibling"	"AssistsTanLight"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"	
 		}
 		"DamageShadow"
 		{
 			"ControlName"	"CExLabel"	"fieldName"	"DamageShadow"
 			
-			"xpos"	"-2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"60"	"tall"	"40"
+			"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"60"	"tall"	"20"
 
-			"font"	"HudFontMediumBold"	"visible"	"1"	"enabled"	"1"
+			"font"	"f16"	"visible"	"1"	"enabled"	"1"
 			
 			"labelText"	"%damage%"	"textAlignment"	"Center"
 			

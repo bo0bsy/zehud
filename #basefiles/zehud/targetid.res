@@ -1,14 +1,16 @@
 "Resource/UI/TargetID.res"
 {
-	CMainTargetID	{	"xpos"	"cs-0.5"	"ypos"	"340"	"tall"	"20"	"ypos_minmode"	"290"}
+	CMainTargetID	{	"xpos"	"cs-0.5"	"ypos"	"340"	"tall"	"25"	"ypos_minmode"	"290"	"tall_minmode"	"20"	}
 
-	CSecondaryTargetID	{	"xpos"	"cs-0.5"	"ypos"	"365"	"tall"	"20"	"ypos_minmode"	"325"		}
+	CSecondaryTargetID	{	"xpos"	"cs-0.5"	"ypos"	"365"	"tall"	"25"	"ypos_minmode"	"325"	"tall_minmode"	"20"	}
 	
-	CSpectatorTargetID	{	"xpos"	"c-126"	"ypos"	"250"	"tall"	"20"	}
+	CSpectatorTargetID	{	"xpos"	"c-126"	"ypos"	"250"	"tall"	"25"	"tall_minmode"	"20"	}
 	
-	"TargetNameLabel"	{	"xpos"	"30"	"ypos"	"3"	"wide"	"640"	"tall"	"24"	"font"	"TFFontLarge"	}
+	"TargetIDBG"	{	"visible"	"0"	"visible_minmode"	"1"	}	
 	
-	"TargetDataLabel"	{	"xpos"	"30"	"ypos"	"10"	"zpos"	"1"	"wide"	"280"	"tall"	"8"	"font"	"DefaultVerySmall"	}		
+	"TargetNameLabel"	{	"xpos"	"30"	"ypos"	"6"	"wide"	"640"	"tall"	"24"	"font"	"f8"	"ypos_minmode"	"3"		"font_minmode"	"TFFontLarge"	}
+	
+	"TargetDataLabel"	{	"xpos"	"30"	"ypos"	"13"	"zpos"	"1"	"wide"	"280"	"tall"	"8"	"font"	"f12"	"ypos_minmode"	"10"	"font_minmode"	"DefaultVerySmall"	}		
 
 	"AmmoIcon"	{	"xpos"	"32"	"ypos"	"10" "wide"	"7"	"tall"	"7"	}
 

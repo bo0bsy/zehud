@@ -8,4 +8,3 @@
 #base "uber.res"
 #base "demomancharge.res"
 #base "demomanpipes.res"
-

@@ -13,46 +13,28 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"PlayerStatusHealthImageBG"
-		
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"55"	"tall"	"55"		
-		
-		"visible"	"1"	"enabled"	"1"	"image"	"../hud/health_bg"	"scaleImage"	"1"	
 		
 		"pin_to_sibling"	"HealthAnchor"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"		
 	}
 	
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"PlayerStatusHealthImage"
-		
 		"xpos"	"-2"	"ypos"	"-2"	"zpos"	"4"	"wide"	"51"	"tall"	"51"
-	
-		"visible"	"1"	"enabled"	"1"	"scaleImage"	"1"	
 		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"			
 	}	
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"PlayerStatusHealthBonusImage"
-		
 		"xpos"	"c-117"	"ypos"	"c47"	"zpos"	"2"	"wide"	"40"	"tall"	"40"	
 		
-		"xpos_minmode"	"67"	"ypos_minmode"	"r47"		
-		
-		"visible"	"0"	"enabled"	"1"	"image"	"../hud/health_over_bg"	"scaleImage"	"1"		
+		"xpos_minmode"	"67"	"ypos_minmode"	"r47"				
 	}
 	
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"CExLabel"	"fieldName"	"PlayerStatusHealthValue"
-		
 		"xpos"	"0"	"ypos"	"-19"	"zpos"	"7"	"wide"	"50"	"tall"	"18"
-
-		"font"	"HudClassHealth"	"visible"	"1"	"enabled"	"1"
-		
-		"labelText"	"%Health%"	"textAlignment"	"center"	
 
 		"fgcolor"	"TanDark"
 		

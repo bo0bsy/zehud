@@ -4,6 +4,8 @@
 "Resource/UI/HudDemomanCharge.res"
 {
 	"PlayerStatusHealthImageBG"	{	"wide"	"0"	}
+	"PlayerStatusHealthImage"	{	"wide"	"0"	}	
+	"PlayerStatusHealthBonusImage"	{	"wide"	"0"	}	
 	"PlayerStatusHealthValue"	{	"wide"	"0"	}
 	"PlayerStatusHealthValueShadow"	{	"wide"	"0"	}
 	"PlayerStatusHealthValueBLur"	{	"wide"	"0"	}

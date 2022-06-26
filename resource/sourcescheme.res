@@ -27,7 +27,7 @@
 #base "scheme/border_stuff/frameborder.res"
 #base "scheme/border_stuff/depressedborder.res"
 #base "scheme/border_stuff/titlebutton_2.res"
-#base "scheme/colors/orange.res"
+//#base "scheme/colors/orange.res"
 
 #base "scheme/sourceschemebase.res"
 
@@ -96,6 +96,9 @@ Scheme
 		
 		AchievementItemDescription
 		{	"1"	{	"name"	"Verdana"	}	}
+	
+		"size 14"
+		{	"1"	{	"name"	"Imagine Font Regular"	"tall"	"14"	}	}
 	}
 
 	CustomFontFiles	

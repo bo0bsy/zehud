@@ -11,7 +11,7 @@ Scheme
 		"TFTanMedium"				"131 121 104 150"
 		"TFTanLightBright"			"229 223 211 90"
 		"TFTanLightDark"			"96 90 78 90"
-	    "TFOrangeBright"			"156 82 33 255"
+	    "TFOrangeBright"			"120 200 120 255"
 	    "TFTextBright"				"235 226 202 255"
 		"TFTextLight"				"201 188 162 255"
 		"TFTextMedium"				"131 121 104 255"
@@ -28,5 +28,10 @@ Scheme
 		"SelectionBG"				"90 84 75 200"
 		"SelectionBG2"				"69 64 57 200"
 		"ListBG"					"0 0 0 100"
+		"Orange"					"120 200 120 255"
+		
+		"Positive"					"120 200 120 255"
+		"TanLight"					"235 226 202 255"
+		"CustomBlack"				"27 27 27 255"
 	}
 }
