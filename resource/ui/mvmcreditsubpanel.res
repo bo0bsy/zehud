@@ -2,67 +2,32 @@
 
 "Resource/UI/MvMCreditSubPanel.res"
 {	
-	"HeaderLabel"
-	{
-		"font"			"f14"
-		"textAlignment" "center"
-		"ypos"			"-2"
-		"wide"			"200"
-		"fgcolor"		"TanLight"
-	}
-	"TableBackground"
-	{
-		"tall"				"38"
-		"bgcolor_override"	"0 0 0 50"
-	}
+	"HeaderLabel"	{	"font"	"f14"	"ypos"	"-2"	"wide"	"200"	"textAlignment" "center"	"fgcolor"	"TanLight"	}
 	
-	"CreditCollectedTextLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
-	"CreditCollectedCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"Positive"
-	}
+	"TableBackground"	{	"tall"	"38"	"bgcolor_override"	"0 0 0 50"	}
 	
-	"CreditMissedTextLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
-	"CreditMissedCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"Negative"
-	}
+	"CreditCollectedTextLabel"		{	"font"	"f12"	"fgcolor"	"TanLight"	}
 	
-	"CreditBonusTextLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
+	"CreditCollectedCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
 	
-	"CreditBonusCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"CustomYellow"
-	}
+	"CreditMissedTextLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"CreditMissedCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"CreditBonusTextLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"CreditBonusCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
 
 	"CreditRatingLabel"
 	{
-		"font"			"f14"
-	//	"xpos"			"0"
-	//	"wide"			"200"
-	//	"fgcolor"		"TanLight"
+		"font"	"f14"
+		
+	//	"xpos"	"0"	"wide"	"200"	"fgcolor"	"TanLight"
 	}	
 	"CreditRatingLabelShadow"
 	{
-		"font"			"f14"
-	//	"xpos"			"1"
-		"zpos"			"-10"
-	//	"ypos"			"27"
-	//	"wide"			"200"
+		"font"	"f14"	"zpos"	"-10"
+		
+	//	"xpos"	"1"	"ypos"	"27"	"wide"	"200"
 	}
 }

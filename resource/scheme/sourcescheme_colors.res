@@ -22,6 +22,7 @@ Scheme
 	    "QuickListBGDeselected"		"50 50 50 255"
 		"QuickListBGSelected"		"70 70 70 255"
 		"ControlBG"					"76 88 68 200"
+		"ControlDarkBG"				"90 106 80 255"	
 		"ControlBackgroundDark"		"90 106 80 200"
 		"WindowBG"					"62 70 55 200"
 		"SelectionBG"				"90 84 75 200"

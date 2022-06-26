@@ -138,7 +138,7 @@
 
 		"ComboBoxValidItems"
 		{
-			"Font"									"f8"
+			"Font"	"f8"
 		
 			"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"
 			
@@ -219,9 +219,7 @@
 
 			"paintbackground"	"0"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"	"TanLight"
-			
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"
 			
 			"border_default"	"Black"	"border_armed"	"Select"
 		}

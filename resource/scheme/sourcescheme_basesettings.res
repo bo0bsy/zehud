@@ -18,11 +18,11 @@ Scheme
 		
 		CheckButton.Check	"DarkGrey"	CheckButton.DisabledBgColor	"Blank"
 
-		ToggleButton.SelectedTextColor	"Main"
+		ToggleButton.SelectedTextColor	"Black"
 
 		ComboBoxButton.ArrowColor	"Main"	ComboBoxButton.ArmedArrowColor	"Main"
 
-		RadioButton.TextColor	"Main"	RadioButton.SelectedTextColor	"Main"	RadioButton.ArmedTextColor	"TFTextMedium"
+		RadioButton.TextColor	"Main"	RadioButton.SelectedTextColor	"Black"	RadioButton.ArmedTextColor	"TFTextMedium"
 
 		Frame.BgColor	"27 27 27 255"	Frame.OutOfFocusBgColor	"27 27 27 255"
 		

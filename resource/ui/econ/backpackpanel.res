@@ -207,8 +207,7 @@
 	{	"ControlName"	"CExButton"	"fieldName"	"NextShortKey"	"xpos"	"9999"	"labelText"	"&D"	"Command"	"nextpage"	"visible"	"1"	}
 	
 	"mouseoveritempanel"
-	{
-		
+	{ 
 		"bgcolor_override"	"Blank"	"noitem_textcolor"	"TanLight"
 		
 		"attriblabel"	{	"font"	"f8"	"fgcolor"	"TanLight"	}

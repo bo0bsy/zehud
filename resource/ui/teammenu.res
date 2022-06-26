@@ -235,7 +235,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"BlueCount2"
 		
-		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"-2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		
@@ -261,7 +261,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"RedCount2"
 		
-		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		
@@ -293,7 +293,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"BlueLabel2"
 		
-		"xpos"	"1"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		
@@ -325,7 +325,7 @@
 	{
 		"ControlName"	"CExLabel"	"fieldName"	"RedLabel2"
 		
-		"xpos"	"1"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
+		"xpos"	"-2"	"ypos"	"-2"	"zpos"	"2"	"wide"	"p0.5"	"tall"	"48"
 		
 		"font"	"f36"	"visible"	"1"	"enabled"	"1"
 		
@@ -333,7 +333,7 @@
 		
 		"fgcolor"	"Shadow"
 		
-		"pin_to_sibling"	"RedLabel"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+		"pin_to_sibling"	"RedLabel"
 	}
 	
 	"Random"

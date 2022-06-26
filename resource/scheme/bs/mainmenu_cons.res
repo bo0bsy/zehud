@@ -10,7 +10,7 @@ MainMenu.MenuItemHeight "16"
 MainMenu.Backdrop   "Blank"
 // basically the shadow when you open console
 
-Console.TextColor   "Main"
+Console.TextColor   "120 200 120 255"
 Console.DevTextColor    "Main"
 
 NewGame.TextColor   "Main"

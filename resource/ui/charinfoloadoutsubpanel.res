@@ -559,10 +559,10 @@
 	{
 		"fieldName"	"InspectionPanel"
 		
-		"xpos"	"cs-0.5"	"ypos"	"0"	"zpos"	"2000"	"wide"	"f0"	"tall"	"f100"
+		"xpos"	"cs-0.5"	"ypos"	"0"	"zpos"	"2000"	"wide"	"f0"	"tall"	"f120"
 		
 		"visible"	"0"	"proportionaltoparent"	"1"
 		
-		"bgcolor_override"	"Blank"
+		"bgcolor_override"	"0 0 0 90"
 	}
 }

@@ -4,6 +4,8 @@
 {
 	"FreezePanel"	{	"screenshot_move_panel_to_corner"	"0"	}
 	
+	"itempanel"	{	"ypos"	"-50"	}
+	
 	"FreezePanelBase"
 	{
 		"xpos"	"20"	"ypos"	"rs1-20"	"wide"	"84"	"tall"	"48"
@@ -20,6 +22,7 @@
 			
 			"border"	"TFFatLineBorder"
 		}
+		
 		
 		"DeathIconBG2"
 		{

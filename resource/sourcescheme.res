@@ -79,7 +79,7 @@ Scheme
 		"ServerBrowserTitle"
 		{	"1"	{	"name"	"Verdana"	}	}
 		"Default"
-		{	"1"	{	"name"	"Verdana"	}	}
+		{	"1"	{	"name"	"Product Jofre"	"tall"	"16"	"antialias"	"1"	}	}
 		"ServerBrowserSmall"
 		{
 			"1"	{	"name"	"Verdana"	}
@@ -99,5 +99,8 @@ Scheme
 	}
 
 	CustomFontFiles	
-	{	"13"	{	"font" "resource/scheme/fonts/imagine_font.ttf"	"name" "Imagine Font Regular"	}	}	
+	{	
+		"13"	{	"font" "resource/scheme/fonts/imagine font.ttf"	"name" "Imagine Font Regular"	}	
+		"14"	{	"font" "resource/scheme/fonts/productjofre.otf"	"name" "Product Jofre"	}
+	}	
 }

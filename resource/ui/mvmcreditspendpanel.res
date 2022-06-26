@@ -2,51 +2,19 @@
 
 "Resource/UI/MvMCreditSpendPanel.res"
 {	
-	"HeaderLabel"
-	{
-		"font"			"f14"
-		"textAlignment" "center"
-		"ypos"			"-2"
-		"wide"			"200"
-		"fgcolor"		"TanLight"
-	}
-	"TableBackground"
-	{
-		"tall"				"38"
-		"bgcolor_override"	"0 0 0 50"
-	}
+	"HeaderLabel"	{	"font"	"f14"	"ypos"	"-2"	"wide"	"200"	"textAlignment" "center"	"fgcolor"	"TanLight"	}
 	
-	"UpgradesLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
-	"UpgradesCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"Positive"
-	}
+	"TableBackground"	{	"tall"	"38"	"bgcolor_override"	"0 0 0 50"	}
 	
-	"BuyBackLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
-	"BuyBackCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"Negative"
-	}
+	"UpgradesLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
 	
-	"BottleLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"TanLight"
-	}
+	"UpgradesCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
 	
-	"BottleCountLabel"
-	{
-		"font"			"f12"
-		"fgcolor"		"CustomYellow"
-	}
+	"BuyBackLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"BuyBackCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"BottleLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
+	
+	"BottleCountLabel"	{	"font"	"f12"	"fgcolor"	"TanLight"	}
 }

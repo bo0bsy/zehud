@@ -1,4 +1,4 @@
-#base "base/WaveStatusPanel.res"
+#base "base/wavestatuspanel.res"
 
 "Resource/UI/WaveStatusPanel.res"
 {
@@ -19,11 +19,11 @@
 	
 	"ProgressBar"
 	{
-		"xpos"	"211"	"ypos"	"20"	"wide"	"178"	"tall"	"10"
+		"xpos"	"cs-0.5"	"ypos"	"20"	"wide"	"178"	"tall"	"10"
 		
 		"ypos_minmode"	"8"		
 		
-		"image"	"replay/thumbnails/progress_bar"
+		"image"	"replay/thumbnails/progress_bar"	"proportionaltoparent"	"1"
 	
 		"draw_corner_width"	"0"	"draw_corner_height"	"0"	
 	}

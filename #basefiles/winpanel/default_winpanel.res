@@ -156,7 +156,7 @@
 	}
 	"Player1Class"
 	{	
-		"font"	"f8"
+		"font"	"Class Symbols Mini"
 
 		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
 		
@@ -181,7 +181,7 @@
 	}
 	"Player2Class"
 	{	
-		"font"	"f8"
+		"font"	"Class Symbols Mini"
 
 		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
 		
@@ -206,7 +206,7 @@
 	}
 	"Player3Class"
 	{	
-		"font"	"f8"
+		"font"	"Class Symbols Mini"
 
 		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
 		
@@ -245,7 +245,7 @@
 	
 	"KillStreakPlayer1Class"
 	{	
-		"font"	"f8"
+		"font"	"Class Symbols Mini"
 
 		"xpos"	"6"	"ypos"	"0"	"zpos"	"10"	"wide"	"40"	"tall"	"10"
 		

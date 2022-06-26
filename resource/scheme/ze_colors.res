@@ -18,6 +18,7 @@ Scheme
 		"CustomYellow"	"255 180 20 255"
 		"CustomGreen"	"180 255 180 255"
 		"CustomBlack"	"27 27 27 255"		
+		"CustomCyan"	"72 255 255 255"
 
 		"UberGreen"		"48 255 48 255"	
 		"UberCyan"		"72 255 255 255"

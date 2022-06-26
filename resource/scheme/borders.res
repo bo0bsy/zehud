@@ -378,7 +378,7 @@ Scheme
 			
 			"color"	"Black"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"11"	"draw_corner_height"	"11"		
 		}
@@ -442,7 +442,7 @@ Scheme
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
 			"color"					"QualityColorUnique"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -452,7 +452,7 @@ Scheme
 			
 			"color"	"QualityColorUnique"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -462,7 +462,7 @@ Scheme
 			
 			"color"	"QualityColorUnique_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -472,7 +472,7 @@ Scheme
 			
 			"color"	"QualityColorUnique_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -484,7 +484,7 @@ Scheme
 			
 			"color"	"QualityColorrarity1"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -494,7 +494,7 @@ Scheme
 			
 			"color"	"QualityColorrarity1"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -504,7 +504,7 @@ Scheme
 			
 			"color"	"QualityColorrarity1_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -514,7 +514,7 @@ Scheme
 			
 			"color"	"QualityColorrarity1_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -526,7 +526,7 @@ Scheme
 			
 			"color"	"QualityColorrarity2"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -536,7 +536,7 @@ Scheme
 			
 			"color"	"QualityColorrarity2"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -546,7 +546,7 @@ Scheme
 			
 			"color"	"QualityColorrarity2_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -556,7 +556,7 @@ Scheme
 			
 			"color"	"QualityColorrarity2_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -568,7 +568,7 @@ Scheme
 			
 			"color"	"QualityColorrarity3"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -578,7 +578,7 @@ Scheme
 			
 			"color"	"QualityColorrarity3"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -588,7 +588,7 @@ Scheme
 			
 			"color"	"QualityColorrarity3_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -598,7 +598,7 @@ Scheme
 			
 			"color"	"QualityColorrarity3_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -610,7 +610,7 @@ Scheme
 			
 			"color"	"QualityColorrarity4"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -620,7 +620,7 @@ Scheme
 			
 			"color"	"QualityColorrarity4"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -630,7 +630,7 @@ Scheme
 			
 			"color"	"QualityColorrarity4_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -640,7 +640,7 @@ Scheme
 			
 			"color"	"QualityColorrarity4_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -652,7 +652,7 @@ Scheme
 			
 			"color"	"QualityColorHaunted"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -662,7 +662,7 @@ Scheme
 			
 			"color"	"QualityColorHaunted"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -672,7 +672,7 @@ Scheme
 			
 			"color"	"QualityColorHaunted_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -682,7 +682,7 @@ Scheme
 			
 			"color"	"QualityColorHaunted_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -694,7 +694,7 @@ Scheme
 			
 			"color"	"QualityColorPaintkitWeapon"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -704,7 +704,7 @@ Scheme
 			
 			"color"	"QualityColorPaintkitWeapon"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -714,7 +714,7 @@ Scheme
 			
 			"color"	"QualityColorPaintkitWeapon_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -724,7 +724,7 @@ Scheme
 			
 			"color"	"QualityColorPaintkitWeaponGreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -736,7 +736,7 @@ Scheme
 			
 			"color"	"QualityColorCollectors"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -746,7 +746,7 @@ Scheme
 			
 			"color"	"QualityColorCollectors"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -756,7 +756,7 @@ Scheme
 			
 			"color"	"QualityColorCollectors_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -766,7 +766,7 @@ Scheme
 			
 			"color"	"QualityColorCollectors_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -778,7 +778,7 @@ Scheme
 			
 			"color"	"QualityColorVintage"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -788,7 +788,7 @@ Scheme
 			
 			"color"	"QualityColorVintage"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -798,7 +798,7 @@ Scheme
 			
 			"color"	"QualityColorVintage_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -808,7 +808,7 @@ Scheme
 			
 			"color"	"QualityColorVintage_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -820,7 +820,7 @@ Scheme
 			
 			"color"	"QualityColorCommunity"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -830,7 +830,7 @@ Scheme
 			
 			"color"	"QualityColorCommunity"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -840,7 +840,7 @@ Scheme
 			
 			"color"	"QualityColorCommunity_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -850,7 +850,7 @@ Scheme
 			
 			"color"	"QualityColorCommunity_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -862,7 +862,7 @@ Scheme
 			
 			"color"	"QualityColorDeveloper"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -872,7 +872,7 @@ Scheme
 			
 			"color"	"QualityColorDeveloper"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -882,7 +882,7 @@ Scheme
 			
 			"color"	"QualityColorDeveloper_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -892,7 +892,7 @@ Scheme
 			
 			"color"	"QualityColorDeveloper_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -904,7 +904,7 @@ Scheme
 			
 			"color"	"QualityColorSelfMade"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -914,7 +914,7 @@ Scheme
 			
 			"color"	"QualityColorSelfMade"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -924,7 +924,7 @@ Scheme
 			
 			"color"	"QualityColorSelfMade_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -934,7 +934,7 @@ Scheme
 			
 			"color"	"QualityColorSelfMade_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -946,7 +946,7 @@ Scheme
 			
 			"color"	"QualityColorCustomized"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -956,7 +956,7 @@ Scheme
 			
 			"color"	"QualityColorCustomized"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -966,7 +966,7 @@ Scheme
 			
 			"color"	"QualityColorCustomized_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -976,7 +976,7 @@ Scheme
 			
 			"color"	"QualityColorCustomized_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -988,7 +988,7 @@ Scheme
 			
 			"color"	"QualityColorStrange"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -998,7 +998,7 @@ Scheme
 
 			"color"	"QualityColorStrange"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1008,7 +1008,7 @@ Scheme
 			
 			"color"	"QualityColorStrange_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1018,7 +1018,7 @@ Scheme
 			
 			"color"	"QualityColorStrange_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1030,7 +1030,7 @@ Scheme
 			
 			"color"	"QualityColorCompleted"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1040,7 +1040,7 @@ Scheme
 			
 			"color"	"QualityColorCompleted"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1050,7 +1050,7 @@ Scheme
 			
 			"color"	"QualityColorCompleted_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1060,7 +1060,7 @@ Scheme
 			
 			"color"	"QualityColorCompleted_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1072,7 +1072,7 @@ Scheme
 			
 			"color"	"ItemRarityDefault"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1082,7 +1082,7 @@ Scheme
 			
 			"color"	"ItemRarityDefault"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1092,7 +1092,7 @@ Scheme
 			
 			"color"	"ItemRarityDefault_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1102,7 +1102,7 @@ Scheme
 			
 			"color"	"ItemRarityDefault_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1113,7 +1113,7 @@ Scheme
 			
 			"color"	"ItemRarityCommon"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1123,7 +1123,7 @@ Scheme
 			
 			"color"	"ItemRarityCommon"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1133,7 +1133,7 @@ Scheme
 			
 			"color"	"ItemRarityCommon_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1143,7 +1143,7 @@ Scheme
 			
 			"color"	"ItemRarityCommon_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1154,7 +1154,7 @@ Scheme
 			
 			"color"	"ItemRarityUncommon"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1164,7 +1164,7 @@ Scheme
 			
 			"color"	"ItemRarityUncommon"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1174,7 +1174,7 @@ Scheme
 			
 			"color"	"ItemRarityUncommon_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1184,7 +1184,7 @@ Scheme
 			
 			"color"	"ItemRarityUncommon_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1195,7 +1195,7 @@ Scheme
 			
 			"color"	"ItemRarityRare"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1205,7 +1205,7 @@ Scheme
 			
 			"color"	"ItemRarityRare"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1215,7 +1215,7 @@ Scheme
 			
 			"color"	"ItemRarityRare_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1225,7 +1225,7 @@ Scheme
 			
 			"color"	"ItemRarityRare_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1236,7 +1236,7 @@ Scheme
 			
 			"color"	"ItemRarityMythical"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1246,7 +1246,7 @@ Scheme
 			
 			"color"	"ItemRarityMythical"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1256,7 +1256,7 @@ Scheme
 			
 			"color"	"ItemRarityMythical_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1266,7 +1266,7 @@ Scheme
 			
 			"color"	"ItemRarityMythical_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1277,7 +1277,7 @@ Scheme
 			
 			"color"	"ItemRarityLegendary"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1287,7 +1287,7 @@ Scheme
 			
 			"color"	"ItemRarityLegendary"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1297,7 +1297,7 @@ Scheme
 			
 			"color"	"ItemRarityLegendary_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1307,7 +1307,7 @@ Scheme
 			
 			"color"	"ItemRarityLegendary_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1318,7 +1318,7 @@ Scheme
 			
 			"color"	"ItemRarityAncient"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1328,7 +1328,7 @@ Scheme
 			
 			"color"	"ItemRarityAncient"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1338,7 +1338,7 @@ Scheme
 			
 			"color"	"ItemRarityAncient_GreyedOut"
 			
-			"image"	"backpack_rect_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}
@@ -1348,7 +1348,7 @@ Scheme
 			
 			"color"	"ItemRarityAncient_GreyedOut"
 			
-			"image"	"backpack_rect_mouseover_color"
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"5"	"draw_corner_height"	"5"	
 		}

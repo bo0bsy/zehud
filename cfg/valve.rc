@@ -21,6 +21,8 @@ chud_firstrun
 
 // run a user script file if present
 exec autoexec.cfg
+
+exec clear
 // stuff command line statements
 stuffcmds
 // display the startup level

@@ -6,7 +6,7 @@
 	
 	"TitleLabel"	{	"font"	"f24"	"fgcolor_override"	"TanLight"	}
 	
-	"ExplanationLabel"	{	"font"	"f14"	"proportionaltoparent"	"1"	"xpos"	"cs-0.5+15"	"textAlignment"	"center"	"fgcolor_override"	"TanLight"	}
+	"ExplanationLabel"	{	"font"	"f14"	"proportionaltoparent"	"1"	"xpos"	"cs-0.5"	"textAlignment"	"center"	"fgcolor_override"	"TanLight"	}
 	
 	"CancelButton"
 	{

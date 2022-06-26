@@ -2,7 +2,7 @@
 
 "Resource/UI/MvMScoreboard.res"
 {		
-	"WaveStatusPanel"	{	"xpos"	"cs-0.5"	"ypos"	"-2"	"proportionaltoparent"	"1"			}
+	"WaveStatusPanel"	{	"xpos"	"cs-0.5"	"ypos"	"-7"	"ypos"	"-2"	"proportionaltoparent"	"1"	}
 	
 	"PopFileLabel"	{	"xpos"	"9999"	}	
 	
@@ -27,7 +27,7 @@
 		{
 			"image"	"replay/thumbnails/panels/material_transparent2"			
 		
-			"draw_corner_width"		"0"		"draw_corner_height" 	"0"	
+			"draw_corner_width"	"0"	"draw_corner_height"	"0"	
 		}
 		
 		"CreditsLabel"	{	"fgcolor"	"blank"	}		

@@ -6,7 +6,7 @@
 		{
 			"labeltext"	","
 			
-			"font"	"Symbols 16"
+			"font"	"Symbols 16"	"textinsety"	"3"
 
 			"FgColor"	"TanLight"	"defaultFgColor_override"	"TanLight"
 			
@@ -21,7 +21,7 @@
 	
 		"QuitButton"
 		{
-			"font"	"Symbols 18"
+			"font"	"Symbols 18"	"textinsety"	"3"
 			
 			"ypos"	"1"	"wide"	"30"	"tall"	"f7"	"Labeltext"	"b"	"textAlignment"	"center"
 
@@ -36,7 +36,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldName"	"DisconnectButton2"		
 		
-			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"Command"	"quit"	"actionsignallevel"	"2"
+			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"textinsety"	"3"	"Command"	"quit"	"actionsignallevel"	"2"
 		
 			"xpos"	"0"	"ypos"	"0"	"ypos"	"1"	"zpos"	"100"	"wide"	"30"	"tall"	"f7"	"Labeltext"	"b"	"textAlignment"	"center"
 			
@@ -53,7 +53,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldName"	"FindAGameButton2"
 			
-			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"Command"	"find_game"	"actionsignallevel"	"2"
+			"visible"	"1"	"enabled"	"1"	"font"	"Symbols 18"	"proportionaltoparent"	"1"	"textinsety"	"3"	"Command"	"find_game"	"actionsignallevel"	"2"
 			
 			"xpos"	"0"	"ypos"	"0"	"zpos"	"100"	"wide"	"30"	"tall"	"f7"	"Labeltext"	"!"	"textAlignment"	"center"
 			
