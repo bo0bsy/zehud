@@ -17,10 +17,17 @@ tf
     └── optimized-default-hud
         ├── #basefiles
         ├── #customization
+        ├── _loading
+        ├── addons
+        ├── admin
         ├── cfg
+        ├── classes
+        ├── demo
+        ├── friends
         ├── materials
         ├── resource
         ├── scripts
+        ├── servers
         ├── sound
         └── info.vdf
 ```
