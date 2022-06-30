@@ -780,7 +780,7 @@
 				
 					"xpos"	"-2"	"ypos"	"2"	"wide"	"150"	"tall"	"10"
 					
-					"font"	"f9"	"visible"	"1"	"enabled"	"1"	"Command"	"engine toggle tf_contract_progress_show; toggle mat_aaquality"	"actionsignallevel"	"4"
+					"font"	"f9"	"visible"	"1"	"enabled"	"1"	"Command"	"engine toggle tf_contract_progress_show;toggle tf_contract_competitive_show;toggle mat_aaquality"	"actionsignallevel"	"4"
 					
 					"labelText"	"Transparent viewmodels"	"textAlignment"	"west"
 					

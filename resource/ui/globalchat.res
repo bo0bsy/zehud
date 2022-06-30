@@ -34,7 +34,7 @@
 
 		"font"	"Default"
 
-		"bgcolor_override"	"CustomBlack"	"fgcolor_override"	"White"
+		"bgcolor_override"	"0 0 0 150"	"fgcolor_override"	"White"
 
 		"pin_to_sibling"	"chatlog"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}

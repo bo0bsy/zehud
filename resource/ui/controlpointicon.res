@@ -2,15 +2,15 @@
 
 "Resource/UI/ControlPointIcon.res"
 {
-	"ControlPointIcon"	{	"wide"	"21"	"tall"	"21"	}	
+	"ControlPointIcon"	{	"wide"	"20"	"tall"	"20"	}	
 	
-	"Countdown"	{	"wide"	"21"	"tall"	"21"	}	
+	"Countdown"	{	"wide"	"20"	"tall"	"20"	}	
 
 	"CapPlayerImage"	{	"wide"	"7"	"tall"	"14"	}
 
 	"CapNumPlayers"
 	{	
-		"xpos"	"10"	"ypos"	"3"	"wide"	"14"	"tall"	"21"
+		"xpos"	"10"	"ypos"	"3"	"wide"	"14"	"tall"	"20"
 		
 		"font"	"CapPlayerFontSmall"		
 	}
@@ -19,5 +19,5 @@
 	
 	"CPTimerLabel"	{	"wide"	"7"	"font"	"ControlPointTimerSmaller"	}
 
-	"CPTimerBG"	{	"wide"	"42"	"tall"	"21"	}
+	"CPTimerBG"	{	"wide"	"42"	"tall"	"20"	}
 }

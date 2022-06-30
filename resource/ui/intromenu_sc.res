@@ -1,0 +1,1 @@
+#base "base/intromenu_sc.res"

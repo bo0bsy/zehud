@@ -60,8 +60,6 @@ Scheme
 
 		"ScrollBarSlider.FgColor"	"108 108 108 255"	"ScrollBarSlider.BgColor"	"Blank"
 
-		"Slider.NobColor"	"108 108 108 255"	"Slider.TrackColor"	"60 60 60 255"
-
 		TextEntry.TextColor	"Main"	TextEntry.DisabledTextColor	"Main"	TextEntry.SelectedBgColor	"108 108 108 255"
 	}
 }

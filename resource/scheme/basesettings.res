@@ -85,10 +85,10 @@ Scheme
 		Label.DisabledFgColor1								"Blank"
 		Label.DisabledFgColor2								"Black"
 
-		ListPanel.TextColor									"Orange"
-		ListPanel.BgColor									"TransparentBlack"
-		ListPanel.SelectedTextColor							"Black"
-		ListPanel.SelectedBgColor							"ButtonDepressed"
+		ListPanel.TextColor									"TanLight"
+		ListPanel.BgColor									"Black"
+		ListPanel.SelectedTextColor							"Shadow"
+		ListPanel.SelectedBgColor							"TanLight"
 		ListPanel.SelectedOutOfFocusBgColor					"ButtonDepressed"
 		ListPanel.EmptyListInfoTextColor					"Orange"
 
@@ -147,9 +147,6 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor		"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor		"255 255 255 32"
 
-		Slider.NobColor										"108 108 108 255"
-		Slider.TextColor									"127 140 127 255"
-		Slider.TrackColor									"31 31 31 255"
 		Slider.DisabledTextColor1							"117 117 117 255"
 		Slider.DisabledTextColor2							"30 30 30 255"
 

@@ -50,10 +50,10 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			
-			Left	{	"1"	{	"color" "TanDark"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDark"	"offset" "1	0"	}	}
-			Top		{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefault"	"offset" "1	0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
 		}
 		SalePriceBorder
 		{
@@ -69,8 +69,8 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			
-			Left	{	"1"	{	"color" "TanDarker"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDarker"	"offset" "1 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "1 0"	}	}
 		}
 
 		TanLight
@@ -143,7 +143,7 @@ Scheme
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
 			
-            "color"	"TanDark"					
+            "color"	"TanDarkDefault"					
 			
 			"image"	"replay/thumbnails/panels/material_generic"		
 			
@@ -291,10 +291,10 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			
-			Left	{	"1"	{	"color" "TanDarker"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDarker"	"offset" "1 0"	}	}
-			Top		{	"1"	{	"color" "TanDarker"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDarker"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "1 0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 0"	}	}
 		}
 		OptionsCategoryBorder
 		{
@@ -415,7 +415,9 @@ Scheme
 		{
 			"bordertype"	"scalable_image"	"backgroundtype"	"2"	
 			
-			"image"	"replay/thumbnails/panels/material_transparent"
+			"color"	"Gray"
+			
+			"image"	"replay/thumbnails/borders/backpack_rect_mouseover_color"
 			
 			"src_corner_height"	"24"	"src_corner_width"	"24"	"draw_corner_width"	"11"	"draw_corner_height"	"11"		
 		}
@@ -1359,10 +1361,10 @@ Scheme
 			
 			"backgroundtype"	"2"
 			
-			Left	{	"1"	{	"color" "TanDarker"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDarker"	"offset" "1 0"	}	}
-			Top		{	"1"	{	"color" "TanDarker"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDarker"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "1 0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefaulter"	"offset" "0 0"	}	}
 		}
 		StoreItemBorderMouseOver
 		{
@@ -1370,10 +1372,10 @@ Scheme
 			
 			"backgroundtype"		"2"
 			
-			Left	{	"1"	{	"color" "TanDark"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDark"	"offset" "1 0"	}	}
-			Top		{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefault"	"offset" "1 0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
 		}
 		StoreItemBorderSelected
 		{
@@ -1593,27 +1595,27 @@ Scheme
 		{
 			"inset" "0 0 1 1"
 			
-			Left	{	"1"	{	"color" "TanDark"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDark"	"offset" "1 0"	}	}
-			Top		{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefault"	"offset" "1 0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
 		}
 
 		SortCategoryBorder
 		{
 			"inset" "0 0 1 1"
 	
-			Right	{	"1"	{	"color" "TanDark"	"offset" "1 0"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefault"	"offset" "1 0"	}	}
 		}
 
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 1 1"
 			
-			Left	{	"1"	{	"color" "TanDark"	"offset" "0 1"	}	}
-			Right	{	"1"	{	"color" "TanDark"	"offset" "1 0"	}	}
-			Top		{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
-			Bottom	{	"1"	{	"color" "TanDark"	"offset" "0 0"	}	}
+			Left	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 1"	}	}
+			Right	{	"1"	{	"color" "TanDarkDefault"	"offset" "1 0"	}	}
+			Top		{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
+			Bottom	{	"1"	{	"color" "TanDarkDefault"	"offset" "0 0"	}	}
 		}
 
 		ReplayFatLineBorderRedBGOpaque

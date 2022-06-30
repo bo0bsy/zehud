@@ -38,8 +38,6 @@
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"eventpromo"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
-	"safemode"
-	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"showpromocodesbutton"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"backgroundfooter"
@@ -49,8 +47,6 @@
 	"storehasnewitemsimage"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"WatchStreamButton"
-	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
-	"SafeMode"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"Background"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
@@ -72,4 +68,6 @@
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"CompetitiveAccessInfoPanel"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"FriendsContainer"	
+	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 }

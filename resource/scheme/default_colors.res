@@ -2,7 +2,6 @@ Scheme
 {
 	Colors
 	{
-		"Orange"								"178 82 22 255"
 		"OrangeDim"								"178 82 22 120"
 		"LightOrange"							"188 112 0 128"
 		"GoalOrange"							"255 133 0"
@@ -28,14 +27,13 @@ Scheme
 		"PartyMember5"		 					"255 118 108 255"
 		"PartyMember6"		 					"255 133 255 255"
 		
-		"White"				 					"235 235 235 255"
+		"White"				 					"235 226 202 255"
 		"Red"				 					"192 28 0 140"
 		"RedSolid"			 					"192 28 0 255"
-		"Blue"				 					"0 28 162 140"
 		"Yellow"			 					"251 235 202 255"
 		"TransparentYellow"	 					"251 235 202 140"
 		"BrightYellow"		 					"251 235 0 255"
-		"GreenSolid"		 					"76 107 34 255"
+		"GreenSolid"		 					"120 200 120 255"
 		
 		"Black"									"46 43 42 255"
 		"TransparentBlack"						"0 0 0 196"
@@ -53,7 +51,7 @@ Scheme
 		"HudBlack"								"65 65 65 255"
 		"ProgressBarBlue"						"91 122 142 255"
 		
-		"CreditsGreen"							"94 150 49 255"
+		"CreditsGreen"							"120 236 156 255"
 		
 		"Gray"									"178 178 178 255"
 		"DarkerGray"							"135 135 135 255"		
@@ -78,7 +76,8 @@ Scheme
 		
 		"HudTrainingHint"						"212 160 23 255"
 		
-		"TanDark"								"117 107 94 255"
+		"TanDark"								"235 226 202 255"
+		"TanDarkDefault"						"117 107 94 255"
 		"TanLight"								"235 226 202 255"
 		"TanLightSelect"						"235 226 202 180"		
 		"Blacker"								"46 43 42 255"

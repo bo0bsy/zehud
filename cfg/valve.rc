@@ -5,22 +5,23 @@ r_decal_cullsize 1
 exec joystick.cfg
 
 // ============
+
+// run a user script file if present
+exec autoexec.cfg
+
+// ============
 // CUSTOM STUFF
 // ============
 
 //exec remove_dimmer.cfg
 exec hud_classswitch.cfg
 exec transparent_viewmodels.cfg
+exec net_graph.cfg
 
 // manage the firstrun file
 alias chud_firstrun "exec hud_firstrun"
 exec hud_has_run.txt
 chud_firstrun
-
-// ============
-
-// run a user script file if present
-exec autoexec.cfg
 
 exec clear
 // stuff command line statements
@@ -32,3 +33,11 @@ sv_unlockedchapters 99
 tf_hud_target_id_disable_floating_health 1
 tf_spectator_target_location 1
 tf_contract_progress_show 0
+tf_contract_competitive_show 0
+
+// ============
+// WELCOME DIALOG
+// ============
+
+alias "workshop"	"OpenSteamWorkshopDialog"
+wait 20; workshop

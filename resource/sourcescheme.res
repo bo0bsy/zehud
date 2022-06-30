@@ -27,12 +27,15 @@
 #base "scheme/border_stuff/frameborder.res"
 #base "scheme/border_stuff/depressedborder.res"
 #base "scheme/border_stuff/titlebutton_2.res"
+#base "scheme/colors/slider_tick.res"
 //#base "scheme/colors/orange.res"
 
 #base "scheme/sourceschemebase.res"
 
 Scheme
 {
+	BaseSettings	{	"FrameTitleBar.Font"	"size 14"	}
+
 	Borders
 	{
 		BaseBorder							SubtleBorder
@@ -67,17 +70,17 @@ Scheme
 				"1"	{	"color"	"Border.DarkSolid"	"offset"	"0 0"	}
 				"2"	{	"color"	"Border.DarkSolid"	"offset"	"0 0"	}
 			}
-		}
+		}		
 	}
 
 	Fonts
 	{
         "DefaultFixedOutline"
-        {	"1"	{	"name"	"Verdana"	}	}	
+        {	"1"	{	"name"	"Imagine Font Regular"	"tall"	"6"	}	}	
 		"MainMenuFont"
 		{	"1"	{	"name"	"Verdana"	}	}
 		"ServerBrowserTitle"
-		{	"1"	{	"name"	"Verdana"	}	}
+		{	"1"	{	"name"	"Imagine Font Regular"	}	}
 		"Default"
 		{	"1"	{	"name"	"Product Jofre"	"tall"	"16"	"antialias"	"1"	}	}
 		"ServerBrowserSmall"

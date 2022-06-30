@@ -1,219 +1,103 @@
+#base "../../#basefiles/rainbow-bg.res"
+#base "base/tfadvancedoptionsdialog.res"
+
 "Resource\UI\TFAdvancedOptionsDialog.res"
 {
 	"TFAdvancedOptionsDialog"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TFAdvancedOptionsDialog"
-		"xpos"										"0"
-		"ypos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
 
-		"visible"									"1"
-		"enabled"									"1"
-
-		"settitlebarvisible"						""
-		"PaintBackgroundType"						"0"
-		"paintbackground"							"2"
-		"border"									"noborder"
+		"PaintBackgroundType"	"0"	"paintbackground"	"2"
 		
-		"control_w"									"500"
-		"control_h"									"25"
-		"slider_w"									"500"
-		"slider_h"									"25"
+		"border"	"noborder"
 	}
 	
 	"Background"
 	{
-		"ControlName"								"ImagePanel"
-		"fieldName"									"Background"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"0"
-		"wide"										"f0"
-		"tall"										"f0"
-		"visible"									"1"
-		"enabled"									"1"
-		"image"										"replay/thumbnails/menu/menugif"
-		"scaleimage"								"1"
+		"ControlName"	"ImagePanel"	"fieldName"	"Background"
+		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
+		
+		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/menu/menugif"	"scaleimage"	"1"
 	}
 	
 	"BackgroundCustom"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"BackgroundCustom"
-		"xpos"										"c-310"
-		"ypos"										"85"
-		"zpos"										"1"
-		"wide"										"623"
-		"tall"										"320"
-		"visible"									"1"
-		"enabled"									"1"
-		"paintbackground"							"0"
-		"border"									"TransparentBackground"
+		"ControlName"	"EditablePanel"	"fieldName"	"BackgroundCustom"
+		
+		"xpos"	"c-310"	"ypos"	"85"	"zpos"	"2"	"wide"	"623"	"tall"	"320"
+		
+		"visible"	"1"	"enabled"	"1"
+		
+		"paintbackground"	"0"
+		
+		"border"	"MainMenuBGBorder"
 	}	
 	
-	"TitleLabel"
-	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabel"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#TF_AdvancedOptions"
-		"textAlignment"								"center"
-		"xpos"										"c-250"
-		"ypos"										"40"
-		"zpos"										"2"
-		"wide"										"500"
-		"tall"										"40"
-
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor_override" 							"TanLight"
-	}
+	"TitleLabel"	{	"xpos"	"c-250"	"ypos"	"40"	"zpos"	"3"	"fgcolor_override"	"TanLight"	}
 	
 	"TitleLabelShadow"
 	{
-		"ControlName"								"CExLabel"
-		"fieldName"									"TitleLabelShadow"
-		"font"										"HudFontMediumBold"
-		"labelText"									"#TF_AdvancedOptions"
-		"textAlignment"								"center"
-		"xpos"										"-1"
-		"ypos"										"-1"
-		"zpos"										"2"
-		"wide"										"500"
-		"tall"										"40"
+		"ControlName"	"CExLabel"	"fieldName"	"TitleLabelShadow"
+		
+		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"2"	"wide"	"500"	"tall"	"40"
 
-		"visible"									"1"
-		"enabled"									"1"
-		"fgcolor_override" 							"Shadow"
+		"font"	"HudFontMediumBold"	"visible"	"1"	"enabled"	"1"
+		
+		"labelText"	"#TF_AdvancedOptions"	"textAlignment"	"center"
+		
+		"fgcolor_override"	"Shadow"
 
-		"pin_to_sibling"							"TitleLabel"		
+		"pin_to_sibling"	"TitleLabel"		
 	}		
 	
 	"CancelButton"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"CancelButton"
-		"xpos"										"c-310"
-		"ypos"										"410"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"25"
-
-		"visible"									"1"
-		"enabled"									"1"
-
-		"labelText"									"#Cancel"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-
-
-		"default"									"1"
-		"Command"									"Close"
+		"xpos"	"c-310"	"ypos"	"410"	"zpos"	"2"
 		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
+		"paintbackground"	"0"
 		
-		"paintbackground"							"0"
+		"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
+		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"defaultFgColor_override"					"TanLight"
-		"armedFgColor_override" 					"TanLight"
-		"depressedFgColor_override" 				"TanLight"
-		
-		"border_default"							"Black"
-		"border_armed"								"Negative"
+		"border_default"	"Black"	"border_armed"	"Negative"
 	}
 	
 	"OkButton"
 	{
-		"ControlName"								"CExButton"
-		"fieldName"									"OkButton"
-		"xpos"										"c213"
-		"ypos"										"410"
-		"zpos"										"2"
-		"wide"										"100"
-		"tall"										"25"
+		"xpos"	"c213"	"ypos"	"410"	"zpos"	"2"	"labelText"	"save"
 
-		"visible"									"1"
-		"enabled"									"1"
-
-		"labelText"									"#GameUI_Ok"
-		"font"										"HudFontSmallBold"
-		"textAlignment"								"center"
-
-		"default"									"1"
-		"Command"									"Ok"
+		"paintbackground"	"0"
 		
-		"sound_depressed"							"UI/buttonclick.wav"
-		"sound_released"							"UI/buttonclickrelease.wav"
+		"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
 		
-		"paintbackground"							"0"
+		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"
 		
-		"defaultBgColor_override"					"Blank"
-		"armedBgColor_override"						"Blank"
-		"depressedBgColor_override"					"Blank"
-		
-		"defaultFgColor_override"					"TanLight"
-		"armedFgColor_override" 					"TanLight"
-		"depressedFgColor_override" 				"TanLight"
-		
-		"border_default"							"Black"
-		"border_armed"								"Positive"
+		"border_default"	"Black"	"border_armed"	"Positive"
 	}
 	
-	"PanelListPanel"
+	"PanelListPanel"	{	"xpos"	"c-300"	"ypos"	"95"	"zpos"	"4"	"wide"	"600"	"tall"	"300"	"bgcolor_override"	"blank"	}
+	
+	"MMBackgroundPanel"
 	{
-		"ControlName"								"CPanelListPanel"
-		"fieldName"									"PanelListPanel"
-		"xpos"										"c-300"
-		"ypos"										"100"
-		"wide"										"600"
-		"zpos"										"2"
-		"tall"										"290"
-
-		"visible"									"1"
-		"enabled"									"1"
-
-		"bgcolor_override"							"0 0 0 50"
-	}
+		"xpos"			"c-300"
+		"ypos"			"95"
+		"zpos"			"3"
+		"wide"			"600"
+		"tall"			"300"
+		
+		"PaintBackgroundType"	"2"
+	}	
 	
 	"TooltipPanel"
 	{
-		"ControlName"								"EditablePanel"
-		"fieldName"									"TooltipPanel"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"100"
-		"wide"										"240"
-		"tall"										"50"
-		"visible"									"0"
-		"PaintBackgroundType"						"0"
-		"paintbackground"							"0"
-		"border"									"MainMenuBGBorder"
+		"wide"	"300"
 		
-		"TipLabel"
-		{
-			"ControlName"							"CExLabel"
-			"fieldName"								"TipLabel"
-			"font"									"f10"
-			"labelText"								"%tiptext%"
-			"textAlignment"							"center"
-			"xpos"									"20"
-			"ypos"									"10"
-			"zpos"									"2"
-			"wide"									"200"
-			"tall"									"30"
-
-			"visible"								"1"
-			"enabled"								"1"
-			"fgcolor_override"						"TanLight"
-			"wrap"									"1"
-			//"centerwrap"							"1"
-		}
+		"border"	"Black"
+	
+		"PaintBackgroundType"	"0"	"paintbackground"	"0"
+		
+		"TipLabel"	{	"font"	"f10"	"fgcolor_override"	"TanLight"	}
 	}	
 }

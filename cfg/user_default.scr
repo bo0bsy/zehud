@@ -229,7 +229,7 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	 	
+	
 	"category2"
 	{
 		"#TF_OptionCategory_ClassSpecific"
@@ -291,19 +291,11 @@ DESCRIPTION INFO_OPTIONS
 		{ SLIDER 10 99 }
 		{ "75" }
 	}
-		
+
 	"category3"
 	{
 		"#TF_OptionCategory_HUD"
 		{ CATEGORY }
-	}
-	
-	"cl_hud_minmode"
-	{
-		"#GameUI_EnableHUDMinMode"
-		"#Tooltip_EnableHUDMinMode"
-		{ BOOL }
-		{ "0" }
 	}
 	
 	"tf_colorblindassist"
@@ -352,26 +344,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-	
-	"viewmodel_fov"
-	{
-		"#TF_viewmodelfov_option"
-		"#Tooltip_viewmodelfov_option"
-		{ SLIDER 54 90 }
-		{ "1" }
-	}
-	
-	"tf_spectator_target_location"
-	{
-		"#TF_Spectator_TargetID_Location"
-		{ LIST
-			"#TF_Spectator_Default" "0"
-			"#TF_Spectator_Bottom_Left" "1"
-			"#TF_Spectator_Bottom_Center" "2"
-			"#TF_Spectator_Bottom_Right" "3"
-		}
-		{ "0" }
-	}	
 	
 	"hud_freezecamhide"
 	{
@@ -428,44 +400,12 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"tf_hud_target_id_disable_floating_health"
-	{
-		"#TF_TargetID_Disable_Floating"
-		"#ToolTip_TargetID_Disable_Floating"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"tf_hud_target_id_alpha"
 	{
 		"#TF_TargetID_Alpha"
 		"#ToolTip_TargetID_Alpha"
 		{ SLIDER 0 255 }
 		{ "100" }
-	}
-
-	"tf_contract_progress_show"
-	{
-		"#TF_Contract_Progress"
-		"#ToolTip_TF_Contract_Progress"
-		{ LIST
-			"#TF_Contract_Progress_None"	"0"
-			"#TF_Contract_Progress_All"		"1"
-			"#TF_Contract_Progress_Active"	"2"
-		}
-		{ "1" }
-	}
-
-	"tf_contract_competitive_show"
-	{
-		"#TF_Contract_Progress_Competitive"
-		"#ToolTip_TF_Contract_Progress"
-		{ LIST
-			"#TF_Contract_Progress_None"	"0"
-			"#TF_Contract_Progress_All"		"1"
-			"#TF_Contract_Progress_Active"	"2"
-		}
-		{ "1" }
 	}
 
 	"tf_scoreboard_mouse_mode"
@@ -488,70 +428,8 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-
+	
 	"category4"
-	{
-		"#TF_OptionCategory_Replay"
-		{ CATEGORY }
-	}
-	
-	"youtube_http_proxy"
-	{
-		"#TFOption_httpproxy"
-		"#Tooltip_httpproxy"
-		{ STRING }
-		{ "" }
-	}
-	
-	"replay_postdeathrecordtime"
-	{
-		"#TFOption_postdeathrecordtime"
-		"#Tooltip_postdeathrecordtime"
-		{ SLIDER 0 10 }
-		{ "5" }
-	}
-	
-	"replay_enableeventbasedscreenshots"
-	{
-		"#TFOption_replay_enableeventbasedscreenshots"
-		"#Tooltip_replay_enableeventbasedscreenshots"
-		{ BOOL }
-		{ "1" }
-	}
-
-	"replay_screenshotresolution"
-	{
-		"#TFOption_replay_screenshotresolution"
-		"#Tooltip_replay_screenshotresolution"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"replay_maxscreenshotsperreplay"
-	{
-		"#TFOption_replay_maxscreenshots"
-		"#Tooltip_replay_maxscreenshots"
-		{ NUMBER 1 1000 }
-		{ "200" }
-	}
-	
-	"replay_mintimebetweenscreenshots"
-	{
-		"#TFOption_mintimebetweenscreenshots"
-		"#Tooltip_mintimebetweenscreenshots"
-		{ NUMBER 1 1000 }
-		{ "5" }
-	}
-
-	"tf_replay_pyrovision"
-	{
-		"#TF_ReplayPyroVision"
-		"#Tooltip_ReplayPyroVision"
-		{ BOOL }
-		{ "0" }
-	}
-	
-	"category5"
 	{
 		"#TF_OptionCategory_Performance"
 		{ CATEGORY }
@@ -581,7 +459,7 @@ DESCRIPTION INFO_OPTIONS
 		{ "200" }
 	}
 	
-	"category6"
+	"category5"
 	{
 		"#TF_OptionCategory_Misc"
 		{ CATEGORY }
@@ -610,14 +488,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "1" }
 	}
-
-	"r_drawviewmodel"
-	{
-		"#TF_drawviewmodel_option"
-		"#Tooltip_drawviewmodel_option"
-		{ BOOL }
-		{ "1" }
-	}	
 	
 	"cl_flipviewmodels"
 	{
@@ -638,14 +508,6 @@ DESCRIPTION INFO_OPTIONS
 	"sb_close_browser_on_connect"
 	{
 		"#GameUI_CloseBrowserOnConnect"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"cl_cloud_settings"
-	{
-		"#Valve_UseSteamCloud"
-		"#Tooltip_UseSteamCloud"
 		{ BOOL }
 		{ "1" }
 	}
@@ -690,36 +552,7 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 	
-	
-	"categoryDev"
-	{
-		"Dev / Debug"
-		{ CATEGORY }
-	}
-	
-	"cl_showfps"
-	{
-		"Show fps"
-		"current fps appears at the top right"
-		{ BOOL }
-		{ "0" }
-	}
-		
-	"cl_showpos"
-	{
-		"Show position"
-		"Shows position, angle, and velocity"
-		{ BOOL }
-		{ "0" }
-	}
-	"net_graph"
-	{
-		"Netgraph"
-		"1-4"
-		{ NUMBER 0 4 }
-		{ "0" }
-	}
-	"category7"
+	"category6"
 	{
 		"#TF_OptionCategory_DemoSupport"
 		{ CATEGORY }
@@ -780,13 +613,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 
-	"ds_screens"
-	{
-		"#TF_DemoSupport_Screens"
-		{ BOOL }
-		{ "1" }
-	}
-
 	"ds_min_streak"
 	{
 		"#TF_DemoSupport_MinStreak"
@@ -810,91 +636,81 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}	
-	"category8"
+	"category7"
 	{
-		"Category 8" 
+		"Category 7" 
 		{ CATEGORY }
 	}	
-		"cl_first_person_uses_world_model"
-		{
-			"First Person World Models (!)"
-			"Some items are bugged like spy watches, use at your own risk! Shows your weapons from the world perspective. Allows you to look down and see your body, weapon and legs."
-			{ BOOL }
-			{ "0" }
-		}
-		
-		"tf_taunt_first_person"
-		{
-			"First person view taunts (!)"
-			"Do not use this if you do not have First Person World Models enabled!"
-			{ BOOL }
-			{ "0" }
-		}
-		"fov_desired"
-		{
-			"Field of View - fov_desired"
-			"Angle of vision that you have. Higher number means more will be visible on screen."
-			{ NUMBER 54 90 }
-			{ "90" }
-		}
-		
-		"viewmodel_fov"
-		{
-			"#TF_viewmodelfov_option"
-			"#Tooltip_viewmodelfov_option"
-			{ NUMBER 0 180 }
-			{ "90" }
-		}
-		
-		"r_decals"
-		{
-			"Decals (sprays and bullet decals)"
-			"Minimum 1 -- Maximum 4096"
-			{ NUMBER 1 4096 }
-			{ "2048" }
-		}
-		
-		"snd_mixahead"
-		{
-			"Sound mix time"
-			"Minimum 0.05 -- Maximum 1"
-			{ NUMBER 0.05 1 }
-			{ "0.1" }
-		}
-		"tf_particles_disable_weather"
-		{
-			"#TF_DisableWeatherParticles"
-			"#Tooltip_DisableWeatherParticles"
-			{ BOOL }
-			{ "0" }
-		}	
-		"net_graphpos"
-		{
-			"Net graph position"
-			"Sets the horizontal positioning of net_grapgh."
-			{ 
-				LIST
-				"Left" "0"
-				"Right" "1"
-				"Center" "2"
-			}
-			{ "1" }
-		}
-		
-		"net_graphheight"
-		{
-			"Net graph height"
-			"Sets the vertical positioning of net_grapgh."
-			{ SLIDER 0 650 }
-			{ "100" }
-		}
-	"fps_max"
+	
+	"cl_first_person_uses_world_model"
 	{
-		"FPS cap"
-		"Limits the FPS to a certain value."
-		{ NUMBER 10 1000 }
-		{ "120" }
-	}		
+		"First Person World Models (!)"
+		"Some items are bugged like spy watches, use at your own risk! Shows your weapons from the world perspective. Allows you to look down and see your body, weapon and legs."
+		{ BOOL }
+		{ "0" }
+	}
+		
+	"tf_taunt_first_person"
+	{
+		"First person view taunts (!)"
+		"Do not use this if you do not have First Person World Models enabled!"
+		{ BOOL }
+		{ "0" }
+	}
+	
+	"fov_desired"
+	{
+		"Field of View - fov_desired"
+		"Angle of vision that you have. Higher number means more will be visible on screen."
+		{ NUMBER 54 90 }
+		{ "90" }
+	}
+	
+	"r_decals"
+	{
+		"Decals (sprays and bullet decals)"
+		"Minimum 1 -- Maximum 4096"
+		{ NUMBER 1 4096 }
+		{ "2048" }
+	}
+	
+	"snd_mixahead"
+	{
+		"Sound mix time"
+		"Minimum 0.05 -- Maximum 1"
+		{ NUMBER 0.05 1 }
+		{ "0.1" }
+	}
+
+	"tf_particles_disable_weather"
+	{
+		"#TF_DisableWeatherParticles"
+		"#Tooltip_DisableWeatherParticles"
+		{ BOOL }
+		{ "0" }
+	}	
+
+	"net_graphpos"
+	{
+		"Net graph position"
+		"Sets the horizontal positioning of net_grapgh."
+		{ 
+			LIST
+			"Left" "0"
+			"Right" "1"
+			"Center" "2"
+		}
+		{ "1" }
+	}
+	
+	"net_graphheight"
+	{
+		"Net graph height"
+		"Sets the vertical positioning of net_grapgh."
+		{ SLIDER 0 650 }
+		{ "100" }
+	}
+	
 	"tf_playergib"
 	{
 		"Gibbing mode"
@@ -1004,13 +820,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "0 0 0" }
 	}
 	
-	"mat_monitorgamma"
-	{
-		"Monitor gamma"
-		"Gamma (basically brightness). Lower values results in brighter colors."
-		{ SLIDER 1.6 2.6 }
-		{ "2" }
-	}
 	"voice_loopback"
 	{
 		"Voice loopback"
@@ -1112,23 +921,6 @@ DESCRIPTION INFO_OPTIONS
 		{""}
 	}
 	
-	"mat_supportflashlight" 
-	{
-		"Support Flashlight"
-		"Load Flashlight's shaders. Required to enable Flashlight on servers that support it."
-		{ BOOL }
-		{""}
-	}
-	
-	"cl_mainmenu_updateglow" 
-	{
-
-		"Main Menu - Update Glow"
-		"Enables glow on 'Heavy vs. Pyro' button"
-		{ BOOL }
-		{""}
-	}
-	
 	"tf_casual_welcome_hide" 
 	{
 		"Hide Welcome text in Casual"
@@ -1142,45 +934,4 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{""}
 	}
-	
-	"tf_mvm_buybacks_method" 
-	{
-		"MVM - Buybacks Method"
-		"When unchecked: use the traditional currency-based system.  When checked: use finite charge-based system."
-		{ BOOL }
-		{""}
-	}
-	
-	"tf_mvm_buybacks_per_wave" 
-	{
-		"MVM - Buybacks per Wave"
-		"The fixed number of buybacks players can use per-wave. (default value - 3)"
-		{ STRING }
-		{""}
-	}
-	
-	"tf_mvm_currency_bonus_ratio_min" 
-	{
-		"MVM - Min Collected Cash for Bonus"
-		"The minimum percentage of wave money players must collect in order to qualify for min bonus - 0.1 to 1.0. (default value - 0.95f)"
-		{ STRING }
-		{""}
-	}
-	
-	"tf_mvm_currency_bonus_ratio_max" 
-	{
-		"MVM - Max Collected Cash for Bonus"
-		"The highest percentage of wave money players must collect in order to qualify for max bonus - 0.1 to 1.0.  Half the bonus amount will be awarded when reaching min ratio and half when reaching max. (default value - 1.f)"
-		{ STRING }
-		{""}
-	}
-	
-	"tf_competitive_preround_countdown_duration" 
-	{
-		"Competitive - Countdown"
-		"How long we stay in countdown when in competitive games. (default value - 10.5) [this will obviously work only on your server with MM mode enabled]"
-		{ STRING }
-		{""}
-	}	
 }
-

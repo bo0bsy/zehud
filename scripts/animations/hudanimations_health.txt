@@ -36,7 +36,7 @@ event HudHealthBonusPulseStop
 	
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"			    Accel 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"			    Accel 0.0 0.0
-	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"Health Numbers" 		Accel 0.0 0.0
+	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"TanLight" 				Accel 0.0 0.0
 
 	Animate 	buff2									Alpha		"0"						Accel 0.0 0.0
 	
@@ -85,7 +85,7 @@ event HudHealthDyingPulseStop
 	StopEvent 	HudHealthDyingPulse 					0.0
 	StopEvent 	HudHealthDyingPulseLoop 				0.0
 
-	Animate		PlayerStatusHealthValue					FgColor		"TanDark"				Accel 0.0 0.0	
+	Animate		PlayerStatusHealthValue					FgColor		"TanDarkDefault"				Accel 0.0 0.0	
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"				Accel 0.0 0.0
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"				Accel 0.0 0.0
 	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"TanLight" 				Accel 0.0 0.0

@@ -1,36 +1,47 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"FriendsContainer"
-	{	
-		"xpos"	"r163"	"ypos"	"r78"	"zpos"	"11"	"wide"	"163"	"tall"	"65"
-		
-		"bgcolor_override"	"0 0 0 100"
-		
-		"border"	"noborder"
-		
-		"TitleLabel"
-		{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
-		
-		"InnerShadow"	{	"border"	"noborder"	}		
-
-		"SteamFriendsList"
+	"SafeMode"
+	{
+		"xpos"	"2"	"ypos"	"0"	"zpos"	"100"	"wide"	"70"	"tall"	"p0.7"
+		"visible"	"1"	
+		"pin_to_sibling"	"Friends"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+		"FriendsContainer"
 		{
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"500"	"wide"	"f0"	"tall"	"f0"
-			
-			"inset_x"	"0"	"inset_y"	"0"
-			
-			"row_gap"	"1"	"column_gap"	"0"
-			
-			"friendpanel_kv"	{	"wide"	"80"	"tall"	"20"	}				
-			
-			"ScrollBar"
+			"ControlName"	"EditablePanel"	"fieldname"	"FriendsContainer"
+			"xpos"	"0"	"ypos"	"4"	"zpos"	"1"	"wide"	"60"	"tall"	"p0.7"
+			"visible"	"1"
+			"border"	"noborder"
+			"SteamFriendsList"
 			{
-				"xpos"	"rs1"	"ypos"	"0"	"tall"	"f0"	"wide"	"3"	"zpos"	"1000"
+				"ControlName"	"CSteamFriendsListPanel"	"fieldname"	"SteamFriendsList"
+				"xpos"	"0"	"ypos"	"0"	"zpos"	"500"	"wide"	"60"	"tall"	"p0.7"
+				"visible"	"1"	"proportionaltoparent"	"1"
+				"columns_count"	"1"	"inset_x"	"5"	"inset_y"	"2"	"row_gap"	"0"	"column_gap"	"0"	"restrict_width"	"0"
 
-				"Slider"	{	"fgcolor_override"	"White"	}
-			}		
+				"friendpanel_kv"	{	"wide"	"52"	"tall"	"70"	"proportionaltoparent"	"1"	}	// => resource\ui\SteamFriendPanel.res
+			
+				"ScrollBar"
+				{
+					"ControlName"	"ScrollBar"	"FieldName"		"ScrollBar"
+					"xpos"	"rs1+2"	"ypos"	"0"	"tall"	"f0"	"wide"	"0"	"zpos"	"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+					"Slider"	{	"fgcolor_override"	"TanLight"	}
+					"UpButton"	{	"ControlName"	"Button"	"FieldName"	"UpButton"	"visible"	"0"	}
+					"DownButton"	{	"ControlName"	"Button"	"FieldName"	"DownButton"	"visible"	"0"	}
+				}
+			}
 		}
-		
-		"BelowDarken"	{	"bgcolor_override"	"blank"	}		
+		"Background"
+		{
+			"ypos"	"2"	"wide"	"260"	"tall"	"p0.73"
+			"PaintBackgroundType"	"2"	"bgcolor_override"	"0 0 0 150"
+			"paintborder"	"0"
+			"TitleLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+			"SaveSettingsButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+			"LeaveSafeModeButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+			"Explanation"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		}
+		"InfoImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	}
 }

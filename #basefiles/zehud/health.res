@@ -36,7 +36,7 @@
 	{
 		"xpos"	"0"	"ypos"	"-19"	"zpos"	"7"	"wide"	"50"	"tall"	"18"
 
-		"fgcolor"	"TanDark"
+		"fgcolor"	"TanDarkDefault"
 		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"		
 	}

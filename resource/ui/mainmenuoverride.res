@@ -1,5 +1,4 @@
 #base "../../#basefiles/menu/tools.res"
-#base "../../#basefiles/menu/links.res"
 #base "../../#basefiles/menu/buttons.res"
 #base "../../#basefiles/menu/removed.res"
 #base "../../#basefiles/menu/notifications.res"
