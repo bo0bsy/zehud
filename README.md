@@ -18,6 +18,7 @@ tf
         ├── #basefiles
         ├── #customization
         ├── _loading
+        ├── _welcome
         ├── addons
         ├── admin
         ├── cfg
