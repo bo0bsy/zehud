@@ -38,17 +38,17 @@ Scheme
 
 	CustomFontFiles	
 	{
-		"1"		{	"font"	"resource/TF2.ttf"							"name" "TF2"	}
-		"2" 	{	"font"	"resource/TF2Secondary.ttf"					"name" "TF2 Secondary"	}
-		"3" 	{	"font"	"resource/TF2Professor.ttf"					"name" "TF2 Professor"	}	
-		"4" 	{	"font"	"resource/TF2Build.ttf"						"name" "TF2 Build"	}	
+		"1"		{	"font"	"resource/tf2.ttf"							"name" "tf2"	}
+		"2" 	{	"font"	"resource/tf2Secondary.ttf"					"name" "tf2 secondary"	}
+		"3" 	{	"font"	"resource/tf2Professor.ttf"					"name" "tf2 professor"	}	
+		"4" 	{	"font"	"resource/tf2Build.ttf"						"name" "tf2 build"	}	
 		"5"		{	"font"	"resource/ocra.ttf"							"name" "ocra"	}	
-		"6"		{	"font"	"resource/scheme/fonts/blank.ttf"			"name" "Adobe Blank"	}	
-		"7"		{	"font"	"resource/scheme/fonts/hypnotize icons.ttf"	"name" "Hypnotize Icons V3s"	}
-		"8"		{	"font"	"resource/scheme/fonts/tf2 class icons.ttf"	"name" "TF2 Class Icons V2"	}
-		"9"		{	"font"	"resource/scheme/fonts/readyup symbols.otf"	"name" "ReadyUp Symbols"	}	
-		"10"	{	"font"	"resource/scheme/fonts/tf2crosshairs.ttf"	"name" "TF2Crosshairs"	}	
-		"11"	{	"font"	"resource/scheme/fonts/zefont.otf"			"name" "ZeFont"	}
-		"12"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name" "ToonHUD Icons"	}
+		"6"		{	"font"	"resource/scheme/fonts/blank.ttf"			"name" "adobe blank"	}	
+		"7"		{	"font"	"resource/scheme/fonts/hypnotize icons.ttf"	"name" "hypnotize icons v3s"	}
+		"8"		{	"font"	"resource/scheme/fonts/tf2 class icons.ttf"	"name" "tf2 class icons v2"	}
+		"9"		{	"font"	"resource/scheme/fonts/readyup symbols.otf"	"name" "readyup symbols"	}	
+		"10"	{	"font"	"resource/scheme/fonts/tf2crosshairs.ttf"	"name" "tf2crosshairs"	}	
+		"11"	{	"font"	"resource/scheme/fonts/zefont.otf"			"name" "zefont"	}
+		"12"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name" "toonhud Icons"	}
 	}
 }
