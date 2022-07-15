@@ -1,0 +1,1 @@
+#base "base/hudmenutauntselection_sc.res"

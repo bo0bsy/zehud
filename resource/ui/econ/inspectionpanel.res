@@ -81,7 +81,7 @@
 			
 			"defaultFgColor_override"	"Blank"	"armedFgColor_override"	"Negative"	"depressedFgColor_override"	"CustomBlack"
 			
-			"image_drawcolor"	"Black"	"image_armedcolor"	"TanDark"			
+			"image_drawcolor"	"Black"	"image_armedcolor"	"TanDarkDefault"			
 		}
 		
 		"PaintkitBG"

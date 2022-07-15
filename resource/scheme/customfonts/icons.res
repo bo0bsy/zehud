@@ -57,7 +57,10 @@ Scheme
 		{	"1"	{	"name"	"TF2 Class Icons V2"	"tall"	"48"	"antialias"	"1"	}	}	
 
 		"Class Symbols Mini"
-		{	"1"	{	"name"	"TF2 Class Icons V2"	"tall"	"12"	"antialias"	"1"	}	}			
+		{	"1"	{	"name"	"tf2boobsy"	"tall"	"12"	"antialias"	"1"	}	}	
+
+		"Class Symbols Mini Stats"
+		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias"	"1"	}	}		
 	
 		"ReadyUp 24"
 		{	"1"	{	"name"	"ReadyUp Symbols"	"tall"	"24"	"antialias"	"1"	}	}

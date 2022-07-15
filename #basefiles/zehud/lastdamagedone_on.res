@@ -14,7 +14,7 @@
 		
 		"textAlignment_minmode"	"left"
 		
-		"fgcolor"	"damage"		
+		"fgcolor"	"Damage"		
 	}
 	
 	"CDamageAccountValueShadow"

@@ -2,8 +2,6 @@ Scheme
 {
 	Colors
 	{
-		"Crosshair"		"255 255 255 255"		
-		
 		"Damage"		"255 255 255 255"
 		
 		"Positive"		"120 200 120 255"

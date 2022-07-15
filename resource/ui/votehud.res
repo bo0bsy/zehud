@@ -45,7 +45,7 @@
 		{	"fillcolor"	"72 255 255 180"	}
 		
 		"Option2CountLabel"
-		{	"font"	"FontStorePrice"	"fgcolor_override"	"Gray"	}
+		{	"font"	"FontStorePrice"	"textAlignment"	"east"	"fgcolor_override"	"Gray"	}
 		
 		"LabelOption3"
 		{	"xpos"	"12"	"font"	"FontStorePriceSmall"	"fgcolor_override"	"TanLight"	}

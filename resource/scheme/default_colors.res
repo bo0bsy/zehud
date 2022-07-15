@@ -5,7 +5,7 @@ Scheme
 		"OrangeDim"								"178 82 22 120"
 		"LightOrange"							"188 112 0 128"
 		"GoalOrange"							"255 133 0"
-		"TFOrange"								"145 73 59 255"			
+		"TFOrange"								"117 107 94 255"			
 		"ButtonArmed"							"117 107 94 255"
 		"Purple"								"137 69 99 255"
 

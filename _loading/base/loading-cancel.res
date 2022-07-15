@@ -23,7 +23,7 @@
 		
 		"paintbackground"	"1"	"bgcolor_override"	"CustomBlack"
 	}
-			
+	
 	"CancelButton"
 	{
 	//	"ControlName"	"Button"	"fieldName"	"CancelButton"

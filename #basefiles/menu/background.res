@@ -18,5 +18,5 @@
 		"visible"	"1"	"proportionaltoparent"	"1"
 		
 		"PaintBackgroundType"	"2"	"bgcolor_override"	"27 27 27 255"
-	}
+	}	
 }

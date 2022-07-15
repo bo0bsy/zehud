@@ -96,12 +96,12 @@
 			"pin_to_sibling"	"RedTeamScore"
 		}
 		
-		"BlueScoreBG"	{	"xpos"	"9999"	}
-		"RedScoreBG"	{	"xpos"	"9999"	}
-		"BlueLeaderAvatar"	{	"xpos"	"9999"	}
-		"BlueLeaderAvatarBG"	{	"xpos"	"9999"	}
-		"RedLeaderAvatar"	{	"xpos"	"9999"	}
-		"RedLeaderAvatarBG"	{	"xpos"	"9999"	}
+		"BlueScoreBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		"RedScoreBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		"BlueLeaderAvatar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		"BlueLeaderAvatarBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		"RedLeaderAvatar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		"RedLeaderAvatarBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	}
 	
 	"ShadedBar"

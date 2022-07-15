@@ -15,6 +15,7 @@
 	HudTeamGoal	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudTeamGoalTournament	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	HudArenaClassLayout 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 
 	HudDeathNotice
 	{
@@ -628,7 +629,7 @@
 		
 		"visible"	"1"	"enabled"	"1"
 		
-		"xpos"	"c-225"	"ypos"	"250"	"wide"	"450"	"tall"	"218"
+		"xpos"	"cs-0.5"	"zpos"	"20"	"wide"	"170"	"tall"	"92"
 	}
 	
 	PVEWinPanel
@@ -793,15 +794,6 @@
 		"xpos"	"r155"	"ypos"	"r75"	"wide"	"150"	"tall"	"25"
 	}
 	
-	HudArenaClassLayout 
-	{
-		"fieldName"	"HudArenaClassLayout"		
-		
-		"visible"	"1"	"enabled"	"1"
-		
-		"xpos"	"0"	"ypos"	"r320"	"wide"	"f0"	"tall"	"320"
-	}
-	
 	HudArenaVsPanel 
 	{
 		"fieldName"	"HudArenaVsPanel"	
@@ -817,7 +809,7 @@
 		
 		"visible"	"1"	"enabled"	"1"
 		
-		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"50"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
 	}	
 	
 	"HudAchievementTracker"

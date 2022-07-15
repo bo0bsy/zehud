@@ -8,12 +8,8 @@
 	
 	"CloseButton"
 	{
-		"font"	"f14"
-
-		"paintbackground"	"0"
-		
+		"font"	"f14"	
 		"border_default"	"Black"	"border_armed"	"Select"
-
-		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override" "TanLight"	
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override" "TanLight"	
 	}
 }

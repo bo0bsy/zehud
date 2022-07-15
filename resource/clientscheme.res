@@ -39,7 +39,7 @@ Scheme
 	CustomFontFiles	
 	{
 		"1"		{	"font"	"resource/tf2.ttf"							"name" "tf2"	}
-		"2" 	{	"font"	"resource/tf2Secondary.ttf"					"name" "tf2 secondary"	}
+		"2" 	{	"font"	"resource/scheme/fonts/tf2boobsy.ttf"		"name" "tf2boobsy"	}
 		"3" 	{	"font"	"resource/tf2Professor.ttf"					"name" "tf2 professor"	}	
 		"4" 	{	"font"	"resource/tf2Build.ttf"						"name" "tf2 build"	}	
 		"5"		{	"font"	"resource/ocra.ttf"							"name" "ocra"	}	
@@ -50,5 +50,6 @@ Scheme
 		"10"	{	"font"	"resource/scheme/fonts/tf2crosshairs.ttf"	"name" "tf2crosshairs"	}	
 		"11"	{	"font"	"resource/scheme/fonts/zefont.otf"			"name" "zefont"	}
 		"12"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name" "toonhud Icons"	}
+		"13"	{	"font" "resource/scheme/fonts/productjofre.otf"		"name" "Product Jofre"	}
 	}
 }

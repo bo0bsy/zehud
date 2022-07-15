@@ -512,7 +512,7 @@
 		{
 			"ControlName"	"EditablePanel"	"fieldName"	"SlidersBG"
 			
-			"xpos"	"5"	"ypos"	"0"	"zpos"	"0"	"wide"	"210"	"tall"	"295"
+			"xpos"	"5"	"ypos"	"0"	"zpos"	"0"	"wide"	"210"	"tall"	"308"
 			
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 			
@@ -815,13 +815,37 @@
 				
 				"pin_to_sibling"	"Netgraph"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"	
 			}
+			
+			"DxLevel"
+			{
+				"ControlName"	"CExLabel"	"fieldName"	"DxLevel"
+				
+				"xpos"	"0"	"ypos"	"-10"	"zpos"	"15"	"wide"	"80"	"tall"	"20"
+				
+				"font"	"f9"	"visible"	"1"	"enabled"	"1"
+				
+				"labelText"	"current dxlevel:"	"textAlignment"	"west"
+				
+				"pin_to_sibling"	"Note"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"	
+			}			
+			
+			"DxLevelWarning"
+			{
+				"ControlName"	"ImagePanel"	"fieldName"	"DxLevelWarning"
+				
+				"xpos"	"-5"	"ypos"	"-2"	"zpos"	"15"	"wide"	"15"	"tall"	"15"		
+				
+				"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/dxlevel_warning"	"scaleImage"	"1"		
+
+				"pin_to_sibling"	"DxLevel"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
+			}				
 		}
 		
 		"Colors"
 		{
 			"ControlName"	"EditablePanel"	"fieldName"	"SlidersBG"
 			
-			"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"130"	"tall"	"209"
+			"xpos"	"0"	"ypos"	"5"	"zpos"	"0"	"wide"	"130"	"tall"	"209"
 			
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
 			

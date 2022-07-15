@@ -1,6 +1,6 @@
 "Resource/UI/ItemModelPanel.res"
 {
-	DisguiseStatus	{	"xpos"	"c-143"	"ypos"	"c28"	"xpos_minmode"	"23"	"ypos_minmode"	"r67"	}
+	DisguiseStatus	{	"xpos"	"c-146"	"ypos"	"c28"	"xpos_minmode"	"23"	"ypos_minmode"	"r67"	}
 	
 	"DisguiseStatusBG"	{	"ypos"	"48"	"wide"	"70"	"tall"	"20"	"wide_minmode"	"100"	}
 
