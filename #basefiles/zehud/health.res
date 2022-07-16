@@ -3,7 +3,7 @@
 	"HealthAnchor"
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"HealthAnchor"		
-		"xpos"	"c-100"	"ypos"	"c40"	"zpos"	"0"	"wide"	"2"	"tall"	"64"		
+		"xpos"	"c-100"	"ypos"	"c42"	"zpos"	"0"	"wide"	"2"	"tall"	"64"		
 		"xpos_minmode"	"86"	"ypos_minmode"	"r55"		
 		"visible"	"0"	"enabled"	"1"
 	}	
@@ -22,7 +22,7 @@
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"	"c-119"	"ypos"	"c47"	"zpos"	"2"	"wide"	"40"	"tall"	"40"			
+		"xpos"	"c-120"	"ypos"	"c49"	"zpos"	"2"	"wide"	"41"	"tall"	"41"			
 		"xpos_minmode"	"67"	"ypos_minmode"	"r47"				
 	}
 	

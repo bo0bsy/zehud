@@ -2,36 +2,36 @@
 // THANKS TO PEACHES FOR INSPIRATION 
 "Resource/UI/ClassSelection.res"
 {
-	"ResetButton"	{	"xpos"	"9999"	}	
-	"ClassMenuSelect"	{	"xpos"	"9999"	}
-	"MenuBG"	{	"xpos"	"9999"	}
-	"Hint"	{	"xpos"	"9999"	}
-	"ShadedBar"	{	"xpos"	"9999"	}
-	"SysMenu"	{	"xpos"	"9999"	}
-	"localPlayerImage"	{	"xpos"	"9999"	}
-	"localPlayerBG"	{	"xpos"	"9999"	}
-	"countImage0"	{	"xpos"	"9999"	}						
-	"countImage1"	{	"xpos"	"9999"	}
-	"countImage2"	{	"xpos"	"9999"	}
-	"countImage3"	{	"xpos"	"9999"	}
-	"countImage4"	{	"xpos"	"9999"	}
-	"countImage5"	{	"xpos"	"9999"	}
-	"countImage6"	{	"xpos"	"9999"	}
-	"countImage7"	{	"xpos"	"9999"	}
-	"countImage8"	{	"xpos"	"9999"	}
-	"countImage9"	{	"xpos"	"9999"	}
-	"countImage10"	{	"xpos"	"9999"	}
-	"CountLabel"	{	"xpos"	"9999"	}
-	"CancelButton"	{	"xpos"	"9999"	}
-	"StartExplanation"	{	"xpos"	"9999"	}
-	"Offense"	{	"xpos"	"9999"	}
-	"Defense"	{	"xpos"	"9999"	}
-	"Support"	{	"xpos"	"9999"	}
-	"ClassTipsPanel"	{	"xpos"	"9999"	}
-	"ClassHighlightPanel"	{	"xpos"	"9999"	}
-	"EditLoadoutButton"	{	"xpos"	"9999"	}
-	"Random"	{	"xpos"	"9999"	}
-	"TFPlayerModel"	{	"xpos"	"9999"	}
+	"ResetButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"ClassMenuSelect"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"MenuBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"Hint"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"ShadedBar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"SysMenu"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"localPlayerImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"localPlayerBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage0"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}						
+	"countImage1"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage2"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage3"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage4"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage5"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage6"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage7"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage8"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage9"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"countImage10"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"CountLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"CancelButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"StartExplanation"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"Offense"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"Defense"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"Support"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"ClassTipsPanel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"ClassHighlightPanel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"EditLoadoutButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"Random"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"TFPlayerModel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	
 	"BG"
 	{

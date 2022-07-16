@@ -50,6 +50,5 @@ Scheme
 		"10"	{	"font"	"resource/scheme/fonts/tf2crosshairs.ttf"	"name" "tf2crosshairs"	}	
 		"11"	{	"font"	"resource/scheme/fonts/zefont.otf"			"name" "zefont"	}
 		"12"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name" "toonhud Icons"	}
-		"13"	{	"font" "resource/scheme/fonts/productjofre.otf"		"name" "Product Jofre"	}
 	}
 }

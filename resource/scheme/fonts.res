@@ -1,3 +1,5 @@
+#base "tf2boobsy.res"
+
 Scheme
 {
 	Fonts
@@ -87,7 +89,7 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"30"	"antialias" "1"	}	}	
 		
 		"HudFontMediumSecondary"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"24"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"HudFontMediumBold"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"24"	"antialias" "1"	}	}
@@ -99,10 +101,10 @@ Scheme
 		{	"1"	{	"name"	"TF2"	"tall"	"18"	"antialias" "1"	}	}
 		
 		"HudFontMediumSmallSecondary"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"HudFontSmall"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"14"	"antialias"	"1"	}	}	
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}	
 		
 		"HudFontSmallishBold"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"16"	"antialias" "1"	}	}
@@ -114,10 +116,10 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"14"	"antialias" "1"	"dropshadow"	"1"	}	}
 		
 		"HudFontSmallest"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias" 	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 
 		"HudFontSmallestShadow"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias"	"1"	"dropshadow"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	"dropshadow"	"1"	}	}
 
 		"HudFontSmallestBold"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"8"	"antialias" "1"	}	}
@@ -135,19 +137,19 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"antialias" "1"	}	}
 
 		"FontStoreOriginalPrice"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"9"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"FontStorePriceSmall"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"6"	"antialias" "1"	}	}
 		
 		"FontStorePromotion"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"12"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"TextTooltipFont"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"GameUIButtonText"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 
 		"HudClassHealth"
 		{	"1"	{	"name"	"TF2"	"tall"	"16"	"antialias" "1"	}	}
@@ -217,7 +219,7 @@ Scheme
 		{	"1"	{	"name"	"TF2"	"tall"	"24"	"antialias" "1"	}	}
 		
 		"MenuClassBuckets"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"MenuKeys"
 		{	"1"	{	"name"	"TF2"	"tall"	"12"	"antialias" "1"	}	}
@@ -244,28 +246,28 @@ Scheme
 		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"weight"	"400"	"antialias" "1"	}	}
 		
 		"ScoreboardSmall"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"10"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"ScoreboardMediumSmall"
-		{	"1"	{	"name"	"TF2"	"tall"	"14"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"ScoreboardMedium"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"20"	"range"	"0x0000 0x007F"		"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"ScoreboardTeamName"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"20"	"range"		"0x0000 0x007F"		"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"ScoreboardTeamCountNew"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"14"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"ScoreboardTeamNameNew"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"20"	"range"	"0x0000 0x007F"		"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"ScoreboardTeamNameLarge"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"34"	"range"	"0x0000 0x007F"		"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 
 		"ScoreboardTeamScoreNew"
- 		{	"1"	{	"name"	"TF2"	"tall"	"36"	"antialias" "1"	}	}
+ 		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"ScoreboardTeamScore"
 		{
@@ -280,19 +282,19 @@ Scheme
 		{	"1"	{	"name"	"TF2"	"tall"	"36"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 		
 		"MatchSummaryStatsAndMedals"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"14"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"MatchSummaryWinner"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"20"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"CompMatchStartTeamNames"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"14"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"ControlPointTimer"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"10"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"ControlPointTimerSmaller"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"7"	"weight"	"400"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"TargetID"
 		{	"1"	{	"name"	"Verdana"	"tall"	"12"	"weight"	"700"	"antialias"	"1"	}	}
@@ -325,7 +327,7 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"30"	"antialias"	"1"	}	}
 		
 		MatchmakingDialogMenuLarge
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"28"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		MatchmakingDialogMenuBrowserHostname
 		{	"1"	{	"name"	"Trebuchet MS"	"tall"	"22"	"antialias"	"1"	}	}
@@ -334,10 +336,10 @@ Scheme
 		{	"1"	{	"name"	"Trebuchet MS"	"tall"	"18"	"antialias"	"1"	}	}
 		
 		MatchmakingDialogMenuMedium
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"22"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		MatchmakingDialogMenuMediumSmall
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		MatchmakingDialogMenuSmall
 		{	"1"	{	"name"	"Verdana"	"tall"	"22"	"antialias"	"1"	}	}
@@ -352,10 +354,10 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"36"	"antialias" "1"	}	}
 		
 		"TeamMenu"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		"IntroMenuCaption"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias"	"1"	}	}	
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}	
 		
 		"AchievementNotification"
 		{	"1"	{	"name"	"Trebuchet MS"	"tall"	"14"	"antialias" "1"	}	}
@@ -413,19 +415,19 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"18"	"antialias" "1"	}	}
 		
 		"ItemFontAttribSmallest"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"7"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		ItemFontAttribSmallv2
 		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" "1"	}	}
 		
 		"ItemFontAttribSmall"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"8"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		"ItemFontAttribLarge"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		"ItemFontAttribLarger"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"14"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		"AchievementTracker_Name"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"9"	"antialias"	"1"	}	}
@@ -461,22 +463,22 @@ Scheme
 		{	"1"	{	"name"	"TF2 Professor"	"tall"	"20"	"antialias" "1"	}	}
 
 		"QuestInstructionText_Merasmus"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"22"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 
 		"QuestFlavorText_Merasmus"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"22"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 
 		"QuestObjectiveText_Merasmus"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 
 		"QuestMediumText_Merasmus"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"13"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"QuestLargeText_Merasmus"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"16"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 
 		"AdFont_ItemName"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"10"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"AdFont_AdText"
 		{	"1"	{	"name"	"Verdana"	"tall"	"8"	"antialias" "1"	}	}
@@ -494,7 +496,7 @@ Scheme
 		{	"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"antialias" "1"	}	}
 		
 		"ReplayBrowserSmallest"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"11"	"antialias" 	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 		
 		"ReplaySmaller"
 		{	"1"	{	"name"	"Verdana"	"tall"	"10"	"range"	"0x0000 0x017F"	"antialias" "1"	}	}
@@ -512,7 +514,7 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"24"	"antialias" "1"	}	}
 		
 		"ReplayLarger"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"18"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias" "1"	}	}
 		
 		"EconFontSmall"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"14"	"antialias" "1"	}	}
@@ -521,10 +523,10 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"24"	"antialias" "1"	}	}
 
 		ControllerHintText
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"15"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"range"	"0x0000 0x007F"	"antialias" "1"	}	}
 
 		"MMenuPlayListDesc"
-		{	"1"	{	"name"	"tf2boobsy"	"tall"	"9"	"antialias"	"1"	}	}
+		{	"1"	{	"name"	"tf2boobsy"	"antialias"	"1"	}	}
 
 		"XPSource"
 		{

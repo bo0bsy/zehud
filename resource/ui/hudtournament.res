@@ -1,4 +1,4 @@
-// #base "base/hudtournament.res broken, causes missing {  spam in console
+// #base "base/hudtournament.res" broken, causes missing {  spam in console
 
 "Resource/UI/HudTournament.res"
 {
@@ -18,7 +18,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"HudTournament"
 		
-		"xpos"	"0"	"ypos"	"26"	"wide"	"f0"	"tall"	"f0"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"f0"
 		
 		"proportionaltoparent"	"1"
 
@@ -92,7 +92,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"BlueTeamIcon"
 		
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"wide"	"23"	"tall"	"23"
+		"xpos"	"0"	"ypos"	"20"	"zpos"	"1"	"wide"	"23"	"tall"	"23"
 		
 		"visible"	"1"	"enabled"	"1"
 	
@@ -130,7 +130,7 @@
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"RedTeamIcon"
 		
-		"xpos"	"0"	"ypos"	"20"	"zpos"	"1"	"wide"	"23"	"tall"	"23"
+		"xpos"	"0"	"ypos"	"40"	"zpos"	"1"	"wide"	"23"	"tall"	"23"
 		
 		"visible"	"1"	"enabled"	"1"
 	
