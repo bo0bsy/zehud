@@ -1,2 +1,3 @@
-
+*.res linguist-language=vdf
+**/*.res linguist-detectable=true
 sound/sound.cache

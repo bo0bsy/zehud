@@ -2,136 +2,81 @@
 
 "Resource/UI/winpanel.res"
 {
-	"MapLabel"	{	"xpos"	"9999"	}	"MapType"	{	"xpos"	"9999"	}
-	
-	"TipImage"	{	"xpos"	"9999"	}	"TipText"	{	"xpos"	"9999"	}	
-	
-	"CloseButton"	{	"xpos"	"9999"	}	"NextTipButton"	{	"xpos"	"9999"	}
-	
-	"MainBackground"	{	"xpos"	"9999"	}	"OnYourWayLabel"	{	"xpos"	"9999"	}	
-
-	"ResetStatsButton"	{	"xpos"	"9999"	}	
-
+	"MapLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"MapType"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"TipImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"TipText"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}		
+	"CloseButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"NextTipButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"MainBackground"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"OnYourWayLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"ResetStatsButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"TFStatsSummary"	{	"bgcolor_override"	"blank"	}
 	
 	"Background"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"Background"
-		
-		"xpos"	"0"	"ypos"	"-48"	"zpos"	"0"	"wide"	"f0"	"tall"	"480"
-		
+		"ControlName"	"ImagePanel"	"fieldName"	"Background"		
+		"xpos"	"0"	"ypos"	"-48"	"zpos"	"0"	"wide"	"f0"	"tall"	"480"		
 		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/menu/menugif"	"scaleimage"	"1"
 	}
 	
 	"Background2"
 	{
-		"ControlName"	"EditablePanel"	"fieldName"	"Background2"
-		
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
-		
-		"visible"	"1"	"enabled"	"1"
-		
+		"ControlName"	"EditablePanel"	"fieldName"	"Background2"		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"		
+		"visible"	"1"	"enabled"	"1"		
 		"paintborder"	"0"	
-	
 		"bgcolor_override"	"0 0 0 150"	"paintbackground"	"1"	"PaintBackgroundType"	"0"		
 	}
 	
 	"StatData"
 	{
 		"ypos"	"45"
-
 		"InteractiveHeaders"	
 		{
 			"BarChartComboABG"
 			{
-				"ControlName"	"ImagePanel"	"fieldName"	"BarChartComboABG"
-				
-				"xpos"	"c-199"	"ypos"	"10"	"zpos"	"2"	"wide"	"159"	"tall"	"20"
-
+				"ControlName"	"ImagePanel"	"fieldName"	"BarChartComboABG"			
+				"xpos"	"c-199"	"ypos"	"10"	"zpos"	"2"	"wide"	"200"	"tall"	"20"
 				"visible"	"1"	"enabled"	"1"
-
-				"paintbackground"	"0"
-				
+				"paintbackground"	"0"				
 				"paintborder"	"1"	"border"	"Black"
 			}
 
 			"BarChartComboA"
-			{
-				"Font"	"HudFontSmallestBold"
-				
-				"xpos"	"c-195"	"ypos"	"14"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
-				
-				"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"
-				
-				"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"
-				
-				"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"
-				
-				"defaultSelectionBG2Color_override"	"Blank"
-				
+			{				
+				"xpos"	"-4"	"ypos"	"-4"	"zpos"	"3"	"wide"	"192"	"tall"	"12"				
+				"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"				
+				"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"				
+				"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"				
+				"defaultSelectionBG2Color_override"	"Blank"				
 				"Button"	{	"defaultFgColor_override"	"TanLight"	"defaultBgColor_override"	"Blank"	"armedFgColor_override"	"TanLight"	"armedBgColor_override"	"Blank"	"paintbackgroundtype"	"2"	}
+				"pin_to_sibling"	"BarChartComboABG"
 			}
 			
 			"BarChartComboBBG"
 			{
-				"ControlName"	"ImagePanel"	"fieldName"	"BarChartComboBBG"
-				
-				"xpos"	"c40"	"ypos"	"10"	"zpos"	"2"	"wide"	"159"	"tall"	"20"
-
+				"ControlName"	"ImagePanel"	"fieldName"	"BarChartComboBBG"				
+				"xpos"	"-3"	"ypos"	"0"	"zpos"	"2"	"wide"	"200"	"tall"	"20"
 				"visible"	"1"	"enabled"	"1"
-
-				"paintbackground"	"0"
-				
+				"paintbackground"	"0"				
 				"paintborder"	"1"	"border"	"Black"
+				"pin_to_sibling"	"BarChartComboABG"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_TOPRIGHT"
 			}
 			
 			"BarChartComboB"
-			{
-				"Font"	"HudFontSmallestBold"
-				
-				"xpos"	"c44"	"ypos"	"14"	"zpos"	"3"	"wide"	"151"	"tall"	"12"
-				
-				"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"
-				
-				"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"
-				
-				"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"
-				
-				"defaultSelectionBG2Color_override"	"Blank"
-				
+			{				
+				"xpos"	"-4"	"ypos"	"-4"	"zpos"	"3"	"wide"	"192"	"tall"	"12"				
+				"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"			
+				"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"				
+				"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"			
+				"defaultSelectionBG2Color_override"	"Blank"				
 				"Button"	{	"defaultFgColor_override"	"TanLight"	"defaultBgColor_override"	"Blank"	"armedFgColor_override"	"TanLight"	"armedBgColor_override"	"Blank"	"paintbackgroundtype"	"2"	}
-			}
-			
-			"ClassComboBG"
-			{
-				"ControlName"	"ImagePanel"	"fieldName"	"ClassComboBG"
-				
-				"xpos"	"c-40"	"ypos"	"10"	"zpos"	"2"	"wide"	"80"	"tall"	"20"
-				
-				"visible"	"1"	"enabled"	"1"
-
-				"paintbackground"	"0"
-				
-				"paintborder"	"1"	"border"	"Black"
-			}
-			
-			"ClassCombo"
-			{
-				"xpos"	"c-36"	"ypos"	"14"	"zpos"	"10"	"wide"	"72"	"tall"	"12"
-				
-				"fgcolor_override"	"TanLight"	"bgcolor_override"	"Blank"
-				
-				"disabledFgColor_override"	"TanLight"	"disabledBgColor_override"	"Blank"
-				
-				"selectionColor_override"	"Blank"	"selectionTextColor_override"	"TanLight"
-				
-				"defaultSelectionBG2Color_override"	"Blank"
-				
-				"Button"	{	"defaultFgColor_override"	"TanLight"	"defaultBgColor_override"	"Blank"	"armedFgColor_override"	"TanLight"	"armedBgColor_override"	"Blank"	"paintbackgroundtype"	"2"	}
-			}
-		}
-		
-		"AveragesBG"	{	"xpos"	"9999"	}	"AveragesLabel"	{	"xpos"	"9999"	}
+				"pin_to_sibling"	"BarChartComboBBG"
+			}			
+			"ClassCombo"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+		}		
+		"AveragesBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"AveragesLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 		
 		///////////////////////////////////////////////////
 		///////////////////////BAR 1///////////////////////
@@ -594,95 +539,69 @@
 		
 		"BackgroundStats"
 		{
-			"ControlName"	"EditablePanel"	"fieldName"	"BackgroundStats"
-			
+			"ControlName"	"EditablePanel"	"fieldName"	"BackgroundStats"			
 //			"xpos"	"c-205"	"ypos"	"215"	"zpos"	"0"	"wide"	"410"	"tall"	"87"
-
-			"wide"	"0"
-			
-			"visible"	"1"	"enabled"	"1"
-			
+			"wide"	"0"			
+			"visible"	"1"	"enabled"	"1"			
 			"border"	"TransparentBlackBackground"
 		}
 		
 		"Separator"
 		{
-			"ControlName"	"EditablePanel"	"fieldName"	"Separator"
-			
-//			"xpos"	"c0"	"ypos"	"220"	"zpos"	"0"	"wide"	"1"	"tall"	"77"
-			
+			"ControlName"	"EditablePanel"	"fieldName"	"Separator"			
+//			"xpos"	"c0"	"ypos"	"220"	"zpos"	"0"	"wide"	"1"	"tall"	"77"			
 			"visible"	"1"	"enabled"	"1"
-
-			"wide"	"0"
-			
+			"wide"	"0"		
 			"bgcolor_override"	"TanLight"
 		}
 		
-		"RecordsBG"	{	"xpos"	"9999"	}	"RecordsLabel1"	{	"xpos"	"9999"	}	"RecordsSubBG1"	{	"xpos"	"9999"	}	"RecordsLabel"	{	"xpos"	"9999"	}
+		"RecordsBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"RecordsLabel1"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"RecordsSubBG1"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"RecordsLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 		
 		"OverallRecord1Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-	//		"xpos"	"c-200"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-	
-			"wide"	"0"
-			
+	//		"xpos"	"c-200"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"	
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord1Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord2Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord2Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord3Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"		
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord3Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
@@ -690,264 +609,192 @@
 		{
 
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord4Value"
 		{
-			"font"	"HudFontSmallestBold"
-			
+			"font"	"HudFontSmallestBold"			
 //			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"wide"	"0"
-			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord5Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord5Value"
 		{
 			"font"	"HudFontSmallestBold"
-
 //			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
 			"wide"	"0"
-
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord6Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord6Value"
 		{
 			"font"	"HudFontSmallestBold"
-
 //			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"wide"	"0"
-			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord7Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c-200"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c-200"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord7Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord8Label"
 		{
-			"font"	"HudFontSmallestBold"
-			
-//			"xpos"	"c-200"	"ypos"	"289"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+			"font"	"HudFontSmallestBold"			
+//			"xpos"	"c-200"	"ypos"	"289"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"		
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord8Value"
 		{
-			"font"	"HudFontSmallestBold"
-			
-//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"289"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+			"font"	"HudFontSmallestBold"			
+//			"textAlignment"	"east"	"xpos"	"c-94"	"ypos"	"289"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord9Label"
 		{
-			"font"	"HudFontSmallestBold"
-			
-//			"xpos"	"c5"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+			"font"	"HudFontSmallestBold"			
+//			"xpos"	"c5"	"ypos"	"219"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord9Value"
 		{
 			"font"	"HudFontSmallestBold"
-
 //			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"219"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"wide"	"0"
-			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord10Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c5"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c5"	"ypos"	"229"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord10Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"229"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord11Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-	//		"xpos"	"c5"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+	//		"xpos"	"c5"	"ypos"	"239"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord11Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-	//		"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+	//		"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"239"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord12Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c5"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
+//			"xpos"	"c5"	"ypos"	"249"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
 			"wide"	"0"
-
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord12Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"249"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord13Label"
 		{
-			"font"	"HudFontSmallestBold"
-			
-//			"xpos"	"c5"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+			"font"	"HudFontSmallestBold"			
+//			"xpos"	"c5"	"ypos"	"259"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord13Value"
 		{
 			"font"	"HudFontSmallestBold"
-
 //			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"259"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
-			"wide"	"0"
-			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord14Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c5"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c5"	"ypos"	"269"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord14Value"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"269"	"zpos"	"5"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord15Label"
 		{
 			"font"	"HudFontSmallestBold"
-
-//			"xpos"	"c5"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"
-			
-			"wide"	"0"
-			
+//			"xpos"	"c5"	"ypos"	"279"	"zpos"	"8"	"wide"	"90"	"tall"	"10"			
+			"wide"	"0"			
 			"fgcolor_override"	"TanLight"
 		}
 		
 		"OverallRecord15Value"
 		{
 			"font"	"HudFontSmallestBold"
-
 //			"textAlignment"	"east"	"xpos"	"c110"	"ypos"	"279"	"zpos"	"5"	"wide"	"90"	"tall"	"10"
-
 			"wide"	"0"
-
 			"fgcolor_override"	"TanLight"
 		}
 	}

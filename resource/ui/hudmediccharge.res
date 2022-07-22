@@ -31,25 +31,18 @@
 	
 	"ChargeLabel"
 	{
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"100"	"tall"	"40"
-		
-		"font"	"f36shadow"	"visible"	"1"	"enabled"	"1"
-
-		"labelText"	"#TF_UberchargeMinHUD"	"textAlignment"	"center"
-		
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"100"	"tall"	"40"		
+		"font"	"f36shadow"
+		"labelText"	"#TF_UberchargeMinHUD"	"textAlignment"	"center"		
 		"font_minmode"	"f44shadow"	"textAlignment_minmode"	"east"
-
-		"fgcolor"	"TanLight"	
-		
+		"fgcolor"	"TanLight"			
 		"pin_to_sibling"	"UberAnchor"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"		
 	}
 
     "ChargeMeter"
     {   
-        "xpos"	"c-21"	"ypos"	"c35"	"wide"	"40"	"tall"	"3"
-		
-        "FgColor_override"	"TanLight"	"bgcolor_override"  "Black" 
-
+        "xpos"	"c-21"	"ypos"	"c35"	"wide"	"40"	"tall"	"3"		
+        "fgcolor_override"	"TanLight"	"bgcolor_override"  "Black" 
 		"ypos_minmode"	"c20"		
     } 	
 }

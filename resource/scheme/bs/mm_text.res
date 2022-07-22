@@ -3,6 +3,6 @@ Scheme
 {
 BaseSettings
 {
-"MainMenu.TextColor"  "White"
+"MainMenu.TextColor"  "TanLight"
 }
 }

@@ -25,10 +25,8 @@
 	
 	"HudPlayerHealth"
 	{
-		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"480"
-		
-		"xpos_minmode"	"-5"
-		
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"480"	
+		"xpos_minmode"	"-5"		
 		"HealthDeathWarningColor"	"Negative"
 	}
 
@@ -36,12 +34,10 @@
 
 	"StatusIconFix"
 	{
-		"ControlName"	"EditablePanel"	"fieldName"	"StatusIconFix"
-		
-		"xpos"	"62"	"ypos"	"-15"	"zpos"	"5"	"wide"	"100"	"tall"	"100"
-		
-		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
-		
+		"ControlName"	"EditablePanel"	"fieldName"	"StatusIconFix"	
+		"xpos"	"48"	"ypos"	"-62"	"zpos"	"5"	"wide"	"f0"	"tall"	"100"
+		"xpos_minmode"	"62"	"ypos_minmode"	"-15"	"wide_minmode"	"100"
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"	
 	}
 	"PlayerStatusBleedImage"

@@ -14,7 +14,7 @@
 		"quickpin1"
 		{
 			"controlname"	"cexbutton"	"fieldname"	"quickpin1"			
-			"xpos"	"-25"	"ypos"	"15"	"labeltext"	""			
+			"xpos"	"cs-0.5-15"	"ypos"	"15"	"labeltext"	""			
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"				
 			"paintbackground"	"0"
 		}		
@@ -22,7 +22,6 @@
 		{
 			"controlname"	"cexbutton"	"fieldname"	"quickpin2"			
 			"xpos"	"9999"	"labeltext"	""		
-			"xpos_minmode"	"20"	"ypos_minmode"	"3"
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"			
 			"paintbackground"	"0"
 		}			
