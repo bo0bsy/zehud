@@ -21,6 +21,8 @@
 			{
 				"font"	"StorePromotionsTitle"
 				
+				"zpos"	"105"	"tall"	"18"
+				
 				"paintbackground"	"0"
 		
 				"defaultFgColor_override"	"TanLight"	"armedFgColor_override"		"TanLight"	"depressedFgColor_override"	"TanLight"

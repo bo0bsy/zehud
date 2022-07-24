@@ -1,6 +1,5 @@
 Scheme
 {
-
 	Colors
 	{
 		"White"	"225 220 220 255"	"OffWhite"	"225 220 220 255"	"DullWhite"	"142 142 142 255"
@@ -344,7 +343,4 @@ Scheme
 			{	"1"	{	"color" "Border.Bright"	"offset" "0 0"	}	}
 		}
 	}
-
-	CustomFontFiles
-	{	"1"	"resource/HALFLIFE2.ttf"	"2"	"resource/HL2EP2.ttf"	}
 }

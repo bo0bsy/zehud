@@ -1,279 +1,58 @@
+#base "../../../base/econ/store/v2/storepanel.res"
+
 "Resource/UI/StorePanel.res"
-{
-	"ReloadSchemeButton"
-	{
-		"xpos"								"c-13"
-		"ypos"								"8"
-		"zpos"								"20000"
-	}
-	
-	"store_panel"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"store_panel"
-		"xpos"								"0"
-		"ypos"								"0"
-		"wide"								"f0"
-		"tall"								"480"
-		"autoResize"						"0"
-		"pinCorner"							"0"
-		"visible"							"1"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"settitlebarvisible"				"1"
-		"PaintBackgroundType"				"0"
-		"bgcolor_override"					"Blank"
-		"infocus_bgcolor_override"			"Blank"
-		"outoffocus_bgcolor_override"		"Blank"
-		
-		"title"								"#StoreTitle"
-		"title_font"						""
-		"titletextinsetX"					"40"
-		"titletextinsetY"					"0"
-		"titlebarfgcolor_override"			"Blank"
-		"titlebardisabledfgcolor_override"	"Blank"
-		"titlebarbgcolor_override"			"Blank"
-		
-		"clientinsetx_override"				"0"
-		"sheetinset_bottom"					"40"
-	}
-	
-	"Background"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"Background"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"-1"
-		"wide"								"f0"
-		"tall"								"480"
-		"visible"							"1"
-		"enabled"							"1"
-		"image"								"replay/thumbnails/menu/menugif"
-		"scaleimage"						"1"
-	}
-	
-	"Background2"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"Background2"
-		"xpos"								"0"
-		"ypos"								"0"
-		"zpos"								"-1"
-		"wide"								"f0"
-		"tall"								"f0"
-		"visible"							"1"
-		"enabled"							"1"
-		"bgcolor_override"					"0 0 0 150"
-		"paintbackground"					"1"
-		"paintborder"						"0"
-		"PaintBackgroundType"				"0"		
-	}
-	
-	"TopTanLightBar"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TopTanLightBar"
-		"xpos"								"-5"
-		"ypos"								"-5"
-		"zpos"								"0"
-		"wide"								"p1.02"
-		"tall"								"38"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"noborder"
-	}
-	
-	"BottomTanLightBar"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"TopTanLightBar"
-		"xpos"								"-5"
-		"ypos"								"r24"
-		"zpos"								"0"
-		"wide"								"p1.02"
-		"tall"								"50"
-		"visible"							"1"
-		"enabled"							"1"
-		"border"							"noborder"
-	}
-	
-	"Sheet"
-	{
-		"ControlName"						"EditablePanel"
-		"fieldName"							"Sheet"
-		"zpos"								"50"
-		"tabxindent"						"10"
-		"tabxdelta"							"5"
-		"tabwidth"							"240"
-		"tabheight"							"18"
-		"transition_time" 					"0"
-		"yoffset"							"14"
-		
-		"HeaderLine"
-		{
-			"ControlName"					"ImagePanel"
-			"fieldName"						"HeaderLine"
-			"xpos"							"9999"
-		}				
-		
-		"tabskv"
-		{
-			"textinsetx"					"10"
-			"textinsety"					"2"
-			"font"							"f12"
-			"selectedcolor"					"TanLight"
-			"unselectedcolor"				"TanLight"	
-			"defaultBgColor_override"		"Blank"
-			"paintbackground"				"0"
-			"activeborder_override"			"Black"
-			"normalborder_override" 		"Black"
-		}
-	}
-	
+{	
 	"CloseButton"
 	{
-		"ControlName"						"CExButton"
-		"fieldName"							"CloseButton"
-		"xpos"								"5"
-		"ypos"								"r21"
-		"zpos"								"2"
-		"wide"								"70"
-		"tall"								"20"
-		"autoResize"						"0"
-		"pinCorner"							"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"labelText"							"Back (&Q)"
-		"font"								"f12"
-		"textAlignment"						"center"
-		"AllCaps"							"1"
-		"dulltext"							"0"
-		"brighttext"						"0"
-		"default"							"0"
-		"Command"							"close"
-		
-		"sound_depressed"					"UI/buttonclick.wav"
-		"sound_released"					"UI/buttonclickrelease.wav"
-		
-		"paintbackground" 					"0"
-		
-		"border_default"					"Black"
-		"border_armed"						"Select"
-	}
-	
-	"CheckoutButton"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"					
+		"labelText"	""	"textAlignment"	"west"
+		"border"	"noborder"		
+		"paintbackground"	"0"
+	}	
+	"Windows_Notification"
 	{
-		"ControlName"						"CExButton"
-		"fieldName"							"CheckoutButton"
-		"xpos"								"r145"
-		"ypos"								"r21"
-		"zpos"								"2"
-		"wide"								"140"
-		"tall"								"20"
-		"autoResize"						"0"
-		"pinCorner"							"3"
-		"visible"							"1"
-		"enabled"							"1"
-		"tabPosition"						"0"
-		"labelText"							"Checkout (&E)"
-		"font"								"f12"
-		"textAlignment"						"center"
-		"textinsetx"						"40"
-		"AllCaps"							"1"
-		"dulltext"							"0"
-		"brighttext"						"0"
-		"default"							"0"
-		"Command"							"checkout"
-		
-		"sound_depressed"					"UI/buttonclick.wav"
-		"sound_released"					"UI/buttonclickrelease.wav"
-		
-		"paintbackground" 					"0"
-		
-		"border_default"					"Black"
-		"border_armed"						"Select"
+		"ControlName"	"EditablePanel"	"fieldName"	"Windows_Notification"			
+		"xpos"	"cs-0.5"	"ypos"	"cs-0.5"	"wide"	"400"	"tall"	"100"	
+		"paintbackground"	"0"			
+		"mouseInputenabled"	"0"			
+		"border"	"TFFatLineBorder"			
+		"title"		
+		{
+			"ControlName"	"Label"	"FieldName"	"title"			
+			"xpos"	"0"	"ypos"	"15"	"wide"	"400"	"tall"	"40"					
+			"font"	"f20"				
+			"labelText"	"store still under development"	"textAlignment"	"center"				
+			"fgcolor_override"	"TanLight"
+		}
+		"title2"		
+		{
+			"ControlName"	"Label"	"FieldName"	"title2"				
+			"xpos"	"0"	"ypos"	"65"	"wide"	"400"	"tall"	"20"				
+			"font"	"f12"
+			"labelText"	"Click anywhere to close this window."	"textAlignment"	"center"				
+			"fgcolor_override"	"TanLight"
+		}			
 	}
-	
-	"NotificationsPresentPanel"
+	"Sign"
 	{
-		"ControlName"						"CNotificationsPresentPanel"
-		"fieldName"							"NotificationsPresentPanel"
-		"xpos"								"r200"
-		"ypos"								"10"
-		"zpos"								"10000"
-		"wide"								"190"
-		"tall"								"50"
-		"visible"							"0"
-		"enabled"							"1"
-	}
-	
-	"armory_panel"
+		"ControlName"	"ImagePanel"	"fieldName"	"Sign"			
+		"xpos"	"cs-0.5"	"ypos"	"cs-0.5+120"	"zpos"	"100"	"wide"	"o1"	"tall"	"280"
+		"visible"	"1"	"enabled"	"1"	"scaleImage"	"1"	"image"	"replay/thumbnails/sign"					
+	}		
+	"FooterLine"	{	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"CheckoutButton"	{	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"NotificationsPresentPanel"	{	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	"quickpin"
 	{
-		"ControlName"						"CArmoryPanel"
-		"fieldName"							"armory_panel"
-		"xpos"								"0"
-		"ypos"								"30"
-		"wide"								"f0"
-		"tall"								"390"
-		"zpos"								"500"
-		"visible"							"0"
-	}
-
-	"SupportCommunityMapMakersCheckButton"
-	{
-		"ControlName"						"CheckButton"
-		"fieldName"							"SupportCommunityMapMakersCheckButton"
-		"xpos"								"r143"
-		"ypos"								"r24"
-		"zpos"								"5"
-		"wide"								"25"
-		"tall"								"25"
-		"font"								"f10"
-		"labelText"							""
-		"visible"							"0"
-		"smallcheckimage"					"1"
-	}
-
-	"SupportCommunityMapMakersLabel"
-	{
-		"ControlName"						"CExLabel"
-		"fieldName"							"SupportCommunityMapMakersLabel"
-		"textAlignment"						"east"
-		"xpos"								"10"
-		"ypos"								"1"
-		"zpos"								"5"
-		"wide"								"200"
-		"tall"								"100"
-		"font"								"f10"
-		"wrap"								"0"
-		"AllCaps"							"1"
-		"labelText"							"Support Map Makers"
-		"visible"							"0"
-		"fgcolor"							"TanLight"
-		
-		"pin_to_sibling" 					"SupportCommunityMapMakersCheckButton"
-		"pin_corner_to_sibling" 			"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner" 			"PIN_CENTER_LEFT"
-	}
-	
-	"BackgroundHeader"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"BackgroundHeader"
-		"xpos"								"9999"
-	}
-	"BackgroundFooter"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"BackgroundFooter"
-		"xpos"								"9999"
-	}
-	"FooterLine"
-	{
-		"ControlName"						"ImagePanel"
-		"fieldName"							"FooterLine"
-		"xpos"								"9999"
-	}
+		"controlname"	"cexbutton"	"fieldname"	"quickpin"		
+		"xpos"	"9999"	"labeltext"	""		
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"			
+		"paintbackground"	"0"
+	}	
+	"Sheet"	{	"pin_to_sibling"	"quickpin"	"pin_corner_to_sibling"	"5"	"pin_to_sibling_corner"	"5"	}			
+	"armory_panel"	{	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	"SupportCommunityMapMakersCheckButton"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"SupportCommunityMapMakersLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"BackgroundHeader"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}				
+	"BackgroundFooter"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 }

@@ -47,20 +47,20 @@
 			"xpos"	"5"	"ypos"	"10"	"wide"	"230"	"tall"	"275"
 			"border"	"Black"
 		}	
-		"ItemNameLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}
+		"ItemNameLabel"	{	"fgcolor"	"Gray"	}
 		"DetailsView"	// Scrollable editable panel for right-hand side of preview, for all text details
 		{
 			"ScrollableChild"
 			{	
-				"ItemLevelInfoLabel"	{	"font"	"f8"	"fgcolor"	"CustomYellow"	}					
-				"RestrictionsLabel"	{	"font"	"f8"	"fgcolor"	"Negative"	}						
-				"RestrictionsTextLabel"	{	"font"	"f8"	"fgcolor"	"Negative"	}						
-				"UsedByLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}					
-				"UsedByTextLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}				
-				"SlotLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}					
-				"SlotTextLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}				
-				"ArmoryTextLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}	
-				"AttributesLabel"	{	"font"	"f8"	"fgcolor"	"Gray"	}
+				"ItemLevelInfoLabel"	{	"fgcolor"	"CustomYellow"	}					
+				"RestrictionsLabel"	{	"fgcolor"	"Negative"	}						
+				"RestrictionsTextLabel"	{	"fgcolor"	"Negative"	}						
+				"UsedByLabel"	{	"fgcolor"	"Gray"	}					
+				"UsedByTextLabel"	{	"fgcolor"	"Gray"	}				
+				"SlotLabel"	{	"fgcolor"	"Gray"	}					
+				"SlotTextLabel"	{	"fgcolor"	"Gray"	}				
+				"ArmoryTextLabel"	{	"fgcolor"	"Gray"	}	
+				"AttributesLabel"	{	"fgcolor"	"Gray"	}
 				"collectionhighlight"	{	"bgcolor_override"	"Gray"	}	
 				"ItemWikiPageButton"	{	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
 			}
@@ -110,7 +110,7 @@
 		"border_default"	"Black"	"border_armed"	"Select"	
 		"SubImage"	{	"visible"	"0"	"enabled"	"0"	}			
 	}
-	"CycleTextLabel"	{	"font"	"f8"	"ypos"	"c36"	"fgcolor"	"TanLight"	}
+	"CycleTextLabel"	{	"ypos"	"c36"	"fgcolor"	"TanLight"	}
 	"PaintNameLabel"	{	"fgcolor"	"TanLight"	}
 	"StyleNameLabel"	{	"fgcolor"	"TanLight"	}		
 	"CloseButton"

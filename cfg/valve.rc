@@ -22,6 +22,7 @@ exec net_graph.cfg
 alias chud_firstrun "exec hud_firstrun"
 exec hud_has_run.txt
 chud_firstrun
+refresh_options_dialog
 
 exec clear
 // stuff command line statements
@@ -34,6 +35,9 @@ tf_hud_target_id_disable_floating_health 1
 tf_spectator_target_location 1
 tf_contract_progress_show 0
 tf_contract_competitive_show 0
+tf_scoreboard_alt_class_icons 0
+cl_show_market_data_on_items 2
+tf_scoreboard_ping_as_text 1
 
 // ============
 // WELCOME DIALOG

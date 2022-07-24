@@ -414,20 +414,6 @@ DESCRIPTION INFO_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-
-	"tf_scoreboard_ping_as_text"
-	{
-		"#TF_ScoreBoard_PingAsText"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"tf_scoreboard_alt_class_icons"
-	{
-		"#TF_ScoreBoard_AltClassIcons"
-		{ BOOL }
-		{ "0" }
-	}
 	
 	"category4"
 	{
