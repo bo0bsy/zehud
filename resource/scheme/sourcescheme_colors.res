@@ -33,5 +33,6 @@ Scheme
 		"Positive"					"120 200 120 255"
 		"TanLight"					"235 226 202 255"
 		"CustomBlack"				"27 27 27 255"
+		"Yellow"					"235 226 202 255"
 	}
 }

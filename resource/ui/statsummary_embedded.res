@@ -84,7 +84,7 @@
 		
 		"ClassLabel1"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"30"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -133,7 +133,7 @@
 		
 		"ClassLabel2"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 			
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"50"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -185,7 +185,7 @@
 		"ClassLabel3"
 		{
 
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"70"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 
@@ -236,7 +236,7 @@
 		
 		"ClassLabel4"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"90"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 
@@ -287,7 +287,7 @@
 		
 		"ClassLabel5"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 			
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"110"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -339,7 +339,7 @@
 		"ClassLabel6"
 		{
 
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"130"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -390,7 +390,7 @@
 		
 		"ClassLabel7"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"150"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -441,7 +441,7 @@
 		
 		"ClassLabel8"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"170"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			
@@ -492,7 +492,7 @@
 		
 		"ClassLabel9"
 		{
-			"font"	"Class Symbols Mini Stats"
+			"font"	"HudFontMediumSmallSecondary"
 
 			"textAlignment"	"center"	"xpos"	"c-40"	"ypos"	"190"	"zpos"	"5"	"wide"	"80"	"tall"	"20"
 			

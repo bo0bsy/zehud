@@ -156,9 +156,9 @@
 	}
 	"Player1Class"
 	{	
-		"font"	"Class Symbols Mini"
+		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
 		
 		"pin_to_sibling"	"Player1Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -181,9 +181,9 @@
 	}
 	"Player2Class"
 	{	
-		"font"	"Class Symbols Mini"
+		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
 		
 		"pin_to_sibling"	"Player2Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -206,9 +206,9 @@
 	}
 	"Player3Class"
 	{	
-		"font"	"Class Symbols Mini"
+		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
 		
 		"pin_to_sibling"	"Player3Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -245,9 +245,9 @@
 	
 	"KillStreakPlayer1Class"
 	{	
-		"font"	"Class Symbols Mini"
+		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"10"	"wide"	"40"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"10"	"wide"	"40"	"tall"	"11"
 		
 		"pin_to_sibling"	"KillStreakPlayer1Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
