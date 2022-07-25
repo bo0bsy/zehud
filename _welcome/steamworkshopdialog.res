@@ -24,7 +24,7 @@
 			"title3"		
 			{
 				"ControlName"	"Label"	"FieldName"	"title3"				
-				"xpos"	"5"	"ypos"	"170"	"wide"	"400"	"tall"	"20"				
+				"xpos"	"5"	"ypos"	"155"	"wide"	"400"	"tall"	"20"				
 				"font"	"f12"
 				"labelText"	"Click anywhere to close this window."	"textAlignment"	"center"				
 				"fgcolor_override"		"TanLight"
