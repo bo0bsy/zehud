@@ -1,8 +1,9 @@
+#base "ze_colors.res"
+
 Scheme
 {
 	Colors
-	{
-		"Main"						"235 226 202 255"		
+	{		
 		"HudBlack"					"0 0 0 200"
 		"BackgroundDark"			"50 50 50 100"
 		"DarkGrey"					"31 32 33 255"
@@ -29,10 +30,7 @@ Scheme
 		"SelectionBG2"				"69 64 57 200"
 		"ListBG"					"0 0 0 100"
 		"Orange"					"120 200 120 255"
-		
-		"Positive"					"120 200 120 255"
 		"TanLight"					"235 226 202 255"
-		"CustomBlack"				"27 27 27 255"
 		"Yellow"					"235 226 202 255"
 	}
 }

@@ -1,19 +1,12 @@
-#base "scout_red.res"
-
+#base "scout_blue.res"
 "Resource/UI/disguise_menu/spy_blue.res"
 {
-	"ClassIcon"	
-	{
-		"icon"										"hud_menu_spy_blu"
-	}
-	
-	"NewNumberLabel"
-	{	
-		"labelText"									"3"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"									"9"
-	}
+	"TeamIndicator"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ItemNameLabel"	{}
+	"ClassIcon"	{}
+	"ClassImage"	{	"image"	"..\hud\leaderboard_class_spy"	}
+	"NumberBg"	{}
+	"NewNumberLabel"	{	"labelText"	"3"	}
+	"NumberLabel"	{	"labelText"	"9"	}
 }

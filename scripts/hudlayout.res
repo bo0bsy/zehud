@@ -728,7 +728,7 @@
 		
 		"visible"	"1"	"enabled"	"1"	
 	
-		"xpos"	"c-140"	"ypos"	"r145"	"zpos"	"101"	"wide"	"280"	"tall"	"85"
+		"xpos"	"c-225"	"ypos"	"c95"	"wide"	"450"	"tall"	"70"
 	}	
 	
 	HudDemomanPipes

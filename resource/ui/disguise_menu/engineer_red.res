@@ -1,19 +1,12 @@
 #base "scout_red.res"
-
 "Resource/UI/disguise_menu/engineer_red.res"
 {
-	"ClassIcon"	
-	{
-		"icon"										"hud_menu_engineer_red"
-	}
-	
-	"NewNumberLabel"
-	{	
-		"labelText"									"3"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"									"6"
-	}
+	"TeamIndicator"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ItemNameLabel"	{}
+	"ClassIcon"	{}
+	"ClassImage"	{	"image"	"..\hud\leaderboard_class_engineer"	}
+	"NumberBg"	{}
+	"NewNumberLabel"	{	"labelText"	"3"	}
+	"NumberLabel"	{	"labelText"	"6"	}
 }

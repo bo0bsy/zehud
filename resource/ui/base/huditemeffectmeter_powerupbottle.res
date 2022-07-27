@@ -5,8 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r70"	[$WIN32]
-		"ypos"			"r130"	[$WIN32]
+		"xpos"			"r86"	[$WIN32]
+		"ypos"			"r102"	[$WIN32]
+		"xpos_minbad"	"r70"	[$WIN32]
+		"ypos_minbad"	"r130"	[$WIN32]
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -37,11 +39,15 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectIcon"
-		"xpos"			"36"
-		"ypos"			"14"
+		"xpos"			"12"
+		"xpos_minbad"	"36"
+		"ypos"			"7"
+		"ypos_minbad"	"14"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"20"
+		"wide"			"27"
+		"wide_minbad"	"20"
+		"tall"			"27"
+		"tall_minbad"	"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/ico_powerup_critboost_red"
@@ -93,8 +99,10 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"ypos"					"15"
+		"xpos"					"24"
+		"xpos_minbad"			"40"
+		"ypos"					"11"
+		"ypos_minbad"			"18"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -106,6 +114,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMediumSmall"
+		"font"					"HudFontMedium"
+		"font_minbad"			"HudFontMediumSmall"
 	}
 }

@@ -1,89 +1,33 @@
+#base "../base/disguise_menu/scout_red.res"
 "Resource/UI/disguise_menu/scout_red.res"
 {
-	"ItemNameLabel"
-	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"ItemName"
-		"wide"										"0"
-		"tall"										"0"
-		"visible"									"0"
-		"enabled"									"0"
-	}
-	
-	"ClassIcon"	
+	"ItemNameLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ClassIcon"		{	"wide"	"0"	}
+	"ClassImage"	
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"ClassIcon"
-		"xpos"										"0"
-		"ypos"										"0"
-		"zpos"										"1"
-		"wide"										"34"
-		"tall"										"70"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"hud_menu_scout_red"
+		"ControlName"	"ImagePanel"	"fieldName"		"ClassImage"
+		"xpos"	"cs-0.5"	"ypos"	"28"	"zpos"	"1"	"wide"	"25"	"tall"	"25"
+		"visible"	"1"	"enabled"	"1"	"scaleImage"	"1"		"proportionaltoparent"	"1"	"image"	"..\hud\leaderboard_class_scout"
 	}
-	
-	"NumberBg"	
+	"TeamIndicator"
 	{
-		"ControlName"								"CIconPanel"
-		"fieldName"									"NumberBg"
-		"xpos"										"11"
-		"ypos"										"70"
-		"zpos"										"0"
-		"wide"										"15"
-		"tall"										"15"
-		"visible"									"1"
-		"enabled"									"1"
-		"scaleImage"								"1"	
-		"icon"										"ico_key_blank"
-		"iconColor"									"White"
+		"controlname"	"label"	"fieldname"	"TeamIndicator"
+		"xpos"	"5"	"ypos"	"17"	"zpos"	"-100"	"wide"	"f0"	"tall"	"13"	"LabelText"	"red"	"textAlignment"	"north-west"
+		"font"	"f8"	"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		"fgcolor_override"	"HUDRedTeamSolid"
 	}
-	
+	"NumberBg"	{	"xpos"	"cs-0.45"	"ypos"	"55"	"proportionaltoparent"	"1"	}
 	"NewNumberLabel"
 	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"1"
-		"zpos"										"10"
-		"wide"										"15"
-		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"0"
-		"enabled"									"1"
-		"labelText"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
-		
-		"pin_to_sibling"							"NumberBg"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"labelText"		"1"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"NumberBg"
 	}
-	
 	"NumberLabel"
 	{	
-		"ControlName"								"CExLabel"
-		"fieldName"									"NumberLabel"
-		"font"										"Default"
-		"fgcolor"									"Black"
-		"xpos"										"0"
-		"ypos"										"1"
-		"zpos"										"10"
-		"wide"										"15"
-		"tall"										"15"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		"labelText"									"1"
-		"textAlignment"								"Center"
-		"dulltext"									"1"
-		"brighttext"								"0"
-		
-		"pin_to_sibling"							"NumberBg"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"1"	"labelText"		"1"
+		"proportionaltoparent"	"1"
+		"pin_to_sibling"	"NumberBg"
 	}
 }

@@ -1,9 +1,7 @@
-"Resource/UI/HudItemEffectMeter_Action.res"
+#base "base/huditemeffectmeter.res"
+//	added this to fix console spam
+"Resource/UI/HudItemEffectMeter_action.res"
 {
-	"ItemEffectMeter"
-	{
-		"ControlName"								"ContinuousProgressBar"
-		"fieldName"									"ItemEffectMeter"
-		"xpos"										"9999"
-	}
+	HudItemEffectMeter	{	"xpos"	"9999"	}
+	"ItemEffectMeter"	{	"xpos"	"9999"	}					
 }

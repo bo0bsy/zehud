@@ -1,19 +1,12 @@
 #base "scout_red.res"
-
 "Resource/UI/disguise_menu/heavy_red.res"
 {
-	"ClassIcon"	
-	{
-		"icon"										"hud_menu_heavy_red"
-	}
-	
-	"NewNumberLabel"
-	{	
-		"labelText"									"2"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"									"5"
-	}
+	"TeamIndicator"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ItemNameLabel"	{}
+	"ClassIcon"	{}
+	"ClassImage"	{	"image"	"..\hud\leaderboard_class_heavy"	}
+	"NumberBg"	{}
+	"NewNumberLabel"	{	"labelText"	"2"	}
+	"NumberLabel"	{	"labelText"	"5"	}
 }

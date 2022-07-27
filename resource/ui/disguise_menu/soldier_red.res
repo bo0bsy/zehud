@@ -1,19 +1,12 @@
 #base "scout_red.res"
-
 "Resource/UI/disguise_menu/soldier_red.res"
 {
-	"ClassIcon"	
-	{
-		"icon"										"hud_menu_soldier_red"
-	}
-	
-	"NewNumberLabel"
-	{	
-		"labelText"									"2"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"									"2"
-	}
+	"TeamIndicator"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ItemNameLabel"	{}
+	"ClassIcon"	{}
+	"ClassImage"	{	"image"	"..\hud\leaderboard_class_soldier"	}
+	"NumberBg"	{}
+	"NewNumberLabel"	{	"labelText"	"2"	}
+	"NumberLabel"	{	"labelText"	"2"	}
 }

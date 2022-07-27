@@ -1,19 +1,12 @@
 #base "scout_red.res"
-
 "Resource/UI/disguise_menu/sniper_red.res"
 {
-	"ClassIcon"	
-	{
-		"icon"										"hud_menu_sniper_red"
-	}
-	
-	"NewNumberLabel"
-	{	
-		"labelText"									"2"
-	}
-	
-	"NumberLabel"
-	{	
-		"labelText"									"8"
-	}
+	"TeamIndicator"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+
+	"ItemNameLabel"	{}
+	"ClassIcon"	{}
+	"ClassImage"	{	"image"	"..\hud\leaderboard_class_sniper"	}
+	"NumberBg"	{}
+	"NewNumberLabel"	{	"labelText"	"2"	}
+	"NumberLabel"	{	"labelText"	"8"	}
 }
