@@ -7,9 +7,9 @@
 #base "../../#basefiles/menu/background.res"
 #base "../../#basefiles/menu/friendscontainer.res"
 
-#base "base/mainmenuoverride.res"
+//#base "custom/dimmer.res"
 #base "custom/preload.res"
-//#base "custom/remove_dimmer.res"
+#base "base/mainmenuoverride.res"
 
 "Resource/UI/MainMenuOverride.res"
 {

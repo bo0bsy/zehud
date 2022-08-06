@@ -13,7 +13,8 @@ exec autoexec.cfg
 // CUSTOM STUFF
 // ============
 
-//exec remove_dimmer.cfg
+exec clear
+//exec dimmer.cfg
 exec hud_classswitch.cfg
 exec transparent_viewmodels.cfg
 exec net_graph.cfg
@@ -24,7 +25,6 @@ exec hud_has_run.txt
 chud_firstrun
 refresh_options_dialog
 
-exec clear
 // stuff command line statements
 stuffcmds
 // display the startup level
@@ -43,5 +43,5 @@ tf_scoreboard_ping_as_text 1
 // WELCOME DIALOG
 // ============
 
-alias "workshop"	"OpenSteamWorkshopDialog"
+alias "workshop" "OpenSteamWorkshopDialog"
 wait 20; workshop
