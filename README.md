@@ -18,6 +18,7 @@ tf
     └── optimized-default-hud
         ├── #basefiles
         ├── #customization
+        ├── _console
         ├── _loading
         ├── _welcome
         ├── addons
