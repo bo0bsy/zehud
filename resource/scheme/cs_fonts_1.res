@@ -47,7 +47,7 @@ Fonts
 {
 "1"
 {
-"name"	"Imagine Font Regular"
+"name"	"Verdana"
 "tall" "12"
 }
 }

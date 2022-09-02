@@ -32,5 +32,9 @@ Scheme
 		"Orange"					"120 200 120 255"
 		"TanLight"					"235 226 202 255"
 		"Yellow"					"235 226 202 255"
+		
+		"OffWhite"					"190 190 190 255"
+		"OffWhiteDull"				"150 150 150 255"
+		"DullWhite"					"190 190 190 255"
 	}
 }

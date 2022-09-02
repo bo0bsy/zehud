@@ -1,7 +1,6 @@
 /////////////////// Borrowed from CS:S SourceScheme /////////////////////////
 #base "../_console/sourcescheme.res"
 #base "scheme/sourcescheme_colors.res"
-#base "scheme/sourcescheme_basesettings.res"
 #base "scheme/cs_global.res"
 #base "scheme/cs_fonts_1.res"
 #base "scheme/cff_hl2_1.res"

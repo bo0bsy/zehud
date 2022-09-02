@@ -2,7 +2,7 @@ Scheme
 {
 BaseSettings
 {
-MainMenu.TextColor  "Main"
+MainMenu.TextColor  "OffWhite"
 MainMenu.ArmedTextColor "200 200 200 255"
 MainMenu.DepressedTextColor "192 186 80 255"
 MainMenu.MenuItemHeight "16"
@@ -11,9 +11,9 @@ MainMenu.Backdrop   "Blank"
 // basically the shadow when you open console
 
 Console.TextColor   "Positive"
-Console.DevTextColor    "Main"
+Console.DevTextColor    "White"
 
-NewGame.TextColor   "Main"
+NewGame.TextColor   "White"
 NewGame.FillColor   "Black"
 NewGame.SelectionColor  "255 155 0 255"
 NewGame.SelectionColor  "Black"
