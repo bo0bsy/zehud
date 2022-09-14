@@ -1,9 +1,9 @@
+#base "scheme/borders.res"
+#base "scheme/fonts.res"
 #base "scheme/ze_colors.res"
 #base "scheme/default_colors.res"
 #base "scheme/basesettings.res"
 #base "scheme/cs_global_tf.res"
-#base "scheme/fonts.res"
-#base "scheme/borders.res"
 #base "scheme/bitmap.res"
 #base "scheme/customfonts/icons.res"
 #base "scheme/customfonts/zehud.res"
@@ -43,7 +43,7 @@ Scheme
 		"3" 	{	"font"	"resource/tf2Professor.ttf"					"name" "tf2 professor"	}	
 		"4" 	{	"font"	"resource/tf2Build.ttf"						"name" "tf2 build"	}	
 		"5"		{	"font"	"resource/ocra.ttf"							"name" "ocra"	}	
-		"6"		{	"font"	"resource/scheme/fonts/blank.ttf"			"name" "adobe blank"	}	
+		"6"		{	"font"	"resource/scheme/fonts/blank.ttf"			"name" "Adobe Blank"	}	
 		"7"		{	"font"	"resource/scheme/fonts/hypnotize icons.ttf"	"name" "hypnotize icons v3s"	}
 		"8"		{	"font"	"resource/scheme/fonts/tf2 class icons.ttf"	"name" "tf2 class icons v2"	}
 		"9"		{	"font"	"resource/scheme/fonts/readyup symbols.otf"	"name" "readyup symbols"	}	

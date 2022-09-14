@@ -4,7 +4,7 @@
 {
 	"partychat"
 	{
-		"xpos"	"0"	"zpos"	"9999"	"wide"	"228"	"tall"	"140"	
+		"xpos"	"0"	"zpos"	"9999"	"wide"	"184"	"tall"	"140"	
 		"border"	"NoBorder"		
 		"bgcolor_override"	"0 0 0 130"
 		"log_font_small"	"Default"	"log_font_medium"	"Default"	"log_font_large"	"Default"		

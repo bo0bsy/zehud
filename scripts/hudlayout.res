@@ -374,6 +374,8 @@
 		"visible"	"1"	"enabled"	"1"
 		
 		"wide"	 "f0"	"tall"	 "f0"
+		
+		"TextFont"	""	"ItemFont"	""	"ItemFontPulsing"	""	
 	}
 
 	HudMenu

@@ -2,35 +2,36 @@
 
 event UberchargeBg
 {
-    Animate 	ChargeMeter	wide     	"0"                   		 Linear 0.1 0.2
+    Animate	ChargeMeter	wide	"40"	Linear 0.1 0.2
+	Animate	ChargeMeter	xpos	"c-20"	Linear 0.1 0.2
 }
 
 event HudMedicCharged
 {
-	Animate		ChargeLabel 					FgColor		"UberGreen"				Linear 	0.0 	0.1
-	Animate		ChargeLabel 					FgColor		"UberCyan"				Linear 	0.1 	0.1
-	Animate		ChargeLabel 					FgColor		"UberBlue"				Linear 	0.2 	0.1
-	Animate		ChargeLabel 					FgColor		"UberMagenta"			Linear	0.3 	0.1
-	Animate		ChargeLabel 					FgColor		"UberRed"				Linear 	0.4 	0.1
-	Animate		ChargeLabel 					FgColor		"UberYellow"			Linear 	0.5 	0.1
+	Animate		ChargeMeter	FgColor	"UberGreen"	Linear 	0.0 	0.1
+	Animate		ChargeMeter	FgColor	"UberCyan"	Linear 	0.1 	0.1
+	Animate		ChargeMeter	FgColor	"UberBlue"	Linear 	0.2 	0.1
+	Animate		ChargeMeter	FgColor	"UberMagenta"	Linear	0.3 	0.1
+	Animate		ChargeMeter	FgColor	"UberRed"	Linear 	0.4 	0.1
+	Animate		ChargeMeter	FgColor	"UberYellow"	Linear 	0.5 	0.1
 
-	RunEvent HudMedicChargedLoop		0.6
+	RunEvent HudMedicChargedLoop	0.6
 }
 
 event HudMedicChargedLoop
 {
-    RunEvent 	UberchargeBg   			0.0
-	RunEvent 	HudMedicCharged			0.0
+    RunEvent 	UberchargeBg	0.0
+	RunEvent 	HudMedicCharged	0.0
 }
 
 event HudMedicChargedStop
 {
-	StopEvent 	HudMedicCharged			0.0
-	StopEvent 	HudMedicChargedLoop 	0.0
+	StopEvent 	HudMedicCharged	0.0
+	StopEvent 	HudMedicChargedLoop	0.0
 	
-	Animate		ChargeLabel 			FgColor	 "TanLight"		        Linear 0.0 0.0
+	Animate		ChargeMeter	FgColor	"TanLight"	Linear 0.0 0.0
 	
-    Animate 	ChargeMeter     		wide     "40"                   Linear 0.1 0.2	
+    Animate 	ChargeMeter	wide	"0"	Linear 0.1 0.2	
 }
 
 //===========================================================================================================================

@@ -470,7 +470,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldname"	"Crosshair 9"
 
-			"xpos"	"0"	"ypos"	"5"	"zpos"	"16"	"wide"	"60"	"tall"	"26"
+			"xpos"	"0"	"ypos"	"5"	"zpos"	"16"	"wide"	"61"	"tall"	"26"
 
 			"font"	"Crosshairs"	"visible"	"1"	"enabled"	"1"	"command"	"engine exec crosshair"	"actionsignallevel"	"2"
 			
@@ -491,7 +491,7 @@
 		{
 			"ControlName"	"CExImageButton"	"fieldname"	"Crosshair 10"
 
-			"xpos"	"9"	"ypos"	"0"	"zpos"	"16"	"wide"	"60"	"tall"	"26"
+			"xpos"	"9"	"ypos"	"0"	"zpos"	"16"	"wide"	"61"	"tall"	"26"
 
 			"font"	"HudHintText"	"visible"	"1"	"enabled"	"1"	"command"	"engine toggle crosshair"	"actionsignallevel"	"2"
 			

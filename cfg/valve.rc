@@ -37,11 +37,11 @@ tf_scoreboard_alt_class_icons 0
 cl_show_market_data_on_items 2
 tf_scoreboard_ping_as_text 1
 
-exec clear
-
 // ============
 // WELCOME DIALOG
 // ============
 
 alias "workshop" "OpenSteamWorkshopDialog"
 wait 20; workshop
+
+exec clear

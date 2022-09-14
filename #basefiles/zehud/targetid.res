@@ -14,7 +14,7 @@
 		"quickpin1"
 		{
 			"controlname"	"cexbutton"	"fieldname"	"quickpin1"			
-			"xpos"	"cs-0.5-15"	"ypos"	"15"	"labeltext"	""			
+			"xpos"	"9999"	"ypos"	"15"	"labeltext"	""			
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"				
 			"paintbackground"	"0"
 		}		
@@ -22,13 +22,14 @@
 		{
 			"controlname"	"cexbutton"	"fieldname"	"quickpin2"			
 			"xpos"	"9999"	"labeltext"	""		
+			"xpos_minmode"	"9999"
 			"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"			
 			"paintbackground"	"0"
 		}			
-		"MoveableIconBG"	{	"pin_to_sibling"	"quickpin2"	"pin_corner_to_sibling"	"5"	"pin_to_sibling_corner"	"5"	}	
-		"MoveableIcon"	{	"tall"	"0"	}
-		"MoveableSymbolIcon"	{	"tall"	"8"	"pin_to_sibling"	"quickpin1"	"pin_corner_to_sibling"	"5"	"pin_to_sibling_corner"	"5"	}
-		"MoveableKeyLabel"	{	"ypos"	"0"	"font"	"TFFontLarge"	}	
+		"MoveableIconBG"	{	"visible"	"0"	"visible_minmode"	"1"	"tall_minmode"	"25"	}	
+		"MoveableIcon"	{}
+		"MoveableSymbolIcon"	{}
+		"MoveableKeyLabel"	{	"pin_to_sibling"	"quickpin2"	}	
 	}	
 
 	"quickpin"
