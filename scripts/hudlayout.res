@@ -1,4 +1,5 @@
 #base "../#customization/damage_indicator.res"
+#base "../#customization/watermarks.res"
 
 "Resource/HudLayout.res"
 {	
@@ -6,16 +7,16 @@
 	// USELESS
 	//--------------------------------------------------------------
 	
-	HudTeamSwitch	{	"fieldName"	"HudTeamSwitch"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}		
-	HudArenaCapPointCountdown	{	"fieldName"	"HudArenaCapPointCountdown"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-	HudStalemate	{	"fieldName"	"HudStalemate"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudBowCharge	{	"fieldName"	"HudBowCharge"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	StatPanel	{	"fieldName"	"StatPanel"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudArenaNotification	{	"fieldName"	"HudArenaNotification"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudTeamGoal	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudTeamGoalTournament	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	HudAlert	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-	HudArenaClassLayout 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudTeamSwitch"	{	"fieldName"	"HudTeamSwitch"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}		
+	"HudArenaCapPointCountdown"	{	"fieldName"	"HudArenaCapPointCountdown"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	"HudStalemate"	{	"fieldName"	"HudStalemate"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudBowCharge"	{	"fieldName"	"HudBowCharge"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"StatPanel"	{	"fieldName"	"StatPanel"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudArenaNotification"	{	"fieldName"	"HudArenaNotification"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudTeamGoal"	{	"fieldName"	"HudTeamGoal"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudTeamGoalTournament"	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+	"HudAlert"	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	"HudArenaClassLayout" 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 
 	HudDeathNotice
 	{
@@ -367,15 +368,11 @@
 		"wide"	 "640"	"tall"	 "f0"
 	}
 
-	HudMessage
+	"HudMessage"
 	{
 		"fieldName" "HudMessage"
 		
 		"visible"	"1"	"enabled"	"1"
-		
-		"wide"	 "f0"	"tall"	 "f0"
-		
-		"TextFont"	""	"ItemFont"	""	"ItemFontPulsing"	""	
 	}
 
 	HudMenu

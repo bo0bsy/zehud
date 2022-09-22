@@ -15,19 +15,20 @@
 	{
 		"bgcolor_override"	"Blank"		
 		"infocus_bgcolor_override"	"Blank"	"outoffocus_bgcolor_override" 	"Blank"		
-		"item_xpos_offcenter_a"	"-300"	"item_xpos_offcenter_b"	"150"		
+		"item_xpos_offcenter_a"	"-140"	"item_xpos_offcenter_b"	"-300"		
 		"item_mod_wide"	"20"		
 		"modelpanels_kv"
 		{
-			"zpos"	"11"	"wide"	"150"		
+			"zpos"	"69"	"wide"	"150"	"wide"	"80"	"tall"	"50"		
 			"bgcolor_override"	"Blank"	"PaintBackgroundType"	"0"
+			"model_tall"	"40"	"model_wide"	"60"
 			"noitem_textcolor"	"TanLight"			
 			"itemmodelpanel"	{	"allow_manip"	"1"	}
 		}
 		
 		"itemoptionpanels_kv"
 		{
-			"zpos"	"12"	"wide"	"20"	"tall"	"20"
+			"zpos"	"100"	"wide"	"20"	"tall"	"20"
 			"font"	"Symbols 18"
 			"labelText"	"{"	"textAlignment"	"center"			
 			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgColor_override"		"TanLight"							
@@ -52,21 +53,25 @@
 	
 	"classmodelpanel"
 	{
-		"xpos"	"cs-0.5"	"zpos"	"10"	"wide"	"f0"	"tall"	"f0"
-		"fov"	"80"
+		"xpos"	"r400"	"ypos"	"0"	"zpos"	"60"	"wide"	"p0.5"	"tall"	"f0"
+		"fov"	"30"	"render_texture"	"0"
 		"allow_manip"	"1"	"proportionaltoparent"	"1"
 		"model"
 		{
-			"animation"	{	"name"	"PRIMARY"	"activity"	"ACT_MP_STAND_PRIMARY"	"default"	"1"	}
-			"animation"	{	"name"	"SECONDARY"	"activity"	"ACT_MP_STAND_SECONDARY"	}
-			"animation"	{	"name"	"MELEE"	"activity"	"ACT_MP_STAND_MELEE"	}
-			"animation"	{	"name"	"BUILDING"	"activity"	"ACT_MP_STAND_BUILDING"	}
-			"animation"	{	"name"	"PDA"	"activity"	"ACT_MP_STAND_PDA"	}
-			"animation"	{	"name"	"ITEM1"	"activity"	"ACT_MP_STAND_ITEM1"	}						
-			"animation"	{	"name"	"ITEM2"	"activity"	"ACT_MP_STAND_ITEM2"	}									
-			"animation"	{	"name"	"MELEE_ALLCLASS"	"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"	}
-			"animation"	{	"name"	"PRIMARY2"	"activity"	"ACT_MP_STAND_PRIMARY"	}
-			"animation"	{	"name"	"SECONDARY2"	"activity"	"ACT_MP_STAND_SECONDARY2"	}
+			"force_pos"	"1"
+			"angles_x" "0"
+			"angles_y" "180"
+			"angles_z" "0"
+			"origin_x" "190"
+			"origin_y" "-5"
+			"origin_z" "-50"
+			"frame_origin_x"	"50"
+			"frame_origin_y"	"-5"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+			//origin_x	450	// distance
+			//origin_y	50	// horizontal
+			//origin_z	-50	// vertical -55
 		}
 	}
 	
@@ -78,48 +83,54 @@
 		"bgcolor_override"	"Blank"	"PaintBackgroundType"	"0"
 	}
 
-	"CharacterLoadoutButton"
-	{
-		"xpos"	"c-28"	"ypos"	"90"	"zpos"	"12"
-		"font"	"Symbols 14"
-		"labelText"	"P"	"textAlignment"	"center"		
-		"image_drawcolor"	"235 226 202 255"		
-		"SubImage"	{	"visible"	"0"	"enabled"	"0"	}		
-	}
-
-	"TauntLoadoutButton"
-	{
-		"xpos"	"c0"	"ypos"	"90"	"zpos"	"12"
-		"font"	"Symbols 14"
-		"labelText"	"^"	"textAlignment"	"center"
-		"image_drawcolor"	"235 226 202 255"	
-		"SubImage"	{	"visible"	"0"	"enabled"	"0"	}		
-	}
+	"loadout_preset_panel"
+	{	"wide"	"f0"	"tall"	"f0"	}
 
 	"ToggleToRED"
 	{
 		"ControlName"	"CExImageButton"	"fieldName"	"ToggleToRED"
-		"xpos"	"c122"	"ypos"	"c-47"	"zpos"	"12"	"wide"	"25"	"tall"	"12"
+		"xpos"	"c-140"	"ypos"	"r119"	"zpos"	"69"	"wide"	"25"	"tall"	"12"
 		"font"	"SpectatorKeyHints"	"visible"	"1"	"enabled"	"1"	"scaleImage"	"1"	"Command"	"sv_cheats 1; r_skin 0"		
 		"labelText"	"#TF_ScoreBoard_Red"	"textAlignment"	"center"
 		"paintborder"	"0"		
 		"paintbackground"	"1"	"paintbackgroundtype"	"2"	
 		"fgcolor"	"TanLight"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"	"selectedFgColor_override"	"TanLight"
-		"bgcolor"	"0 0 0 130"	"defaultBgColor_override"	"0 0 0 130"	"depressedBgColor_override"	"0 0 0 130"	"selectedBgColor_override"	"0 0 0 130"			
+		"bgcolor"	"Black"	"defaultBgColor_override"	"Black"	"depressedBgColor_override"	"Black"	"selectedBgColor_override"	"Black"			
 		"armedBgColor_override"	"HUDRedTeamSolid"
 		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"	"sound_armed"	"UI/buttonrollover.wav"
 	}
 	"ToggleToBLU"
 	{
 		"ControlName"	"CExImageButton"	"fieldName"	"ToggleToBLU"
-		"xpos"	"c122"	"ypos"	"c-32"	"zpos"	"12"	"wide"	"25"	"tall"	"12"
+		"xpos"	"0"	"ypos"	"1"	"zpos"	"69"	"wide"	"25"	"tall"	"12"
 		"font"	"SpectatorKeyHints"	"visible"	"1"	"enabled"	"1"	"scaleImage"	"1"	"Command"	"sv_cheats 1; r_skin 1"		
 		"labelText"	"#TF_ScoreBoard_Blue"	"textAlignment"	"center"
 		"paintborder"	"0"
 		"paintbackground"	"1"	"paintbackgroundtype"	"2"
 		"fgcolor"	"TanLight"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"	"selectedFgColor_override"	"TanLight"
-		"bgcolor_override"	"0 0 0 130"	"defaultBgColor_override"	"0 0 0 130"	"depressedBgColor_override"	"0 0 0 130"	"selectedBgColor_override"	"0 0 0 130"		
+		"bgcolor_override"	"Black"	"defaultBgColor_override"	"Black"	"depressedBgColor_override"	"Black"	"selectedBgColor_override"	"Black"		
 		"armedBgColor_override"	"HUDBlueTeamSolid"
 		"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"	"sound_armed"	"UI/buttonrollover.wav"
+		"pin_to_sibling"	"ToggleToRED"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
+	}
+
+	"CharacterLoadoutButton"
+	{
+		"xpos"	"2"	"ypos"	"0"	"zpos"	"69"
+		"font"	"Symbols 12"
+		"labelText"	"P"	"textAlignment"	"center"		
+		"image_drawcolor"	"235 226 202 255"		
+		"SubImage"	{	"visible"	"0"	"enabled"	"0"	}
+		"pin_to_sibling"	"ToggleToRED"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_TOPRIGHT"		
+	}
+
+	"TauntLoadoutButton"
+	{
+		"xpos"	"3"	"ypos"	"0"	"zpos"	"69"
+		"font"	"Symbols 12"
+		"labelText"	"^"	"textAlignment"	"center"
+		"image_drawcolor"	"235 226 202 255"	
+		"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	
+		"pin_to_sibling"	"CharacterLoadoutButton"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_TOPRIGHT"		
 	}	
 }

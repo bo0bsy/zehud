@@ -8,12 +8,14 @@ exec joystick.cfg
 
 // run a user script file if present
 exec autoexec.cfg
+exec mastercomfig_modules.cfg
 
 // ============
 // CUSTOM STUFF
 // ============
 
 //exec dimmer.cfg
+exec ent_remove_all_entities.cfg
 exec transparent_viewmodels.cfg
 exec net_graph.cfg
 
