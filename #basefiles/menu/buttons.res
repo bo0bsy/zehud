@@ -1,79 +1,63 @@
+#base "test.res"
+
 "Resource/UI/MainMenuOverride.res"
 {
 	"BottomLeftButtonsAnchor"
 	{
 		"ControlName"	"EditablePanel"	"fieldname"	"BottomLeftButtonsAnchor"		
-		"xpos"	"5"	"ypos"	"r45""wide"	"30"	"tall"	"1"		
+		"xpos"	"85"	"ypos"	"r19"	"wide"	"30"	"tall"	"1"		
 		"visible"	"0"
 	}
 
 	"CallVoteButton"
 	{
-		"ControlName"	"EditablePanel"	"fieldname"	"CallVoteButton"
-		"xpos"	"4"	"ypos"	"0"	"zpos"	"12"	"wide"	"40"	"tall"	"40"		
-		"visible"	"1"		
-		"pin_to_sibling"	"BottomLeftButtonsAnchor"		
-
+		"ControlName"	"EditablePanel"	"fieldname"	"CallVoteButton"	
+		"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"		
+		"visible"	"1"	"enabled"	"1"
+		"pin_to_sibling"	"BottomLeftButtonsAnchor"
 		"SubButton"
-		{
+		{	
 			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"		
-			"xpos"	"0"	"ypos"	"0"	"wide"	"40"	"tall"	"40"
-			"visible"	"1"	"enabled"	"1"	"textinsetx"	"100"		
+			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
+			"font"	"Symbols 18"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"
+			"use_proportional_insets"	"1"	
 			"textAlignment"	"west"
-			"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
+			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
 			"border_default"	"noborder"	"border_armed"	"noborder"			
-			"paintbackground"	"0"	"image_drawcolor"	"235 226 202 255"	"image_armedcolor"	"120 200 120 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"	"fieldName"	"SubImage"				
-				"xpos"	"4"	"ypos"	"4"	"zpos"	"1"	"wide"	"20"	"tall"	"20"				
-				"visible"	"1"	"enabled"	"1"	"image"	"glyph_create"	"scaleImage"	"1"
-			}				
+			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgcolor_override"	"TanLight"
+			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}			
 		}
-	}
-	
+	}	
 	"MutePlayersButton"
 	{
-		"ControlName"	"EditablePanel"	"fieldname"	"MutePlayersButton"		
-		"xpos"	"3"	"ypos"	"0"	"zpos"	"12"	"wide"	"40"	"tall"	"40"	
-		"visible"	"1"		
-		"pin_to_sibling"	"CallVoteButton"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"		
-	
+		"ControlName"	"EditablePanel"	"fieldname"	"MutePlayersButton"	
+		"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"		
+		"visible"	"1"	"enabled"	"1"
+		"pin_to_sibling"	"CallVoteButton"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		"SubButton"
-		{
+		{	
 			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"		
-			"xpos"	"0"	"ypos"	"0"	"wide"	"40"	"tall"	"40"
-			"visible"	"1"	"enabled"	"1"	"textinsetx"	"100"			
+			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
+			"font"	"Symbols 18"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"
+			"use_proportional_insets"	"1"		
 			"textAlignment"	"west"
-			"default"	"0"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
+			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
 			"border_default"	"noborder"	"border_armed"	"noborder"
-			"paintbackground"	"0"	"image_drawcolor"	"235 226 202 255"	"image_armedcolor"	"120 200 120 255"
-			
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"	"fieldName"	"SubImage"				
-				"xpos"	"4"	"ypos"	"4"	"zpos"	"1"	"wide"	"20"	"tall"	"20"			
-				"visible"	"1"	"enabled"	"1"	"image"	"glyph_create"	"scaleImage"	"1"
-			}				
+			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	
+			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	
 		}
 	}	
 	
 	"MOTD_ShowButtonPanel"
 	{
+		"ControlName"	"CExImageButton"	"fieldName"	"MOTD_ShowButtonPanel"
 		"xpos"	"rs1+1"	"ypos"	"30"	"zpos"	"2"	"wide"	"30"	"tall"	"30"
-
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"
-			"xpos"	"0"	"ypos"	"0"	"wide"	"30"	"tall"	"30"
-			"font"	"symbols 22"	"visible"	"1"	"enabled"	"1"	"actionsignallevel"	"2"
-			"use_proportional_insets" 	"1"
-			"textAlignment"	"center"
-			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"
-			"paintborder"	"0"
-			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
-		}
+		"font"	"symbols 22"	"visible"	"1"	"enabled"	"1"	"command"	"motd_show"
+		"use_proportional_insets" 	"1"
+		"labelText"	"z"	"textAlignment"	"center"
+		"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"
+		"paintborder"	"0"
+		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"MOTD_ShowButtonPanel_SB"	{	"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	}		
 	}	
@@ -85,9 +69,9 @@
 		"SubButton"
 		{	
 			"xpos"	"0"	"ypos"	"0"	"wide"	"30"	"tall"	"30"
-			"font"	"symbols 22"	"textinsetx"	"0"
+			"font"	"symbols 22"	"textinsetx"	"0"	"command"	"questlog"
 			"use_proportional_insets"	"1"
-			"textAlignment"	"center"
+			"labelText"	"I"	"textAlignment"	"center"
 			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"
 			"paintborder"	"0"
 			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	

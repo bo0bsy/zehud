@@ -1,33 +1,5 @@
-"GameMenu"
+"GameMenu"	//this file is pretty useless
 {
-	"Options"
-	{
-		"label"			"options"
-	}
-	"Adv"
-	{
-		"label"			"adv"
-	}	
-	"CallVoteButton"
-	{
-		"command"		"callvote"
-		"OnlyInGame"	"1"
-		"subimage" 		"icon_checkbox"
-	}
-	"MutePlayersButton"
-	{
-		"command"		"OpenMutePlayerDialog"
-		"OnlyInGame"	"1"
-		"subimage" 		"glyph_muted"
-	}
-	"MOTD_ShowButtonPanel"
-	{
-		"label"			"z"
-		"command"		"motd_show"
-	}
-	"QuestLogButton"
-	{
-		"label"			"I"
-		"command"		"questlog"
-	}	
+	"CallVoteButton"	{	"label"	"y"	"OnlyInGame"	"1"	"command"	"callvote"	}
+	"MutePlayersButton"	{	"label"	"h"	"OnlyInGame"	"1"	"command"	"OpenMutePlayerDialog"	}
 }

@@ -6,7 +6,7 @@
 	
 	"TargetIDBG"	{	"visible"	"0"	"visible_minmode"	"1"	}	
 	"TargetNameLabel"	{	"xpos"	"30"	"ypos"	"6"	"wide"	"640"	"tall"	"24"	"font"	"f8"	"ypos_minmode"	"3"		"font_minmode"	"TFFontLarge"	}	
-	"TargetDataLabel"	{	"xpos"	"30"	"ypos"	"13"	"zpos"	"1"	"wide"	"280"	"tall"	"8"	"font"	"f8"	"ypos_minmode"	"10"	"font_minmode"	"DefaultVerySmall"	}		
+	"TargetDataLabel"	{	"xpos"	"30"	"ypos"	"12"	"zpos"	"1"	"wide"	"280"	"tall"	"8"	"font"	"TargetData"	"ypos_minmode"	"11"	}		
 	"AmmoIcon"	{	"xpos"	"32"	"ypos"	"14" "wide"	"7"	"tall"	"7"	"ypos_minmode"	"10"}
 
 	"MoveableSubPanel"	//hardcoded element, move using pin

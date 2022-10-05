@@ -18,7 +18,16 @@ Scheme
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"35"	"weight"	"500"	"antialias"	"1"	"blur"	"3"	}	}
 		
 		"HudFontGiantBoldBlur"
-		{	"1"	{	"name"	"TF2 Build"	"tall"	"44"	"weight"	"500"	"antialias"	"1"	"blur"	"3"	}	}		
+		{	"1"	{	"name"	"TF2 Build"	"tall"	"44"	"weight"	"500"	"antialias"	"1"	"blur"	"3"	}	}	
+
+		"TargetData"
+		{
+			"1"	{	"name"	"targetdata"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"targetdata"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"600 767"	"antialias"	"1"	}
+			"3"	{	"name"	"targetdata"	"tall"	"12"	"range"	"0x0000 0x017F" "yres"	"768 1023"	"antialias"	"1"	}
+			"4"	{	"name"	"targetdata"	"tall"	"14"	"range"	"0x0000 0x017F"	"yres"	"1024 1199"	"antialias"	"1"	}
+			"5"	{	"name"	"targetdata"	"tall"	"16"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
+		}
 
 		"f8"
 		{	"1"	{	"name"	"TF2 Build"	"tall"	"8"		"weight"	"500"	"antialias"	"1"	}	}

@@ -6,8 +6,8 @@ Scheme
 	{
 		"Default"
 		{
-			"1"	{	"name"	"Verdana"	"tall"	"12"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"480 599"	}
-			"2"	{	"name"	"Verdana"	"tall"	"13"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"600 767"	}
+			"1"	{	"name"	"Verdana"	"tall"	"12"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"Verdana"	"tall"	"13"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"600 767"	"antialias"	"1"	}
 			"3"	{	"name"	"Verdana"	"tall"	"14"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"768 1023"	"antialias"	"1"	}
 			"4"	{	"name"	"Verdana"	"tall"	"20"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"1024 1199"	"antialias"	"1"	}
 			"5"	{	"name"	"Verdana"	"tall"	"24"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
@@ -20,8 +20,8 @@ Scheme
 		
 		"DefaultSmall"
 		{
-			"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"480 599"	}
-			"2"	{	"name"	"Verdana"	"tall"	"13"	"range"	"0x0000 0x017F"	"yres"	"600 767"	}
+			"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"Verdana"	"tall"	"13"	"range"	"0x0000 0x017F"	"yres"	"600 767"	"antialias"	"1"	}
 			"3"	{	"name"	"Verdana"	"tall"	"14"	"range"	"0x0000 0x017F"	"yres"	"768 1023"	"antialias"	"1"	}
 			"4"	{	"name"	"Verdana"	"tall"	"20"	"range"	"0x0000 0x017F"	"yres"	"1024 1199"	"antialias"	"1"	}
 			"5"	{	"name"	"Verdana"	"tall"	"22"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
@@ -31,8 +31,8 @@ Scheme
 
 		"DefaultVerySmall"
 		{
-			"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"480 599"	}
-			"2"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"600 767"	}
+			"1"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F"	"yres"	"600 767"	"antialias"	"1"	}
 			"3"	{	"name"	"Verdana"	"tall"	"12"	"range"	"0x0000 0x017F" "yres"	"768 1023"	"antialias"	"1"	}
 			"4"	{	"name"	"Verdana"	"tall"	"14"	"range"	"0x0000 0x017F"	"yres"	"1024 1199"	"antialias"	"1"	}
 			"5"	{	"name"	"Verdana"	"tall"	"16"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
@@ -40,13 +40,13 @@ Scheme
 		
 		DefaultLarge
 		{
-			"1"	{	"name"	"Verdana"	"tall"	"18"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"480 599"	}
-			"2"	{	"name"	"Verdana"	"tall"	"21"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"600 767"	}
+			"1"	{	"name"	"Verdana"	"tall"	"18"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"480 599"	"antialias"	"1"	}
+			"2"	{	"name"	"Verdana"	"tall"	"21"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"600 767"	"antialias"	"1"	}
 			"3"	{	"name"	"Verdana"	"tall"	"22"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"768 1023"	"antialias"	"1"	}
 			"4"	{	"name"	"Verdana"	"tall"	"28"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"1024 1199"	"antialias"	"1"	}
 			"5"	{	"name"	"Verdana"	"tall"	"30"	"weight"	"900"	"range"	"0x0000 0x017F"	"yres"	"1200 6000"	"antialias"	"1"	}
-			"6"	{	"name"	"Verdana"	"tall"	"20"	"range"	"0x0000 0x00FF"	"weight"	"900"	}
-			"7"	{	"name"	"Arial"	"tall"	"20"	"range"	"0x0000 0x00FF"	"weight"	"800"	}
+			"6"	{	"name"	"Verdana"	"tall"	"20"	"range"	"0x0000 0x00FF"	"weight"	"900"	"antialias"	"1"	}
+			"7"	{	"name"	"Verdana"	"tall"	"20"	"range"	"0x0000 0x00FF"	"weight"	"800"	"antialias"	"1"	}
 		}
 
 		"PlayerPanelPlayerName"

@@ -30,7 +30,7 @@
 	}
 	"CountText"
 	{
-		"xpos"	"cs-0.49"	"ypos"	"0"	"wide"	"f0"	"tall"	"100"	"textAlignment" "center"
+		"xpos"	"-50"	"ypos"	"0"	"wide"	"f0"	"tall"	"100"	"textAlignment" "center"
 		
 		"font"	"f20"	"proportionaltoparent"	"1"
 		

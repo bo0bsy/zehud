@@ -1,5 +1,5 @@
-//#base "../#basefiles/watermarks/on.res"		//enabled	
-#base "../#basefiles/watermarks/off.res"	//disabled
+#base "../#basefiles/watermarks/on.res"		//enabled	
+//#base "../#basefiles/watermarks/off.res"	//disabled
 
 //==================================================================================================
 // CONTROLS SERVER WATER MARKS AND MGE SCORES

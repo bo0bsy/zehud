@@ -18,7 +18,7 @@
 				"visible"	"1"	"proportionaltoparent"	"1"
 				"columns_count"	"1"	"inset_x"	"5"	"inset_y"	"2"	"row_gap"	"0"	"column_gap"	"0"	"restrict_width"	"0"
 
-				"friendpanel_kv"	{	"wide"	"52"	"tall"	"80"	"proportionaltoparent"	"1"	}	// => resource\ui\SteamFriendPanel.res
+				"friendpanel_kv"	{	"wide"	"52"	"tall"	"85"	"proportionaltoparent"	"1"	}	// => resource\ui\SteamFriendPanel.res
 			
 				"ScrollBar"
 				{

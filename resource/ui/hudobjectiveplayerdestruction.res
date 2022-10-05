@@ -26,7 +26,7 @@
 		"border"	"TFFatLineBorder"
 	}
 	
-	"PlayingToBG"	{	"xpos"	"9999"	}
+	"PlayingToBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 	
 	"CarriedContainer"
 	{
@@ -38,10 +38,10 @@
 
 		"CarriedImage"	{	"xpos"	"7"	"ypos"	"1"	"wide"	"10"	"tall"	"10"	}
 	
-		"CarriedProgressBar"	{	"xpos"	"9999"	}
-		"TanLightBG"	{	"xpos"	"9999"	}
-		"GreenBG"	{	"xpos"	"9999"	}
-		"TeamLeaderImage"	{	"xpos"	"9999"	}
+		"CarriedProgressBar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+		"TanLightBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+		"GreenBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+		"TeamLeaderImage"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 	
 		"FlagValue"
 		{
@@ -125,8 +125,8 @@
 			{
 				"xpos"	"85"	"ypos"	"27"	"wide"	"30"	"tall"	"30"
 
-				"VictoryLabel"	{	"xpos"	"9999"	}
-				"VictoryLabelShadow"	{	"xpos"	"9999"	}
+				"VictoryLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+				"VictoryLabelShadow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 
 				"VictoryLabel2"
 				{
@@ -180,8 +180,8 @@
 			{
 				"xpos"	"185"	"ypos"	"27"	"wide"	"30"	"tall"	"30"
 
-				"VictoryLabel"	{	"xpos"	"9999"	}
-				"VictoryLabelShadow"	{	"xpos"	"9999"	}
+				"VictoryLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+				"VictoryLabelShadow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 
 				"VictoryLabel2"
 				{
@@ -224,16 +224,16 @@
 					"pin_to_sibling"	"VictoryLabelTime"
 				}
 			}
-			"ScoreOutline"	{	"xpos"	"9999"	}
-			"BlueProgressBarFill"	{	"xpos"	"9999"	}
-			"BlueProgressBarEscrow"	{	"xpos"	"9999"	}
-			"RedProgressBarFill"	{	"xpos"	"9999"	}
-			"RedProgressBarEscrow"	{	"xpos"	"9999"	}
+			"ScoreOutline"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+			"BlueProgressBarFill"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+			"BlueProgressBarEscrow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+			"RedProgressBarFill"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
+			"RedProgressBarEscrow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 		}
 
 		"BlueScoreValueContainer"
 		{
-			"xpos"	"100"	"ypos"	"r53"
+			"xpos"	"100"	"ypos"	"r50"
 
 			"Score"
 			{
@@ -245,7 +245,7 @@
 			}
 			"ScoreShadow"
 			{
-				"xpos"	"-2"	"ypos"	"-2"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"east"
+				"xpos"	"-1"	"ypos"	"-1"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"east"
 				
 				"font"	"f30"
 				
@@ -257,7 +257,7 @@
 
 		"RedScoreValueContainer"
 		{
-			"xpos"	"r160"	"ypos"	"r53"	"bgcolor_override"	"Blank"
+			"xpos"	"r160"	"ypos"	"r50"	"bgcolor_override"	"Blank"
 
 			"Score"
 			{
@@ -269,7 +269,7 @@
 			}
 			"ScoreShadow"
 			{
-				"xpos"	"-2"	"ypos"	"-2"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"west"
+				"xpos"	"-1"	"ypos"	"-1"	"wide"	"f0"	"tall"	"f0"	"textAlignment"	"west"
 				
 				"font"	"f30"
 				
@@ -315,7 +315,7 @@
 	{
 		"xpos"	"cs-0.5"	"ypos"	"rs1"
 
-		"Background"	{	"xpos"	"9999"	}
+		"Background"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 
 		"quickpin"
 		{

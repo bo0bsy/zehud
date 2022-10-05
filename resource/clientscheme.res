@@ -33,7 +33,7 @@ Scheme
 	{
 		// controls watermark on some servers
 		
-		CenterPrintText	{	"1"	{	"name"	"Verdana"	}	}			
+		CenterPrintText	{	"1"	{	"name"	"Verdana"	"tall"	"18"	"weight"	"900"	"antialias" "1"	"additive"	"1"	}	}			
 	}
 
 	CustomFontFiles	
@@ -49,5 +49,6 @@ Scheme
 		"9"		{	"font"	"resource/scheme/fonts/tf2crosshairs.ttf"	"name" "tf2crosshairs"	}	
 		"10"	{	"font"	"resource/scheme/fonts/zefont.otf"			"name" "zefont"	}
 		"11"	{	"font"	"resource/scheme/fonts/ToonHUD Icons.ttf"	"name" "toonhud Icons"	}
+		"12"	{	"font"	"resource/scheme/fonts/targetdata.ttf"		"name" "targetdata"	}
 	}
 }
