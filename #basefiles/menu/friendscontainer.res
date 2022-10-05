@@ -2,19 +2,19 @@
 {
 	"SafeMode"
 	{
-		"xpos"	"2"	"ypos"	"0"	"zpos"	"100"	"wide"	"70"	"tall"	"p0.7"
+		"xpos"	"2"	"ypos"	"0"	"zpos"	"100"	"wide"	"70"	"tall"	"p0.72"
 		"visible"	"1"	
 		"pin_to_sibling"	"Friends"	"pin_corner_to_sibling" "PIN_TOPLEFT"	"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 		"FriendsContainer"
 		{
 			"ControlName"	"EditablePanel"	"fieldname"	"FriendsContainer"
-			"xpos"	"0"	"ypos"	"4"	"zpos"	"1"	"wide"	"60"	"tall"	"p0.7"
+			"xpos"	"0"	"ypos"	"4"	"zpos"	"1"	"wide"	"60"	"tall"	"p0.72"
 			"visible"	"1"
 			"border"	"noborder"
 			"SteamFriendsList"
 			{
 				"ControlName"	"CSteamFriendsListPanel"	"fieldname"	"SteamFriendsList"
-				"xpos"	"0"	"ypos"	"0"	"zpos"	"500"	"wide"	"60"	"tall"	"p0.7"
+				"xpos"	"0"	"ypos"	"0"	"zpos"	"500"	"wide"	"f0"	"tall"	"f0"
 				"visible"	"1"	"proportionaltoparent"	"1"
 				"columns_count"	"1"	"inset_x"	"5"	"inset_y"	"2"	"row_gap"	"0"	"column_gap"	"0"	"restrict_width"	"0"
 
@@ -34,7 +34,7 @@
 		}
 		"Background"
 		{
-			"ypos"	"2"	"wide"	"260"	"tall"	"p0.73"
+			"ypos"	"2"	"wide"	"260"	"tall"	"p0.8"
 			"PaintBackgroundType"	"2"	"bgcolor_override"	"0 0 0 150"
 			"paintborder"	"0"
 			"TitleLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}

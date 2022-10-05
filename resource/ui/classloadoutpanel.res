@@ -64,7 +64,7 @@
 			"angles_z" "0"
 			"origin_x" "190"
 			"origin_y" "-5"
-			"origin_z" "-50"
+			"origin_z" "-42"
 			"frame_origin_x"	"50"
 			"frame_origin_y"	"-5"
 			"frame_origin_z"	"0"

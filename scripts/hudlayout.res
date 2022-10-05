@@ -386,7 +386,7 @@
 		"TextFont"	"Default"	"ItemFont"	"Default"	"ItemFontPulsing"	"Default"		
 	}
 
-	HudSpellMenu
+	"HudSpellMenu"
 	{
 		"fieldName"	"HudSpellMenu"
 		

@@ -6,11 +6,11 @@
 	"Spellbook"	{	"xpos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	"SpellText"	{	"visible"	"0"	}
 
-	HudSpellMenu
+	"HudSpellMenu"
 	{
 		"xpos"	"0"		"ypos"	"rs1+30"	"wide"	"p0.50"	"tall"	"100"
 		
-		"xpos_minmode" "5"	"ypos_minmode"	"rs1+40"
+		"xpos_minmode" "0"	"ypos_minmode"	"rs1+40"
 		
 		"proportionaltoparent"	"1"
 		
@@ -30,7 +30,7 @@
 	}
 	"CountText"
 	{
-		"xpos"	"-50"	"ypos"	"0"	"wide"	"f0"	"tall"	"100"	"textAlignment" "center"
+		"xpos"	"0"	"ypos"	"0"	"wide"	"f0"	"tall"	"100"	"textAlignment" "center"
 		
 		"font"	"f20"	"proportionaltoparent"	"1"
 		

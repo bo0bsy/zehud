@@ -5,7 +5,7 @@
 	"BottomLeftButtonsAnchor"
 	{
 		"ControlName"	"EditablePanel"	"fieldname"	"BottomLeftButtonsAnchor"		
-		"xpos"	"85"	"ypos"	"r19"	"wide"	"30"	"tall"	"1"		
+		"xpos"	"90"	"ypos"	"r19"	"wide"	"30"	"tall"	"1"		
 		"visible"	"0"
 	}
 
@@ -19,12 +19,13 @@
 		{	
 			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"		
 			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
-			"font"	"Symbols 18"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"
+			"font"	"Symbols 14"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"5"
 			"use_proportional_insets"	"1"	
 			"textAlignment"	"west"
 			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
-			"border_default"	"noborder"	"border_armed"	"noborder"			
-			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	"depressedFgcolor_override"	"TanLight"
+			"border_default"	"ReplayDefaultBorder"	"border_armed"	"Positive"			
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgcolor_override"	"TanLight"
 			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}			
 		}
 	}	
@@ -38,12 +39,13 @@
 		{	
 			"ControlName"	"CExImageButton"	"fieldName"	"SubButton"		
 			"xpos"	"0"	"ypos"	"0"	"wide"	"20"	"tall"	"20"
-			"font"	"Symbols 18"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"0"
+			"font"	"Symbols 14"	"visible"	"1"	"enabled"	"1"	"textinsetx"	"3"
 			"use_proportional_insets"	"1"		
 			"textAlignment"	"west"
 			"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"			
-			"border_default"	"noborder"	"border_armed"	"noborder"
-			"paintbackground"	"0"	"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLightSelect"	
+			"border_default"	"ReplayDefaultBorder"	"border_armed"	"Positive"
+			"defaultBgColor_override"	"Blank"	"armedBgColor_override"	"Blank"	"depressedBgColor_override"	"Blank"
+			"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgcolor_override"	"TanLight"
 			"SubImage"	{	"visible"	"0"	"enabled"	"0"	}	
 		}
 	}	

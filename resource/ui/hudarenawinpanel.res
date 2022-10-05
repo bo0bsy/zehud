@@ -113,6 +113,4 @@
 		"ArenaStreaksBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 		"ArenaStreakLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}			
 	}		
-	
-
 }
