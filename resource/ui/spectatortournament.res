@@ -8,7 +8,7 @@
 		"team2_player_base_offset_x"	"303"	"team2_player_base_y"	"200"	"team2_player_delta_x"	"0"	"team2_player_delta_y"	"15"
 		"playerpanels_kv"
 		{
-			"wide"	"125"	"tall"	"18"	"color_ready"	"CustomGreen"	"color_notready"	"CustomRed"			
+			"wide"	"125"	"tall"	"18"	"color_ready"	"0 255 0 255"	"color_notready"	"255 0 0 255"			
 			"classimage"
 			{
 				"xpos"	"3"	"ypos"	"3"	"zpos"	"2"	"wide"	"13"	"tall"	"13"		
@@ -38,7 +38,7 @@
 				"visible"	"1"	"font"	"f9"	"proportionaltoparent"	"1"
 				"textAlignment"	"center"
 				"fgcolor"	"Black"
-			}
+			}			
 			"chargeamountcover"
 			{
 				"ControlName"	"CExLabel"	"fieldName"	"chargeamountcover"	

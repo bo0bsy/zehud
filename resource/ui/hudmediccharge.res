@@ -27,7 +27,8 @@
 	"NoPipesPresentPanel"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
 	"ChargeMeter"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 	"CDamageAccountValue"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
-	"CDamageAccountValueShadow"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
+	"CDamageAccountValueShadow"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"Uber"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}		
 	"ChargeLabel"
 	{
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"100"	"tall"	"40"		

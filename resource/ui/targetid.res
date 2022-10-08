@@ -19,7 +19,7 @@
 	"ChargeMeter2"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 	"ChargeMeter3"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 	"ChargeMeter4"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
-	"ResistIcon"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
+	"ResistIcon"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}			
 
 	"SpectatorGUIHealth"	{	"xpos"	"4"	"ypos"	"-6"	"xpos_minmode"	"4"	"ypos_minmode"	"-6"	}	
 }

@@ -8,7 +8,7 @@
 		"FriendsContainer"
 		{
 			"ControlName"	"EditablePanel"	"fieldname"	"FriendsContainer"
-			"xpos"	"0"	"ypos"	"4"	"zpos"	"1"	"wide"	"60"	"tall"	"p0.72"
+			"xpos"	"0"	"ypos"	"4"	"zpos"	"1"	"wide"	"60"	"tall"	"p0.54"
 			"visible"	"1"
 			"border"	"noborder"
 			"SteamFriendsList"

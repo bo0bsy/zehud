@@ -22,6 +22,7 @@
 	"ResistIcon"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
 	"CDamageAccountValue"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
 	"CDamageAccountValueShadow"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"Uber"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 	
 	"HudPlayerHealth"
 	{

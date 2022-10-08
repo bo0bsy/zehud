@@ -33,7 +33,7 @@ Scheme
 	{
 		// controls watermark on some servers
 		
-		CenterPrintText	{	"1"	{	"name"	"Verdana"	"tall"	"18"	"weight"	"900"	"antialias" "1"	"additive"	"1"	}	}			
+		CenterPrintText	{	"1"	{	"name"	"Verdana"	"tall"	"14"	"weight"	"900"	"antialias" "1"	"additive"	"1"	}	}			
 	}
 
 	CustomFontFiles	

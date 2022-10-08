@@ -33,6 +33,7 @@
 	"ChargeMeter3"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 	"ChargeMeter4"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
 	"ResistIcon"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"Uber"	{	"wide"	"0"	"visible"	"0"	"enabled"	"0"	}	
 
 	"HudWeaponAmmoBG"	{	"visible"	"0"	"enabled"	"0"	}
 	
