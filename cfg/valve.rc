@@ -46,4 +46,4 @@ tf_scoreboard_ping_as_text 1
 alias "workshop" "OpenSteamWorkshopDialog"
 wait 20; workshop
 
-exec clear
+//exec clear

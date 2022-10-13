@@ -2,6 +2,7 @@
 // I have no clue what controls this file lol (19:00)
 // nvm (19:20)
 // I'll fix it someday... (21:12)
+// prolly fixed
 "Resource/UI/ConfirmApplyDecodeDialog.res"	
 {
 	"subject_icon"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
@@ -24,8 +25,9 @@
 	}
 	"OkButton"
 	{
-		"font"	"f10"	"command"	""
-		"labelText"	"doesn't work, sorry"
+		"font"	"f14"
+//		"font"	"f10"	"command"	""
+//		"labelText"	"doesn't work, sorry"
 		"paintbackground"	"0"		
 		"border_default"	"Black"	"border_armed"	"Select"
 		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override" "TanLight"
