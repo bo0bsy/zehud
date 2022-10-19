@@ -2,7 +2,7 @@
 {
 	"MOTD_Panel"
 	{
-		"xpos"	"r562"	"ypos"	"28"	"zpos"	"101"	"wide"	"500"	"tall"	"350"
+		"xpos"	"cs-0.5"	"ypos"	"cs-0.5"	"zpos"	"101"	"wide"	"500"	"tall"	"350"
 		
 		"paintbackground"	"1"
 		
