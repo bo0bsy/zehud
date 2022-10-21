@@ -1,5 +1,5 @@
 # ZeHUD #
-heavily modified default hud with massive variety of customizations.
+heavily modified default hud with variety of customizations.
 ## credits ##
 - [RaysFire](https://github.com/raysfire)
 - [JarateKing](https://github.com/JarateKing)
