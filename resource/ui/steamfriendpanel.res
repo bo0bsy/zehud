@@ -10,7 +10,7 @@
 	"NameLabel"	{	"xpos"	"0"	"ypos"	"50"	"zpos"	"100"	"wide"	"50"	"tall"	"o0.24"	"textAlignment"	"center"	}
 	"StatusLabel"
 	{
-		"xpos"	"0"	"ypos"	"65"	"zpos"	"100"	"wide"	"50"	"tall"	"o0.24"	"textAlignment"	"center"
+		"xpos"	"0"	"ypos"	"60"	"zpos"	"100"	"wide"	"50"	"tall"	"o0.3"	"textAlignment"	"center"
 		"centerwrap"	"1"
 	}
 }

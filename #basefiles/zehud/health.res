@@ -16,14 +16,14 @@
 	
 	"PlayerStatusHealthImage"
 	{
-		"xpos"	"-2"	"ypos"	"-2"	"zpos"	"4"	"wide"	"51"	"tall"	"51"		
+		"xpos"	"-2"	"ypos"	"-2"	"zpos"	"4"	"wide"	"52"	"tall"	"52"		
 		"pin_to_sibling"	"PlayerStatusHealthImageBG"			
 	}	
 	
 	"PlayerStatusHealthBonusImage"
 	{
-		"xpos"	"c-120"	"ypos"	"c49"	"zpos"	"2"	"wide"	"41"	"tall"	"41"			
-		"xpos_minmode"	"67"	"ypos_minmode"	"r47"				
+		"xpos"	"c-120"	"ypos"	"c49"	"zpos"	"2"	"wide"	"42"	"tall"	"42"			
+		"xpos_minmode"	"66"	"ypos_minmode"	"r48"
 	}
 	
 	"PlayerStatusHealthValue"

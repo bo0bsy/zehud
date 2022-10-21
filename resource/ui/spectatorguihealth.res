@@ -32,11 +32,11 @@
 		
 //		"ypos"	"-10"	"tall"	"1"
 		
-		"ypos_minmode"	"1"	"tall_minmode"	"11"
+		"ypos_minmode"	"2"	"tall_minmode"	"12"
 		
 		"font"	"Default"	"visible"	"1"	"enabled"	"1"
 		"variable"	"health"
 		"fgcolor_override"	"Positive"	"bgcolor_override"	"235 226 202 50"
-		"pin_to_sibling"	"PlayerStatusHealthValueTargetID"
+		"pin_to_sibling"	"PlayerStatusHealthValueTargetID"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"
 	}	
 }
