@@ -69,7 +69,7 @@
 	"BlueTeamIcon"
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"BlueTeamIcon"		
-		"xpos"	"0"	"ypos"	"20"	"zpos"	"1"	"wide"	"23"	"tall"	"23"		
+		"xpos"	"0"	"ypos"	"r170"	"zpos"	"1"	"wide"	"23"	"tall"	"23"		
 		"visible"	"1"	"enabled"	"1"	
 		"paintbackground"	"0"		
 		"TeamIcon"
@@ -93,7 +93,7 @@
 	"RedTeamIcon"
 	{
 		"ControlName"	"EditablePanel"	"fieldName"	"RedTeamIcon"		
-		"xpos"	"0"	"ypos"	"40"	"zpos"	"1"	"wide"	"23"	"tall"	"23"		
+		"xpos"	"0"	"ypos"	"r150"	"zpos"	"1"	"wide"	"23"	"tall"	"23"		
 		"visible"	"1"	"enabled"	"1"	
 		"paintbackground"	"0"		
 		"TeamIcon"
