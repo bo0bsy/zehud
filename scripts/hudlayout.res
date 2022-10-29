@@ -208,7 +208,7 @@
 		
 		"visible"	"0"	"enabled"	"1"	
 	
-		"xpos"	"-8"	"ypos"	"60"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
+		"xpos"	"-8"	"ypos"	"120"	"zpos"	"0"	"wide"	"f0"	"tall"	"f0"
 		
 		"alpha"	"0"
 	}
