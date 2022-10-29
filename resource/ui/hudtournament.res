@@ -2,19 +2,19 @@
 //literal mess
 "Resource/UI/HudTournament.res"
 {
-	"HudTournamentBGHelp"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"TournamentLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"HudTournamentBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"HudTournamentBLUEBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"HudTournamentREDBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"TournamentBLUELabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"TournamentREDLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"TournamentInstructionsLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	if_mvm	{	"xpos"	"9999"	}	if_competitive	{	"xpos"	"9999"	}	if_readymode	{	"xpos"	"9999"	}	}
-	"TournamentInstructionsLabelShadow"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	if_mvm	{	"xpos"	"9999"	}	if_competitive	{	"xpos"	"9999"	}	if_readymode	{	"xpos"	"9999"	}	}
-	"CountdownBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"CountdownLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
-	"CountdownLabelShadow"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
-	"TournamentReadyHintIcon"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
+	"HudTournamentBGHelp"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"TournamentLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"HudTournamentBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"HudTournamentBLUEBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"HudTournamentREDBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"TournamentBLUELabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"TournamentREDLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"TournamentInstructionsLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	if_mvm	{	"xpos"	"9999"	}	if_competitive	{	"xpos"	"9999"	}	if_readymode	{	"xpos"	"9999"	}	}
+	"TournamentInstructionsLabelShadow"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	if_mvm	{	"xpos"	"9999"	}	if_competitive	{	"xpos"	"9999"	}	if_readymode	{	"xpos"	"9999"	}	}
+	"CountdownBG"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"CountdownLabel"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}
+	"CountdownLabelShadow"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}	
+	"TournamentReadyHintIcon"	{	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	"visible"	"0"	"enabled"	"0"	}	
 
 	"HudTournament"
 	{
