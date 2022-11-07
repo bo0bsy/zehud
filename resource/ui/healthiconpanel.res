@@ -2,6 +2,6 @@
 
 "Resource/UI/HealthIconPanel.res"
 {
-	"HealthIcon"	{	"xpos"	"0"	"ypos"	"0"	"wide"	"32"	"tall"	"32"	}
-	"SpectatorGUIHealth"	{	"xpos"	"0"	"ypos"	"0"	"wide"	"128"	"tall"	"128"	}	
+	"HealthIcon"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
+	"SpectatorGUIHealth"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 }

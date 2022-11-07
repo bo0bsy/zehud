@@ -138,7 +138,7 @@
 			
 			"font"	"HudHintText"	"visible"	"1"	"enabled"	"1"		"command"	"engine toggle tf_hud_target_id_disable_floating_health 0 1"	"actionsignallevel"	"2"
 			
-			"labeltext"	"TARGET ID STYLE"	"textAlignment"	"center"
+			"labeltext"	"TARGET HEALTH ON/OFF"	"textAlignment"	"center"
 			
 			"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"
 			

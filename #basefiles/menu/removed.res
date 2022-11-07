@@ -1,5 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
+	"MainMenuOverride"
+	{	"SaxxySettings"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	}
 	"SettingsButton"
 	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}
 	"GeneralStoreButton"
