@@ -1,4 +1,5 @@
-#base "../../#customization/Hud.res"
+#base "../../#customization/arrows_buff_icons.res"
+#base "../../#basefiles/zehud/zehud.res"
 #base "base/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"

@@ -1,10 +1,7 @@
-#base "../#basefiles/zehud/zehud.res"	// DON'T TOUCH THIS ONE
 //==================================================================================================
 // HUD SETTINGS INSTRUCTIONS
 //--------------------------------------------------------------------------------------------------
-// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE HUD LINE YOU WANT TO ACTIVATE
+// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE LINE TO ENABLE ARROWS BUFF ICONS
 //==================================================================================================
 
-
-//#base "../#basefiles/zehud/buff.res"					//arrows buff icons
-//#base "../#basefiles/zehud/lastdamagedone_on.res"		//last damage done
+#base "../#basefiles/zehud/buff.res"	//arrows buff icons

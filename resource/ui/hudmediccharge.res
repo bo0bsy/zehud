@@ -1,4 +1,4 @@
-#base "../../#customization/Hud.res"
+#base "../../#basefiles/zehud/zehud.res"
 #base "base/hudmediccharge.res"
 
 "Resource/UI/HudMedicCharge.res"
@@ -32,7 +32,7 @@
 	"ChargeLabel"
 	{
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"100"	"tall"	"40"		
-		"font"	"f36shadow"	"enabled"	"0"
+		"font"	"f36shadow"	"enabled"	"1"
 		"labelText"	"#TF_UberchargeMinHUD"	"textAlignment"	"center"		
 		"font_minmode"	"f44shadow"	"textAlignment_minmode"	"east"
 		"disabledfgcolor2_override"	"TanLight"

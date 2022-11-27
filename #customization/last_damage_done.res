@@ -1,9 +1,7 @@
 //==================================================================================================
 // HUD SETTINGS INSTRUCTIONS
 //--------------------------------------------------------------------------------------------------
-// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE KILLSTREAK STYLE LINE YOU WANT TO ACTIVATE
-// IMPORTANT: ONLY 1 LINE SHOULD STAY UNCOMMENTED
+// UNCOMMENT (REMOVE THE // BEFORE #BASE) THE LINE TO ENABLE LAST DAMAGE DONE
 //==================================================================================================
 
-//#base "../#basefiles/killstreak/on.res"		//enabled
-#base "../#basefiles/killstreak/off.res"	//disabled
+#base "../#basefiles/zehud/lastdamagedone_on.res"	//last damage done

@@ -1,4 +1,5 @@
-#base "../../#customization/Hud.res"
+#base "../../#customization/last_damage_done.res"
+#base "../../#basefiles/zehud/zehud.res"
 #base "base/huddamageaccount.res"
 
 "Resource/UI/HudDamageAccount.res"

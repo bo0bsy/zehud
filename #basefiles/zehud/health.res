@@ -10,7 +10,7 @@
 	
 	"PlayerStatusHealthImageBG"
 	{
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"55"	"tall"	"55"				
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"56"	"tall"	"56"				
 		"pin_to_sibling"	"HealthAnchor"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"		
 	}
 	

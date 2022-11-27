@@ -1,4 +1,4 @@
-#base "../../#customization/Hud.res"
+#base "../../#basefiles/zehud/zehud.res"
 #base "base/disguisestatuspanel.res"
 
 "Resource/UI/DisguiseStatusPanel.res"
