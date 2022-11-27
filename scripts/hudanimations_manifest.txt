@@ -9,9 +9,9 @@ hudanimations_manifest
 	"file" 		"scripts/animations/hudanimations_removed.txt"	
 	
 	// general animations
-	"file"		"scripts/anim_deathfix.txt"
+//	"file"		"scripts/anim_deathfix.txt"
 //	"file"      "scripts/anim_uncrating.txt"
-	"file"		"scripts/anim_locking.txt"	
+//	"file"		"scripts/anim_locking.txt"	
 	
 	// default to override
 	"file"		"scripts/hudanimations.txt"
