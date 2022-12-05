@@ -32,7 +32,6 @@
 	
 	"AmmoInReserve"
 	{
-
 		"xpos"	"0"	"ypos"	"-10"	"zpos"	"7"	"wide"	"40"	"tall"	"29"
 		"font"	"f12"		
 		"font_minmode"	"f20"			
