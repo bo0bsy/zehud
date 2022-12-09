@@ -44,19 +44,19 @@
 		"pin_to_sibling_corner"        "6"  
 	}
 
-	"CurrencyStatusPanel"
-	{
-		"ControlName"		"CCurrencyStatusPanel"
-		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
-		"tall"				"100"
-		"xpos_minbad"		"65"
-		"ypos_minbad"		"r88"
-		"visible" 			"1"
-		"enabled" 			"1"
-	}
+//	"CurrencyStatusPanel"
+//	{
+//		"ControlName"		"CCurrencyStatusPanel"
+//		"fieldName"			"CurrencyStatusPanel"
+//		"xpos"				"0"
+//		"ypos"				"r100"
+//		"wide"				"100"
+//		"tall"				"100"
+//		"xpos_minbad"		"65"
+//		"ypos_minbad"		"r88"
+//		"visible" 			"1"
+//		"enabled" 			"1"
+//	}
 	
 	"InWorldCurrencyPanel"
 	{
