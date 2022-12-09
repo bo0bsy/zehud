@@ -1,12 +1,12 @@
-"Resource/UI/Health.res"
+"buff.res"
 {	
 	"buff"
 	{
-		"ControlName"	"ImagePanel"	"fieldName"	"buff		
-		"xpos"	"40"	"ypos"	"4"	"zpos"	"-4"	"wide"	"14"	"tall"	"14"		
-		"xpos_minmode"	"-70"	"ypos_minmode"	"8"					
+		"ControlName"	"ImagePanel"	"fieldName"	"buff"		
+		"xpos"	"70"	"ypos"	"-12"	"zpos"	"-4"	"wide"	"14"	"tall"	"14"		
+		"xpos_minmode"	"-55"				
 		"visible"	"1"	"enabled"	"1"	"image"	"../vgui/replay/thumbnails/positive"	"scaleImage"	"1"			
-		//"pin_to_sibling"	"HealthAnchor"			
+		"pin_to_sibling"	"HealthAnchor"			
 		"alpha"	"0"			
 	}
 	"buff1"
