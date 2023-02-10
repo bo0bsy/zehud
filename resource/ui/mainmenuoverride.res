@@ -16,6 +16,8 @@
 	"MainMenuOverride"
 	{
 		//WORK RETARD
+		
+		"SaxxySettings"	{"xpos"	"9999"}
 	}		
 
 	"MenuThumbMissingFix"

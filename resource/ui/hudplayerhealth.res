@@ -1,6 +1,6 @@
 //fucked up #base order but it doesn't work otherwise
+#base "../../cfg/zehud_customizations.txt"
 #base "../../#basefiles/zehud/zehud.res"
-#base "../../#customization/arrows_buff_icons.res"
 #base "base/hudplayerhealth.res"
 
 "Resource/UI/HudPlayerHealth.res"

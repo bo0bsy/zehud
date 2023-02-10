@@ -1,4 +1,4 @@
-#base "../../#customization/matchstatus.res"
+#base "../../cfg/zehud_customizations.txt"
 #base "base/hudmatchstatus.res"
 
 "Resource/UI/HudMatchStatus.res"

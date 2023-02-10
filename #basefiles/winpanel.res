@@ -1,6 +1,6 @@
 "Resource/UI/winpanel.res"
 {
-	WinPanel	{	"ypos"	"rs1"	}	
+	"WinPanel"	{}
 	
 	"WinPanelBGBorder"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"WinReasonLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
@@ -11,7 +11,13 @@
 	"Player1Avatar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"Player2Avatar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"Player3Avatar"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"AdvancingTeamLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 	"AdvancingTeamLabelDropshadow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"WinningTeamLabel"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"WinningTeamLabelDropshadow"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"KillStreakPlayer1Name"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}		
+	"KillStreakPlayer1Class"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
+	"KillStreakPlayer1Score"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	
 
 	"TeamScoresPanel"
 	{
@@ -117,40 +123,11 @@
 		"draw_corner_width"	"3"	"draw_corner_height"	"3"	
 	}
 	
-	"WinningTeamLabel"
-	{	
-		"font"	"f12"
-		
-		"fgcolor"	"TanLight"
-
-		"xpos"	"0"	"ypos"	"50"	"zpos"	"10"	"wide"	"169"	"tall"	"0"
-		
-		"pin_to_sibling"	"ShadedBar"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-	}
-
-	"WinningTeamLabelDropshadow"
-	{	
-		"font"	"f12"
-		
-		"xpos"	"-1"	"ypos"	"-1"	"zpos"	"10"	"wide"	"169"	"tall"	"0"
-		
-		"pin_to_sibling"	"WinningTeamLabel"
-	}
-
-	"AdvancingTeamLabel"
-	{	
-		"fgcolor"	"TanLight"
-
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"11"	"wide"	"169"	"tall"	"0"
-		
-		"pin_to_sibling"	"ShadedBar"	"pin_corner_to_sibling"	"PIN_CENTER_TOP"	"pin_to_sibling_corner"	"PIN_CENTER_TOP"
-	}
-	
 	"Player1Name"
 	{	
 		"font"	"f8"
 
-		"xpos"	"-4"	"ypos"	"-2"	"zpos"	"3"	"wide"	"90"	"tall"	"10"
+		"xpos"	"-4"	"ypos"	"-2"	"zpos"	"3"	"wide"	"90"
 		
 		"pin_to_sibling"	"ShadedBar"
 	}
@@ -158,7 +135,7 @@
 	{	
 		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"
 		
 		"pin_to_sibling"	"Player1Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -166,7 +143,7 @@
 	{	
 		"font"	"f8"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"
 		
 		"pin_to_sibling"	"Player1Class"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -175,7 +152,7 @@
 	{	
 		"font"	"f8"
 
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"90"	"tall"	"10"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"90"
 		
 		"pin_to_sibling"	"Player1Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
@@ -183,7 +160,7 @@
 	{	
 		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"
 		
 		"pin_to_sibling"	"Player2Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -191,7 +168,7 @@
 	{	
 		"font"	"f8"
 	
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"
 		
 		"pin_to_sibling"	"Player2Class"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -200,7 +177,7 @@
 	{	
 		"font"	"f8"
 	
-		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"90"	"tall"	"10"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"3"	"wide"	"90"
 		
 		"pin_to_sibling"	"Player2Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"		"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 	}
@@ -208,7 +185,7 @@
 	{	
 		"font"	"ItemFontAttribLarge"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"	"tall"	"11"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"40"
 		
 		"pin_to_sibling"	"Player3Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
@@ -216,48 +193,8 @@
 	{	
 		"font"	"f8"
 
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"	"tall"	"10"
+		"xpos"	"6"	"ypos"	"0"	"zpos"	"3"	"wide"	"20"
 		
 		"pin_to_sibling"	"Player3Class"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}
-	
-	"KillStreakSeparator"
-	{	
-		"ControlName"	"EditablePanel"	"fieldName"	"KillStreakSeparator"
-	
-		"xpos"	"0"	"ypos"	"-15"	"zpos"	"7"	"wide"	"120"	"tall"	"1"
-
-		"visible"	"1"	"enabled"	"1"
-
-		"paintbackground"	"1"	"bgcolor_override"	"235 226 202 170"
-		
-		"pin_to_sibling"	"ShadedBar"	"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"	"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
-	}
-	
-	"KillStreakPlayer1Name"
-	{	
-		"font"	"f8"
-
-		"xpos"	"0"	"ypos"	"4"	"zpos"	"10"	"wide"	"90"	"tall"	"10"
-		
-		"pin_to_sibling"	"Player3Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
-	}
-	
-	"KillStreakPlayer1Class"
-	{	
-		"font"	"ItemFontAttribLarge"
-
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"10"	"wide"	"40"	"tall"	"11"
-		
-		"pin_to_sibling"	"KillStreakPlayer1Name"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-	}
-	
-	"KillStreakPlayer1Score"
-	{	
-		"font"	"f8"
-
-		"xpos"	"6"	"ypos"	"0"	"zpos"	"10"	"wide"	"20"	"tall"	"10"
-		
-		"pin_to_sibling"	"KillStreakPlayer1Class"	"pin_corner_to_sibling"	"PIN_TOPLEFT"	"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 	}
 }

@@ -1,4 +1,5 @@
-#base "../../#customization/last_damage_done.res"
+#base "../../cfg/zehud_customizations.txt"
+#base "../../#basefiles/zehud/lastdamagedone.res"
 #base "../../#basefiles/zehud/zehud.res"
 #base "base/huddamageaccount.res"
 

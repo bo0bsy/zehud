@@ -1,5 +1,7 @@
-#base "../#customization/damage_indicator.res"
-#base "../#customization/watermarks.res"
+#base "../../cfg/zehud_customizations.txt"
+
+//#base "../#customization/damage_indicator.res"
+//#base "../#customization/watermarks.res"
 
 "Resource/HudLayout.res"
 {	
@@ -17,6 +19,26 @@
 	"HudTeamGoalTournament"	{	"fieldName"	"HudTeamGoalTournament"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
 	"HudAlert"	{	"fieldName"	"HudAlert"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}	
 	"HudArenaClassLayout" 	{	"fieldName"	"HudArenaClassLayout"	"visible"	"0"	"enabled"	"0"	"xpos"	"9999"	"ypos"	"9999"	"wide"	"0"	"tall"	"0"	}
+
+	"HudDamageIndicator"
+	{
+		"fieldName"	"HudDamageIndicator"
+		
+		"visible"	"1"	"enabled"	"1"
+		
+		"StartRadius"	"80"	"EndRadius"	"80"
+		
+		"MinimumHeight"	"30"	"MaximumHeight"	"60"
+		
+		"MinimumTime"	"1"
+	}
+	
+	"HudMessage"
+	{
+		"fieldName" "HudMessage"
+		
+		"visible"	"1"	"enabled"	"1"
+	}	
 
 	HudDeathNotice
 	{
@@ -350,7 +372,7 @@
 		"wide"	 "640"	"tall"	 "f0"
 	}
 
-	HudTrain
+	"HudTrain"
 	{
 		"fieldName" "HudTrain"
 		
@@ -359,7 +381,7 @@
 		"wide"	 "640"	"tall"	 "f0"
 	}
 
-	HudMOTD
+	"HudMOTD"
 	{
 		"fieldName" "HudMOTD"
 		
@@ -368,14 +390,7 @@
 		"wide"	 "640"	"tall"	 "f0"
 	}
 
-	"HudMessage"
-	{
-		"fieldName" "HudMessage"
-		
-		"visible"	"1"	"enabled"	"1"
-	}
-
-	HudMenu
+	"HudMenu"
 	{
 		"fieldName"	"HudMenu"
 		

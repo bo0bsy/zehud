@@ -113,7 +113,7 @@
 			"font"	"Link"	"enabled"	"1"	"visible"	"1"	"proportionaltoparent"	"1"
 			"labelText"	"H"	"textAlignment"	"center"
 			"paintBackground"	"0"	"fgcolor_override"	"255 255 255 255"
-			"urlText"	"https://huds.tf/site/s-ZeHUD--3867"
+			"urlText"	"https://discord.com/invite/pc9ekye"
 		}
 	}	
 	
@@ -178,7 +178,7 @@
 	{
 		"ControlName"	"CExImageButton"	"fieldName"	"Console"		
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"30"	"tall"	"30"
-		"font"	"Symbols 20"	"visible"	"1"	"enabled"	"1"	"Command"	"engine showconsole"
+		"font"	"Symbols 20"	"visible"	"1"	"enabled"	"1"	"Command"	"engine con_enable 1;toggleconsole"
 		"use_proportional_insets"	"1"
 		"labelText"	"("	"textAlignment"	"center"	
 		"default"	"1"	"sound_depressed"	"UI/buttonclick.wav"	"sound_released"	"UI/buttonclickrelease.wav"	

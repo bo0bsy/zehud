@@ -1,21 +1,18 @@
 "Resource/UI/HudItemEffectMeter_Killstreak.res"
 {				
-	"ItemEffectMeterBG"
-	{	"xpos"	"9999"	}
-	"ItemEffectMeter"
-	{	"xpos"	"9999"	}
+	"ItemEffectMeterBG"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"	}	"ItemEffectMeter"	{	"xpos"	"9999"	"visible"	"0"	"enabled"	"0"}
 	
-	HudItemEffectMeter	{	"xpos"	"rs1"	"ypos"	"0"	"wide"	"34"	"tall"	"29"	"border"	"TFFatLineBorder"	}
+	"HudItemEffectMeter"	{	"xpos"	"rs1"	"ypos"	"0"	"tall"	"29"	"border"	"TFFatLineBorder"	}
 
 	"ItemEffectMeterLabel"
 	{
 		"xpos"	"0"	"ypos"	"0"	"zpos"	"2"	"wide"	"f0"	"tall"	"40"
 		
-		"font"	"ScoreboardVerySmall"	"proportionaltoparent"	"1"
+		"font"	"ScoreboardVerySmall"	"enabled"	"0"	"proportionaltoparent"	"1"
 		
 		"textAlignment"	"Center"
 	
-		"fgcolor"	"TanLight"
+		"disabledfgcolor2_override"	"TanLight"
 	}		
 	
 	"ItemEffectMeterCount"

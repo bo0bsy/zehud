@@ -1,47 +1,28 @@
-// load the base configuration
-//exec default.cfg
-r_decal_cullsize 1
-// Setup custom controller
-exec joystick.cfg
-
-// ============
-
-// run a user script file if present
-exec autoexec.cfg
-exec mastercomfig_modules.cfg
-
 // ============
 // CUSTOM STUFF
 // ============
 
+// run a user script file if present
+exec autoexec.cfg;exec mastercomfig_modules.cfg
+
 //exec dimmer.cfg
-exec ent_remove_all_entities.cfg
-exec transparent_viewmodels.cfg
-exec net_graph.cfg
+//exec ent_remove_all_entities.cfg
+//exec transparent_viewmodels.cfg
+//exec net_graph.cfg
 
-// manage the firstrun file
-alias chud_firstrun "exec hud_firstrun"
-exec hud_has_run.txt
-chud_firstrun
-refresh_options_dialog
-
-// stuff command line statements
-stuffcmds
-// display the startup level
 startupmenu
-sv_unlockedchapters 99
+sv_unlockedchapters 0
 
-tf_hud_target_id_disable_floating_health 1
-tf_spectator_target_location 1
-tf_contract_progress_show 0
-tf_contract_competitive_show 0
-tf_scoreboard_alt_class_icons 0
+tf_hud_target_id_disable_floating_health 1;tf_spectator_target_location 1;tf_contract_progress_show 0;tf_contract_competitive_show 0;tf_scoreboard_alt_class_icons 0;tf_scoreboard_ping_as_text 1
 cl_show_market_data_on_items 2
-tf_scoreboard_ping_as_text 1
 
-// ============
-// WELCOME DIALOG
-// ============
+//Fix for general console spam
+alias dimmer_clicked ""
 
-alias "workshop" "OpenSteamWorkshopDialog"
-wait 20; workshop
+alias "settings" "OpenSteamWorkshopDialog"
+wait 20; settings
+
+clear
+
+// run a hud script
+exec zehud.cfg

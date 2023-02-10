@@ -92,7 +92,6 @@ event HudHealthDyingPulseStop
 
 	Animate		PlayerStatusHealthValue					FgColor		"TanDarkDefault"		Accel 0.0 0.0	
 	Animate		PlayerStatusHealthValueTargetID 		FgColor		"TanLight"				Accel 0.0 0.0
-	Animate		Health 									FgColor		"Positive"			    Accel 0.0 0.0	
 	Animate		PlayerStatusKillerHealthValue 			FgColor		"TanLight"				Accel 0.0 0.0
 	Animate 	PlayerStatusHealthvalueSpecgui 			FgColor 	"TanLight" 				Accel 0.0 0.0
 

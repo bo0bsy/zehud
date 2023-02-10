@@ -84,8 +84,7 @@
 		"font"	"Symbols 12"		
 		"defaultFgColor_override"	"TanLight"	"armedFgColor_override"	"TanLight"	"depressedFgColor_override"	"TanLight"		
 		"border_default"	"Black"	"border_armed"	"Select"
-	}		
-	
+	}			
 	"IconsMoveRightButton"
 	{
 		"ypos"	"c54"	"wide"	"20"	"tall"	"24"
