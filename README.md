@@ -7,3 +7,4 @@ heavily modified default hud with variety of customizations.
 - [DrinkinTea](https://github.com/DrinkinTea22)
 - [Hypnootize](https://github.com/Hypnootize)
 - [JofreProblem](https://github.com/Jofre-Problem)
+- [Peaches](https://github.com/PapaPeach)
